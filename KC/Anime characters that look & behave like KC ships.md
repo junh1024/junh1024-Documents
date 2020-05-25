@@ -29,10 +29,10 @@ Part 3
 * https://myanimelist.net/character/62947/Mako_Reizei from GnP is probably a better match for Hatsuyuki. They both like sleeping. Mako is top of her class. But we'll just need to take Hatsuyuki's word that she's capable.
 * https://hai-furi.fandom.com/wiki/Mei_Irizaki from High School Fleet is your i401. They're both genki & have similar hairstyles & colors.
 
-These might not appear in any IMAS anime, they're probably 	a bit obscure:
+These might not appear in any IMAS anime, they're probably a bit obscure:
 * https://www.project-imas.com/wiki/Meguru_Hachimiya is Prinz Eugen. They're both somewhat genki & foreign, and blonde twintails.
-* https://www.project-imas.com/wiki/Atsumi_Munakata is Naka.  Yuno, being in IMAS implicitly makes you an idol. She's very genki & the buns, but also touchy-feely.
+* https://www.project-imas.com/wiki/Atsumi_Munakata is Naka. Yuno, being in IMAS implicitly makes you an idol. She's very genki & the buns, but also touchy-feely.
 
 & CC u/LuidziTeitoku
 
-[Previous parts]()
+[Previous parts](https://github.com/junh1024/junh1024-Documents/blob/master/KC/Anime%20characters%20that%20look%20%26%20behave%20like%20KC%20ships.md#part-1)
