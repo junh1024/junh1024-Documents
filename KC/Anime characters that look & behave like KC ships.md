@@ -28,3 +28,11 @@ Part 3
 * https://myanimelist.net/character/62945/Yukari_Akiyama from Girls & Panzer looks like Mutsuki. Kanon/kurogane knights [did it first](https://seiga.nicovideo.jp/seiga/im6662158) so it must be true, right?
 * https://myanimelist.net/character/62947/Mako_Reizei from GnP is probably a better match for Hatsuyuki. They both like sleeping. Mako is top of her class. But we'll just need to take Hatsuyuki's word that she's capable.
 * https://hai-furi.fandom.com/wiki/Mei_Irizaki from High School Fleet is your i401. They're both genki & have similar hairstyles & colors.
+
+These might not appear in any IMAS anime, they're probably 	a bit obscure:
+* https://www.project-imas.com/wiki/Meguru_Hachimiya is Prinz Eugen. They're both somewhat genki & foreign, and blonde twintails.
+* https://www.project-imas.com/wiki/Atsumi_Munakata is Naka.  Yuno, being in IMAS implicitly makes you an idol. She's very genki & the buns, but also touchy-feely.
+
+& CC u/LuidziTeitoku
+
+[Previous parts]()
