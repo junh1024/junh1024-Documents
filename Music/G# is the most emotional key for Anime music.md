@@ -18,7 +18,7 @@ By emotional I mean it sounds emotional &/ used in an emotional context. I can't
 
 Emotional songs in G#
 ---
-- [Let's not say goodbye](https://www.youtube.com/watch?v=b0CnFW1cqfQ) (Kantai Collection 2015, Kisaragi dies in ep3)
+- [Let's not say goodbye](https://www.youtube.com/watch?v=b0CnFW1cqfQ) (Kantai Collection 2015, Kisaragi dies in ep3 E Em G#)
 - [Dango Daikazoku TV size](https://www.youtube.com/watch?v=XXDxZ0YGWG8) (Something good happens? DANGO DAIKAZOKU! Something bad happens? DANGO DAIKAZOKU! But yeah, CLANNAD ED 2007 is an emotional anime in general)
 - [Ai Oboete imasuka? remix](https://www.youtube.com/watch?v=XweVpC81hhg) (Macross Do you remember love? 2009/1984, I haven't seen the movie, but it sounds good. Something about an epic spaceship battle & singing)
 - [Aozora, caramel pod remix](https://soundcloud.com/gabymdolla-1/aozora-caramel-pod-remix) (AIR 2011/2004, Also haven't seen this, but it sounds good. It's in Jun Maeda's tearjerker genre so I assume it's emotional)
@@ -30,16 +30,16 @@ Not Emotional songs in G#
 ---
 - [Silky Heart TV size](https://www.youtube.com/watch?v=ey0T9h1Ibng) (Toradora 2008 OP, It's G#m)
 - [Tamashii no Rufuran](https://www.youtube.com/watch?v=cG1h_liiZpY) (Some NGE movie ED, G#m)
-- [SECRET GARDEN](https://www.youtube.com/watch?v=65XWQJR20Yo) (Pokemon M5 INS 2002, Latios plays with ash, but it only starts in G#)
+- [SECRET GARDEN](https://www.youtube.com/watch?v=65XWQJR20Yo) (Pokemon M5 INS 2002, Latios plays with ash, it starts in G#, but ends in E)
 
 Emotional songs in not G#
 ---
-- [Soko ni Sora ga Aru Kara](https://www.youtube.com/watch?v=_whqeP27Tcw) (Pocket Monsters AG ED 2003, D)
-- [Yami no kanata he](https://www.youtube.com/watch?v=9gy7KyvXIP0) (Rewrite ED 2011, there's some good counterpoint? in here F#)
-- [Mamoru Beki mono](https://www.youtube.com/watch?v=A72KuWizWYs) (Pocket Monsters M9 ED 2006, D)
-- [Hohoemi no Plumage](https://www.youtube.com/watch?v=NU93Tf6stbo) (MSLN M2 ED 2012, AFAIK Nanoha is now friends with Hayate F#)
+- [Soko ni Sora ga Aru Kara](https://www.youtube.com/watch?v=_whqeP27Tcw) (Pocket Monsters AG ED 2003, Dm D Em E)
+- [Yami no kanata he](https://www.youtube.com/watch?v=9gy7KyvXIP0) (Rewrite ED 2011, there's some good counterpoint? in here F# F#m A Am)
+- [Mamoru Beki mono](https://www.youtube.com/watch?v=A72KuWizWYs) (Pocket Monsters M9 ED 2006, D C)
+- [Hohoemi no Plumage](https://www.youtube.com/watch?v=NU93Tf6stbo) (MSLN M2 ED 2012, AFAIK Nanoha is now friends with Hayate F&F#)
 - [Koibumi Pop Arrange Remix](https://hearthis.at/jZGMYrcb/koibumi-pop20c-master/) (Rewrite "Shizuru's theme" 2011/2019, I made this remix my adding drum & bass C#)
-- Haru no Gogo, Boku wa Nagai Tabi wo Shita 2011 (Key original 2001, EDB, the remix is not available, but the original is [here](https://www.youtube.com/watch?v=geLXk6fJDLI) )
+- Haru no Gogo, Boku wa Nagai Tabi wo Shita 2011 (Key original 2001, E Bm, the remix is not available, but the original is [here](https://www.youtube.com/watch?v=geLXk6fJDLI) )
 
 
 
