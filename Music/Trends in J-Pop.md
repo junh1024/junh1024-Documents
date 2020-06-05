@@ -30,12 +30,19 @@ J-Pop music is moving to be simpler and catering to consumer preferences, to mak
 
 Abuse of Autotune ()
 ---
-In the olden days, mixers just applied lots of reverb to cover up small intonations of big artists, and it sounded natural and fine. Nowdays, we don't need reverb, we can just manipulate pitch at well to fix or mangle problems. You do not need to buy the premium brand Antares AutoTune to get it. It may be included in your cheaper DAW, eg., Logic has Pitch Correction, Fruity Loops has NewTone, REAPER has ReaTune, or there are even [free ones](https://cymatics.fm/blogs/production/free-autotune-vst-plugins). We'll just have to accept that you may never hear vocals without Autotune/pitch correction, unless you record it yourself. Even leaks of older material when AT didn't exist, have AT put on to protect our image of our idols.
+In the olden days, mixers just applied lots of reverb to cover up small intonations of big artists, and it sounded natural and fine. Nowdays, we don't need reverb, we can just manipulate pitch at well to fix or mangle problems. You do not need to buy the premium brand Antares AutoTune to get it. It may be included in your cheaper DAW, eg., Logic has Pitch Correction, Fruity Loops has NewTone, REAPER has ReaTune, or there are even [free ones](https://cymatics.fm/blogs/production/free-autotune-vst-plugins). Or you can warez AT or your DAW like every other kid. We'll just have to accept that you may never hear vocals without Autotune/pitch correction, unless you record it yourself. Even leaks of older material when AT didn't exist, have AT put on to protect our image of our idols.
+
+
+Even low-cost fandubs or covers (e.g, [TRU UNITE English cover](https://www.youtube.com/watch?v=ZjpuTUJEpxM) have AT artefacts
+
+
 
 My problem with AT is that people use it with bad settings, or maybe it has bad defaults, and don't listen/check for artefacts.
-[Nakeru Anison](dd) . An otherwise emotional experience is ruined by artefacts all over the album.
-[Revue](https://www.youtube.com/watch?v=YF0fMuhuNHU)
-ANIY OP
+
+- [Now loading... SKY!!](https://youtu.be/9gi7Ss0yRgc?t=27) from Asobi ni Iku Yo! There's a bit here.
+- There might be a few in "Hokori to Ogori Starlight Revue ep3 IS", but not sure cuz the link I [originally](https://www.youtube.com/watch?v=YF0fMuhuNHU) commented on is ded.
+- Chihiro Yonekura - Nakeru Anison. An otherwise emotional experience is ruined by AT artefacts all over the album.  [Garnet sample]() Note transitions are glitchy, and some note holds are straightened out. I'm not the only one complaining. [On Amazon](https://www.amazon.com/Chihiro-Yonekura-Nakeru-Anison-BVCL-196/dp/B004GJ33D2), Master N says: "I was not satisfied with the singer's expressiveness and voice quality (GTL)/歌手の表現力と声質に納得がいきませんでした". That's gotta be it.
+
 
 Abuse of 4536
 ---
