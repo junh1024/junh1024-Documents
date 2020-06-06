@@ -37,7 +37,7 @@ Many noobs, after basic matching above then call it a day, but it's far from it.
 
 Chord theory
 ---
-Knowing music theory is not required to do mashups, but it may help you to make mashups faster & better. This guide uses my [Shorthand Relative Chord Notation System](aaa) so please read that beforehand. Sometimes you may need to pitchshift loops to get the right chord, because the wanted chord is not available in the original.
+Knowing music theory is not required to do mashups, but it may help you to make mashups faster & better. This guide uses my [Shorthand Relative Chord Notation System](https://github.com/junh1024/junh1024-Documents/blob/master/Music/Shorthand%20Relative%20Chord%20Notation%20System.md#shorthand-relative-chord-notation-system) so please read that beforehand. Sometimes you may need to pitchshift loops to get the right chord, because the wanted chord is not available in the original.
 
 Say you have chords 1,2,4,5,6 but you want a 3. Since 3 is minor, you know to pick 2/6 (which are minor) & shift to make a 3. But if you wanted a 3M, you'll need to pick from the major chords of 1,4,5.
 
@@ -67,9 +67,9 @@ General Tips:
 * To make your vocal sit better, analyze it via FFT, and EQ boost any large gaps. Cut the overall vocal frequencies that you found in the instro. Both changes are 1-3dB. Little can be huge (™ spark). This isn't just good advice for mashups, this is good advice in general.
 * You may need to apply (long-term) compression to vocals &/ a bit of reverb to hide artefacts
 * You can insert elements of each to have a more elegant mashup. If stems are not available, don't be afraid to make some MIDI snippets. If the song of the acapella originally had a silence, silence the new instrumental for a few seconds. Same goes for EQ cuts, fades, etc. This adds variety & familiarity.
-* After a few jobs, you'll inevitably encounter Tricky chord progressions. This is an area which will prevent a mashup from being better. brute-forcing chords by pitchshifting to match is easy, but the artefacts will be obvious. You can do clever loop juggling, but this is hard. You can overcome this with Theory & experience. If all else fails, you could try having a different instrumental for the verses & the chorus. (I've done this)
+* After a few jobs, you'll inevitably encounter Tricky chord progressions. If all else fails, you could try having a different instrumental for the verses & the chorus.
 * If you find, after matching pitch, EQ, loudness, 2 musical elements aren't cohesive (this is more applicable to mixes), maybe it's an imaging problem. You may need to make their widths more similar or dissimilar. A (multiband) width tool may be useful.
-* It is possible to make surround mashups. Most of mine have been upscales (upscale A & I separately, with different settings). Surround upscales, particularly with mashups, mostly sound bad. For it to sound good, you will prolly need at least stems for the instrumental.
+* It is possible to make surround mashups. Most of mine have been upscales (upscale A & I separately, with different settings). Surround upscales, particularly with mashups, mostly sound bad depending on how well the instrumental upscales. For it to sound good, you will prolly need at least stems for the instrumental. For best quality, you probably want to varispeed the tempo stretch, then upscale to surround, then use a surround pitchshifter (e.g, Elastique VST).
 * Layer clips if you're short on ideas for ending.
 * Sectional/clip filtering is good.
 
