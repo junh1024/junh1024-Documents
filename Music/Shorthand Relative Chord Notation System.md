@@ -2,7 +2,7 @@
 
 The purpose of this system is a short & fast chord system, that can be easily used for handwritten analysis in real-time, or a simple system for music analysis in the context of remixing. Something similar may've been done before.
 
-Because it's a relative system, the absolute key is not written for chords, so it's good to write it at the start, e.g, 1=C. So for major keys, the traditional system looks like this, with capitals denoting major & smallcase for minor like this:
+Because it's a relative system, the absolute key is not written for chords, so it's good to write it at the start, e.g, 1=C. My system assumes a major key, so for minor keys please use its relative major, but note it like so: 1=C/Am. So for major keys, the traditional system looks like this, with capitals denoting major & smallcase for minor like this:
 
 I	ii	iii	IV	V	vi	vii
 
