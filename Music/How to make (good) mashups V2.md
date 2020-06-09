@@ -37,7 +37,7 @@ Many noobs, after basic matching above then call it a day, but it's far from it.
 
 Chord theory
 ---
-Knowing music theory is not required to do mashups, but it may help you to make mashups faster & better. This guide uses my [Shorthand Relative Chord Notation System](https://github.com/junh1024/junh1024-Documents/blob/master/Music/Shorthand%20Relative%20Chord%20Notation%20System.md#shorthand-relative-chord-notation-system) so please read that beforehand. Sometimes you may need to pitchshift loops to get the right chord, because the wanted chord is not available in the original.
+Knowing music theory is not required to do mashups, but it may help you to make mashups faster & better. This guide uses my [Shorthand Relative Chord Notation System](https://github.com/junh1024/junh1024-Documents/blob/master/Music/Shorthand%20Relative%20Chord%20Notation%20System.md#shorthand-relative-chord-notation-system) so please read that beforehand. We assume you have/can chop up your instro into clips/bars of chords. Sometimes you may need to pitchshift clips to get the right chord, because the wanted chord is not available in the original.
 
 Say you have chords 1,2,4,5,6 but you want a 3. Since 3 is minor, you know to pick 2/6 (which are minor) & shift to make a 3. But if you wanted a 3M, you'll need to pick from the major chords of 1,4,5.
 
@@ -47,15 +47,26 @@ For times when shifting doesn't sound good, maybe due to synths making whacky ch
 - Analyze the dominant note in the melody, and choose a chord which has that note, ideally not in the bottom position. You can try 7ths. Sounding good is idempotent.
 - Choose a chord which is a 3rd apart. e.g, instead of 6, choose 4 or 1. Sounding good is not idempotent cuz performing multiple substitutions like this will sound bad.
 
-Choose whatever sounds good. In practice you might just choose a loop and use that without any analysis.
+Chord Progressions
+---
+Now that you've changed one chord, you may need to change other chords & follow some conventions so that they don't sound bad. According to https://tobyrush.com/theorypages/pdf/en-us/harmonic-progression.pdf ,
+
+* any -> 1 -> any
+* any -> 5
+
+Choose whatever sounds good. But with all this theory, you might just choose a loop and use that without any analysis in practice.
+
+Scale shifting
+---
+You can use zplane ReTune to shift notes in a chord, but I more often use it to change modes. e.g, change a major vox to fit in with a minor instro, but only for a short periods with the wet/bypass feature in my DAW. It's a small, but very important change to keep things on key/on-mode.
 
 Pitchshifting Tips:
 ---
 * In 2015 (but this article was written closer to 2018), Elastique V2 was standard across many DAWs. But if you upgrade your DAW, you may get Elastique V3, which is better for greater shifts & lower CPU.
 * Pitchshifting vocals require formant awareness/control for >1st changes to sound good. 
 * You can change your pitchshifter/settings & balance sound quality & CPU.
-* If you're making small changes, you can prolly use Elastique Soloist Speech on vox & Elastique Efficient on instros to save CPU. Elastique Soloist Speech may do some internal formant correction. 
-* If you're making larger changes, you may need to use the default Elastique Pro mode (medium CPU) &/ change the formant shift too. Or maybe you can try the different Elastique Pro Preserve Formants variations (high CPU) to make it sound more natural. For large changes to instros, you can still try  Elastique Pro Preserve Formants as a high-CPU alternative to an EQ boost.
+* If you're making small changes, you can try Elastique Soloist Speech on vox & Elastique Efficient on instros to save CPU. Elastique Soloist Speech may do some internal formant correction. If speech has blips due to instro bleed, try efficient instead.
+* If you're making larger changes, you may need to use the default Elastique Pro mode (medium CPU) &/ change the formant shift too. Or maybe you can try the different Elastique Pro Preserve Formants variations (high CPU) to make it sound more natural. For large changes to instros, you could try  Elastique Pro Preserve Formants as a high-CPU alternative to an EQ boost.
 * You can gain more control by using varispeed on your stems then inserting a pitchshift FX on your tracks. But this requires carefully doing pitch maths on your part.
 * If you have stems, separate unpitched (percussion) & pitched (others) instruments. Then you can apply separate time-pitchshifting settings to each to make both more natural.
 * Pitchshifting changes the frequency distribution, so you may need to EQ, kilohearts disperser (to shift the phase of the bass & hence boost the kicks), (rhythmic) distortion to compensate
@@ -72,6 +83,7 @@ General Tips:
 * It is possible to make surround mashups. Most of mine have been upscales (upscale A & I separately, with different settings). Surround upscales, particularly with mashups, mostly sound bad depending on how well the instrumental upscales. For it to sound good, you will prolly need at least stems for the instrumental. For best quality, you probably want to varispeed the tempo stretch, then upscale to surround, then use a surround pitchshifter (e.g, Elastique VST).
 * Layer clips if you're short on ideas for ending.
 * Sectional/clip filtering is good.
+* If you've matched the pitches of A & I, but it still sounds bad & you don't know why, maybe it's a 5ths trap (they're a 5th apart), or it's possible A/I have shifted keys, particularly in the (pre) chorus.
 
 What next?
 ---
