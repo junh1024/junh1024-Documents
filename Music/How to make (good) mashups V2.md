@@ -75,7 +75,7 @@ Pitchshifting Tips:
 General Tips:
 ---
 * Lead vocals should be narrow. Widening instruments can sometimes help contrast.
-* To make your vocal sit better, analyze it via FFT, and EQ boost any large gaps. Cut the overall vocal frequencies that you found in the instro. Both changes are 1-3dB. Little can be huge (™ spark). This isn't just good advice for mashups, this is good advice in general.
+* To make your vocals stand out more, analyze it via FFT, and EQ boost any large gaps. Cut the overall vocal frequencies that you found in the instro. Both changes are 1-3dB. Little can be huge (™ spark). This isn't just good advice for mashups, this is good advice in general. If it stands out too much, do the reverse. If the instro has an annoying synth, compress the mids with ReaFIR.
 * You may need to apply (long-term) compression to vocals &/ a bit of reverb to hide artefacts
 * You can insert elements of each to have a more elegant mashup. If stems are not available, don't be afraid to make some MIDI snippets. If the song of the acapella originally had a silence, silence the new instrumental for a few seconds. Same goes for EQ cuts, fades, etc. This adds variety & familiarity.
 * After a few jobs, you'll inevitably encounter Tricky chord progressions. If all else fails, you could try having a different instrumental for the verses & the chorus.
@@ -84,6 +84,7 @@ General Tips:
 * Layer clips if you're short on ideas for ending.
 * Sectional/clip filtering is good.
 * If you've matched the pitches of A & I, but it still sounds bad & you don't know why, maybe it's a 5ths trap (they're a 5th apart), or it's possible A/I have shifted keys, particularly in the (pre) chorus.
+* In Traktor, fractional BPM with a deviation of 0.001 to an integer can usually be rounded & ignored. But if it's 0.003, maybe it's right
 
 What next?
 ---
