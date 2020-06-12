@@ -6,21 +6,21 @@ In Katamari Damacy, as you complete the story mode, you are rewarded with FMVs s
 
 The stars have disappeared from the sky, and this is expected
 ---
-So, it might be daytime, or there is a lot of light pollution. In the countryside where there's less lighting at night, you can see more stars.
+So, it might be daytime, or there is a lot of light pollution. In the countryside where there's less lighting at night, you can see more stars. Or maybe it's really cloudy.
 
 The stars have disappeared from the sky, and this is unexpected
 ---
 Maybe there's a giant dust cloud over Japan, don't ask me how this happened. The stars have traditionally been important for their cultural significance, but also for navigation.
 
-The moon has disappeared from the sky
+The moon has disappeared
 ---
-So, a [lunar eclipse](https://en.wikipedia.org/wiki/Lunar_eclipse) happens 1ce a month when the earth is in front of the moon, the moon appears dimmer. To make it disappear, you could have a [volcano throw some dust into the air](https://youtu.be/VW2xRR75lKE?t=90) at the same time. 
+So, a [lunar eclipse](https://en.wikipedia.org/wiki/Lunar_eclipse) happens 1ce a month when the earth is in front of the moon, the moon appears dimmer. To make it disappear, you could have a [volcano throw some dust into the air](https://youtu.be/VW2xRR75lKE?t=90) at the same time. Again, it could be really cloudy/overcast.
 
-The moon has de-orbited from the earth
+The moon is gone
 ---
 You really don't want this to happen. As shown by the pockmarks on the moon, it's taken a few hits so Earth doesn't have to. Like Jupiter in 1994 with comet [Shoemaker-levy-9](https://en.wikipedia.org/wiki/Comet_Shoemaker%E2%80%93Levy_9) . With the moon gone, this will affect some power generation, and [biological cycles](https://en.wikipedia.org/wiki/Tide#Biological_aspects).
 
-How might this happen? I can't think of any short-term interactions between celestial bodies that might cause this. But the universe might end in a [big rip](https://en.wikipedia.org/wiki/Big_Rip#Authors'_example), when the force of gravity gets overwhelmed. A few months before the big rip, the planets & moons in out solar system (assuming it still exists), will sort of fly out into space. And just before the big rip, atoms would be torn apart.
+How might this happen? The universe might end in a [big rip](https://en.wikipedia.org/wiki/Big_Rip#Authors'_example), when the force of gravity gets overwhelmed. A few months before the big rip, the planets & moons in out solar system (in the unlikely event it still exists), will sort of fly out into space. And just before the big rip, atoms would be torn apart. But it might be more likely that in 5 bn years, when the sun becomes a red giant, the earth & the moon may fall into the sun.
 
 Conclusion
 ---

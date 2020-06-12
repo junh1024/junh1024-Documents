@@ -13,6 +13,27 @@ I avoid reusing the same versions of songs in mixes, different versions are OK. 
 
 I make constant BPM mixes. This is easiest to comprehend & manage. There are techniques to join songs of very different BPMs, they won't be covered here. Sometimes there are songs with "missing beats", ie, incomplete bars so that the usual 4/4 phase is thrown off after some time. Again, for management reasons, I extend it, or chop it off. For times when those don't sound good, IMO it's most important to have sync at the end of a song, so that the phase is correct when you join the next song.
 
+Philosophy
+---
+This guide is for making mixes offline in a DAW. So only half of it will be applicable to online mixes in a DJ program. But it's easier to perfect your mix and apply more complex techniques to make your mix better, offline.
+
+You should have at least 2 albums worth of material to join, cuz you will be throwing some away. 
+After you've analysed the BPM of your songs, take the average, and set that as your project BPM in your DAW. After you finish your mix, you can take an average & set the BPM again (or use my "Get item BPM.py" weighted average script) to get a more appropriate average BPM, since presumably you've thrown out some songs.
+
+I know many mixes are 1 hour long, but, I target a length of 28mins for mixes cuz:
+* it fits on 1 side of a C60 tape (if you want to archive them on a cheap, non-digital format)
+* It's not too short, or long. It's a satisfying length
+* Making longer mixes is harder cuz you need to make lots of joins work
+
+
+
+
+Key tagging
+---
+I usually go by ear to tag keys. There should be no problems with conventions for Major keys. For minor keys, you can show the minor and its relative major e.g, Am/C. For sharps & flats, I use sharps only. Whatever you do, keep it consistent & clear, to make it easier to see relationships between your keys.
+
+In REAPER, you can make an empty item, type in your key,  stretch to fill item, and group it to your song to make a nice big key display. https://i.imgur.com/RSGMsH2.png . In other dayws you may resport to small text with renaming your clips.
+
 Surround
 ---
 Using surround in mixes is completely optional, but offers more flexibility. You can make surround mixes, but it will most likely be upscale. You can upscale after making a mix, but that's lazy & bad quality cuz phase information that upscalers use is mangled by pitch-time stretching. So, upscaling *before* is preferred. Deciding whether to make a surround mix or not depends on a few factos, how well I like the songs, and how well they upscale to surround. Non-vocal mixes I usually don't consider for surround.
