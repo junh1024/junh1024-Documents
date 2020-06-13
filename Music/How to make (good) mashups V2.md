@@ -2,7 +2,7 @@
 
 Introduction
 ---
-A mashup is a popular way of simultaneously combining 2 songs. Aim to complete no more than 1-2 per week, as this allows time for review & reflection. What do you need?
+A mashup is a popular way of simultaneously combining 2 songs. This guide was revised in mid-2020 and draws on my experience of 5 years & 25 mashups. Aim to complete no more than 1-2 per week, as this allows time for review & reflection. What do you need?
 * A solid concept. Ideally, the 2 songs shall be within 10% of the same key & BPM, because past 10% of change, digital pitch-time shifting artefacts will start getting audible.
 * A solid DAW. REAPER is recommended as you can mix & match files with different codecs, sample rates, channels, and [many ways to change pitch](https://i.imgur.com/FtJAE26.png) & tempo freely with the HQ Elastique algorithm. Video editors & destructive editors (like Vegas & Audacity) are NOT recommended because they won't have subtle features helpful for music (e.g, cutting on beats)
 
