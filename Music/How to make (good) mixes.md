@@ -22,12 +22,12 @@ Unlike mashups, knowing theory is almost mandatory for making good mixes.
 
 If you're like me, you would've heard the circle of 5ths being mentioned many times, but not knowing how it's useful, until now. Here it is below in strip form with C major at the center, and relative minor below.
 
-C#	G#	D#	A#	F	[C]	G	D	A	E	b	F#
-a#	f	c	g	d	[a]	e	b	f#	c#	g#	d#
+	C#	G#	D#	A#	F	[C]	G	D	A	E	b	F#
+	a#	f	c	g	d	[a]	e	b	f#	c#	g#	d#
 
 If you join 2 songs in neighboring keys or modes (move horizontally or vertically), it should sound good. But if you move both (move horizontally and vertically), it might not. Although horizontally neighboring keys are both a 5th apart, I often find that moving down a 5th sounds better, maybe cuz it sounds like a more usual descending perfect cadence. Depending on how your keys come out, you might be able to move around the circle for at least a few songs.
 
-Many songs are in 1 key only. But there are some that are in 2 or more keys. These are more valuable as you can now have more possibilities to join keys, but you can only join certain keys at certain points, and it's now polarized (assuming each end is a different key). So you can't reverse you mix and it'll stilll sound good.
+Many songs are in 1 key only. But there are some that are in 2 or more keys. These are more valuable as you can now have more possibilities to join keys, but you can only join certain keys at certain points, and it's now polarized (assuming each end is a different key). So you can't reverse your mix and it'll still sound good.
 
 Other strategies
 ---
