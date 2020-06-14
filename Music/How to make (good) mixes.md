@@ -6,7 +6,7 @@ A mix is when you join multiple songs seamlessly, with a focus on the transition
 
 Planning
 ---
-You should have at least 2 albums worth of material to join, cuz you will be throwing some away. After you've analysed the BPM of your songs, take the average, throw away songs that are >=15% from the average. Then set the average as your project BPM in your DAW. After you finish your mix, you can take an average & set the BPM again (or use my "Get item BPM.py" weighted average script) to get a more appropriate average BPM, since presumably you've thrown out some songs.
+This guide covers constant BPM mixes. This is easiest to comprehend & manage. There are techniques to join songs of very different BPMs, they won't be covered here. You should have at least 2 albums worth of material to join, cuz you will be throwing some away. After you've analysed the BPM of your songs, take the average, throw away songs that are >=15% from the average. Then set the average as your project BPM in your DAW. After you finish your mix, you can take an average & set the BPM again (or use my "Get item BPM.py" weighted average script) to get a more appropriate average BPM, since presumably you've thrown out some songs.
 
 Note for REAPER: REAPER doesn't have the concept of a clip BPM (maybe other DAWs too), so use my "Set item BPM.py" in https://github.com/junh1024/Reaper-Surround , and see my [Reascript Python](https://github.com/junh1024/Reaper-Surround#reascript-python-setup-for-windows) guide.
 
@@ -18,7 +18,7 @@ In REAPER, you can make an empty item, type in your key,  stretch to fill item, 
 
 Circle of 5ths
 ---
-Unlike mashups, knowing theory is almost mandatory for making good mixes.
+Unlike mashups, knowing key theory is almost mandatory for making good mixes.
 
 If you're like me, you would've heard the circle of 5ths being mentioned many times, but not knowing how it's useful, until now. Here it is below in strip form with C major at the center, and relative minor below.
 
@@ -47,7 +47,7 @@ The following is my philosophy, and you don't have to follow it, but they might 
 
 I usually make thematic mixes (& hence cohesive), with the theme being genre. Why genre? Cuz genre implies some closeness in instruments & BPM. Pop is a meta-genre ie, songs aren't really close. I always have problems with pop.
 
-I make constant BPM mixes. This is easiest to comprehend & manage. There are techniques to join songs of very different BPMs, they won't be covered here. 
+Try to make mixes with vocal songs (full lyrics). They'll be more memorable to you & your audience. I started off making vocal mixes, then made some instrumental mixes later. I'm guessing that it will be half n half when I finish my current bunch. You can probably find vocal songs in most genres. Vocal house songs might be under dance. The only genres that tend to have less vocals from the genres I've tried, are trance & hard house.
 
 I avoid reusing the same versions of songs in mixes, different versions are OK. Example: I used Tomare! in my rock mix. But I also used that in my house mix, but a house remix. I also used Kaze no message in my initial rock mix, but I might use it in a future mix, so in the process of improving my rock mix, I removed that song & a few others, and re-released it.
 
@@ -63,7 +63,13 @@ When I do transitions, I try to join on a harmonic, busy part, cuz:
 * It's harder, but more interesting
 * Some songs may not have a long drum-only lead-ins & lead-outs, like songs with full lyrics
 
+Start off your mix with a song that's not too intense. Take a hint from Track order on albums, it can help you to make a journey as the mix progresses. Vary your intensity as you go through the songs, but that might happen anyway due to differences in song content & key compatibility.
+
 If there's a long breakdown in a song, I try to place that song at or after the middle of the mix. Sometimes there are songs with "missing beats", ie, incomplete bars so that the usual 4/4 phase is thrown off after some time. Again, for management reasons, I extend it, or chop it off. For times when those don't sound good, IMO it's most important to have sync at the end of a song, so that the phase is correct when you join the next song.
+
+I try not to pitchshift songs most of the time, since if the pitch is shifted, it sounds wrong/not original, and sortove defeats key theory.
+
+
 
 Surround
 ---
