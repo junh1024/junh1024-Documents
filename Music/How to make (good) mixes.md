@@ -6,9 +6,13 @@ A mix is when you join multiple songs seamlessly, with a focus on the transition
 
 Planning
 ---
-This guide covers constant BPM mixes. This is easiest to comprehend & manage. There are techniques to join songs of very different BPMs, they won't be covered here. You should have at least 2 albums worth of material to join, cuz you will be throwing some away. After you've analysed the BPM of your songs, take the average, throw away songs that are >=15% from the average. Then set the average as your project BPM in your DAW. After you finish your mix, you can take an average & set the BPM again (or use my "Get item BPM.py" weighted average script) to get a more appropriate average BPM, since presumably you've thrown out some songs.
+This guide covers constant BPM mixes. This is easiest to comprehend & manage. There are techniques to join songs of very different BPMs, they won't be covered here. If you choose songs of the same genre, that will also be easier, since genre implies some closeness in instruments & BPM. I usually make thematic mixes with the theme being genre. Pop is a meta-genre ie, songs aren't really close. I always have problems with pop.
 
-Note for REAPER: REAPER doesn't have the concept of a clip BPM (maybe other DAWs too), so use my "Set item BPM.py" in https://github.com/junh1024/Reaper-Surround , and see my [Reascript Python](https://github.com/junh1024/Reaper-Surround#reascript-python-setup-for-windows) guide.
+You should have at least 2 albums worth of material to join, cuz you will be throwing some away. After you've analysed the BPM of your songs, take the average, throw away songs that are >=15% from the average. Then set the average as your project BPM in your DAW. After you finish your mix, you can take an average & set the BPM again (or use my "Get item BPM.py" weighted average script) to get a more appropriate average BPM, since presumably you've thrown out some songs.
+
+REAPER & BPM
+---
+Note for REAPER: REAPER doesn't have the concept of a clip BPM (maybe other DAWs too), so use my "Set item BPM.py" in https://github.com/junh1024/Reaper-Surround , and see my [Reascript Python](https://github.com/junh1024/Reaper-Surround#reascript-python-setup-for-windows) guide. Alternatively, new rate = new BPM/old PBM
 
 Key tagging
 ---
@@ -18,7 +22,7 @@ In REAPER, you can make an empty item, type in your key,  stretch to fill item, 
 
 Circle of 5ths
 ---
-Unlike mashups, knowing key theory is almost mandatory for making good mixes.
+Unlike [mashups](https://github.com/junh1024/junh1024-Documents/blob/master/Music/How%20to%20make%20(good)%20mashups%20V2.md#introduction), knowing key theory is almost mandatory for making good mixes.
 
 If you're like me, you would've heard the circle of 5ths being mentioned many times, but not knowing how it's useful, until now. Here it is below in strip form with C major at the center, and relative minor below.
 
@@ -39,13 +43,11 @@ It's not uncommon to have a section of 8 bars where ingoing & outgoing songs are
 
 Fades
 ---
-You can do fades to join 2 clips. The simplest fade is a crossfade, where 1 clip (slowly) fades out while the other fades in. Your DAW may do automatic crossfades if you overlap 2 clips, or you can manually fade 2 clips on separate tracks for more control. You could also do a L-fade where 1 clip fades out but the other cuts in. As for length of fade, what's appropriate can vary by genre. For house, there's the standard 32 beat or 8 bad crossfade. But for rock, a fast fade or a cut may be appropriate. For pop, it's ticky & depends on song.
+You can do fades to join 2 clips. The simplest fade is a crossfade, where 1 clip (slowly) fades out while the other fades in. Your DAW may do automatic crossfades if you overlap 2 clips, or you can manually fade 2 clips on separate tracks for more control. You could also do a L-fade where 1 clip fades out but the other cuts in. As for length of fade, what's appropriate can vary by genre. For house, there's the standard 32 beat or 8 bar crossfade. But for rock, a fast fade or a cut may be appropriate. For pop, it's tricky & depends on song. You could also do a more sophisticated split-combine frequency fade (maybe available under a different name), where you start from the top/right of the frequency and move to the bottom/left,  and progressively lowpass the outgoing song & un-hipass the incoming song so that the frequency ranges form a whole, but of different songs.
 
 My Philosophy
 ---
 The following is my philosophy, and you don't have to follow it, but they might be good ideas.
-
-I usually make thematic mixes (& hence cohesive), with the theme being genre. Why genre? Cuz genre implies some closeness in instruments & BPM. Pop is a meta-genre ie, songs aren't really close. I always have problems with pop.
 
 Try to make mixes with vocal songs (full lyrics). They'll be more memorable to you & your audience. I started off making vocal mixes, then made some instrumental mixes later. I'm guessing that it will be half n half when I finish my current bunch. You can probably find vocal songs in most genres. Vocal house songs might be under dance. The only genres that tend to have less vocals from the genres I've tried, are trance & hard house.
 

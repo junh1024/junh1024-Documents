@@ -28,4 +28,6 @@ The above 4 scenarios are mostly associated with bad events IRL. You probably do
 
 - Protect the earth
 - Protect education
-- Protect science funding & a clear view of the night sky so scientists can look for killer asteroids, although Elon Musk's brightly-painted starlink satellites aren't a great help
+- Protect science funding & a clear view of the night sky so scientists can look for killer asteroids, although Elon Musk's brightly-painted starlink satellites aren't a great help.
+
+PS: I haven't studied general science past grade 10 & this document hasn't been verified by a scientist.
