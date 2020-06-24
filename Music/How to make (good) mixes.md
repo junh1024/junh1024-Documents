@@ -2,13 +2,17 @@
 
 Introduction
 ---
-A mix is when you join multiple songs seamlessly, with a focus on the transitions and keys. This guide is for making mixes offline in a DAW. So only half of it will be applicable to online mixes in a DJ program. But it's easier to perfect your mix and apply more complex techniques to make your mix better, offline. This guide was written in mid-2020 and draws on my experiences making a bunch of mixes for about a year, and a few segues since 2015.
+A mix is when you join multiple songs seamlessly, with a focus on the transitions and keys. This guide is mainly for making mixes offline in a DAW, but half of it will be applicable to online mixes in a DJ program. It's easier to perfect your mix and apply more complex techniques to make your mix better, offline. This guide was written in mid-2020 and draws on my experiences making a bunch of mixes for about a year, and a few segues since 2015.
+
+Software
+---
+Beginners can give the [Mixmeister](https://www.mixmeister.com/) series a try, it does one job, but it has helpful BPM features. Video editors & destructive editors (like Vegas & Audacity) are NOT recommended because they won't have subtle features helpful for music (e.g, cutting on beats & bars). Otherwise, use a proper DAW like [REAPER](http://www.reaper.fm) . My [REAPER Quickstart guide](https://i.imgur.com/HA1Oo7D.png) . It's a bit different but I like it. For live performance, many DJ apps are available. [Mixxx](https://www.mixxx.org/) has gotten a lot better over the last 10 years. I use Traktor Pro 2 (out of habit from 12 years ago), but only for BPM analysis & library features, so I don't have any strong reccomendations.
 
 Planning
 ---
-This guide covers constant BPM mixes. This is easiest to comprehend & manage. There are techniques to join songs of very different BPMs, they won't be covered here. If you choose songs of the same genre, that will also be easier, since genre implies some closeness in instruments & BPM. I usually make thematic mixes with the theme being genre. Pop is a meta-genre ie, songs aren't really close. I always have problems with pop.
+This guide covers constant BPM mixes. This is easiest to comprehend & manage. There are techniques to join songs of very different BPMs, they won't be covered here. If you choose songs of similar genre, that will also be easier, since genre implies some closeness in instruments & BPM. I usually make thematic mixes with the theme being genre. Pop is a meta-genre ie, songs aren't really close. I always have problems with pop.
 
-You should have at least 2 albums worth of material to join, cuz you will be throwing some away. After you've analysed the BPM of your songs, take the average, throw away songs that are >=15% from the average. Then set the average as your project BPM in your DAW. After you finish your mix, you can take an average & set the BPM again (or use my "Get item BPM.py" weighted average script) to get a more appropriate average BPM, since presumably you've thrown out some songs.
+You should have at least 2 albums worth of material to join, cuz you will be throwing some away. After you've analysed the BPM of your songs, take the average, throw away songs that are >=15% from the average. Then set the average as your project BPM in your DAW. After you finish your mix, you can take an average & set the BPM again (or use my "Get item BPM.py" weighted average Reascript) to get a more appropriate average BPM, since presumably you've thrown out some songs.
 
 REAPER & BPM
 ---
@@ -19,6 +23,12 @@ Key tagging
 I usually go by ear to tag keys. There should be no problems with conventions for Major keys. For minor keys, you can show the minor and its relative major e.g, Am/C. For sharps & flats, I use sharps only. Whatever you do, keep it consistent & clear, to make it easier to see relationships between your keys. You can new group/join songs of the same keys. For the pop/electronic, major seems to slighly dominate, but for Rock & Touhou, minor seems to slighly dominate (2hu is a game tho).
 
 In REAPER, you can make an empty item, type in your key,  stretch to fill item, and group it to your song to make a nice big key display. https://i.imgur.com/RSGMsH2.png . In other DAWs you may resort to small text & renaming your clips.
+
+Starting
+---
+Insert media into your DAW if you haven't already. Place them to the right, leave a large gap, and have your opening song to the left. What should be your opening song? Start off your mix with a song that's not too intense. Take a hint from Track order on albums (but maybe not anthologies or compilations), it can help you to make a journey as the mix progresses. Vary your intensity as you go through the songs, but that might happen anyway due to differences in song content & key compatibility. You can join songs into groups of 2-3, then join those groups into a mix. Or you can join them sequentially.
+
+With the ["BME"](https://www.youtube.com/watch?v=yaScgj3t9LM) approach, for shorter mixes <28mins, you can have 1 beginning & end tracks. For longer mixes >30mins, you can have 2 beginning & end tracks. This is a rough guide & comes from recalling my mixes. Aim to end your mix with a bang. Some of my best mixes are (partially) made in reverse, with the best songs at the end, so that's a valid approach as well. Maybe the ending is more important & it's OK to have bum transitions & filler tracks at the start.
 
 Circle of 5ths
 ---
@@ -39,7 +49,7 @@ Other strategies
 
 Instruments
 ---
-It's not uncommon to have a section of 8 bars where ingoing & outgoing songs are both played, maybe with a hipass on the incoming piece. Sometimes you might need more separation than EQ to help glue them together. you can use Yellow DrumExtract to isolate the drums, or you can use VSTi to recreate some motifs.
+It's not uncommon to have a section of 8 bars where ingoing & outgoing songs are both played, maybe with a hipass on the incoming piece. Sometimes you might need more separation than EQ to help glue them together. You can use Yellow DrumExtract to isolate the drums, or you can use VSTi to recreate some motifs. As of mid-2020, there are 2 DJ apps that have vox/drums/other separation. I expect more will follow, and VSTs too.
 
 Fades
 ---
@@ -65,17 +75,13 @@ When I do transitions, I try to join on a harmonic, busy part, cuz:
 * It's harder, but more interesting
 * Some songs may not have a long drum-only lead-ins & lead-outs, like songs with full lyrics
 
-Start off your mix with a song that's not too intense. Take a hint from Track order on albums, it can help you to make a journey as the mix progresses. Vary your intensity as you go through the songs, but that might happen anyway due to differences in song content & key compatibility.
-
 If there's a long breakdown in a song, I try to place that song at or after the middle of the mix. Sometimes there are songs with "missing beats", ie, incomplete bars so that the usual 4/4 phase is thrown off after some time. Again, for management reasons, I extend it, or chop it off. For times when those don't sound good, IMO it's most important to have sync at the end of a song, so that the phase is correct when you join the next song.
 
 I try not to pitchshift songs most of the time, since if the pitch is shifted, it sounds wrong/not original, and sortove defeats key theory.
 
-
-
 Surround
 ---
-Using surround in mixes is completely optional, but offers more flexibility. You can make surround mixes, but it will most likely be upscale. You can upscale after making a mix, but that's lazy & bad quality cuz phase information that upscalers use is mangled by pitch-time stretching. So, upscaling *before* is preferred. Deciding whether to make a surround mix or not depends on a few factos, how well I like the songs, and how well they upscale to surround. Non-vocal mixes I usually don't consider for surround.
+Using surround in mixes is completely optional, but offers more flexibility. Though the need is declining due to more realtime separation technology, general interest in surround might be increasing. You can make surround mixes, but it will most likely be upscale. You can upscale after making a mix, but that's lazy & bad quality cuz phase information that upscalers use is mangled by pitch-time stretching. So, upscaling *before* is preferred. Deciding whether to make a surround mix or not depends on a few factors, how well I like the songs, and how well they upscale to surround. Non-vocal mixes I usually don't consider for surround.
 
 Order for 51/71 is L R C LFE BL BR SL SR (SMPTE-MS)
 
