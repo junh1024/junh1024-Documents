@@ -24,6 +24,10 @@ New: 57 59 511
 
 A chord can't exceed 7, so any number >10 means extended chord.
 
+**Key change**
+_K <new key>
+_K G
+
 **Inversions**
 
 Old: iiib
