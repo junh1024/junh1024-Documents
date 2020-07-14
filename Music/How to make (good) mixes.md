@@ -79,6 +79,8 @@ If there's a long breakdown in a song, I try to place that song at or after the 
 
 I try not to pitchshift songs most of the time, since if the pitch is shifted, it sounds wrong/not original, and sortove defeats key theory.
 
+I generally don't use mashups in mixes cuz double stretching = LQ. So If I were to do that, I might recreate the mashup in my mix so that the audio is stretched only 1ce.
+
 Surround
 ---
 Using surround in mixes is completely optional, but offers more flexibility. Though the need is declining due to more realtime separation technology, general interest in surround might be increasing. You can make surround mixes, but it will most likely be upscale. You can upscale after making a mix, but that's lazy & bad quality cuz phase information that upscalers use is mangled by pitch-time stretching. So, upscaling *before* is preferred. Deciding whether to make a surround mix or not depends on a few factors, how well I like the songs, and how well they upscale to surround. Non-vocal mixes I usually don't consider for surround.
@@ -90,3 +92,5 @@ If you make a 3ch mix of a song, you can have more control over vox, providing t
 If you're upscaling to 5.0 padded to 5.1, you also upscale the instro to the corner 4. If the vox has a significant side component, and you sometimes need a pure instrumental (ie, no vox) sometimes, and you're aiming for 5.0 surround delivery, you can upscale the vox to 3ch, but move L&R to SL SR. Then you can mute the side & get a surround instrumental. It's suggested to downmix the vox in side to the front for 5.0 surround.
 
 As I said earlier, upscaling to surround (at least in DSP order) before making your mix is preferred, but you don't want to waste time upscaling songs, only to throw them out, cuz tuning upscaling settings for a song takes 2 hours. I also have another quirk where the timing for the surround clip is changed, cuz if I make a new project, I usually start the songs to beat 1. This makes cutting easier (cuz the beat phase is matched with your DAW phase, at the expense of cutting a bit of audio at the start), and also offers dependable sync, ie, if I replace the file with another source (different sources can start at different times), I just re-sync to beat 1 and I don't need to re-align the project that depends on it (ie, a mix). What you can do, is make a mp3 proxy. And then if you are definitely using that song in your mix (maybe halfway to completion), you can spend your time to tune the upscale, and it will be well-spent.
+
+regex for titles: (\w+\r\n)---
