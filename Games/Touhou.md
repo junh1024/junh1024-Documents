@@ -6,7 +6,7 @@ Hi. Today I'd like to discuss how I know touhou
 
 Popularity
 ===
-Touhou is a popular game franchise, particularly in Japan, but also worldwide. The main game series is a [Danmaku](https://en.touhouwiki.net/wiki/Danmaku) genre game, or "Bullet Hell" where the aim is to dodge bullets & other projectiles. At the time,  mikos (shrine maidens) fighting against each other was a somewhat original concept. But mecha musume e.g, Kantai Collection (which I'm more familiar with) was not. Since c.2015, the number of KC circles at comicket exceeds the touhou ones (but touhou has its own Reitaisai event), but still remains relatively popular & well-known. 
+Touhou is a popular game franchise, particularly in Japan, but also worldwide. The main game series is a [Danmaku](https://en.touhouwiki.net/wiki/Danmaku) genre game, or "Bullet Hell" where the aim is to dodge a high number of slow-moving bullets. At the time,  mikos (shrine maidens) fighting against each other was a somewhat original concept. But mecha musume e.g, Kantai Collection (which I'm more familiar with) was not. Since c.2015, the number of KC circles at comicket exceeds the touhou ones (but touhou has its own Reitaisai event), but still remains relatively popular & well-known. 
 
 History
 ===
