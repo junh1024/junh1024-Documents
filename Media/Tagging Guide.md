@@ -34,12 +34,11 @@ Character set
 ---
 For Japanese releases, there is the decision whether to use translated, roomaji, or japanese text. Each has its own pros & cons to do with compatibility, searchability, performance, etc. Keep in mind rendering asian characters is slower and can cause issues. Use the common name for strings. Like "Mezase Pokemon Master", not "Mezase Pokemon Masutaa". And "Asuca Hayashi", not "Asuka Hayashi". For artists, use western order (firstname, lastname) for roomaji like "Rika Matsumoto", and asian order (lastname, firstname) for kanji like "松本 梨香". For albums, there might be a good translation, or at least good roomaji for Titles. NB: translations can differ. For soundtracks especially, translations can differ a lot, so prefer roomaji or kanji. People searching translated strings may get less results. What you use should take into account what's most common & easiest to search. There's usually good roomaji/english for Artist & Album so use those.
 
-
-For roman text, it is reccomended to use ASCII to avoid codepage issues, etc. Fields shouldn't have OS-reserved characters like """\/:*?"<>|""". They can be replaced with other characters. Fields shouldn't have accents.  "Pokémon" can turn to "PokÃ©mon". That also means no curly quotes. Fields & filenames have no unique info & can be perfectly recreated from each other. Like, roomaji in filenames but hiragana in Title is bad. You can use Comments for alternate titles and Album Artist for alternate Artist.
+For roman text, it is reccomended to use ASCII to avoid codepage issues, etc. Fields shouldn't have OS-reserved characters like """\/:*?"<>|""". They can be replaced with other characters. Fields shouldn't have accents.  "Pokémon" can turn to "PokÃ©mon". That also means no curly quotes. Fields & filenames should have no unique info & can be perfectly recreated from each other. Like, roomaji in filenames but hiragana in Title is bad. You can use Comments for alternate titles and Album Artist for alternate Artist.
 
 Chinese
 ---
-For chinese, I'd suggest using hanzi Titles, since chinese alphabet soup like "Ni Di Ming Zi Wo Di Xing Shi" is very meaningless & unsearchable. Use like "你的名字 我的姓氏" instead. There may also be the issue between "Chinese Traditional" & "Chinese Simplified". Use what's common, or you can use an english (preferred) for Artist & Album, if there are common english strings. Like "Jacky Cheung" & "Music Horizons" instead of "張學友" or "张学友" & "音乐无疆界演唱会". Definitely not "Cheung Hok-yau".
+For chinese, I'd suggest using hanzi Titles, since chinese alphabet soup like "Ni Di Ming Zi Wo Di Xing Shi" is very meaningless & unsearchable. Use like "你的名字 我的姓氏" instead. There may also be the issue between "Chinese Traditional" & "Chinese Simplified". Use what's common. Use for Artist & Album, if there are good english strings. Like "Jacky Cheung" & "Music Horizons" instead of "張學友" or "张学友" & "音乐无疆界演唱会". Definitely not "Cheung Hok-yau".
 
 Filename
 ---
@@ -65,12 +64,14 @@ Major tags
 
 Year
 ---
-It's somehow trendy nowdays to use a certain field as date, when it was in the past used for year. If you look at [tag mappings](https://help.mp3tag.de/main_tags.html) aka [frame types](https://docs.kde.org/trunk5/en/extragear-multimedia/kid3/commands.htmlframe-list) , some say year & some say date. I prefer to use it as a year field (see Principles), it's easier, and some information sources might not give the date. Because having "2020\\2020-07-09" in a Year/Date is awkward. Year of release.
+Should be year of release. In general, this should work well since recording & production years should not be too far apart. You can have a good ordering of songs if an artist does albums, then anthologies & concerts of the few years immediately preceding that. But there are some cases where a concert is released 10 years after it happens, and so its songs aren't close to its source albums in organization. Then you can break this rule. Maybe not a problem with posthumous new albums.
+
+It's somehow trendy nowdays to use this as date, when it was in the past used for year. If you look at [tag mappings](https://help.mp3tag.de/main_tags.html) aka [frame types](https://docs.kde.org/trunk5/en/extragear-multimedia/kid3/commands.htmlframe-list) , some say year & some say date. I prefer to use it as a year field (see Principles), it's easier, and some information sources might not give the date. Because having "2020\\2020-07-09" in a Year/Date is awkward. 
 
 
 Title
 ---
-If the capitalization of the Titles are sensible & consistent, you can leave them. If they're not (like a mix of lowercase & proper case), adopt a more generic system like proper case, unimportant (depends on context) words in lower case.  For a more comprehensive guide on capitalization, see the [RYM capitalization guide](https://rateyourmusic.com/wiki/RYM:Capitalization) . Title should not contain anything else, like credits. e.g, "feat. Myka" is not actually part of the title.
+If the capitalization of the Titles are sensible & consistent, you can leave them. If they're not (like a mix of lowercase & proper case) & it seems not-deliberate, adopt a more generic system like proper case, unimportant (depends on context) words in lower case. For a more comprehensive guide on capitalization, see the [RYM capitalization guide](https://rateyourmusic.com/wiki/RYM:Capitalization) . Title should not contain anything else, like credits. e.g, "feat. Myka" is not actually part of the title.
 
 Case study: Pokemon
 Some artists put other information, like where it's from, like """Surf Theme (From "Pokemon Diamond / Pearl / Platinum")""". It could be abbreviated to "Surf Theme (From Pokemon DPPT)", or the source game info can be put in Comments. It's not goot to put just "From Pokemon" across all fields cuz different games have different surf themes. But for "Azalea Town (From Pokémon Gold - Silver Crystal)", the specific game is maybe redundant, since there's only 1 "Azalea Town" in the entire series, and you don't even need to put "Pokemon", cuz "Azalea Town" is quite Pokemon-specific. But if you remove redundant info from fields, this may create inconsistency. So do what's sensible & appropriate, keeping in mind conciseness. And depending on how much time you're willing to spend.
@@ -78,11 +79,11 @@ Some artists put other information, like where it's from, like """Surf Theme (Fr
 
 Artist
 ---
-Who the song is by. Featured artist credits also go here. e.g, "estha feat. mintea". For instrumental songs, it makes no sense to have the Artist field same as the vocal song, since the artist does not sing. Instead, have anyone else, like the composer (if the composer field is blank), arranger or producer. You can still have set Album Artist to the vocal artist if appropriate. For classical songs, the Artist field should be set to at least the orchestra. Cuz you can make music with an orchestra (but no conductor), but not vice-versa. And the orchestra is most of the artist.
+Who the song is by. Featured artist credits also go here. e.g, "estha feat. mintea". For instrumental songs, it makes no sense to have the Artist field same as the vocal song, since the artist does not sing. Instead, have anyone else, like the composer (if Composer is blank), arranger or producer. You can still have set Album Artist to the vocal artist if appropriate. For classical songs, the Artist field should be set to at least the orchestra. Cuz you can make music with an orchestra (but no conductor), but not vice-versa. And the orchestra is most of the artist.
 
 Album Artist
 ---
-Album Artist is supposed to give the whole album a single artist, if >0 songs have >1 artist. If it's a Michael Jackson/J5 compilation,  tracks may have "Michael Jackson" or "Jackson 5" as the artist, so you can set the Album Artist field to "Michael Jackson". If it's a multi-artist compilation with no single artist pioritized, you might use "Various Artists". If you have doujin music, you might have tracks with artists estha, koutaq, Taishi from the doujin circle "XL Project". So you can set the  Album Artist field to "XL Project". If the whole album has only 1 artist,  the Album Artist field is redundant so it can be blank.
+Album Artist is supposed to give the whole album a single artist, if >0 songs have >1 artist. If it's a Michael Jackson/J5 compilation,  tracks may have "Michael Jackson" or "Jackson 5" in Artist, so you can set Album Artist to "Michael Jackson". If it's a multi-artist compilation with no single artist pioritized, you might use "Various Artists". If you have doujin music, you might have tracks with artists estha, koutaq, Taishi from the doujin circle "XL Project". So you can set Album Artist to "XL Project". If the whole album has only 1 artist,  Album Artist is redundant so it [can be blank](http://wiki.hydrogenaud.io/index.php?title=Foobar2000:Encouraged_Tag_Standards).
 
 Album
 ---
@@ -133,7 +134,7 @@ This isn't really a standardized thing across UIs. What I do, is use Comments to
 
 Classical
 ---
-For classical, it's more important to be consistent with the the composer & work than album, so I suggest a different convention for the Folder name: Composer_last_name - Work/Album, Orchestra/Conductor
+For classical, it's more important to be consistent & include Composer & work than Album in Folder, so I suggest a different convention for  Folder: Composer_last_name - Work/Album, Orchestra/Conductor
 
 
 - Tchaikovsky - Piano Concertos Nos. 1 and 3, Yablonsky
@@ -149,7 +150,7 @@ Same conventions for filename apply. But the Title should be Work - Movement,
 - Piano Concerto No. 3 - Andante
 - Piano Concerto No. 3 - Allegro maestoso
 
-If the work is already in Album like "Symphony No. 5", &/ using the work in Title, you could go:
+If the work is already in Album like "Symphony No. 5", &/ using the work in Title is too long, you could go:
 
 - I Andante-Allegro con anima
 - II Andante cantabile, con alcuna licenze-Moderato con anima
@@ -170,6 +171,14 @@ Tips
 If you want to change the tags but don't want to change the files themselves, the [m-TAGS system](http://wiki.hydrogenaud.io/index.php?title=Foobar2000:Components_1.0/m-TAGS_component_%28foo_tags%29) gives you the illusion of doing do.
 
 If you want to give tags to someone else without the hassle of agreeing on a txt or csv format & syntax, make dummy files with tags (like, 5s mp3s). Many tagging apps like Mp3tag support batch copying tags between files.
+
+For tagging unknown audio, try musicbrainz picard or shazam
+
+To preview different codepages, try notepad++. Then you can convert to UTF8. It seems that japanese encoded with a chinese codepage isn't uncommon.
+
+Mp3tag can convert between filenames & tags, tag search & replace, and import/export text files.
+
+Discogs & musicbrainz for sources, vgmdb for ACG music, and sites like touhouwiki for touhou music.
 
 _how pitchshifting works
 _mashup use actual instro, chord theory examples?
