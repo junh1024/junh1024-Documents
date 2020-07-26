@@ -32,9 +32,13 @@ I can't really say where your music should go, that's influenced by other factor
 
 Character set
 ---
-For Japanese releases, there is the decision whether to use translated, roomaji, or japanese text. Each has its own pros & cons to do with compatibility, searchability, performance, etc. Keep in mind rendering asian characters is slower and can cause issues. Use the common name for strings. Like "Mezase Pokemon Master", not "Mezase Pokemon Masutaa". And "Asuca Hayashi", not "Asuka Hayashi". For artists, use western order (firstname, lastname) for roomaji like "Rika Matsumoto", and asian order (lastname, firstname) for kanji like "松本 梨香". For albums, there might be a good translation, or at least good roomaji for Titles. NB: translations can differ. For soundtracks especially, translations can differ a lot, so prefer roomaji or kanji. People searching translated strings may get less results. What you use should take into account what's most common & easiest to search. There's usually good roomaji/english for Artist & Album so use those.
-
+English
+---
 For roman text, it is reccomended to use ASCII to avoid codepage issues, etc. Fields shouldn't have OS-reserved characters like """\/:*?"<>|""". They can be replaced with other characters. Fields shouldn't have accents.  "Pokémon" can turn to "PokÃ©mon". That also means no curly quotes. Fields & filenames should have no unique info & can be perfectly recreated from each other. Like, roomaji in filenames but hiragana in Title is bad. You can use Comments for alternate titles and Album Artist for alternate Artist.
+
+Japanese
+---
+For Japanese releases, there is the decision whether to use translated, roomaji, or japanese text. Each has its own pros & cons to do with compatibility, searchability, performance, etc. Keep in mind rendering asian characters is slower and can cause issues. Use the common name for strings. Like "Mezase Pokemon Master", not "Mezase Pokemon Masutaa". And "Asuca Hayashi", not "Asuka Hayashi". For artists, use western order (firstname, lastname) for roomaji like "Rika Matsumoto", and asian order (lastname, firstname) for kanji like "松本 梨香". For albums, there might be a good translation, or at least good roomaji for Titles. NB: translations can differ. For soundtracks especially, translations can differ a lot, so prefer roomaji or kanji. People searching translated strings may get less results. What you use should take into account what's most common & easiest to search. There's usually good roomaji/english for Artist & Album so use those.
 
 Chinese
 ---
@@ -58,6 +62,47 @@ A minimum of Album title. There's a lot of variations that people use & it can g
 If you want to have some sense of chronological order, you can go Year Album like "2007 Multiple Far East". For doujin music you could use Catalog & event like "[XLPS-0012] Multiple Far East [C72]" as long as it's not too long. If you have a franchise collection, artists will obviously differ and it might be lengthy to put Artist in Folder. To enforce order, you can make an ID with the last 2 digits of Year + a sequence number like "143 Megavolt - Sunshine" for Year 2014 & 3rd album of the year. I very definitely do NOT want to see folders with eac-archive convention like "[2013.07.03] yanaginagi - euaru [Limited Edition][GNCA-1376]". I don't like Folders (or fields) with full dates, and Catalog can go in Comments, or even the Filename of Art. Keep in mind if you do a beginning of string search with folder names that don't start with Artist or Album, you're going to have a hard time finding it. 
 
 Filesystem performance doesn't start to degrade until >100 files in a folder, so you can flatten multi-disc albums into a single folder for a more convenient & holistic view of files. Exception: for very large boxsets (like 10+ discs), you can have folders of a few discs, but still stick to the Filename conventions above. For Folder, like "Disc 1-3 - Early Years"
+
+For franchises, you might have a franchise folder, then you can use generic normalized names like:
+
+- Toradora/Music/OST
+- Toradora/Music/OP
+
+or
+
+- Toradora/Music/Toradora OST
+- Toradora/Music/Toradora OP
+
+2nd might seem redundant but often the franchise is in Album or Subtitle
+
+Combined Albums
+---
+Sometimes, you have a soundtrack spread over several volumes but padded with audio dramas so it's annoying if you want to listen to the soundtrack or drama only. You could separate the discs, then make a soundtrack collection, then a drama collection. Preserve the tags, especially Album so you know which Album it comes from, except for Track or Discnumber. I prefer to group them into disc-length (80min-ish) collections. Disc can be used as a volume number even though they're not released as a collection. There are 3 schemes which make sense:
+
+- 01 Audio Drama 1
+- 02 Audio Drama 2
+- 03 Audio Drama 1
+- 04 Audio Drama 2
+
+(continuous numbering within 1 folder, Track not preserved)
+
+- 1-03 Audio Drama 1
+- 1-04 Audio Drama 2
+- 2-03 Audio Drama 1
+- 2-04 Audio Drama 2
+
+(discontinuous numbering within 1 folder, Track & Disc preserved)
+
+- 1-01 Audio Drama 1
+- 1-02 Audio Drama 2
+- 1-03 Audio Drama 1
+- 1-04 Audio Drama 2
+
+(continuous numbering within 1 folder, Track & Disc not preserved)
+
+Make a generic Folder + sequence number.
+
+You could also combine related/thematic albums, or multiple OPEDs into a single OPED collection. If they have scans, combine the scans into a single folder, but prefix the scan Filename with the volume number so that ordering is preserved. Combined albums mostly make sense with franchises with many CDs. If you combine, make sure you have a good reason. I haven't really seen a case for this for western releases. Also, some people may not like this.
 
 Major tags
 ---
@@ -108,6 +153,10 @@ Art
 For lossless files like FLAC, do NOT include art, cuz it's annoying to re-tag since the entire may be rewritten (which is slow), and annoying to remove the bloat since removing art may not decrease file size. Your media player should be smart enough to find a "cover.jpg" in the folder.
 
 For small lossy files like AAC, you can include art, and I also recommend that it's small. Like 75-150kb 512-1024px wide in JPEG or PNG.
+
+Scans
+---
+Scans should be stored in a subfolder. Scan filenames should be descriptive and in a sensible order. Scans should be in a reasonable resolution, without visible compression artefacts. I very much do NOT want to see moire, unless it's part of artistic intent. You could scan in a higher res then downsample.
 
 Minor tags
 ---
