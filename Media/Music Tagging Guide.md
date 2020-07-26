@@ -1,4 +1,4 @@
-# Tagging Guide
+# Music Tagging Guide
 
 These are based on Gazelle rules, but some may differ and may break rules (check your site rules before using these). If you're not sure of any field, refer to album art. You may notice a pattern while reading, if it shouldn't go in 1 field, it goes in another, or Comments. This works, as long as you don't have too many things in Comments. If you have a lot of alternate info to add, consider having a "info.txt".
 
@@ -45,11 +45,11 @@ Filename
 (Disc number if multidisc) Zero-padded track number Track title (so that tracks sort correctly). No symbols after Track. No other information (like Artist). Derived info like codec & bitrate information like "[mp3 V0]" should not go in the filename. You can find out this info using "Mediainfo".
 
 Examples:
-"01 What's Going On"
-"02 What's Happening Brother"
+- "01 What's Going On"
+- "02 What's Happening Brother"
 
-"1-01 Workin' Day And Night (Immortal Version)"
-"2-01 You Are Not Alone - I Just Can't Stop Loving You (Immortal Version)"
+- "1-01 Workin' Day And Night (Immortal Version)"
+- "2-01 You Are Not Alone - I Just Can't Stop Loving You (Immortal Version)"
 
 Folder
 ---
