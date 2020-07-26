@@ -23,6 +23,8 @@ But it's wrong and your marker will deduct marks for wrong referencing.
 
 It's circlejerk.
 
+You can be consistent per-string, reference, or document, as long as it's searchable & correct.
+
 ## Fragile Formatting
 
 If there's no formatting, like italics/bold, and indents, it's somehow wrong. Maybe it got lost during editing. When copying references from multiple sources to integrate into your document, you need to preserve the formatting which is relevant to APA, but discard the rest to be consistent with your document. This is annoying.
@@ -34,3 +36,8 @@ Using software to manage this like Endnote is even more annoying due to use of 2
 Some sensible ordering, as long as it isn't like, iroha order.
 
 Bullet points, numbering, or line spacing to separate references.
+
+
+* Justin McLean (2008). Multimeter [Photo] via https://www.flickr.com/photos/justinmclean/2931027730/ (CC BY-NC 2.0)
+
+* Doomen, D (2015). "Why you should abandon TFS and adopt Git" http://www.continuousimprover.com/2015/06/why-you-should-abandon-tfs-source.html
