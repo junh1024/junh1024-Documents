@@ -47,6 +47,15 @@ Other strategies
 ---
 5ths are discussed above, but in the [Romantic era](https://tobyrush.com/theorypages/pdf/en-us/romantic-era-techniques.pdf) , people started using 3rds. So if you join songs using 3rds, it might sound OK. Or you could try to match chords between songs. Or match notes instead (chords & melodies). Really, it all comes down to sounding good, harmonically.
 
+Changing Keys
+---
+I try not to pitchshift songs most of the time, since if the key is shifted, it sounds wrong/not original, and sortove defeats key theory. But there might be a few cases when you want to.
+
+- If there's a song you really want to include between 2 other ones, but it's off by 1st, OK, you can try changing the pitch to fit
+- If there's a song that ascends key at the end and you don't want it to so it fits better, you can force it down using pitchshifting. But you might find a section with your desired key earlier in the song.
+- If there's a song that doesn't ascend key at the end and you want it to so it fits better, you can force it up using pitchshifting. This might make the song better & also increase energy.
+- pitchshifting may create artefacts, see my [Pitchshifting Tips in my Mashup Guide](https://github.com/junh1024/junh1024-Documents/blob/master/Music/How%20to%20make%20\(good\)%20mashups%20V2.md#pitchshifting-tips)
+
 Instruments
 ---
 It's not uncommon to have a section of 8 bars where ingoing & outgoing songs are both played, maybe with a hipass on the incoming piece. Sometimes you might need more separation than EQ to help glue them together. You can use Yellow DrumExtract to isolate the drums, or you can use VSTi to recreate some motifs. As of mid-2020, there are 2 DJ apps that have vox/drums/other separation. I expect more will follow, and VSTs too.
@@ -76,8 +85,6 @@ When I do transitions, I try to join on a harmonic, busy part, cuz:
 * Some songs may not have a long drum-only lead-ins & lead-outs, like songs with full lyrics
 
 If there's a long breakdown in a song, I try to place that song at or after the middle of the mix. Sometimes there are songs with "missing beats", ie, incomplete bars so that the usual 4/4 phase is thrown off after some time. Again, for management reasons, I extend it, or chop it off. For times when those don't sound good, IMO it's most important to have sync at the end of a song, so that the phase is correct when you join the next song.
-
-I try not to pitchshift songs most of the time, since if the pitch is shifted, it sounds wrong/not original, and sortove defeats key theory.
 
 I generally don't use mashups in mixes cuz double stretching = LQ. So If I were to do that, I might recreate the mashup in my mix so that the audio is stretched only 1ce.
 
