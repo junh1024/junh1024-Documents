@@ -230,5 +230,4 @@ Mp3tag can convert between filenames & tags, tag search & replace, and import/ex
 Discogs & musicbrainz for sources, vgmdb for ACG music, and sites like touhouwiki for touhou music.
 
 _how pitchshifting works
-_mashup use actual instro, chord theory examples?
-_mix shift key
+chord theory examples?
