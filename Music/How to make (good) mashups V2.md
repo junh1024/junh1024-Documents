@@ -77,7 +77,7 @@ Pitchshifting Tips:
 General Tips:
 ---
 * Lead vocals should be narrow. Widening instruments can sometimes help contrast.
-* To make your vocals stand out more, analyze it via FFT, and EQ boost any large gaps. Cut the overall vocal frequencies that you found in the instro. Both changes are 1-3dB. Little can be huge (™ spark). This isn't just good advice for mashups, this is good advice in general. If it stands out too much, do the reverse. If the instro has an annoying synth, compress the mids with ReaFIR.
+* To make your vocals stand out more, analyze it via FFT, and EQ boost a dip >3k. Cut the dominant vocal frequencies that you found in the instro (prolly <3k). This isn't just good advice for mashups, this is good advice in general. If it stands out too much, do the reverse. If the instro has an annoying synth, compress the mids with ReaFIR.
 * You may need to apply (long-term) compression to vocals &/ a bit of reverb to hide artefacts
 * You can insert elements of each to have a more elegant mashup. If stems are not available, don't be afraid to make some MIDI snippets. If the song of the acapella originally had a silence, silence the new instrumental for a few seconds. Same goes for EQ cuts, fades, etc. This adds variety & familiarity.
 * After a few jobs, you'll inevitably encounter Tricky chord progressions. If all else fails, you could try having a different instrumental for the verses & the chorus.

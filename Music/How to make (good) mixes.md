@@ -36,8 +36,8 @@ Unlike [mashups](https://github.com/junh1024/junh1024-Documents/blob/master/Musi
 
 If you're like me, you would've heard the circle of 5ths being mentioned many times, but not knowing how it's useful, until now. Here it is below in strip form with C major at the center, and relative minor below.
 
-	C#	G#	D#	A#	F	[C]	G	D	A	E	b	F#
-	a#	f	c	g	d	[a]	e	b	f#	c#	g#	d#
+	C#	G#	D#	A#	F	[C]	G	D	A	E	B	F#
+	A#m	Fm	Cm	Gm	Dm	Am	Em	Bm	F#m	C#m	G#m	D#m
 
 If you join 2 songs in neighboring keys or modes (move horizontally or vertically), it should sound good. But if you move both (move horizontally and vertically), it might not. Although horizontally neighboring keys are both a 5th apart, I often find that moving down a 5th sounds better, maybe cuz it sounds like a more usual descending perfect cadence. Depending on how your keys come out, you might be able to move around the circle for at least a few songs.
 
