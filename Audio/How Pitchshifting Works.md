@@ -1,5 +1,7 @@
 # How Pitchshifting Works
 
+Introduction
+---
 Good, modern pitchshifters are complex beasts that use a combination of time & frequency domain manipulations to achieve a convincing quality, like the standard Elastique by zplane.
 
 Varispeed
@@ -16,11 +18,15 @@ FFT pitchshifting is quite simple. When you get to the point where you have indi
 
 Drum loops
 ---
-If you use any of the methods above to stretch drum loops, it will sound bad. You will get double drums, unnatural drums, or both. There's a simple & good method to stretch drums. Drum loops typically have silence between hits. So by lengthening or shortening the silence between hits, we have a simple, but good-sounding method to stretching drums. Obviously this will sound terrible for most other things, but drum loops is an important case in modern music production. 
+If you use any of the methods above to stretch drum loops, it will sound bad. You will get double drums, unnatural drums, or both. There's a simple & good method to stretch drums. Drum loops typically have silence between hits. So by lengthening or shortening the silence between hits, we have a simple, but good-sounding method to stretching drums. Obviously this will sound terrible for most other things, but drum loops is an important case in modern music production.
+
+Implementations: Adobe Audition 3
 
 PSOLA
 ---
 PSOLA stands for phase-synced overlap & add. What this means is that the audio is chopped up into small blocks, then duplicated & shifted like Windowed as above. If pitch needs to be changed, you can prolly use varispeed. But, we use [Autocorrelation](https://en.wikipedia.org/wiki/Autocorrelation) to find the shift that sounds the best for a block. Now if you're performing this on stereo, stereo has difference between L & R, so the optimal shift will prolly be different. This manifests as a widening of the image, and is undesired. So what should happen, is that the shift is the same between channels, so you don't get (unstable) widening artefacts. Same applies to multichannel, so if you're stretching multichannel audio, you need a multichannel pitchshifter. The highest pin count for a VST I know of is 8 for 7.1 surround. But it might go higher for integrated solutions.
+
+Implementations: Traktor Pro 3
 
 Combination
 ---
