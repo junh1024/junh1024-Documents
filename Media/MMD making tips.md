@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This is not a complete beginner's guide, rather a bunch of info & tips. And my views/preferences. Use MikuMikuMoving instead of MikuMikuDance cuz it has a better workflow & tools. KFS & lipsync depend on MMM.
+This is not a complete beginner's guide, rather a bunch of info & tips. And my views/preferences. Use [MikuMikuMoving](https://sites.google.com/site/mikumikumovingeng/home) instead of MikuMikuDance cuz it has a better workflow & tools. KFS & lipsync depend on MMM.
 
 ## How the system works
 
@@ -22,7 +22,7 @@ Models are saved via reference in MPJ (MMM proj) files so that if you make a cha
 
 ### Model
 
-You can have wardrobe or prop changes to keep viewer interest. For >1 models, they should have a similar visual look, otherwise it's not visually cohesive. Many free models have use/modification restrictions so try to follow those. There are some sandbox-type "girl simulators" that allow you to make & modify girls with like, 100 sliders & export them. This allow for quick creation of HQ models with less restrictions. You can also buy models from sites like melonbooks.
+You can have wardrobe or prop changes to keep viewer interest. For >1 models, they should have a similar visual look, otherwise it's not visually cohesive. They should also preferably be from the same franchise & unit. Many free models have use/modification restrictions so try to follow those. There are some sandbox-type "girl simulators" that allow you to make & modify girls with like, 100 sliders & export them. This allow for quick creation of HQ models with less restrictions. You can also buy models from sites like melonbooks.
 
 ### Song
 
@@ -34,7 +34,7 @@ The scenery should complement, or at least not detract from the model
 
 ### Motion
 
-The motion should be smooth & realistic. Spline keyframes makes it better, but MMM makes it much easier to batch spline keyframes (aka curve interpolation). For videos with >1 models, it's very obvious when they're making exactly the same movements & timings (even if mirrored), it's so robotic. I recommend adding variation (even a simple delay) to the keyframes, or use ApplyNoisePlugin. There is also a RandomBlinkPlugin.
+The motion should be smooth & realistic. Spline keyframes makes it better, but MMM makes it much easier to batch spline keyframes (aka curve interpolation). For videos with >1 models, it's very obvious when they're making exactly the same movements & timings (even if mirrored), it's so robotic. I recommend adding variation (even a simple delay) to the keyframes, or use [ApplyNoisePlugin](https://sorairo.pictures/3dcg/tools/). There is also a [RandomBlinkPlugin](http://t.co/jyNYVHUSzC).
 
 ### Camera
 
@@ -54,7 +54,7 @@ Why is a custom KFS important? Many videos are music-based, and music has a BPM 
 You will need to find the BPM of your song. We assume a constant BPM, songs >2010 usually are. I use Traktor Pro (actually a DJ app), but there are other solutions. Most importantly, the figure should be accurate as your whole project depends on this magic number. Divide BPM by 60 to get BPS, and times by 4 or 8 to get KFS such that it falls within 5-15 KFS. Set that project KFS.
 
 ### Lipsync
-Lipsync is an option for a video, and usually tedious to do, but looks impressive. I present a less labor-intensive method, based on the lipsyncloid plugin. It's fairly quick to do, even if you're making a low-effort "assemble elements & upload video" thing.
+Lipsync is an option for a video, and usually tedious to do, but looks impressive. I present a less labor-intensive method, based on the [lipsyncloid](https://bowlroll.net/file/29218) plugin. It's fairly quick to do, even if you're making a low-effort "assemble elements & upload video" thing.
 
 You can run lipsyncloid on the full song, but you'll have lips moving all the time, which is prolly not what you want. You need a vox stem for your song. If you don't have a ML separation thing installed, you can use a web version of spleeter like www.melody.ml , www.moises.ai , www.splitter.ai , www.ezstems.com , www.musicara.ml , or www.lalal.ai (their own ML). Should be faster if you pick the least stems (vox+I). The quality is quite mediocre but all we need is vaguely accurate vox amplitudes.
 
