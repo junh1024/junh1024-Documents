@@ -31,6 +31,12 @@ If there's no formatting, like italics/bold, and indents, it's somehow wrong. Ma
 
 Using software to manage this like Endnote is even more annoying due to use of 2+ softwares & windows, more possible weird issues, you need to fill in forms to make a new reference, and it's not advised to edit the reference directly in your document.
 
+## APA style
+
+There's also a thing called "APA style" which is a writing style which prescribes certain things. Like writing in 3rd person passive voice, and use of certain words & conventions. You end up with awkward things like "it was discovered that..." and "the author would like to thank..." instead of using "I". A robot didn't write your paper. You did. Say it. Also I find it ironic that a personal field such as psychology would want you to write in such an impersonal way. I accept we as a compromise. But then it implies that 2 people were involved. One guy added [his cat](https://en.wikipedia.org/wiki/F._D._C._Willard) as a co-author. You could do the same with your cat, dog, or a rabbit as vicious as a dog. You should also definitely not write your paper with a James Bond metaphor like the famous [Golomb Run-Lenth codes](https://web.stanford.edu/class/ee398a/handouts/papers/Golomb%20-%20Run-Length%20Codes%20-%20IT66.pdf)  paper. Although I'm not creative enough to write in such a style & it's a bit hard to understand, such things rarely occur nowdays.
+
+
+
 ## What do I suggest?
 
 Some sensible ordering, as long as it isn't like, iroha order.

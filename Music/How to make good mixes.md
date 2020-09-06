@@ -6,7 +6,7 @@ A mix is when you join multiple songs seamlessly, with a focus on the transition
 
 Software
 ---
-Beginners can give the [Mixmeister](https://www.mixmeister.com/) series a try, it does one job, but it has helpful BPM features. Video editors & destructive editors (like Vegas & Audacity) are NOT recommended because they won't have subtle features helpful for music (e.g, cutting on beats & bars). Otherwise, use a proper DAW like [REAPER](http://www.reaper.fm) . My [REAPER Quickstart guide](https://i.imgur.com/HA1Oo7D.png) . It's a bit different but I like it. For live performance, many DJ apps are available. [Mixxx](https://www.mixxx.org/) has gotten a lot better over the last 10 years. I use Traktor Pro 2 (out of habit from 12 years ago), but only for BPM analysis & library features, so I don't have any strong reccomendations.
+Beginners can give the [Mixmeister](https://www.mixmeister.com/) series a try, it does one job, but it has helpful BPM features. Destructive editors (like Audacity) are NOT recommended because they won't have subtle features helpful for music (e.g, cutting on beats & bars). Otherwise, use a proper DAW like [REAPER](http://www.reaper.fm) . My [REAPER Quickstart guide](https://i.imgur.com/HA1Oo7D.png) . It's a bit different but I like it. For live performance, many DJ apps are available. [Mixxx](https://www.mixxx.org/) has gotten a lot better over the last 10 years. I use Traktor Pro 2 (out of habit from 12 years ago), but only for BPM analysis & library features, so I don't have any strong reccomendations.
 
 Planning
 ---
@@ -23,6 +23,8 @@ Key tagging
 I usually go by ear to tag keys. There should be no problems with conventions for Major keys. For minor keys, you can show the minor and its relative major e.g, Am/C. For sharps & flats, I use sharps only. Whatever you do, keep it consistent & clear, to make it easier to see relationships between your keys. You can new group/join songs of the same keys. For the pop/electronic, major seems to slighly dominate, but for Rock & Touhou, minor seems to slighly dominate (2hu is a game tho).
 
 In REAPER, you can make an empty item, type in your key,  stretch to fill item, and group it to your song to make a nice big key display. https://i.imgur.com/RSGMsH2.png . In other DAWs you may resort to small text & renaming your clips.
+
+There is software such as [Keyfinder](http://www.ibrahimshaath.co.uk/keyfinder/) (free) to tag our files with key. No software is totally accurate, so if you're relying on this into to make a mix or mashup, please check the estimated result.
 
 Starting
 ---
