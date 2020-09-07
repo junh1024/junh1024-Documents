@@ -4,27 +4,29 @@ Introduction
 ---
 A mashup is a popular way of simultaneously combining 2 songs. This guide was revised in mid-2020 and draws on my experience of 5 years & 25 mashups. Aim to complete no more than 1-2 per week, as this allows time for review & reflection. What do you need?
 * A solid concept. Ideally, the 2 songs shall be within 10% of the same key & BPM, because past 10% of change, digital pitch-time shifting artefacts will start getting audible.
-* A solid DAW. [REAPER](http://www.reaper.fm) (shareware) is recommended as you can mix & match files with different codecs, sample rates, channels, and [many ways to change pitch](https://i.imgur.com/FtJAE26.png) & tempo freely with the HQ Elastique algorithm. Video editors & destructive editors (like Vegas & Audacity) are NOT recommended because they won't have subtle features helpful for music (e.g, cutting on beats & bars). My [REAPER Quickstart guide](https://i.imgur.com/HA1Oo7D.png).
+* A solid DAW. [REAPER](http://www.reaper.fm) (shareware) is suggested as you can mix & match files with different codecs, sample rates, channels, and [many ways to change pitch](https://i.imgur.com/FtJAE26.png) & tempo freely with the HQ Elastique algorithm. My [REAPER Quickstart guide](https://i.imgur.com/HA1Oo7D.png) .
+Destructive editors (like Audacity) are NOT recommended cuz they won't have features to expedite music editing (like, cutting on beats & bars). Video editors & (like Vegas) are NOT recommended cuz you'll be distracted making the video good, instead of the audio.
 
 Sources
 ---
 Ideally, you shall have a studio acapella and an instrumental. Stems or MT are the best, but rare. Surround mixes are usually better than stereo but most aren't ready-made A+I so will need some processing before it's usable. You can get stuff from www.karaoke-version.com www.jamkazam.com , iTunes music store, etc. If you want more from an instrumental, (freeform) FFT imagers may help. Recently, there are some ML solutions. They can vary a lot, and is only a last restort.
 
-Make sure that your instrumental is actually an instrumental (ie, NO vocals) or edited such that at most 1 set of vox plays when your mashup is finished. If you have a full song & acapella, conflicts from double vox are mutually distracting. It's not a mashup. It's an unfinished product.
+Recently, there's been a trend of using vocals from 2 songs (like, not completely removing vox from 1 song, resulting in mutual conflict when they overlap, or strangeness when they switch) with disregard to cohesiveness & song structure to blatantly show that this is a mashup. I'm not a fan of this style of mashup.
+
 
 Philosophy
 ---
-The way I make mashups is that it's done on a musical basis, not on a marketing or convenience basis. e.g, I listen to a song & if I think it sounds similar to another piece in terms of instrumentation, arrangement, melody, or chord progression then I'm inspired to make a mashup & do it on-demand. I don't batch-analyze a bunch of songs for BPM & key and then pick 2 that are similar to make a mashup. Your philosophy may differ. Maybe about half my ideas are successful, the others may not work due to large differences in key, tempo, arrangement, or tricky chord progressions. But I enjoy listening to most of my mashups/the songs I used. FYI, I analyzed the stats of 25 mashups up to 06.2020, and the average years for the vox & instro were 2001 & 2006, but the average difference is somehow 6. The medians are 2001, 2008, and 4 (median difference). I avoid making reverse mashups (ie, switching A for I to get a new deliverable), cuz I think it's cheap. If I'm doing a switch, I also change a song.
+Generally, I listen to a song & if I think it sounds similar to another piece in terms of instrumentation, arrangement, melody, or chord progression then I'm inspired to make a mashup & do it on-demand. It's done on a musical basis, not on a marketing (similar names) or convenience basis. I don't batch-analyze a bunch of songs for BPM & key and then pick 2 that are similar to make a mashup (aka mashup factory). Your philosophy may differ. Maybe about half my ideas are successful, the others may not work due to large differences in key, tempo, arrangement, or tricky chord progressions. But I enjoy listening to most of my mashups/the songs I used. FYI, I analyzed the stats of 25 mashups up to 06.2020, and the average years for the vox & instro were 2001 & 2006, but the average difference is somehow 6. The medians are 2001, 2008, and 4 (median difference). I avoid making reverse mashups (ie, switching A for I to get a new deliverable), cuz I think it's cheap. If I'm doing a switch, I also change a song.
 
 Information
 ---
-You will need to find the BPMs & keys of both songs. I use a DJ app (Traktor) for finding BPM, but there are other methods. For key, I use my ears & brain. Some DJ or library apps (like beatunes) can find key.
+You will need to find the BPMs & keys of both songs so that you can later match them. I use a DJ app (Traktor) for finding BPM, but there are other methods. For key, I use my ears & brain. Some DJ or library apps (like beatunes) can find key.
 
 Planning
 ---
 You may find it helpful to draft your mashup in a DJ program, say, Traktor before committing in a DAW. I used to do this, but realizing your idea in a DAW isn't that much slower. 
 
-You will need to match the BPMs of both songs. We assume both songs have a constant BPM. If they don't, making a mix will be harder, unless you spend much effort conforming them to a constant BPM. Ableton Live is supposedly good at warping to fit. REAPER V6 introduced a [new item warping](https://www.reaper.fm/v6img/itemwarp.gif) mode.
+You will need to match the BPMs of both songs. We assume both songs have a constant BPM. If they don't, you'll spend much effort conforming one to a constant BPM, or warping the other to be non-constant. REAPER V6 introduced a [new item warping](https://www.reaper.fm/v6img/itemwarp.gif) mode.
 
 As the BPMs of both songs are probably different, you will want to reconcile them. Vocals are more conductive to changes, but sometimes I change the instrumental instead, due to constraints (e.g, an in-memory acapella), or to match my artistic vision (e.g, I'm familiar with the vox/song so any change in key sounds bad).
 
@@ -65,11 +67,12 @@ You can use zplane ReTune to shift notes in a chord, but I more often use it to 
 Pitchshifting Tips:
 ---
 * In 2015 (but this article was written closer to 2018), Elastique V2 was standard across many DAWs. But if you upgrade your DAW, you may get Elastique V3, which is better for greater shifts & lower CPU.
-* Pitchshifting vocals require formant awareness/control for >1st changes to sound good. 
+* Ableton Live, although good at stretching & warping, has "Complex Pro", which is supposedly inferior to Elastique. You could use VSTs instead. AL used to have PDC problems but supposedly it is fixed in V10.
+* Pitchshifting vocals require formant awareness/control for >1st changes to sound good.
 * You can change your pitchshifter/settings & balance sound quality & CPU.
 * If you're making small changes, you can try Elastique Soloist Speech on vox & Elastique Efficient on instros to save CPU. Elastique Soloist Speech may do some internal formant correction. If speech has blips due to instro bleed, try efficient instead.
-* If you're making larger changes, you may need to use the default Elastique Pro mode (medium CPU) &/ change the formant shift too. Or maybe you can try the different Elastique Pro Preserve Formants variations (high CPU) to make it sound more natural. For large changes to instros, you could try  Elastique Pro Preserve Formants as a high-CPU alternative to an EQ boost.
-* You can gain more control by using varispeed on your stems then inserting a pitchshift FX on your tracks. But this requires carefully doing pitch maths on your part.
+* If you're making larger changes, you may need to use the default Elastique Pro mode (medium CPU) &/ change the formant shift too. Or maybe you can try the different Elastique Pro Preserve Formants variations (high CPU) to make it sound more natural. For large changes to instros, you could try Elastique Pro Preserve Formants as a high-CPU alternative to an EQ boost.
+* You can gain more control by using varispeed on your stems then inserting a pitchshift FX on your tracks. But this requires carefully doing pitch maths on your part. speed * 1.059 (or 12th root of 2) = +1st, since 2x speed = up 12st or 1 octave.
 * If you have stems, separate unpitched (percussion) & pitched (others) instruments. Then you can apply separate time-pitchshifting settings to each to make both more natural.
 * Pitchshifting changes the frequency distribution, so you may need to EQ, kilohearts disperser (to shift the phase of the bass & hence boost the kicks), (rhythmic) distortion to compensate
 
@@ -92,4 +95,4 @@ What next?
 ---
 After you have followed these instructions, you should have a mashup of minimum quality. Making mashups of modern/EDM (2015+ stuff) is easy because it sounds very samey. For a challenge, try some stuff from 2000s or older.
 
-A [mix](https://github.com/junh1024/junh1024-Documents/blob/master/Music/How%20to%20make%20(good)%20mixes.md#introduction) is where the songs are sequentially combined. Sometimes, a it's better for songs which otherwise a mashup would be hard or unsuitable, or for combining songs of similar moods, key & BPM. Sometimes, it's easier & requires no stems, but a few cuts. Sometimes, it requires advanced techniques such as MIDI-powered vocal pitchshifting. I've done both and none is definitively better or worse. But, mashups focus on compatibility, while mixes focus on consistency.
+A [mix](https://github.com/junh1024/junh1024-Documents/blob/master/Music/How%20to%20make%20good%20mixes.md#introduction) is where the songs are sequentially combined. Sometimes, a it's better for songs which otherwise a mashup would be hard or unsuitable, or for combining songs of similar moods, key & BPM. Sometimes, it's easier & requires no stems, but a few cuts. Sometimes, it requires advanced techniques such as MIDI-powered vocal pitchshifting. I've done both and none is definitively better or worse. But, mashups focus on compatibility, while mixes focus on consistency.
