@@ -6,7 +6,9 @@ This comparison tries to cover various core aspects in-depth, and isn't intended
 
 ## Why
 
-I've been using Premiere for 10+ years, and REAPER for 5+. I've tried my own workflows with various degrees of pain (cuz I use very complex & awkward workflows to achieve the best quality, so I seldom export final video using a NLE). I use Premiere cuz it's famous & sensible, Pro 1, ironically on a Mac through boot camp in 2009. REAPER is a no-nonsense DAW from the writer of Winamp (Justin Frankel). It's extremely powerful & flexible. It's a bare-bones from the start. Apart from the usual VSTs, but You can write scripts & custom audio Jeusonic Effects, and install extension. I had Vegas laying around for "that one project" in 2017, and thought I'd give it a spin. I'd previously dismissed it as an "old wives trick" that people use for making mashups for Youtube (cuz YT doesn't accept video-only, and if you have a hammer, everything looks like a nail), cuz I'm surrounded by people that do that. It was surprisingly usable if you enable certain features, but also has its downsides. 80%+
+I've been using Premiere for 10+ years, and REAPER for 5+. I've tried my own workflows with various degrees of pain (I use very complex & awkward workflows to achieve the best quality, so I seldom export final video using a NLE). I use Premiere cuz it's famous & sensible, Pro 1, ironically on a Mac through boot camp in 2009.
+REAPER is a no-nonsense DAW from the writer of Winamp (Justin Frankel). It's extremely powerful & flexible. It's a bare-bones from the start. Apart from the usual VSTs, but You can write scripts & custom audio Jeusonic Effects, and install extensions.
+I had Vegas laying around for "that one project" in 2017, and thought I'd give it a spin. I'd previously dismissed it as an "old wives trick" that people use for making mashups for Youtube (cuz YT doesn't accept video-only, and if you have a hammer, everything looks like a nail), cuz I'm surrounded by people that do that. It was surprisingly usable if you enable certain features, but also has its downsides. 80%+
 
 ## Launch
 
