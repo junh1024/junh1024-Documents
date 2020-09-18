@@ -1,0 +1,5 @@
+# Myst
+
+my experiences with the mist franchise
+
+I played Myst III as a kid. are we started the game several times because I thought that if you were fast enough you could open the elevator and catch the bad guy. speed civil hours wondering around the cliffs and the gardens comma and not making much progress. this speedrunner finished the entire game in 12 1/2 minutes putting me to shame. I had to use a walk through to make any decent progress. I've also played realmyst 1 . I was able to access the hidden room in the library, and that's about it. missed two wasn't able to run on any of my computers cos they're too new , so I haven't played it. I was almost able to complete the ice level in this 5 with slightly less dependence on a walkthrough.  in uru. I was not able to get past the desert stage.
