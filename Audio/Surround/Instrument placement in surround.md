@@ -17,18 +17,20 @@
 - Vocal Fills/Backups
 - Strings (Usually All 4, Or Biased Front)
 - Pads
-- It is suggested to use my "2.0 to 5.0 Upmix V3 (L).txt" in [my suite](https://github.com/junh1024/Reaper-Surround#introduction) for spreading 2 to 4
+- It is suggested to use my "2.0 to 5.0 Upmix V3 (L).txt" in [my suite](https://github.com/junh1024/Reaper-Surround#introduction) for spreading 2 to 4. NEVER place sounds directly to the sides. See my general surround guide to see why.
 
 ## Back
 #### Don't make it too distracting
-- Brass
-- E.Piano (but only if there isn't a A.piano)
+- Mostly back: Brass & Sax
+- Very back: E.Piano (but only if there isn't a A.piano)
 
 ## Height
 #### Occasional Emphasis
 - Front: High-pitched synths
+- Front partial height: Flute, Piccolo, Oboe
 - Side: Tubular bells, heavenly choirs
 - All: Weather FX
+- It might be good to slightly reduce the height of height-panned items
 
 ## Notes
 This is 1 arrangement for surround. Alternate arrangements can place Brass & Winds at the front, but leave strings spread to the sides.

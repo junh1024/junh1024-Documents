@@ -24,7 +24,7 @@ Key tagging
 ---
 There should be no problems with conventions for Major keys. For minor keys, you can show the minor and its relative major e.g, Am/C. For sharps & flats, I use sharps only. Whatever you do, keep it consistent & clear, to make it easier to see relationships between your keys. You can new group/join songs of the same keys. For the pop/electronic, major seems to slighly dominate, but for Rock & Touhou, minor seems to slighly dominate (2hu is a game tho).
 
-In REAPER, you can make an empty item, type in your key,  stretch to fill item, and group it to your song to make a nice big key display. https://i.imgur.com/RSGMsH2.png . In other DAWs you may resort to small text & renaming your clips.
+In REAPER, you can make an empty item, type in your key, stretch to fill item, and group it to your song to make a nice big key display. https://i.imgur.com/RSGMsH2.png . In other DAWs you may resort to small text & renaming your clips.
 
 There is software such as [Keyfinder](http://www.ibrahimshaath.co.uk/keyfinder/) (free) to tag our files with key. No software is totally accurate, so if you're relying on this into to make a mix or mashup, please check the estimated result.
 
@@ -62,13 +62,13 @@ I try not to pitchshift songs most of the time, since if the key is shifted, it 
 - If there's a song that doesn't ascend key at the end and you want it to so it fits better, you can force it up using pitchshifting. This might make the song better & also increase energy.
 - pitchshifting may create artefacts, see my [Pitchshifting Tips in my Mashup Guide](https://github.com/junh1024/junh1024-Documents/blob/master/Music/How%20to%20make%20good%20mashups%20V2.md#pitchshifting-tips)
 
-Instruments
----
-You can overlay 2 clips to join them, with a section of 8 bars (or longer), maybe with a hi &/ lopass on 1 or both. Sometimes you might need more separation than EQ to help glue them together. You can use Yellow DrumExtract to isolate the drums, or you can use VSTi to recreate some motifs. As of mid-2020, there are 2 DJ apps that have vox/drums/other separation. I expect more will follow, and VSTs too.
-
 Fades
 ---
-You can do fades to join 2 clips. The simplest fade is a crossfade, where 1 clip (slowly) fades out while the other fades in. Your DAW may do automatic crossfades if you overlap 2 clips, or you can manually fade 2 clips on separate tracks for more control. You could also do a L-fade where 1 clip fades out but the other cuts in. As for length of fade, what's appropriate can vary by genre. For house, there's the standard 32 beat or 8 bar crossfade. But for rock, a fast fade or a cut may be appropriate. For pop, it's tricky & depends on song. You could also do a more sophisticated split-combine frequency fade (maybe available under a different name), where you start from the top/right of the frequency and move to the bottom/left,  and progressively lowpass the outgoing song & un-hipass the incoming song so that the frequency ranges form a whole, but of different songs.
+You can do fades to join 2 clips. The simplest fade is a crossfade, where 1 clip (slowly) fades out while the other fades in. Your DAW may do automatic crossfades if you overlap 2 clips, or you can manually fade 2 clips on separate tracks for more control. You could also do a L-fade where 1 clip fades out but the other cuts in. As for length of fade, what's appropriate can vary by genre. For house, there's the standard 32 beat or 8 bar crossfade. But for rock, a fast fade or a cut may be appropriate. For pop, it's tricky & depends on song. You could also do a more sophisticated split-combine frequency fade (maybe available under a different name), where you start from the top/right of the frequency and move to the bottom/left, and progressively lowpass the outgoing song & un-hipass the incoming song so that the frequency ranges form a whole, but of different songs.
+
+8olei
+---
+I dub thee 8olei transition, short for 8-bar OverLap and EqualIzer. You overlay 2 clips cut to 8 bars long with aligned phases (phrase matching), with a hi &/ lopass on 1 or both. It's suggested to have only 1 clip with drums, to avoid double drums clashing. If you need more separation than EQ to, try Yellow DrumExtract to isolate drums, Cockos ReaFIR in compress mode to turn down harmonics, or VSTi & MIDI to recreate some motifs. It's also suggested the incoming song to have a small breakdown, or a transition to a new part of the song at the end, to distract the listener. When done right, the 8olei transition sounds really good, cuz songs usually introduce new elements in blocks, not by fades. Hence, it's very song-like. It depenz on how much variation your song has, to get the flexibility you need to choose a good transitioning section.
 
 My Philosophy
 ---
@@ -87,6 +87,7 @@ When I do transitions, I try to join on a melodic part, cuz:
 * It keeps the energy
 * It's harder, but more interesting
 * Some songs may not have a long drum-only lead-ins & lead-outs, like songs with full lyrics
+* I also try to choose fade or 8olei & stick to that for the whole mix
 
 Sometimes there are songs with "missing beats", ie, incomplete bars so that the usual 4/4 phase is thrown off after some time. Again, for management reasons, I extend it, or chop it off. For times when those don't sound good, IMO it's most important to have sync at the end of a song, so that the phase is correct when you join the next song.
 

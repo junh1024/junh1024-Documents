@@ -4,11 +4,22 @@ Here are some songs that are inspired by various ships in KC. As of 2020, the gr
 
 List
 ---
-- i-19 : Diana ross - [I'm coming out](https://www.youtube.com/watch?v=vqUVFukbrbU) (title/name)
-- Wo-tan: Sweet ARMS - [Date A Live](https://www.youtube.com/watch?v=fC0HuPd163U) (lyrics/name)
-- Ikazuchi: Nathan Haines - [Count On Me](https://www.youtube.com/watch?v=-IL8R3EuAaQ) (title/personality)
-- i-13/14: Team Rocket - [Double Trouble](https://www.youtube.com/watch?v=0g3pqH88TX4)
-- Kasumi: Uncle Kracker - [Follow Me](https://www.youtube.com/watch?v=0Gjx-ZQuQ_Y) ("Kasumi mama")
-- Abyssals: yanaginagi - [ambivalentidea](https://www.youtube.com/watch?v=IDiUyYiZ-ro) /bring me to life
-- Carriers: Laura Pausini - [The Extra Mile](https://www.youtube.com/watch?v=69LfFk22iio) (lyrics)
-- Compass fairy: ziki_7 - [Random Navigation](https://www.youtube.com/watch?v=JmQrOp2bEJc) (title/name)
+- i-19 : Diana ross - [I'm coming out](https://www.youtube.com/watch?v=vqUVFukbrbU) (title/name) _F, _Dm _EN
+- Wo-tan: Sweet ARMS - [Date A Live](https://www.youtube.com/watch?v=fC0HuPd163U) (lyrics/name) _JP
+- Ikazuchi: Nathan Haines - [Count On Me](https://www.youtube.com/watch?v=-IL8R3EuAaQ) (title/personality)_B _EN
+- Inazuma: Lou Christie - [Lightnin strikes](https://www.youtube.com/watch?v=HaX6ApRyzSI) It's a weird choice but it's fitting in that it's old & it's like jpop in that it has a bunch of key changes _EN
+- i-13/14: Team Rocket - [Double Trouble](https://www.youtube.com/watch?v=0g3pqH88TX4) _EN
+- Kasumi: Uncle Kracker - [Follow Me](https://www.youtube.com/watch?v=0Gjx-ZQuQ_Y) ("Kasumi mama") _EN
+- Abyssals: yanaginagi - [ambivalentidea](https://www.youtube.com/watch?v=IDiUyYiZ-ro) /bring me to life _JP
+- Carriers: Laura Pausini - [The Extra Mile](https://www.youtube.com/watch?v=69LfFk22iio) (lyrics) _EN
+- Compass fairy: ziki_7 - [Random Navigation](https://www.youtube.com/watch?v=JmQrOp2bEJc) (title/name) _JP
+- Akatsuki: Fumie Akiyoshi - [Together](https://www.youtube.com/watch?v=fxYjkVW-A4I) _JP
+- Shigure : [Ashita Tenki ni Shite Okure](https://www.youtube.com/watch?v=Csdz_7MUMfk) _JP
+- Kagerou : [Watashi, Makenai!](https://www.youtube.com/watch?v=olxFojjICho) _JP
+- Shitatsuyu: [Someone Else](https://www.youtube.com/watch?v=DxMeSUZ4mgc) (lyrics/lines) _JP
+- Amatsukaze: [Aozora, caramel pod remix](https://soundcloud.com/gabymdolla-1/aozora-caramel-pod-remix) _JP
+- Prinz Eugen: [The cake song from PMMM3, im Deutsch](https://www.youtube.com/watch?v=YMcJWQE0Bmo&t=27s) _JP
+- Naka: THE IDOLM@STER - [go my way](https://www.youtube.com/watch?v=iYcRQBrUbd0) _JP
+- Sendai: CD Ninja _EN
+- Akagi: Ritsuko. NGE has a lotta IJN references _JP
+- Harukaze: Aoi Tada - [Haru no Gogo, Boku wa Nagai Tabi wo Shita]() (title/lyrics) _JP
