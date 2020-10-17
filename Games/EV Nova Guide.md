@@ -3,7 +3,7 @@
 
 ## Introduction
 
-EV Nova is a space adventure game, released in 2002 for Mac OS classic & X, and 2003 for windows. There are a few small differences, prolly bugs, but otherwise almost the same. Most of the story is told through text. It was developed by Ambrosia Software, founded in 1993 and defunct in 2017. It's a bit astonishing that a indie software company lasted 25 years. Although it's the third game in the Escape Velocity series, it features a different story/universe. Returning players from EV/EVO will notice the many graphical & gameplay/QoL improvements. See [Appendix I]() for a comprehensive list.
+EV Nova is a space adventure game, released in 2002 for Mac OS classic & X, and 2003 for windows. There are a few small differences, prolly bugs, but otherwise almost the same. Most of the story is told through text. It was published by Ambrosia Software, founded in 1993 and defunct in 2017. It's a bit astonishing that a indie software company lasted 25 years. Although it's the third game in the Escape Velocity series, it features a different story/universe. Returning players from EV/EVO will notice the many graphical & gameplay/QoL improvements. See [Appendix I]() for a comprehensive list.
 
 ![pic](https://vignette.wikia.nocookie.net/evn/images/c/c9/Ships.png)
 
@@ -32,6 +32,7 @@ The game also allows plugins to be installed. They can modify the game to add ne
 - To start a storyline, you probably need a combat record
 - To get a combat record, you need to destroy ships
 - But if you destroy arbitrary ships you will prolly get hated by major government(s)
+- Raising your rating with one government (even by destroying pirates) may decrese your rating with its enemies 
 - If you get hated, ships of that government may attempt to destroy you & forbid you from landing, unless you pay a bribe
 - The game auto-saves to your pilot file when you take off. It's advised to make regular pilot backups.
 - If you are killed, just reload your pilot to revive them (unless you have strict play)
@@ -41,21 +42,32 @@ The game also allows plugins to be installed. They can modify the game to add ne
 
 Shortcuts are vital to playing the game. Make sure you memorize most of what's in the keyboard preferences so you can quickly react when things go awry. There are also keys to activate services when you land so you can like, trade quicker. You can mostly have 2-3 dialogs onscreen simultaneously, so you can check your profile while you trade. Some shortcuts that aren't mentioned in the prefs:
 - Shift-click to plan a route on the map
-- Alt-click but in the trade center to buy the max amount
+- Alt-click buy/sell during trading/outfitting to buy/sell the max amount
 - Alt-Y to communicate w/ a planet while you have a ship selected
 - 1-4 to select different planets in the system
-
+- Having no target selected while calling attack will have your escorts attack all hostile ships
 
 ## Sense
 - These things still make no sense in the game (EV Nova 1.0.10 w32). I don't think you can make plugins to fix all of this.
 - The mission debriefings talk about payment into your account as if it was an entity that's not on your ship. However, when pirates board your ship, they can steal your credits as if your credits were on your ship.
 - If you have Solar panels, no matter how sunny a day is or how long you spend unloading cargo on a planet, they will only recharge in space. You also get auto-recharging when you reach T2 in the Vell-os storyline, but fuel is still not free.
 - If you bribe a planet to let you land and then target another ship, the planet will forget you paid, but credits have already been deducted from your account.
-- Regular manoeuvering moves your ship forever (until you make a change). But Afterburner manoeuvring moves your ship only temporarily. 
+- Regular manoeuvering speeds up your ship forever (until you make a change). But Afterburnerspeeds up your ship only temporarily. 
 - And obviously, weapons in space make a lot of sounds, but you should hear almost nothing (p. much every fictional space work gets this wrong).
+- Missions only refresh when you land on a different planet, not every day
+- EVN can't distinguish btw created escorts & launched/standalone ships. When you get the ability to create dart, hailing them will get responses like a regular ship.
+- Slow ships as escorts magically move (but not turn) as fast as you do
+- Customized ships revert to a default configuration & color when you make them escorts (might be a bug on w32)
+- Ships come with cargo space, except when you buy them as fighters (c'mon, you can spend a few extra minutes to load cargo on your fighters right? it would make the game more intredasting with the possibility of losing cargo if your fighters die. This should be easy but tedious to implement)
+- NPCs can seem to land & stay on unlandable planets, unlike yourself.
+- Ships with 2 weapon exit points will always fire with both, even when theres only 1 weapon fitted (would need lots of conditional hacks to fix this, like a crons/mission/onbuy to give you another weapon if you buy a single weapon)
+
+- Few more [here](https://www.deviantart.com/scout29/art/EV-Nova-Bloopers-62436985)
 
 
 ## Trading
+
+![TradeCenter](https://vignette.wikia.nocookie.net/evn/images/5/56/TradeCenter.jpg)	![]()
 
 I initially dismissed trading is not a very good way of making credits because there are ships in the game that you get the impression of having traded their entire lives but they never have more than anything than a heavy shuttle. But you can do much better than this in just a few hours.
 
@@ -83,7 +95,14 @@ Most Auroran & Fed ships are a bit boring since you see them so often. Vell-os s
 
 ![SB icon](https://vignette.wikia.nocookie.net/evn/images/e/ef/Nova_pict_5005.png)
 
-I drive a Starbridge cuz you can load up on weapons to do decent damage, but still fast enough to make a quick escape (except from the smallest fighters). My preferred style is long-range combat cuz you stay out of the way of dangerous close-range weapons like the ion cannon & th.head lance, and the Starbridge can take a few, but not too many hits. So my guide will focus on such a setup. I will also focus on weapons that you can buy without any storyline. This guide & my setup is influenced by EVN wiki & JoshTigerheart's [EVN Close Combat Guide](https://gamefaqs.gamespot.com/pc/562562-escape-velocity-nova/faqs/37758) . Consult those for a more comprehensive guide on weapons. If you have any rare/special outfits that may come w/your ship, it's suggested to not sell them, since they might have unexpected benefits & you might not be able to buy them afterwards. You should try to get new & legal versions of equipment. New equipment won't degrade or implode, and legal equipment will pass scans. You have enough credits now. Good places to buy outfits:
+I drive a Starbridge cuz you can load up on weapons to do decent damage, but still fast enough to make a quick escape (except from the smallest fighters). My preferred style is long-range combat cuz you stay out of the way of dangerous close-range weapons like the ion cannon & th.head lance, and the Starbridge can take a few, but not too many hits. So my guide will focus on such a setup. I will also focus on weapons that you can buy without any storyline. Here are common ships with rare equipment:
+
+- IDA Frigate: Military IR jammer (Fed)
+- Pirate Manticore: Ion Cannon (legal)
+- Pirate Carrier: Quad Light Blaster Turret (legal)
+- Pegasus, Used Good: Shield recharger (Fed)
+
+This guide & my setup is influenced by EVN wiki & JoshTigerheart's [EVN Close Combat Guide](https://gamefaqs.gamespot.com/pc/562562-escape-velocity-nova/faqs/37758) . Consult those for a more comprehensive guide on weapons.  Many guns & outfits will make your ship slightly slower, but the effect is usually tiny and can be ignored for fast ships. You should try to get new & legal versions of equipment. New equipment won't degrade or implode, and legal equipment will pass scans. You have enough credits now. Good places to buy outfits:
 
 - Earth
 - Rimshot
@@ -107,7 +126,7 @@ If you have a small ship, buy the non-turret versions since they're cheaper & li
 
 ### Sensor
 - 1 Gravimetric Sensor: Makes the blobs on your radar bigger. I don't like the IFF sensor since while friendly ships are green & brighter, hostile ships are red and darker = harder to see.
-- 1 Pirate Jammer: It doesn't work that well, but supposedly the best civilian jammer, and you don't need to go to Scheall to buy it. Viking has it.
+- 1 Pirate Jammer: It doesn't work that well, but supposedly the best civilian jammer, and you don't need to go to Scheall to buy it. Viking has it. Apparently you can increase your jamming ability by combining different jammers.
 
 
 ### Fuel
@@ -169,9 +188,20 @@ If you hang out at a Fed bar, you'll eventually be offered the opportunity to wo
 
 Completing The sigma missions allow you to buy their ships, outfits, and hypergate access. I initially thought you needed cheats to get hypergate access but there is a proper way in-game. You will need a combat record of "Little Ability" to start the storyline, or "Fair Ability" to get the final hypergate mission. There may be delays of 30+ days between major missions. They start at the shipyard on Earth. Note that the final mission drops your legal rating with the Federation. If it was 0, then Earth will deny you landing & many systems will hate you, so it may help to raise your rating a bit so that you're not that hated after the final mission (but still not completely scot-free).
 
-After the 1st mission, you'll get access to their wares. If you're driving a Pegasus/Leviathan yourself, you can do the bulk delivery missions which pay quite well. That's why there are Leviathans hanging round hypergates in Auroran space. The Star Liner has one of the highest crew counts so it's good for capturing ships. It can also make an OK general ship if you upgrade it. If you're driving a Star Liner, you can do charter flights. From the [EVN wiki](https://evn.fandom.com/wiki/Star_Liner),
+After the 1st mission, you'll get access to their wares. If you're driving a Pegasus/Leviathan yourself, you can do the bulk delivery missions which pay quite well. The Star Liner has one of the highest crew counts so it's good for capturing ships. It can also make an OK general ship if you upgrade it. If you're driving a Star Liner, you can do charter flights. Depending on the source/destination governments, your legal record with them may change. See [EVN wiki](https://evn.fandom.com/wiki/Star_Liner) . If you don't want to juggle your diplomacy, just don't do the missions.
 
-Some charter flight missions "involve carrying a large number of passengers between Federation and Auroran space, across the border. Not surprisingly, neither government appreciates having ships carry citizens from the enemy to their planets, so these missions will decrease your legal reputation with the receiving government. However, the missions within Federation space will give a fairly small boost to your legal rating, which is good if you want to stay on good terms with the Federation. "
+The Bulk delivery missions are available if you have a Pegasus or bigger, but it's a slow ship. Here is the setup I suggest:
+
+- Weapons:  6 100mm Fixed Railgun, Gravimetric Missile Launcher, 18 Gravimetric Missile, Sigma Mount Reinforcement, Sigma Mass Expansion, 2 Sigma Mass Addition
+- Defensive: 2 Shield Recharger, Civilian IR Jammer, Civilian Radar Jammer, Pirate Jammer, 4 Carbon Fiber, Sigma Electrical Rewiring
+- Handling:  2 Fission Reactor, Port & Polish, Vectored Thrust, Afterburner, Sigma Engine Tune-up
+- Other: Gravimetric Sensors, Auto-recharger, , Horizontal Booster, 2 Marine Platoon
+
+Many weapons make your ship slower, by a tiny amount. The Pegasus is already a slow ship so we don't want to make it any slower. The above weapons don't slow your ship at all, and the Gravimetric missiles are less likely to be jammed by Fed & Pirate jammers. The shield rechargers come from the Pegasus (used, good condition) ship & it's highly recommended to get that version of Pegasus. It really helps. Combining jammers apparently stacks their effects somewhat. Carbon armor doesn't slow your ship. Reactors speed up your ship by a small bit. You can add Polaris reactors if you have access. The handling upgrades w/o the reactors now make the Pegasus turn at a non-annoying speed, but acceleration & top speed is still lacking.
+
+This setup was made to have the fastest Pegasus with only legal & common outfits. You may be up against Pirates with Ion cannons. Pirate Vipers should be gone almost instantly with the railguns. Pirate Starbridges will be gone in up to 5s. Manticore up to 10 (you will barely just retain a bit of armor). Spam the missiles as necessary. But you need to act quick to target and shoot, start the attack at range & finish it up close. Multiple pirates ganging up on you may not work. Running away may not work cuz you will may lose armor, while not gaining much distance. Or you can just add normal weapons which slow the ship down, or add an ion cannon. I was gonna suggest a light blaster & light canon to add more color to your spamming, but you need all the firepower you can get.
+
+You may wonder why go through all the trouble of spending 7M on a slow ship just to do the sigmal bulk missions when you can drive a Starbridge, hire several Pegasi & do normal trading. Fair point. Ispz it is a bit pointless. But like anything equipped with railguns, you can take out much bigger ships at range like Fed DD/CV.
 
 ### Drop Bears
 
@@ -212,6 +242,9 @@ You can also download more plugins to add more story. There are a few plugs whic
 ### Others
 
 There are some other minor storylines like Cunjo Hunt & Rock Band missions that can pay  some credits, but shouldn't affect your rating or other storylines. See side missions on the walkthrough.
+
+## Conclusion
+For more info on EVN mysteries like L1551, Kontik, and Kelariy, see [TWCB](https://evn.fandom.com/wiki/TWCB) and [World of ATMOS](https://evn.fandom.com/wiki/Word_of_ATMOS) 
 
 ## Related
 - EVE-Online: A MMORPG with a much more complex economy and balance.
@@ -259,9 +292,9 @@ Unrelated: mac software readmes come as simpletext documents, but some are read-
 
 Docmaker was also a thing in the 90s, when PDFs weren't ubiquitous & you wanted to have something longer/more complex than a plain simpletext document, but wanted to make it readable on any mac. The solution was to make the document an app. I started a Docmaker document/app, but couldn't resume editing it again by double-clicking on it, cuz you can usually re-edit most documents by double-click. Didn't realize until a while later that cuz it's an app, it just simply opens as an app. To re-edit it, you need to use the Docmaker editor.
 
-I've played EVN on & off over the last 18 years. Due to being unregistered, you can't use cheats in the form of plugins, so they must be a pilot file. I remember DLing a pilot for EV which had all planets dominated & an alien carrier. I then converted the pilot file to EVN format. Now EVN has a larger universe than EV, so only some planets are dominated. Domination yields a daily pay, so you can hire an escort w/o losing credits. I think I hired a pirate carrier (those are p.expensive). Somewhen, I did the Heeran storyline, not sure I finished it. 
+I've played EVN on & off over the last 18 years. Due to being unregistered, you can't use cheats in the form of plugins, so they must be a pilot file. I remember DLing a pilot for EV which had all planets dominated & an alien carrier. I then converted the pilot file to EVN format. EVN has a larger universe than EV, so only some planets are dominated. Domination yields a daily pay, so you can hire an escort w/o losing credits. I think I hired a pirate carrier (those are p.expensive).
 
-due to neglect & money reasons, dad never purchased a mac for me past the hand-me-down 8600/300. I needed an upgrade for schoolwork, and I used another used Sony VAIO laptop. Dell optiplex GX260, iMac G5, iMac 2008. I built my own PC around 2009.
+due to neglect & money reasons, dad never purchased a mac for me past the hand-me-down 8600/300 (which was a slight upgrade over my 9600/200). I needed an upgrade for schoolwork, and I used another used Sony VAIO laptop. Dell optiplex GX260, iMac G5, iMac 2008. I built my own PC around 2009.
 
 After the trial period, I let it expire & installed EV. I couldn't get much to happen, so I downloaded the Galactic Scourge plugin over 56k dialup with a download manager on my dad's 8600/300 powermac & played it on my 9600/200. Not sure how got it to my mac. Maybe Zip100 disk or CD-R. I remember driving a Hydra (cuz it's fast & powerful), and large freight courier ticks. Later on in the scenario, you can't complete some courier missions cuz the universe is splitting apart.
 
@@ -274,7 +307,7 @@ In 2004, for tech class, we had to make a T-shirt with a design. He said "keep i
 
 <img src="https://vignette.wikia.nocookie.net/evn/images/5/51/Star_Liner_Splash.png" width="20%">
 
-In 2018 I started the vell-os storyline, and left it on hiatus. I also started the Fed storyline somewhen, but never finished it. I recall arresting a bunch of Mu'hari and working for "the right people".
+Somewhen I started the Heeran storyline, not sure I finished it. In 2018 I started the vell-os storyline, and left it on hiatus. I also started the Fed storyline somewhen, but never finished it. I recall arresting a bunch of Mu'hari and working for "the right people".
 
 
 In 2006, Apple switched to intel CPUs for their new PCs, so PPC apps needed to be emulated. I was pleasantly surprised that ASW released a UB version of EVN shortly afterwards.
@@ -285,7 +318,7 @@ In 2017, ASW went defunct. In 2020, Magia Record EN also closed shop due to "not
 
 OTOH, as EVN is an offline game & microsoft loves binary compatibility, it still functions in windows 10. You can convert plugins to rez, and even pilot files (but on mac). The mac UB version may be useless in a few years due to another arch shift, to ARM, and when rosetta 2 will be deprecated.
 
-EVN isn't a gatcha turn-based game where you can [defer decisions](https://danbooru.donmai.us/posts/2158277) in combat, you need to make decisions now (except when you press pause)
+
 
 https://cdn.discordapp.com/attachments/542719334678790144/762864021631795231/Appdoc.png
 
@@ -295,3 +328,10 @@ DOcmaker
 
 Started: late Sept 2020
 
+## References
+- Playing the game
+- Inspecting game data with EVNEW
+- Nova Bible
+- Nova Reference
+- EVN wiki
+- GameFAQs guides as above

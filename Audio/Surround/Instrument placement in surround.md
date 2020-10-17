@@ -1,4 +1,7 @@
 # Instrument placement in surround
+
+Where to place/pan instruments in surround.
+
 ## Center
 #### Stars of the show
 - Lead vocals
@@ -8,7 +11,7 @@
 #### Important Things
 - Rhythm section (Drum Kit, Percussion, Bass)
 - Lead instrument(s)
-- Keys
+- Percussive Synths & Piano
 - Guitars
 - Woodwinds (Oboe, Clarinet, Bassoon)
 
@@ -16,8 +19,9 @@
 #### Things With Long Notes
 - Vocal Fills/Backups
 - Strings (Usually All 4, Or Biased Front)
+- Sustained Guitars/Gtr reverb
 - Pads
-- It is suggested to use my "2.0 to 5.0 Upmix V3 (L).txt" in [my suite](https://github.com/junh1024/Reaper-Surround#introduction) for spreading 2 to 4. NEVER place sounds directly to the sides. See my general surround guide to see why.
+- NEVER pan sounds directly to the sides for too long, it will sound bad & unstable, due to bad localization. It is recommended to use reverb or my "2.0 to 5.0 Upmix V3 (L).txt" in [my suite](https://github.com/junh1024/Reaper-Surround#introduction) for spreading 2 to 4 to decorrelate so it's more stable. My Surround guide V3 coming somewhen.
 
 ## Back
 #### Don't make it too distracting

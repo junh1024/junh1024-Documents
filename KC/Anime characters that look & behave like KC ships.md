@@ -39,5 +39,6 @@ Part 4
 ---
 * Yume from Grimgar & Ashes looks like Noshiro
 * May/Haruka from Pokemon looks like Kagerou
+* Mei Irizaki from Haifuri looks like i401
 
 [Previous parts](https://github.com/junh1024/junh1024-Documents/blob/master/KC/Anime%20characters%20that%20look%20%26%20behave%20like%20KC%20ships.md#part-1)

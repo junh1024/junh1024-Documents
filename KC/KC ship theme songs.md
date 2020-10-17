@@ -22,4 +22,4 @@ List
 - Naka: THE IDOLM@STER - [go my way](https://www.youtube.com/watch?v=iYcRQBrUbd0) _JP
 - Sendai: CD Ninja _EN
 - Akagi: Ritsuko. NGE has a lotta IJN references _JP
-- Harukaze: Aoi Tada - [Haru no Gogo, Boku wa Nagai Tabi wo Shita]() (title/lyrics) _JP
+- Harukaze: Aoi Tada - [Haru no Gogo, Boku wa Nagai Tabi wo Shita](https://hearthis.at/jzgmyrcb/harunogogo2011-vln-20a/) (title/lyrics) _JP
