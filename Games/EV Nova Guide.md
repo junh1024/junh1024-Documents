@@ -53,7 +53,6 @@ Shortcuts are vital to playing the game. Make sure you memorize most of what's i
 - If you have Solar panels, no matter how sunny a day is or how long you spend unloading cargo on a planet, they will only recharge in space. You also get auto-recharging when you reach T2 in the Vell-os storyline, but fuel is still not free.
 - If you bribe a planet to let you land and then target another ship, the planet will forget you paid, but credits have already been deducted from your account.
 - Regular manoeuvering speeds up your ship forever (until you make a change). But Afterburnerspeeds up your ship only temporarily. 
-- And obviously, weapons in space make a lot of sounds, but you should hear almost nothing (p. much every fictional space work gets this wrong).
 - Missions only refresh when you land on a different planet, not every day
 - EVN can't distinguish btw created escorts & launched/standalone ships. When you get the ability to create dart, hailing them will get responses like a regular ship.
 - Slow ships as escorts magically move (but not turn) as fast as you do
@@ -61,7 +60,7 @@ Shortcuts are vital to playing the game. Make sure you memorize most of what's i
 - Ships come with cargo space, except when you buy them as fighters (c'mon, you can spend a few extra minutes to load cargo on your fighters right? it would make the game more intredasting with the possibility of losing cargo if your fighters die. This should be easy but tedious to implement)
 - NPCs can seem to land & stay on unlandable planets, unlike yourself.
 - Ships with 2 weapon exit points will always fire with both, even when theres only 1 weapon fitted (would need lots of conditional hacks to fix this, like a crons/mission/onbuy to give you another weapon if you buy a single weapon)
-
+- And obviously, weapons in space make a lot of sounds, but you should hear almost nothing (p. much every fictional space work gets this wrong).
 - Few more [here](https://www.deviantart.com/scout29/art/EV-Nova-Bloopers-62436985)
 
 
@@ -149,7 +148,14 @@ You need licenses to buy some things. If you're getting a Exotic Ships and Weapo
 
 To get hypergate access (and many storylines), you will need to have a combat record. Destroying arbitrary ships will prolly get you hated. You can destroy pirate ships (they tend to disable & loot), but you may get hated by pirates. But Harbor in Scheall is hostile by default. You can destroy Houseless Aurorans near/in Kipa. But although they don't have a legal rating, they can still deny you landing clearance.
 
-You can kill Marauders instead. Marauders are also hated by all, but they don't have a planet. They tend to destroy rather than loot. In Wolf 359, a Marauders has a 10% chance of appearing. In Tichel, it's 20%, but it's also likely there are big fed botes that can take your kill. You can board ships when they're disabled to get their booty, or attempt to use them as escorts/your own.
+You can kill Marauders instead. Marauders are also hated by all, but they don't have a planet. They tend to destroy rather than loot. In Wolf 359, a Marauders has a 10% chance of appearing. In Tichel, it's 20%, but it's also likely there are big fed botes that can take your kill.
+
+![]()
+![Board dialog](https://vignette.wikia.nocookie.net/evn/images/f/f3/Boarded_Pirate_Carrier.png)
+
+When your ship gets down to 10% or 33% armor, you're disabled & pirates can board you can steal your credits. When you shoot down other ships to that level, you too can board ships to get their booty, or attempt to use them as escorts/your own. Fed ships tend to self-destruct rather than give up their stuff. You can improve on your capture odds by having a large ship crew &/ buying Marine Platoons. If you're shooting from long range & slow weapons it might be wise to start shooting slower as their armor lowers, since you don't want to destroy their ship. Boarding ships incurs a legal penalty. You can't board ships 2ce so might pay to shoot pirates so they don't board before you.
+
+You can also save on fighter fees if you have an appropriate bay, by boarding/capturing, [apparently](https://evn.fandom.com/wiki/Thunderhead_Bay). You can capture specific variants like the *Light Destroyer class Thunderhead* with the imfamous Ion cannon. Finding & capturing such a ship is another story however.
 
 **Flee & fight back aka "Monty Python Maneuver"**
 
@@ -256,7 +262,7 @@ For more info on EVN mysteries like L1551, Kontik, and Kelariy, see [TWCB](https
 ## Appendix I
 ## Changes
 
-Moved to [EV Nova Changes]() . Outlines changes from EV/EVO to EVN, but maybe interesting reading for new players.
+Moved to [EV Nova Appendix]() . Outlines changes from EV/EVO to EVN, but maybe interesting reading for new players.
 
 ## Music
 

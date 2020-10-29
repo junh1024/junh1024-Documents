@@ -9,7 +9,7 @@ If you play KC and want something refreshing & simple, you can try EVN, although
 I don't play KC and I haven't finished all 6 storylines of EVN, so this is a best-effort from me. This is not a comprehensive guide to play either game, it covers mainly fundamental differences. For more info, please consult the wiki [tutorial](https://en.kancollewiki.net/Tutorial:_How_to_Play), or my EVN guide. This document will use [some abbreviations](https://en.wikipedia.org/wiki/Hull_classification_symbol) , mostly CV=carrier & DD=destroyer.
 
 ## Content
-As KC is a server-based game, new content such as ships & maps are mainly available through quarterly time-limited events. This promotes timely participation. EVN is an offline game, and you can expand or replace the game scenario with plugins. As the EV series has mac baggage dating back to 1995, you will need to DL windows-specific plugins, or use a [converter](https://media.githubusercontent.com/media/andrews05/evstuff/master/utilities/Plug-in_Extractor.zip) to use them on windows. http://www.cytheraguides.com/archives/ambrosia_addons/evn/ has many.
+As KC is a server-based game, new content such as ships & maps are mainly available through quarterly time-limited events. This promotes timely participation. EVN is an offline game, and you can expand or replace the game scenario with plugins. As the EV series has mac baggage dating back to 1995, you will need to DL windows-specific plugins, or use a [converter](https://media.githubusercontent.com/media/andrews05/evstuff/master/utilities/Plug-in_Extractor.zip) to use them on windows. http://www.cytheraguides.com/archives/ambrosia_addons/evn/ has many. Tho I'm not aware of any plugin that adds WW2-style ships.
 
 ## Fleet
 
@@ -34,7 +34,9 @@ In KC, you have 4 major [resources](https://en.kancollewiki.net/Resources) : Fue
 
 In EVN, you have credits & fuel. There are major commodities (like food, metal, etc) and minor commodities you can trade between places, but the end result is credits which you can use to buy things. You get a Rank (late) into the progression of your storyline. Most Ranks offera small daily pay &/ friendly discounts on relevant planets but is prolly not enough for anything significant.
 
-Like KC, Fuel is used when you travel, some (powerful) weapons, and certain outfits. Fuel can be purchased or generated with some outfits. Ship shields recharge during battle, and is restored when you land. Some weapons use their own specific ammo, which you need to buy. The game auto-saves when you take off. If your ships is destroyed & you die, just reload your pilot file. If you have strict play enabled, you need an escape pod to live after your ship is destroyed.
+Ship shields recharge during battle, and is restored when you land.  The game auto-saves when you take off, so if your ship is destroyed & you die in space, just reload your pilot file. If you have strict play enabled, you need an escape pod to live after your ship is destroyed.
+
+Like KC, Fuel is used when you travel between map nodes (aka hyperjump). Also used some (powerful) weapons, and certain outfits. Fuel can be purchased or generated with some outfits. Projectiles have separate launchers & ammo. You need to buy specific ammo to replenish your launcher. There is no "refuel & replenish" button like in KC.
 
 
 ## Music
@@ -42,6 +44,12 @@ KC has music in a few genres. During events, there is new music for battles, whi
 
 
 ## Customization
+
+![]()
+![]()
+
+![Furniture Shop menu](https://yksk.kancollewiki.net/w/images/2/25/Furniture_shop.png)	![Ion cannon](https://vignette.wikia.nocookie.net/evn/images/5/50/Nova_pict_6020.png)
+
 KC has [ample](https://en.kancollewiki.net/Furniture) ability to customize the office using Furniture coins which are [available](https://en.kancollewiki.net/Furniture/Guide) from regular missions. Some furniture overrides the Jukebox, or has seasonal CGs. In addition, some ships have seasonal art, like Summer & Christmas CGs. Guns are mostly grey during battle and planes are mostly green.
 
 EVN doesn't really have such a thing. You can change your pilot name, you set a nickname at the start, and set a ship name when you buy a ship. There are plugins that can apply a paint tint to your ship, but I had trouble getting rid of my paintjob with the Paintshop HGA plugin & prolly screwed my pilot file. Different families of weapons have different colors. This is a slight benefit over KC. See appendix for details.
