@@ -19,7 +19,7 @@ There are 6 major govenments in the game you can "join", and some factions withi
 The game, in terms of a modern experience, hasn't aged well. You will need 3rd-pty hacks to get widescreen, and works better at lower resolutions since HiDPI wasn't really a thing in 2002, unless you have a big monitor. If you have an unregistered copy, many things are limited. Outfits, ships, boarding actions, storyline progress, modifying game files, and loading plugins. And a overpowered ship that shoots you down after the trial period. But Ambrosia Software is now defunct so you can't pay for it. It is highly suggested you somehow coax the game into thinking your game is registered otherwise your experience will be very bad. Also, a quicktime dependancy for an app on windows was acceptable in 2002, but now even apple have deprecated it. There is a quicktime dll stub pack that you can use for windows to avoid installing all of QT. Also, the accented characters for resource types have also not gone well for plaintext files over to windows, as mac & win default to different codepages.
 
 ## Plugins
-The game also allows plugins to be installed. They can modify the game to add new ships, outfits, missions, and cheats, to completely replacing the game scenario. There are graphical enhancements like Colored_Targets & ShieldBubbles. I'll mention a few others that can improve your game experience throughout the guide. I'll also suggest the Neoplanets & Full screen map plugins, which make planets & maps larger, respectively. You can get plugins & guides from http://www.cytheraguides.com/archives/ambrosia_addons/evn/
+The game also allows plugins to be installed. They can modify the game to add new ships, outfits, missions, and cheats, to completely replacing the game scenario. There are graphical enhancements like Colored_Targets & ShieldBubbles. I'll mention a few others that can improve your game experience throughout the guide. I'll also suggest the Neoplanets & Full screen map plugins, which make planets & maps larger, respectively. You can get plugins & guides from http://www.cytheraguides.com/archives/ambrosia_addons/evn/ . [ARPIA2](https://www.arpia.be/arpia2/) could be thought of a sequel to EVN since the author was inspired by EVN, and some of the EVN staff worked on ARPIA2 graphics. There are [some TCs](https://evn.fandom.com/wiki/Total_Conversions) .
 
 ## Mechanics
 
@@ -40,7 +40,7 @@ The game also allows plugins to be installed. They can modify the game to add ne
 
 ## Shortcuts
 
-Shortcuts are vital to playing the game. Make sure you memorize most of what's in the keyboard preferences so you can quickly react when things go awry. There are also keys to activate services when you land so you can like, trade quicker. You can mostly have 2-3 dialogs onscreen simultaneously, so you can check your profile while you trade. Some shortcuts that aren't mentioned in the prefs:
+Shortcuts are vital to playing the game. Make sure you memorize most of what's in the keyboard preferences so you can quickly react when things go awry. They're [apparently based on X-Wing](https://www.youtube.com/watch?v=oYMZQINXW_s&t=110) from 1993. There are also keys to activate services when you land so you can like, trade quicker. You can mostly have 2-3 dialogs onscreen simultaneously, so you can check your profile while you trade. Some shortcuts that aren't mentioned in the prefs:
 - Shift-click to plan a route on the map
 - Alt-click buy/sell during trading/outfitting to buy/sell the max amount
 - Alt-Y to communicate w/ a planet while you have a ship selected
@@ -74,6 +74,8 @@ I initially dismissed trading is not a very good way of making credits because t
 - Medical supplies  on Earth (Sol) >  Equipment on Port Kane (Kania) > Luxury goods on Europa (Sol), modified Barry route
 
 Those 2 are some trade routes I have used. You start out with a Shuttle, but you can hire Cargo Drone(s) when you feel comfortable. Used escorts can be cheaper. Move on to Terrapins, IDA Frigates, then Pegasi as you accumulate credits. A Leviathan is not suggested since "they hold 4x as much cargo as a Pegasus, but cost 6x as much" (EVula Survival Guide). Terrapins are terrible if you're driving them yourself because it's so frustrating to land 1. But not if it's being driven by the CPU. Keep in mind that you need some credits in reserve because you will need to pay your escorts daily. Otherwise they will defect and you will lose your cargo. When you get 10-20M cr, it's time to buy a good ship.
+
+Old EVN guides may mention about a route by buying Opals from Thror and selling them on Thraine known as the imfamous "gefjon run". Unfortunately over a few patches from 1.01 - 1.05, pirates were added & the run removed.
 
 
 ## Ship
@@ -253,10 +255,11 @@ There are some other minor storylines like Cunjo Hunt & Rock Band missions that 
 For more info on EVN mysteries like L1551, Kontik, and Kelariy, see [TWCB](https://evn.fandom.com/wiki/TWCB) and [World of ATMOS](https://evn.fandom.com/wiki/Word_of_ATMOS) 
 
 ## Related
-- EVE-Online: A MMORPG with a much more complex economy and balance.
-- naev: EV-inspired game
-- Endless Sky: EV-inspired game
-- Cosmic Frontier Override: Recreation of EVO, from its scenario creator, Peter Cartwright
+- [EVE-Online](https://www.eveonline.com/): A MMORPG with a much more complex economy and balance. Some ship names are the same as EVN, but look completely different. Some of them look like space stations with the stick & shaft aesthetic.
+- [naev](https://store.steampowered.com/app/598530/Naev/): EV-inspired game
+- [Endless Sky](https://endless-sky.github.io/): OS EV-inspired game
+- [Cosmic Frontier Override](https://www.kickstarter.com/projects/cosmicfrontier/cosmic-frontier-override): Recreation of EVO, from its scenario creator, Peter Cartwright
+- Other mobile games
 
 ## Appendix
 ## Appendix I
@@ -318,9 +321,9 @@ Somewhen I started the Heeran storyline, not sure I finished it. In 2018 I start
 
 In 2006, Apple switched to intel CPUs for their new PCs, so PPC apps needed to be emulated. I was pleasantly surprised that ASW released a UB version of EVN shortly afterwards.
 
-In 2013, ASW had a [40% off sale](https://twitter.com/AmbrosiaSw/status/352825814330507266) , which I missed. EVN is $30 USD, but it would like double in my currency. I was hesitant to buy it. But maybe I should've cuz.
+In 2013, ASW had a [40% off sale](https://twitter.com/AmbrosiaSw/status/352825814330507266) , which I missed. EVN is $30 USD, but it would like double in my currency. I was hesitant to buy it. But maybe I should've cuz ASW was to fold a few years later.
 
-In 2017, ASW went defunct. In 2020, Magia Record EN also closed shop due to "not enough whaling". Since MR is an online game, your saves are presumably inaccessible when the game closes. And due to the shaky relationship EN devs have with JP devs, there's no recourse like save transfers or pre-made saves at various points to ease the pain of lost progress (might also be hard due to content differences but anything can be overcome by willpower).
+In 2017, ASW went defunct. In 2020, Magia Record EN also closed shop due to "not enough whaling". Since MR is an online game, your saves are presumably inaccessible when the game closes. And due to the shaky relationship EN devs have with JP devs, there's no recourse like save transfers or pre-made saves at various points to ease the pain of lost progress (might also be hard due to content differences but anything can be overcome by willpower). In late 2020 there is another F2P game called Genshin Impact which encourages even more whaling so that'll prolly stay up longer.
 
 OTOH, as EVN is an offline game & microsoft loves binary compatibility, it still functions in windows 10. You can convert plugins to rez, and even pilot files (but on mac). The mac UB version may be useless in a few years due to another arch shift, to ARM, and when rosetta 2 will be deprecated.
 
@@ -333,6 +336,11 @@ https://cdn.discordapp.com/attachments/542719334678790144/762888706486566922/unk
 DOcmaker
 
 Started: late Sept 2020
+
+## 
+Matt Burch owned a copy of [Elite](https://en.wikipedia.org/wiki/Elite_\(video_game\)) , which he'd never played cuz he lost the Lenslok protection device. But it had a very detailed manual. It left an impression on him and he finally made a game Escape Velocity as a college student, released in 199x which captured the spirit of elite. Its expandability with plugins created a community. Peter Cartwright made a scenario called Override which was published as a new game by ASW. In 2000s, a bunch of students from Australia created another scenario. Matt Burch returned to make many significant code updates, and the result is the EVN we know today. Matt would like to thank his parents for equipping him at a young age with the right tools.
+
+https://lifeandtimes.games/episodes/files/pax-aus-19-ambrosia-sw-talk
 
 ## References
 - Playing the game

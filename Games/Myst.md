@@ -1,6 +1,4 @@
-# Myst
-
-My experience with the Myst franchise
+# My experience with the Myst franchise
 
 I played Myst III as a kid, hired from the library. I restarted the game several times because I thought that if you were fast enough you could open the elevator and catch the bad guy. I spent a long time wandering around the cliffs and the gardens, and not making much progress. I had to use a walkthrough to make any decent progress. Most walkthroughs mention saving before the Voltiac rollercoaster cuz riding it looks cool. [This speedrunner](https://www.youtube.com/watch?v=AW5yvBEwLcc) finished the entire game in 12.5 minutes, putting me to shame.
 
