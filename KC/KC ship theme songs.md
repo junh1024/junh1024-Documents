@@ -1,3 +1,5 @@
+# KC ship theme songs
+
 Introduction
 ---
 Here are some songs that are inspired by various ships in KC. As of 2020, the grammarly ads on YT are really obnoxious. Apologies.
@@ -18,10 +20,10 @@ List
 - Kagerou : KAORI - [Watashi, Makenai!](https://www.youtube.com/watch?v=olxFojjICho) _JP
 - Shitatsuyu: [Someone Else](https://www.youtube.com/watch?v=DxMeSUZ4mgc) (lyrics/lines "one") _JP
 - Amatsukaze: Lia - [Aozora, caramel pod remix](https://soundcloud.com/gabymdolla-1/aozora-caramel-pod-remix) _JP
-- Prinz Eugen: [The cake song from PMMM3, im Deutsch](https://www.youtube.com/watch?v=YMcJWQE0Bmo&t=27s) _JP
+- Prinz Eugen: [The cake song from PMMM M3, im Deutsch](https://www.youtube.com/watch?v=YMcJWQE0Bmo) _JP
 - Naka: THE IDOLM@STER - [go my way](https://www.youtube.com/watch?v=iYcRQBrUbd0) _JP
 - Sendai: CD Ninja _EN
-- Akagi: SHiro Sagisu - [Ritsuko Akagi's theme](https://www.youtube.com/watch?v=aIwG_VEQWGQ). NGE has a lotta IJN references _JP
-- Harukaze: Aoi Tada - [Haru no Gogo, Boku wa Nagai Tabi wo Shita](https://hearthis.at/jzgmyrcb/harunogogo2011-vln-20a/) (title/name) _JP
+- Akagi: Shiro Sagisu - [Ritsuko Akagi's theme](https://www.youtube.com/watch?v=aIwG_VEQWGQ). NGE has a [lotta IJN references](https://wiki.evageeks.org/Warships_in_Evangelion) _JP
+- Harukaze: Aoi Tada - [Haru no Gogo, Boku wa Nagai Tabi wo Shita](https://hearthis.at/jzgmyrcb/harunogogo2011-vln-20a/) (lyrics/name) _JP
 - Ooshio: KAORI - [Boken no Hajimari da!](https://www.youtube.com/watch?v=i3LG9eI2Fo4) (lyrics/lines "daijobu") _JP
-- Taihou: ANZA - [Tobira wo Akete](https://www.youtube.com/watch?v=F816uhjqgvU) (lyrics/lines "daijobu" and flying themes for a CV) _JP
+- Taihou: ANZA - [Tobira wo Akete](https://www.youtube.com/watch?v=F816uhjqgvU) (lyrics/lines "daijobu" and flying themes for a CV, but her personality isn't that genki) _JP
