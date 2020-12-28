@@ -2,7 +2,7 @@
 
 ## Introduction
 
-EV Nova is a 2002 space adventure game. Split off from my main EV Nova Guide() for length reasons.
+EV Nova is a 2002 space adventure game. Split off from my main [EV Nova Guide](https://github.com/junh1024/junh1024-Documents/blob/master/Games/EV%20Nova%20Guide.md#introduction) for length reasons.
 
 ## Appendix 1
 ## Changes
@@ -12,7 +12,7 @@ EV Nova is a 2002 space adventure game. Split off from my main EV Nova Guide() f
 - New ships & outfits, notably, a lot more civilian & cargo ships. Ships are quite detailed, and they don't look like toys.
 - A slideshow to introduce you to the universe, instead of scrolling text & percussion. Barry has a few tutorial missions for you.
 - The universe is centered on several human races, unlike EVO.
-- Rebels are more idealistic & righteous, but less of a material presence in the galaxy (kinda like [Star Wars](https://github.com/junh1024/junh1024-Documents/blob/master/Science/Death%20Star%20plans%20Feasibility.md) . They have only 2 systems. The pirates are reduced to 1, but there are a lot of pirate ships wandering about in other systems. Rebels aren't red, but are green this time. Red is the color of the Aurorans.
+- Rebels are more idealistic & righteous, but less of a material presence in the galaxy, kinda like [Star Wars](https://github.com/junh1024/junh1024-Documents/blob/master/Science/Death%20Star%20plans%20Data%20Transfer%20Feasibility%20Study.md#introduction) . They have only 2 systems. The pirates are reduced to 1, but there are a lot of pirate ships wandering about in other systems. Rebels aren't red, but are green this time. Red is the color of the Aurorans.
 
 
 ### Map
@@ -82,7 +82,7 @@ EV Nova is a 2002 space adventure game. Split off from my main EV Nova Guide() f
 ## Appendix 2
 ## Music
 
-In main doc
+In [main doc](https://github.com/junh1024/junh1024-Documents/blob/master/Games/EV%20Nova%20Guide.md#music)
 
 ## Appendix 3
 ## Illegal outfits
@@ -159,11 +159,10 @@ Beams are powerful weapons & usually requires playing a storyline. There's other
 
 ## Appendix 5
 ## History
-In main doc
+In [main doc](https://github.com/junh1024/junh1024-Documents/blob/master/Games/EV%20Nova%20Guide.md#history)
 
 
 Date: 
 - changes: mid Sept - mid Oct 2020, split from EVN guide
-- illg, colors, late Oct 2020
 
 thanks to andrews05 for checking easter eggs

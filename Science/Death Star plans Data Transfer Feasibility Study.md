@@ -1,12 +1,12 @@
-# Death Star plans Feasibility
+# Death Star plans Data Transfer Feasibility Study
 
 Introduction
 ---
-So in Rogue One, Jyn steals the Death Star plans, broadcasts them to a ship, then it's transferred to a memory card. There are a few reasons why I think it's quite unfeasible, unless there are some changes.
+So in Star Wars - Rogue One, Jyn, now part of the Rebels/Resistance, steals the Death Star plans, broadcasts them to a ship, then it's transferred to a memory card. There are a few reasons why I think it's quite unfeasible, unless there are some changes.
 
 Amount
 ---
-We are led to believe that the thing that Jyn steals contains the development archive for something Gaelen Erso worked on for "so much" of his life. So we assume at least 20-ish years of engineering work, I'll make up a number, 2TB. It might be bigger than this, but i'll use this number.
+We are led to believe that the thing that Jyn steals contains the complete development/engineering archive for something Gaelen Erso worked on for "so much" of his life. So we assume at least 20-ish years of engineering work, I'll make up a number, 2TB. It might be bigger than this, but i'll use this number.
 
 Medium
 ---
@@ -19,14 +19,21 @@ The movie says it's a tape, but Jyn steals something that looks like a hard disk
 
 Broadcast
 ---
-While the above media can store 2TB, it's quite unbelievable to have them read, and then broadcast 2TB in a few seconds. The console shows 4 progress meters. The full spectrum can't be used, because there must be frequencies reserved for other things, like ground to ship communications. So let's take an example that we have now, digital OTA TV. The bandwidth of a station (not channel), might be 50Mbps. , or 6MBps.
+While the above media can store 2TB, it's quite unbelievable to have them read, and then broadcast 2TB in a few seconds. The console shows 4 progress meters. The full spectrum can't be used, because there must be frequencies reserved for other things, like ground to ship communications. So let's take an example that we have now, digital OTA TV. The bandwidth of a station/network (not channel), might be 50Mbps.
 
 "But the future will have better technologies!!!"
 
-Yes, but you can't get around the laws of physics. If you increase the frequency, the data rate can increase, but the range will decrease. You can increase the power to compensate, but there might be health or interference effects. Broadcasting technology hasn't really made big strides recently, but reception technology (especially for weak signals) has improved due to building bigger & more antennas, and better computers to analyse the data. Read about it on the [Event Horizon Telescope website](https://eventhorizontelescope.org) 
+Yes, but you can't get around the laws of physics. If you increase the frequency, the data rate can increase, but the range will decrease. You can increase the power to compensate, but there might be health or interference effects. Broadcasting technology hasn't really made big strides recently. Example: Wireless AC has better speed over older standards, but if you want the best range, N or G will be better. However, reception technology (especially for weak signals) has improved due to building bigger & more antennas, and better computers to analyse the data. Read about it on the [Event Horizon Telescope website](https://eventhorizontelescope.org) . Data and video compression algorithms have also improved.
 
-Note on data reduction. Given a 3D model, you can reduce the data size requirements, by reducing the level of detail (LOD). But you need to be careful. Like, if you have a 160km Death Star, but you sample it at 10m, a cruicial 2m [thermal ventilation shaft](https://starwars.fandom.com/wiki/Thermal_exhaust_port) might disappear. Also, it depends on how detailed it is. Having lots of blank space isn't necessarily helpful for data reduction, cuz the blank space that's DS-2 is quite detailed.
+Note on data reduction. Given a 3D model, you can reduce the data size requirements, by reducing the level of detail (LOD). But you need to be careful. Like, if you have a 160km Death Star, but you sample it at 10m, a cruicial 2m [thermal ventilation shaft](https://starwars.fandom.com/wiki/Thermal_exhaust_port) might disappear. Also, it depends on how detailed it is. Having lots of blank space isn't necessarily helpful for data reduction, cuz the blank space that's DS-2 is quite detailed. You can also apply data compression or encoding techniques, and it should work reasonably.
 
-I am fairly certain that the data that was actually broadcast is in the 20-200MB range. This makes everything so much more feasible. After all, you need to copy the data very quickly, when Darth Vader is coming.
+- So let's say we have the equivalent of 4x50Mb stations transmitting, that's 200Mb/s, or 25MB/s.
+- Jyn broadcasts for about 4s, so 25MB * 4s = 100MB total.
+- That looks much more feasible. You can fiddle with the numbers, I'm prolly a bit off, but it's likely to not be in the GB or TB range.
 
-I believe what's broadcast was only that size, or only what was needed. You could think of other ways of storing more, but broadcasting less, like the broadcasting only some thing(s), but if you put the HD in a proper reader you can see all the files, but I don't think the production particularly cared about this aspect of feasibility.
+Conclusion
+---
+
+I am fairly certain that the data that was actually broadcast is in the 20-200MB range as shown in the calculations above. This makes everything so much more feasible. After all, you need to copy the data very quickly, when Darth Vader is coming.
+
+I believe what's broadcast was only that size, or only what was needed. You could think of other ways of storing more, but broadcasting less. Like broadcasting only some things but if you put the HD in a proper reader you can see all the files, but I don't think the production particularly cared about this aspect of feasibility.

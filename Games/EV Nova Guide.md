@@ -1,9 +1,9 @@
 # EV Nova Guide
-## by junh1024
+*by junh1024*
 
 ## Introduction
 
-EV Nova is a space adventure game, released in 2002 for Mac OS classic & X, and 2003 for windows. There are a few small differences, prolly bugs, but otherwise almost the same. Most of the story is told through text. It was published by Ambrosia Software, founded in 1993 and defunct in 2017. It's a bit astonishing that a indie software company lasted 25 years. Although it's the third game in the Escape Velocity series, it features a different story/universe. Returning players from EV/EVO will notice the many graphical & gameplay/QoL improvements. See [Appendix I]() for a comprehensive list.
+EV Nova is a space adventure game, released in 2002 for Mac OS classic & X, and 2003 for windows. There are a few small differences, prolly bugs, but otherwise almost the same. Most of the story is told through text. It was published by Ambrosia Software, founded in 1993 and defunct in 2017. It's a bit astonishing that an indie software company lasted 25 years. Although it's the third game in the Escape Velocity series, it features a different story/universe. Returning players from EV/EVO will notice the many graphical & gameplay/QoL improvements. See [Appendix I](https://github.com/junh1024/junh1024-Documents/blob/master/Games/EV%20Nova%20Appendix.md#appendix-1) for a comprehensive list.
 
 ![pic](https://vignette.wikia.nocookie.net/evn/images/c/c9/Ships.png)
 
@@ -52,7 +52,7 @@ Shortcuts are vital to playing the game. Make sure you memorize most of what's i
 - The mission debriefings talk about payment into your account as if it was an entity that's not on your ship. However, when pirates board your ship, they can steal your credits as if your credits were on your ship.
 - If you have Solar panels, no matter how sunny a day is or how long you spend unloading cargo on a planet, they will only recharge in space. You also get auto-recharging when you reach T2 in the Vell-os storyline, but fuel is still not free.
 - If you bribe a planet to let you land and then target another ship, the planet will forget you paid, but credits have already been deducted from your account.
-- Regular manoeuvering speeds up your ship forever (until you make a change). But Afterburnerspeeds up your ship only temporarily. 
+- Regular manoeuvering speeds up your ship forever (until you make a change). But Afterburner speeds up your ship only temporarily. 
 - Missions only refresh when you land on a different planet, not every day
 - EVN can't distinguish btw created escorts & launched/standalone ships. When you get the ability to create dart, hailing them will get responses like a regular ship.
 - Slow ships as escorts magically move (but not turn) as fast as you do
@@ -179,7 +179,7 @@ Now, you will be well-equipped to star a major storyline of the game.
 
 If you want to start a particular storyline, see the excellent guide at https://www.arpia.be/walkthrough/ to see the mission requirements.
 
-If you're ever in federation space a you're being chased by federation ships but don't think you've done anything wrong , it's time to head to auroran space. This really confused me the first time i encountered this situation.
+If you're ever in federation space a you're being chased by federation ships but don't think you've done anything wrong , it's time to head to auroran space. This really confused me the first time I encountered this situation.
 
 If you have a mission to land on a hostile planet, they will waive the bribe and let you land anyway. But you generally can't choose the locations of missions, unless it's the Sigma deliveries. Those always end on Earth.
 
@@ -252,7 +252,7 @@ You can also download more plugins to add more story. There are a few plugs whic
 There are some other minor storylines like Cunjo Hunt & Rock Band missions that can pay  some credits, but shouldn't affect your rating or other storylines. See side missions on the walkthrough.
 
 ## Conclusion
-For more info on EVN mysteries like L1551, Kontik, and Kelariy, see [TWCB](https://evn.fandom.com/wiki/TWCB) and [World of ATMOS](https://evn.fandom.com/wiki/Word_of_ATMOS) 
+For more info on EVN mysteries like L1551, Kontik, and Kelariy, see [TWCB](https://evn.fandom.com/wiki/TWCB) and [Word of ATMOS](https://evn.fandom.com/wiki/Word_of_ATMOS) 
 
 ## Related
 - [EVE-Online](https://www.eveonline.com/): A MMORPG with a much more complex economy and balance. Some ship names are the same as EVN, but look completely different. Some of them look like space stations with the stick & shaft aesthetic.
@@ -262,12 +262,11 @@ For more info on EVN mysteries like L1551, Kontik, and Kelariy, see [TWCB](https
 - Other mobile games
 
 ## Appendix
-## Appendix I
-## Changes
+### Changes
 
-Moved to [EV Nova Appendix]() . Outlines changes from EV/EVO to EVN, but maybe interesting reading for new players.
+Moved to [EV Nova Appendix](https://github.com/junh1024/junh1024-Documents/blob/master/Games/EV%20Nova%20Appendix.md#changes) . Outlines changes from EV/EVO to EVN, but maybe interesting reading for new players.
 
-## Music
+### Music
 
 - EV: [Face of the Enemy aka KT56-7](https://www.youtube.com/watch?v=lkq06k1JA4E) , production/library music, previously from Killer Tracks, now available from [UPM](https://www.universalproductionmusic.com/en-us/discover/albums/611/Drama-Volume-2) . EV starts the series with a bold, realistic-sounding theme. Though in the middle part, the orchestra smothers the rhythm section=bad. EVO in comparison, [sounds cheap](https://www.youtube.com/watch?v=WFIvLPF__L4).
 - EV Galactic Scourge: [Prokofiev - Romeo & Juliet, Op. 64, Act II: No. 36, Finale. 2nd part.](https://www.youtube.com/watch?v=NOlhGc0d76c&t=74) Dunno exact version.
@@ -279,7 +278,6 @@ The theme seems to be orchestral pieces with an emphasis on brass, perhaps as pa
 ![pic](https://images-na.ssl-images-amazon.com/images/I/31Ge5zsGrvL.jpg)
 
 ### History
-
 
 In 2002, EV Nova was released. I must've gotten a CD copy off Macworld or sth since 150mb was unthinkable to DL over dialup or school internet. I loved the OP music, and wanted to play it outside of EVN. I looked up the type/creator code. Oh, it's just MPEG/mp3. But what's it called? I posted a thread on the EV series/general ASW forum:
 
@@ -298,6 +296,10 @@ My 1st ever forum post, done on a school library computer in class time. But
 I let the trial expire, I think the CD was a 1.0x version so none of the codes I found on the net worked, and my serialbox was from 1999. Some of them mentioned this mythical MSJ place. And obv I had no way of paying as a kid.
 
 Unrelated: mac software readmes come as simpletext documents, but some are read-only but others are editable. I wanted to edit readmes to make them neater & save space. The locked file attribute wasn't set for read-only docs so I was a bit puzzled. It wasn't until I had a look at the type/creator codes that I figured out why, the read-only ones had a type code of 'ttro'. After changing it to 'TEXT', I can finally edit them.
+
+![Docmaker icon](https://cdn.discordapp.com/attachments/542719334678790144/762888706486566922/unknown.png)	![Docmaker icon](https://cdn.discordapp.com/attachments/542719334678790144/762864021631795231/Appdoc.png)
+
+*Docmaker icon vs recreation from memory*
 
 Docmaker was also a thing in the 90s, when PDFs weren't ubiquitous & you wanted to have something longer/more complex than a plain simpletext document, but wanted to make it readable on any mac. The solution was to make the document an app. I started a Docmaker document/app, but couldn't resume editing it again by double-clicking on it, cuz you can usually re-edit most documents by double-click. Didn't realize until a while later that cuz it's an app, it just simply opens as an app. To re-edit it, you need to use the Docmaker editor.
 
@@ -328,15 +330,6 @@ In 2017, ASW went defunct. In 2020, Magia Record EN also closed shop due to "not
 OTOH, as EVN is an offline game & microsoft loves binary compatibility, it still functions in windows 10. You can convert plugins to rez, and even pilot files (but on mac). The mac UB version may be useless in a few years due to another arch shift, to ARM, and when rosetta 2 will be deprecated.
 
 
-
-https://cdn.discordapp.com/attachments/542719334678790144/762864021631795231/Appdoc.png
-
-https://cdn.discordapp.com/attachments/542719334678790144/762888706486566922/unknown.png
-
-DOcmaker
-
-Started: late Sept 2020
-
 ## 
 Matt Burch owned a copy of [Elite](https://en.wikipedia.org/wiki/Elite_\(video_game\)) , which he'd never played cuz he lost the Lenslok protection device. But it had a very detailed manual. It left an impression on him and he finally made a game Escape Velocity as a college student, released in 199x which captured the spirit of elite. Its expandability with plugins created a community. Peter Cartwright made a scenario called Override which was published as a new game by ASW. In 2000s, a bunch of students from Australia created another scenario. Matt Burch returned to make many significant code updates, and the result is the EVN we know today. Matt would like to thank his parents for equipping him at a young age with the right tools.
 
@@ -349,3 +342,7 @@ https://lifeandtimes.games/episodes/files/pax-aus-19-ambrosia-sw-talk
 - Nova Reference
 - EVN wiki
 - GameFAQs guides as above
+
+
+
+Started: late Sept 2020
