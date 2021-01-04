@@ -45,13 +45,16 @@ Tidal now has Atmos music as of mid-2020. It's encoded in EC3 768kps (the highes
 - Lisa Batiashvili - Morricone Love Theme- soloist uncomfortably sharp in rears suggest upscale, 1/5
 - Miloš Karadaglić - Yesterday: 1le instrument, 2/5
 - Sheku Kanneh Mason - Saëns Le Cygne, Marley -  No Woman, No Cry: too much room verb 1/5
+- The Kanneh-Masons - Carnival (Saint Saens): meters quiet C/LFE suggest upscale damn DECCA loves to upscale, 1/5
 ### Classical
+- Anne-Sophie Mutter - John Williams in Vienna: I think this is discrete, 2/5
 - Gautier Capuçon - Saëns Le Cygne, 2/5
 - Itzhak Perlman -  Vivaldi Le quattro (4 Seasons): 1976 date & soloist uncomfortably sharp in rears suggest upscale, 1/5
 - Janine Jansen - Vivaldi 12 Violin Concertos: sounds OK. but C empty & LFE filled? 2/5
 - Lucerne Festival Orchestra - Stravinsky: is this upscaled? 1/5
 - Seiji Ozawa - Beethoven Symphony No.9: Quiet discrete C. Japs love their Sym9. , 3/5
 - The Three Tenors - Puccini Turandot, 2/5
+- Wiener Philharmoniker - Mussorgsky -  Pictures at an Exhibition etc: 2000 date meters quiet C/LFE suggest upscale, 1/5
 ### EDM
 - Lady Gaga - Applause: Bass @ back 1/5
 - Bachelors of Science - The Space Between Remixes : 1st track 2/5

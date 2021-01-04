@@ -11,9 +11,11 @@ There are many misconceptions about Home Theater 3D Audio formats on the interne
 - ELL = ear-level layer. I won't call this the bottom layer since NHK 22.2 has 3 layers, including a bottom layer.
 
 ## Formats
-- THD Atmos extendeds THD
-- DTS-X extendeds DTS-HD and is fully compatible.
-- Auro-3D embeds height channels within PCM, in a compatible manner.
+- THD Atmos extendeds THD (consumer version introduced 2014)
+- DTS-X extendeds DTS-HD and is fully compatible. (consumer version introduced 2015)
+- Auro-3D embeds height channels within PCM, in a compatible manner. (introduced 2010)
+
+These are the 3 contenders for 3D sound in the Home Theater arena. They are compatible with previous BD formats. The main purpose of the new formats is to store height. A secondary purpose of some is to be scalable to high speaker counts in a bitrate-efficient way, wether through the codec, or decoder.
 
 ## General
 
@@ -115,10 +117,9 @@ FALSE, PROBABLY. THD is 24b, but the number of active bits is usually lower, and
 TRUE, PROBABLY. DTS-X Encoder Suite has a preconditioning option, which is off by default. Which gets you call 24b. High preconditioning probably reduces the bits, probably down to 18b.
 
 ### The Atmos used in games is the same as the Atmos used on BDs
-FALSE. Atmos for games uses Atmos MAT. Through HDMI probing (what's the proper name?), the device can find out the AVR supports Atmos. It can then skip the AC3 core & legacy 7.1 downmix, and trasmit Atmos MAT. Since no legacy material is needed, this leaves space for more objects.
-
+FALSE. Atmos for games uses Atmos MAT. This is different to TrueHD. Through HDMI probing (what's the proper name?), the device can find out the AVR supports Atmos. It can then skip the AC3 core & legacy 7.1 downmix, and trasmit Atmos MAT. Since no legacy material is needed, this leaves space for more objects.
 ### TrueHD always has a AC3 core
-FALSE. Although on BD THD must have a AC3 core since THD is an optional code on BD, it is possible to have THD without a AC3 core. In fact they are separate streams with the same ID on BD.
+FALSE. Although on BD THD must have a AC3 core since THD is an optional codec on BD, it is possible to have THD without a AC3 core. In fact they are separate streams with the same ID on BD.
 
 ### DTS-HD always has a DTS core
 TRUE. The core is required to decode the HD part.
@@ -149,6 +150,9 @@ MAYBE. Depending on how it was muxed, it might not be compliant, and may fall ba
 
 ### 7.1 adds rear speakers to 5.1
 DEPENDS on who you ask. Dolby & SMPTE will say yes. Microsoft will say no (in WAVEFORMATEXTENSIBLE back comes before side, so 5.1 has back speakers, not side speakers). DTS (in a YT video) claimed "7.1 splits the surround speakers of 5.1 into 2 pairs for an enlarged sweet spot". This must be universally correct since it's vague. The side/back difference in ordering can cause problems in data exchange.
+
+### You can store Atmos in FLAC
+FALSE. Atmos for consumers is generally 12-16 channels or objects, but the FLAC codec only supports 8 fixed channels, so there's a problem. If you're able to "successfully" store Atmos in FLAC, you're prolly storing the legacy 7.1 presentation of THD Atmos.
 
 ## For Consumers
 
@@ -262,6 +266,12 @@ FALSE.
 - If you start with DTS-X, you can export 7.1.4 and do similar. If you only have an encoded bitstream, you can use DTS-X Bitstream tools to decode DTS-X to WAVs.
 - If you start with Auro-3D, you can use channel exports. If you're using Nuendo, maybe you can convert Auro-3D panners to Atmos panners. If you only have an encoded bitstream, you can use the Auro-3D decoder in their suite.
 - I haven't tested any of these.
+
+### I can QC my Atmos mix on a PC
+FALSE. As of 2020, there are no THD/EC3 Atmos decoders for PC. You must use a AVR. The situation may change in the future. If you have DTS-X or Auro-3D suites, those may include a decoder.
+
+### I can use ADM from 3D OBA suite(s) with Dolby encoders
+FALSE. Although this is the ideal situation, and the Dolby Atmos Conversion Tool can convert between DAMP and ADM formats, Dolby tools currently only accept ADM WAV files made by Dolby tools. This is due to cubular vs spherical coordinates, among other possible differences. So if you use other OBA suites such as [VISR](http://www.s3a-spatialaudio.org/plugins) or [EBU EAR](https://ear-production-suite.ebu.io/) suites and want to deliver for Dolby codecs, you're in for a bad time(tm). Unless you mix in CBA (which is what many people are doing anyway, including myself).
 
 ### It's hard to convert a legacy 5.1 project to an Atmos project
 FALSE, MAYBE. In PT & Nuendo, maybe you can convert legacy projects to Atmos projects using scripts. Or you can export 5.1 stems and start a new project. I haven't tested any of these.
