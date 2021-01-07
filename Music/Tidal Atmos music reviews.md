@@ -1,7 +1,7 @@
 # Tidal Atmos music reviews
 
 ## Introduction
-Tidal now has Atmos music as of mid-2020. It's encoded in EC3 768kps (the highest bitrate). I will review the 2D surround mix (since I don't have an Atmos system).
+Tidal now has Atmos music as of mid-2020. It's encoded in EC3 768kps (the highest bitrate). I will review the 2D surround mix (since I don't have an Atmos system). I rate them rather low so you can add 1 to the score if you want.
 
 - Key: 3/5 can't have a lot of lead/rhythm instruments@back. Approaching a good mix
 - 2/5: some SQ

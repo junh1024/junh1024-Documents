@@ -179,20 +179,28 @@ Another benefit is [height virtualization](https://hometheaterreview.com/marantz
 ### THD Atmos may use a fixed 7.1.4 print
 TRUE. Some studios choose 12 objects for Atmos THD or use a fixed 7.1.4 render. Supposedly this is easier/faster for authoring software such as Scenarist Ateme Titan or Sony Blu-print since it doesn't need a 2nd pass for spatial coding. Another benefit is reduced bitrate.
 
+### It doesn't matter what software they use to mix 3D
+FALSE (imo). I believe if it's easier to use height, it will be used more. Most Atmos panners are cube-based. So if you want to use height, it's a separate control on top of ELL movement. There is a dome panner in DTS-X (and other suites like mine, and OBA suites) which makes 3D panning as easy as 2D panning by using the center of the circle for height. There is a dome panner for Atmos, but it's intended for VR use. ED: As of 2020, there is the Atmos Music panner with 2D to 3D panning.
+
+![PT Panner](https://2.bp.blogspot.com/-2uXixotqXes/WVGaUr-5J_I/AAAAAAAABo8/4zR1nXzuC8oK4GC5ryCvv5vdySLP93_yACLcBGAs/s1600/pro-tools-hd-12-atmos.jpg "pleb Atmos Panner")
+![DTS-X Panner](http://kyleclapman.com/wp-content/uploads/2017/12/mda_creator-dome.png "DTS-X Panner master race")
+
 ### Studios don't care about 9.1.6 users
 MAYBE. Mixing software such as PT & Nuendo use a square panner which has L & R in the top corner. If you wanted to have consistent content in the width speakers, you would need to increase the diffusion of objects from L&R, or move them a bit back. Many studios also have 7.1.4 systems.
 
-### Atmos remixers are lazy and don't care about height
-MAYBE. One part is tools. Most Atmos panners are cube-based. So if you want to use height, it's a separate control on top of ELL movement. There is a dome panner in DTS-X (and other suites like mine, and OBA suites) which makes 3D panning as easy as 2D panning by using the center of the circle for height. There is a dome panner for Atmos, but it's intended for VR use.
-
-The other part is effort. Some people just don't put in the effort. Like "The Lion King" (1994), there were opportunities to use height, like dialog from above for certain scenes (others have claimed), but it just wasn't used.
-
-![PT Panner](https://2.bp.blogspot.com/-2uXixotqXes/WVGaUr-5J_I/AAAAAAAABo8/4zR1nXzuC8oK4GC5ryCvv5vdySLP93_yACLcBGAs/s1600/pro-tools-hd-12-atmos.jpg "pleb Atmos Panner")
-
-![DTS-X Panner](http://kyleclapman.com/wp-content/uploads/2017/12/mda_creator-dome.png "DTS-X Panner master race")
+### Atmos mixers are lazy and don't care about height
+MAYBE. There are several parts to this:
+1. Many mixers are just used to panning in 2D. You can still get a great 2D mix, many still are.
+2. Differing speaker placements and appropriateness. The Middle layer may be at screen level where the action is so sometimes it's not appropriate to pan sound upwards, even though there's a lot of action.
+3. Some people don't like aggressive Atmos mixes (these people do exist), leading to conservative mixes being most agreeable subset
+4. Not enough stem separation, especially for older movies. Though you can still move the whole bed up. Some reviewers may even hear things others don't
+5. Effort. It needs to be a team effort from the start of the movie to use Atmos effectively, not an afterthought on one dude. Also, some people think consumers won't listen in Atmos. The result is some bad mixes, at least in part. Like "The Lion King" (1994) " Scar's Be Prepared in chapter eight is a scene that seems like an ideal time for some spacial adds to the top that never really materialize with any overhead prominence" in a review from [blu-ray](https://www.blu-ray.com/movies/The-Lion-King-4K-Blu-ray/217393/#Review), or Back to the Future [others have claimed](https://www.avsforum.com/threads/back-to-the-future-ultra-hd-blu-ray-review.3170351/#post-60174382) . But [John Wick 2](https://www.youtube.com/watch?v=Nx4vve3UGUg) and  [Mission Impossible, I assume fallout](https://www.youtube.com/watch?v=pOI0T15d4R) are apparently examples of good mixes.
 
 ### You will get the same experience at the cinema regardless of system
 FALSE. As most movies are now mixed in Atmos, others may be conversions. The Dolby Atmos Renderer was limited to 7.1.2 in the past so other presentations such as DTS-X, Auro-3D, and IMAX will be inferior conversions. As of V3.5, it can now output 7.1.4 (and a few others) so a bit better, but still not perfect.
+
+### If it was Atmos at the cinema it will be Atmos at home
+FALSE. See start of this document. Also, there could be a case where a film was Atmos at a German cinema, but on the home release, the English track gets Atmos, but the German track only gets 5.1 due to the label wanting less versions of discs & space issues fitting in many languages. Said film may have German Atmos on streaming (but in lossy).
 
 ## Legacy Formats
 
@@ -275,6 +283,9 @@ FALSE. Although this is the ideal situation, and the Dolby Atmos Conversion Tool
 
 ### It's hard to convert a legacy 5.1 project to an Atmos project
 FALSE, MAYBE. In PT & Nuendo, maybe you can convert legacy projects to Atmos projects using scripts. Or you can export 5.1 stems and start a new project. I haven't tested any of these.
+
+### It's hard to have consistent height content
+FALSE. [Boom library](https://www.boomlibrary.com/shop/?swoof=1&pa_producttype=3d-surround) have released a few 3D surround libraries with room tones & weather FX recorded with a 8.0 mic array.
 
 ### Dolby charges license fees per title
 
