@@ -59,6 +59,7 @@ Tidal now has Atmos music as of mid-2020. It's encoded in EC3 768kps (the highes
 - Lady Gaga - Applause: Bass @ back 1/5
 - Bachelors of Science - The Space Between Remixes : 1st track 2/5
 - London Elektricity - Building Better Worlds: On Final View From The Rooftops , 2/5
+- Fritz Hilpert – Atmos for Androids: , 2/5
 ### Oldies
 - Bing Crosby - Have Yourself A Merry Little xma, Sleigh Ride: 1/5
 - Bing Crosby - Let It Snow! Let It Snow! Let It Snow!: Did they DIY ML this? 1/5

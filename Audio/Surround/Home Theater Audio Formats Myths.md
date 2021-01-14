@@ -6,7 +6,7 @@ There are many misconceptions about Home Theater 3D Audio formats on the interne
 
 - UBD = 4K UltraHD Blu-ray
 - ps = bits per second
-- EC3 Atmos = Dolby Digital Plus with Atmos
+- EC3 Atmos = Dolby Digital Plus JOC (Atmos)
 - DTS-X = DTS:X
 - ELL = ear-level layer. I won't call this the bottom layer since NHK 22.2 has 3 layers, including a bottom layer.
 
@@ -221,6 +221,9 @@ Overall & in practice, DTS-HD MA is (almost) completely superior to THD.
 
 ### DTS-HD MA is equivalent to THD
 TRUE, MOSTLY. They're both lossless codecs. But THD is dolby, and THD has dialnorm. So playing both codecs, THD may have a different volume due to dialnorm so may be perceived to be different/quieter. And louder is generally perceived to be better, so some may favor DTS-HD MA.
+
+### I don't like AC3 as a codec since it's quiet
+FALSE. You can encode AC3 as loud as you like. But Dolby will do loudness management on it, and Film/TV material, which is quieter than music is usually encoded in AC3, which contributes to this myth that AC3 modifies the audio signal to be quieter.
 
 ### Cinema AC3 is the same as Home AC3
 MAYBE. Cinema AC3 uses 320kps compared to home with is typically 384/448kps for 5.1.
