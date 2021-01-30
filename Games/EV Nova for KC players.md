@@ -19,7 +19,7 @@ I'm not aware of any plugin that adds WW2-style ships, not even space battleship
 
 ![fleet composition](https://yksk.kancollewiki.net/w/images/8/87/Composition_Menu.png)
 
-In KC, you can have up to 6 ships in your active fleet (Pokemon seems to have set a precedent in 1996), and sometimes a 2nd fleet for events for a total of 6 ships. Ships might carry planes, and if they're a dedicated CV, they sorta don't fight otherwise. During events you can have up to 12 ships, using a 2nd fleet of your own (combined fleet), or NPC fleet (friendly fleet).
+In KC, you can have up to 6 ships in your active fleet (Pokemon seems to have set a precedent in 1996). Ships might carry planes, and if they're a dedicated CV, they sorta don't fight otherwise. During events you can have up to 12 ships, using a 2nd fleet of your own (combined fleet), or NPC fleet (friendly fleet).
 
 Fleet composition is an important part of KC , so that you can select the right types of ships with the [right abilities/equipment](https://en.kancollewiki.net/Help:Equipment_Setup) that you have, to fight the enemy efficiently. And maybe some [cargo culting](https://kancolle.fandom.com/wiki/User_blog:Tsubakura/Mythbusting_the_metas_of_KanColle). In many cases, you might have 2 capital ships & 4 smaller ships for a battle. And very often you have type restrictions dictated by the map. In rare cases, you can have a janky setup of sth like BB, CVL, CL, 3x DD, to clear an "easy" map (where was the lounge comment of someone having a janky setup?).
 
@@ -33,16 +33,16 @@ In EVN, you drive 1 ship and have up to 5 escorts. You can have hired escorts (w
 
 Your escorts may be CVs, so they can launch more ships. Ships can have 1-4 bays (including yours), and each bay can have 3-4 fighters. CVs implies decent guns. Formation choice and ordering isn't really a thing in EVN, but you can choose commands for your fleet from: formation, attack, defend, hold position. By carefully using these, you can draw fire towards your escort & freeing yourself, or vice versa to better suit your objective.
 
-There are voice hails in EVN, which change depending on what ship(s) you have as your escorts. Thare are some Pirate hails which have some yarr in them, and some Wild Geese hails which have some British accent. These play only if you issue a command to your escort(s). Again, due to #VAs (3?) vs # voice hail groups (7?) VAs are reused like KC.
+There are voice hails in EVN, which change depending on what ship(s) you have as your escorts. Thare are some Pirate hails which have some yarr in them, and some Wild Geese hails which have an Irish accent. These play only if you issue a command to your escort(s). Again, due to #VAs (3?) vs # voice hail groups (7?) VAs are reused like KC.
 
 Fleet composition in EVN isn't really as picky as KC. If you want to freight, pick a freight ship, if you want to fight, pick a big ship with lots of shields (small escorts aren't particularly useful & will prolly get fried very quickly, unless you want to use them as meat shields). Auroran Cruiser as an escort is great for long-range combat since it has the railguns, only problem is capturing it. Only limit is your credit if you're paying for your escorts. It is usually not worthwhile to pick a specific ship to do missions that require them.
 
 ## Resources
 In KC, you have 4 major [resources](https://en.kancollewiki.net/Resources) : Fuel, Steel, Ammo, Bauxite. And some minor ones like buckets, medals, blueprints, screws for certain processes. As KC is a server-client game, it saves frequently & the state is stored on the server. Doing battles and repair will consume the major resources. Repairs for large ships can take a few hours, so you can use the instant repair buckets to speed up the process. Although you regenerate major resources over time, you prolly want more by doing expeditions & quests. There is a soft cap for resources from regeneration, which can be exceeded by your manual efforts. Resources have a hard cap which is the maximum you can hoard. Your ships will not repair themselves during battle, and sinking is usually permanent.
 
-[Expeditions](https://en.kancollewiki.net/Expeditions) are the main way of getting resources in KC. They can take from minuites to days. There are specific composition and maybe minimum stats to meet in order to have a successfull expedition & get resources. If you don't meet the minimum requirements, the expedition will fail & you won't get the resources, but some resources will be consumed. You will still get some, but reduced experience.
+[Expeditions](https://en.kancollewiki.net/Expeditions) are the main way of getting resources in KC. They can take from minutes to days. There are specific composition and maybe minimum stats to meet in order to have a successfull expedition & get resources. If you don't meet the minimum requirements, the expedition will fail & you won't get the resources, but some resources will be consumed. You will still get some, but reduced experience.
 
-In EVN, you have credits & fuel. There are major commodities (like food, metal, etc) and minor commodities you can trade between places, but the end result is credits which you can use to buy things. You get a Rank (late) into the progression of your storyline. Most Ranks offera small daily pay &/ friendly discounts on relevant planets but is prolly not enough for anything significant.
+In EVN, you have credits & fuel. There are major commodities (like food, metal, etc) and minor commodities you can trade between places, but the end result is credits which you can use to buy things. You get a Rank (late) into the progression of your storyline. Most Ranks offer a small daily pay &/ friendly discounts on relevant planets but is prolly not enough for anything significant.
 
 Ship shields recharge during battle, and is restored when you land.  The game auto-saves when you take off, so if your ship is destroyed & you die in space, just reload your pilot file. If you have strict play enabled, you need an escape pod to live after your ship is destroyed.
 
@@ -73,7 +73,7 @@ In EVN, you can have multiple active missions, and you can choose missions & you
 Missions are the heart of EVN. Like KC, there is a order & prerequisite for some missions, mainly the storyline ones. Some missions are offered as you land, some at the bar, and some through mission BBS. If you decline or abort missions, you usually don't get another chance (unless you made a copy of your pilot file, or use plugins). There are repeating generic passenger/cargo missions sorta like the daily quests, but neither pay much.
 
 ## Equipment
-Like ships, you generally can't get a specific piece of equipment at will, you need to build equipment. Or farm ships for specific equipment, for whatever desireable [Isuzu](https://danbooru.donmai.us/posts/1896340) & [Shimakaze](https://danbooru.donmai.us/posts/1680914) have, but apparently it's not done anymore?
+Like ships, you generally can't get a specific piece of equipment at will, you need to build equipment. Or farm ships for specific equipment, for whatever desireable [Isuzu](https://danbooru.donmai.us/posts/1896340) & [Shimakaze](https://danbooru.donmai.us/posts/1680914) have, but apparently it's not done anymore for those ships? In some cases, you need to farm a (rare) ship and then remodel them to get rare equipment. All part of normal gameplay.
 
 In EVN, you just buy equipment, but you don't have access to everything. You need to play the storyline to unlock more outfits and gain the trust of a government.
 
@@ -91,9 +91,9 @@ Some outfits need licenses, so you can buy the cover-all "Exotic Ships & Weapons
 
 ### Main Guns
 
-![12.7cm Gun](https://yksk.kancollewiki.net/w/images/c/cb/Equipment297-1.png)	![Medium Blaster](https://vignette.wikia.nocookie.net/evn/images/9/9e/Nova_pict_6001.png)
+![12.7cm Gun](https://yksk.kancollewiki.net/w/images/f/f5/Equipment_Card_12.7cm_Twin_Gun_Mount_Model_A.png)	![Medium Blaster](https://vignette.wikia.nocookie.net/evn/images/9/9e/Nova_pict_6001.png)
 
-![10cm Duck Gun](https://yksk.kancollewiki.net/w/images/d/d0/Equipment122-1.png)	![100mm Railgun](https://vignette.wikia.nocookie.net/evn/images/c/cd/Nova_pict_6043.png)
+![10cm Duck Gun](https://yksk.kancollewiki.net/w/images/0/02/Equipment_Card_10cm_Twin_High-angle_Gun_Mount_%2B_Anti-Aircraft_Fire_Director.png)	![100mm Railgun](https://vignette.wikia.nocookie.net/evn/images/c/cd/Nova_pict_6043.png)
 
 
 Let's have a look at the [12.7cm Fubuki gun](https://en.kancollewiki.net/12.7cm_Twin_Gun_Mount_Type_A) .  It's very mediocre & you prolly want something better. You want the [10cm Duck Gun](https://en.kancollewiki.net/10cm_Twin_High-angle_Mount_%2B_Anti-Aircraft_Fire_Director) . In EVN, [Medium Blasters](https://evn.fandom.com/wiki/Medium_Blaster) are quite common & crap. You want a ~~certain magical~~ [100mm Railgun](https://evn.fandom.com/wiki/100mm_Railgun) . Railguns actually fire slower than blasters, but the main feature is that they have very long range, so you can take out bigger ships from a safe distance. Also available is the [150mm Railgun](https://evn.fandom.com/wiki/150mm_Railgun), which somehow does more damage/sec than the [200mm Railgun](https://evn.fandom.com/wiki/200mm_Railgun). There are a few powerful beam weapons in EVN, which are not discussed here.
@@ -103,9 +103,9 @@ Let's have a look at the [12.7cm Fubuki gun](https://en.kancollewiki.net/12.7cm_
 
 
 
-![Regular 3x Torp](https://yksk.kancollewiki.net/w/images/f/f2/Equipment13-1.png)	![IR Missile](https://vignette.wikia.nocookie.net/evn/images/a/ad/Nova_pict_6007.png)
+![Regular 3x Torp](https://yksk.kancollewiki.net/w/images/a/ae/Equipment_Card_61cm_Triple_Torpedo_Mount.png)	![IR Missile](https://vignette.wikia.nocookie.net/evn/images/a/ad/Nova_pict_6007.png)
 
-![Quad Ox Torp](https://yksk.kancollewiki.net/w/images/5/5c/Equipment15-1.png)	![Hellhound Missile](https://vignette.wikia.nocookie.net/evn/images/4/49/Nova_pict_6308.png)
+![Quad Ox Torp](https://yksk.kancollewiki.net/w/images/8/8c/Equipment_Card_61cm_Quadruple_%28Oxygen%29_Torpedo_Mount.png)	![Hellhound Missile](https://vignette.wikia.nocookie.net/evn/images/4/49/Nova_pict_6308.png)
 
 
 
@@ -118,7 +118,7 @@ When ships gain experience through battle in KC, they can level up & improve the
 
 If you're trying to level your ship, you'll prolly set them as flagship which gives them a [small exp bonus](https://en.kancollewiki.net/Experience_and_Rank#Sorties) by default, but be careful of equipment & other ships, since there is a possibility of them stealing MVP, which has a higher bonus.
 
-You have the ability to use other ships as fodder to increase the stats of a selected ship, called [modernization](https://en.kancollewiki.net/Modernization) . Since you need to have fodder of (many rare) ships it's advised to [prioritize](https://en.kancollewiki.net/Help:Modernization) your modernizations. You can also [remodel](https://en.kancollewiki.net/Remodel_\(Mechanic\)) a ship when they are of eligible level to futher increase stats. If you did modernization before, note that some effects are kept, others not. Ships whose remodels are theoretical (ships that were sunk in WW2 before they got upgraded to a certain config), you need a [blueprint](https://en.kancollewiki.net/Blueprint) and maybe other resources such as the [much-coveted](https://twitter.com/__MinT__2301/status/1255451971093499904) protopult. You can get 1 blueprint from 4 [medals](https://en.kancollewiki.net/Medal), which are obtained by (repeatable) quests, and some regular/event maps. The other resources are obtained from quests & events. Since the availability of other resources are limited, it's advised to [prioritize](https://en.kancollewiki.net/Help:Ship_Priority) your remodels. 
+You have the ability to use other ships as fodder to increase the stats of a selected ship, called [modernization](https://en.kancollewiki.net/Modernization) . Since you need to have fodder of (many rare) ships it's advised to [prioritize](https://en.kancollewiki.net/Help:Modernization) your modernizations. You can also [remodel](https://en.kancollewiki.net/Remodel_\(Mechanic\)) a ship when they are of eligible level to fruther increase stats. If you did modernization before, note that some effects are kept, others not. Ships whose remodels are theoretical (ships that were sunk in WW2 before they got upgraded to a certain config), you need a [blueprint](https://en.kancollewiki.net/Blueprint) and maybe other resources such as the [much-coveted](https://twitter.com/__MinT__2301/status/1255451971093499904) protopult. You can get 1 blueprint from 4 [medals](https://en.kancollewiki.net/Medal), which are obtained by (repeatable) quests, and some regular/event maps. The other resources are obtained from quests & events. Since the availability of other resources are limited, it's advised to [prioritize](https://en.kancollewiki.net/Help:Ship_Priority) your remodels. 
 
 In Excercise/PVP battles, bringing along a CLT such as Kashima increases the exp earned by your fleet by about 5-10% usually.
 
@@ -146,13 +146,13 @@ Everyone knows this, if you ship is in chuuha (medium damage) going into a battl
 
 Sometimes you may get the opportunity to do [Night battle](https://en.kancollewiki.net/Combat/Night_Battle).  Some ships get special attacks at night, while others might not participate (depends on fleet configuration). If one of your ships has a [searchlight](https://en.kancollewiki.net/Searchlight), there are some benefits, but also some detriments, like enemy ships hitting the searchlight-holder more often. This is somewhat realistic & there were some cases where a searchlight attracted fire. Like when Aoba flashed her ID. This was seen by an enemy ship, which fired on Aoba. [Comic](https://danbooru.donmai.us/posts/1550386) .
 
-There is a mechanic called overkill protection. Basically, if your ship would otherwise kill them, a % of damage is dealt instead. This is most applicable to DDs, can odd-numbered HP ships can benefit most from this. There is some basis for this IRL. There's a possibility that big AP shells from BBs can pass straight through a ship with thin armor (such as DD) without exploding as they were [designed to pierce other BBs](https://old.reddit.com/r/kancolle/comments/40wcr0/discussion_guide_on_overkill_mechanics_or_why_dds/cyxpmmr/) .
+There is a mechanic called overkill protection. Basically, if your ship would otherwise kill them, a % of damage is dealt instead. This is most applicable to DDs, odd-numbered HP ships can benefit most from this. There is some basis for this IRL. There's a possibility that big AP shells from BBs can pass straight through a ship with thin armor (such as DD) without exploding as they were [designed to pierce other BBs](https://old.reddit.com/r/kancolle/comments/40wcr0/discussion_guide_on_overkill_mechanics_or_why_dds/cyxpmmr/) .
 
 There's not really overkill protection in EVN. If a system really hates you, they'll try to destroy you. Pirates tend to disable & loot, but a stray shot or other pirates can still total you. You can try to call off a pirate attack/loot by paying a bribe. If you get invited to a friendly duel, the duellist will have disable-only weapons.
 
 in EVN, you have shields & armor. After your shields are down, shots take your armor. Different weapons deal different amounts to shields & armor. A minority of weapons go straight for armor. When you get to low armor (usually 10%), your ship is disabled & you can't move. You can try requesting assistance from other ships to repair your ship, usually for a fee.
 
-Some weapons (like the Ion cannon & EMP torpedo) ionize your ship. Ionization slows down your ship & it's much harder to avoid subsequently hits. Ionization & de-ionization are hidden stats. 
+Some weapons (like the Ion cannon & EMP torpedo) ionize your ship. Ionization slows down your ship & it's much harder to avoid subsequent hits. Ionization & de-ionization are hidden stats. 
 
 In EVN, combat is a very hands-on thing. By firing &/ dodging you influence the outcome. You can't be an [absent player](https://danbooru.donmai.us/posts/2158277) , but you can pause the battle. But combat is mostly a minor aspect of the game. But if you love combat, you can hunt for Pirates/Marauders and kill them. Everyone will love you (except for Pirates). Or download a plugin like [Colosseum](https://evn.fandom.com/wiki/Colosseum) if you enjoy combat. Your combat record increases according to the number & size of ships you kill.
 
@@ -164,9 +164,18 @@ In EVN, you have primary & secondary weapons, controlled by separate keys. You c
 
 In KC, there is a technique known as "torpedobeats" where through careful selection of ship, formation, and optionally a [Ferrari Engine](https://en.kancollewiki.net/Enhanced_Steam_Boiler) , you can increase your chance of dodging torpedoes. In EVN, you can increase your chance of evading missiles by using a fast ship, suitable outfits, and driving.
 
-Maelstrom map nodes are where you lose resources. can reduce the loss by adding Radar. You definitely want to avoid maelstroms cuz lost resources means a less effective fleet (reduced evasion, etc).
+Maelstrom map nodes are where you lose resources. You can reduce the loss by adding Radar. You definitely want to avoid maelstroms cuz lost resources means a less effective fleet (reduced evasion, etc).
 
-In EVN, they're roughly anagulous to pirate attacks. Likewise, you can avoid pirate attacks by running away or destroying the pirates. The consequence of a pirate attack is creadits stolen. But unlike KC, your ship is disabled & you generally must call for help to get moving again (or just reload your pilot file). You can reduce the loss by bribing them (usually the bribe < credits that would be stolen), or simply not having that many credits in the 1st place.
+In EVN, they're roughly anagulous to pirate attacks. Likewise, you can avoid pirate attacks by running away or destroying the pirates. The consequence of a pirate attack is credits stolen. But unlike KC, your ship is disabled & you generally must call for help to get moving again (or just reload your pilot file). You can reduce the loss by bribing them (usually the bribe < credits that would be stolen), or simply not having that many credits in the 1st place.
+
+
+Combat in EVN is started when another ship is hostile towards your ship.
+
+Combat ends when 1 of the conditions are fufiled:
+1. You are defeated
+2. Enemies are defeated
+3. You flee
+4. Enemies flees
 
 ## RNG
 The general philosophy of KC and (non-combat) RNG is that with enough time & effort (incl event participation & topN of server) you can prolly get what you want. Ships can be built (or dropped after battle), and there are recipes that aim certain types, but no guarantee of getting a particular ship (even with a drop). If you use too few resources for a build, you risk a [development failure](https://en.kancollewiki.net/File:NPC_penguin.png). If you use too much you may waste resources. Similar for building equipment. You can choose a difficulty for events and the rewards scale, (although not necessarily appropriately as some people have complained about some events)
@@ -177,7 +186,7 @@ The general philosophy of EVN is that you know what you're getting, but can't al
 
 ## Ships
 
-There's >250 player ships in KC, and about 50 distinct ships in EVN. I've put decent effort into comparing KC & EVN ship stats to make a mapping that makes orders the ships in terms of relative strength and preserves certain relationships. Mutsuki is older & worse than Fubuki. Likewise, Valkyrie is older & worse than Starbridge. I've chosen KC ships to closely match EVN ships in color, but you can choose other ships in the same class or maybe type. Yeah in KC Asashio stronk, but in EVN outcomes depend on strategy as well, not just equipment. In EVN, how dangerous a ship is depends on range & weapons. Best to lure the NPC ship into wasting its dangerous torpedoes, then fiting your own weapons from range. I have a bias towards Shibafu/kai banners to go for a more consistent/aesthetic look. I should've done an OK job of the mappings. All these ships are commonly seen, and you can buy about half of them with no storyline mission prerequisite.
+There's >250 player ships in KC, and about 50 distinct ships in EVN. I've put decent effort into comparing KC & EVN ship stats to make a mapping that makes orders the ships in terms of relative strength and preserves certain relationships. Mutsuki is older & worse than Fubuki. Likewise, Valkyrie is older & worse than Starbridge. I've chosen KC ships to closely match EVN ships in color, but you can choose other ships in the same class or maybe type. Yeah in KC Asashio stronk, but in EVN outcomes depend on strategy as well, not just equipment. In EVN, how dangerous a ship is depends on range & weapons. Best to lure the NPC ship into wasting its dangerous torpedoes, then firing your own weapons from range. I have a bias towards Shibafu/kai banners to go for a more consistent/aesthetic look. I should've done an OK job of the mappings. All these ships are commonly seen, and you can buy about half of them with no storyline mission prerequisite.
 
 You can heart-lock ships that you like, to prevent them from being (auto)-selected for modernization or scrapping purposes.
 
@@ -203,58 +212,67 @@ In EVN, Aurorans are a warrior race with inferior technology but strong spirits,
 
 Aurorans have 5 official houses (family/faction) + 1 default "Dechtakar" house. Note that the news banner logo of the Heraan house (visibile if you click news in the bar of a Heraan planet, or pict ID ~~OVER 9000~~ 9007 in "Nova Graphics 3") which is supposedly a Heron looks like the JAL logo which has a crane, and KC did a [branding](https://old.reddit.com/r/kancolle/comments/djg908/media_jal_cranes_for_kure_tour/) , [collab](https://old.reddit.com/r/kancolle/comments/d344rv/news_shokaku_promotes_japan_airlines_in_the_tokyo/) last year. Also note that Heraan is the most technologically advanced house, and Shoukaku is (1 of) the most advanced CV of IJN and in KC (cuz it can have jet planes).
 
+Note that the Heraan house has a green heron. The Heraan house is also a major element in the Rebel storyline. Rebels have green as a theme color. Likewise, Japan has red as its theme color. Japan and Italy are axis powers. Italy has green on their flag.
+
 ![Heraan house](https://vignette.wikia.nocookie.net/evn/images/1/15/Nova_Heraan.png)	![JAL logo](https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/Japan_Airlines_Logo_%282011%29.svg/785px-Japan_Airlines_Logo_%282011%29.svg.png)
 
-![Akagi](https://yksk.kancollewiki.net/w/images/d/d1/KanMusu404Banner.png)	![Auroran Carrier](https://vignette.wikia.nocookie.net/evn/images/7/75/Nova_rleD_1050.gif)
+![Flag_of_Japan](https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/320px-Flag_of_Japan.svg.png)
+
+![Akagi](https://yksk.kancollewiki.net/w/images/d/d6/Ship_Banner_Akagi_Kai_Ni.png)	![Auroran Carrier](https://vignette.wikia.nocookie.net/evn/images/7/75/Nova_rleD_1050.gif)
 [Akagi](https://en.kancollewiki.net/Akagi#Info) (or Shoukaku for above reasons) is [Auroran Carrier](https://evn.fandom.com/wiki/Aurora_Carrier). 
 
-![Mogami](https://yksk.kancollewiki.net/w/images/1/19/KanMusu051Banner.png)	![Auroran Cruiser](https://vignette.wikia.nocookie.net/evn/images/3/3a/Nova_rleD_1052_s1.gif)
+![Mogami](https://yksk.kancollewiki.net/w/images/0/05/Ship_Banner_Mogami.png)	![Auroran Cruiser](https://vignette.wikia.nocookie.net/evn/images/3/3a/Nova_rleD_1052_s1.gif)
 [Mogami](https://en.kancollewiki.net/Mogami#Info) is [Auroran Cruiser](https://evn.fandom.com/wiki/Aurora_Cruiser).
 
-![Agano](https://yksk.kancollewiki.net/w/images/1/19/KanMusu137Banner.png)	![IDA Frigate](https://vignette.wikia.nocookie.net/evn/images/a/ac/Nova_rleD_1024.gif)
+![Agano](https://yksk.kancollewiki.net/w/images/4/4a/Ship_Banner_Agano.png)	![IDA Frigate](https://vignette.wikia.nocookie.net/evn/images/a/ac/Nova_rleD_1024.gif)
 [Agano](https://en.kancollewiki.net/Agano#Info) is [IDA Frigate](https://evn.fandom.com/wiki/IDA_Frigate). I was gonna map Akitsu Maru to the Frigate. But decided otherwise cuz Naka-Agano-Nagano can map to Enterprise-Frigate-P'Enterprise since all 3 ships use the IDA engine. Agano is mostly better than Naka in KC. The IDA Frigate is better than the Enterprise in EVN cuz it doesn't have a blind spot in the center, and is smaller=less area for missiles to hit.
 
-![Naka](https://yksk.kancollewiki.net/w/images/4/47/KanMusu160Banner.png)	![Enterprise](https://vignette.wikia.nocookie.net/evn/images/b/bc/Nova_rleD_1022.gif)
+![Naka](https://yksk.kancollewiki.net/w/images/c/c0/Ship_Banner_Naka_Kai_Ni.png)	![Enterprise](https://vignette.wikia.nocookie.net/evn/images/b/bc/Nova_rleD_1022.gif)
 [Naka](https://en.kancollewiki.net/Naka#Info) is [Auroran Enterprise](https://evn.fandom.com/wiki/Enterprise). I was gonna say Zuihou, for the historical connection.
 
-![Kagerou](https://yksk.kancollewiki.net/w/images/8/81/KanMusu091Banner.png)	![Abomination](https://vignette.wikia.nocookie.net/evn/images/8/8d/Nova_rleD_1048.gif)
+![Kagerou](https://yksk.kancollewiki.net/w/images/e/ed/Ship_Banner_Kagerou.png)	![Abomination](https://vignette.wikia.nocookie.net/evn/images/8/8d/Nova_rleD_1048.gif)
 [Kagerou](https://en.kancollewiki.net/Kagerou#Info) is [Auroran Abomination](https://evn.fandom.com/wiki/Abomination). Kagerou got the quad-torpedo launcher. Likewise, the Abomination got the Fusion Pulse Canons. You could choose anyone else from the bike shorts (Kagerou) class except for Taihou, or a strong DD, really.
 
-![Shikinami](https://yksk.kancollewiki.net/w/images/9/9a/KanMusu427Banner.png)	![Mod Starbridge](https://vignette.wikia.nocookie.net/evn/images/6/63/Nova_rleD_1074.gif/revision/latest?cb=20190919003613)	
+![Shikinami](https://yksk.kancollewiki.net/w/images/4/4e/Ship_Banner_Shikinami_Kai_Ni.png)	![Mod Starbridge](https://vignette.wikia.nocookie.net/evn/images/6/63/Nova_rleD_1074.gif/revision/latest?cb=20190919003613)	
 [Shikinami](https://en.kancollewiki.net/Shikinami#Info) is [Mod Starbridge](https://evn.fandom.com/wiki/Mod_Starbridge). I've put these 3 civilian ships with this bunch of KC kanmusu. Shikinami is an upgraded Fubuki, which is again as an upgraded Mutsuki. Their usage is similar in EVN, small, versatile ships that can fight or frieght.
 
-![Fubuki](https://yksk.kancollewiki.net/w/images/9/96/KanMusu226Banner.png)	![Starbridge](https://vignette.wikia.nocookie.net/evn/images/6/6f/Nova_rleD_1010.gif)
+![Fubuki](https://yksk.kancollewiki.net/w/images/f/f3/Ship_Banner_Fubuki_Kai_Ni.png)	![Starbridge](https://vignette.wikia.nocookie.net/evn/images/6/6f/Nova_rleD_1010.gif)
 [Fubuki](https://en.kancollewiki.net/Fubuki#Info) is [Starbridge](https://evn.fandom.com/wiki/Starbridge). Fubuki appears in a lot of KC marketing material & the splash. Similarly, the Starbridge appears on the game icon & splash. You could also choose another kanmusu from the [Potato class](https://en.kancollewiki.net/Category:Fubuki_Class) . In KC, Shikinami is sometimes better than Fubuki except in a few areas (might depend on play style). Likewise for EVN, Mod is sometimes better than original. Except for jump speed. If you have any time-critical missions, use the original (not many worthwhile ones in the stock scenario tho).
 
-![Mutsuki](https://yksk.kancollewiki.net/w/images/b/b5/KanMusu234Banner.png)	![Valkyrie](https://vignette.wikia.nocookie.net/evn/images/f/ff/Nova_rleD_1018.gif)
+![Mutsuki](https://yksk.kancollewiki.net/w/images/1/1a/Ship_Banner_Mutsuki_Kai_Ni.png)	![Valkyrie](https://vignette.wikia.nocookie.net/evn/images/f/ff/Nova_rleD_1018.gif)
 Mutsuki is [Valkyrie](https://evn.fandom.com/wiki/Valkyrie). Both are based on older technology. If you want to improve your trading gains, you can equip a ~~[Daihatsu](https://danbooru.donmai.us/posts/3627268?)~~ cargo expansion. Unlike KC, cargo expansion can be fitted to most shpis, as long as you have the space.
 
-![Maruyu](https://yksk.kancollewiki.net/w/images/d/dc/KanMusu163Banner.png)	![Shuttle](https://vignette.wikia.nocookie.net/evn/images/3/3c/Nova_rleD_1000.gif)
+![Maruyu](https://yksk.kancollewiki.net/w/images/f/f8/Ship_Banner_Maruyu_Kai.png)	![Shuttle](https://vignette.wikia.nocookie.net/evn/images/3/3c/Nova_rleD_1000.gif)
 Maruyu is [Shuttle](https://evn.fandom.com/wiki/Shuttle). A few hits and it's ded. But you can put 10t of cargo in it.
 
 
 ### Rebel
+
 I've mapped KC Italians to Rebels, which have a green theme. Italian botes are blonde, but the Italian flag has green on it. There was some collaboration between Italy & Japan in WW2 just like there's possibly collaboration btw Aurorans & Rebels (after you finish EVN). You must play the Rebel storyline to buy all of these ships.
- 
-![Zara](https://yksk.kancollewiki.net/w/images/5/58/KanMusu248Banner.png)	![Rebel_Destroyer](https://vignette.wikia.nocookie.net/evn/images/6/6c/Nova_rleD_1106.gif)	
+
+![Flag_of_Italy](https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/320px-Flag_of_Italy.svg.png)	![Nova_Rebellion](https://static.wikia.nocookie.net/evn/images/c/c1/Nova_Rebellion.png) 
+
+![Zara](https://yksk.kancollewiki.net/w/images/e/e7/Ship_Banner_Zara.png)	![Rebel_Destroyer](https://vignette.wikia.nocookie.net/evn/images/6/6c/Nova_rleD_1106.gif)	
 Zara is [Rebel Destroyer](https://evn.fandom.com/wiki/Rebel_Destroyer).
 
-![Maestrale](https://yksk.kancollewiki.net/w/images/4/40/KanMusu375Banner.png)	![Rebel_Starbridge](https://vignette.wikia.nocookie.net/evn/images/f/ff/Nova_rleD_1100.gif)	
+![Maestrale](https://yksk.kancollewiki.net/w/images/3/34/Ship_Banner_Maestrale.png)	![Rebel_Starbridge](https://vignette.wikia.nocookie.net/evn/images/f/ff/Nova_rleD_1100.gif)	
 Maestrale is [Rebel Starbridge](https://evn.fandom.com/wiki/Rebel_Starbridge).
 
 ### Federation
 I have mapped KC US to Federation ships in EVN. Both have blue as a theme color. You must play the Fed storyline to buy all of these ships.
 
-![Intrepid](https://yksk.kancollewiki.net/w/images/6/68/KanMusu349Banner.png)	![Federation_Carrier](https://vignette.wikia.nocookie.net/evn/images/4/40/Nova_rleD_1030.gif)
+![Flag_of_the_United_States](https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/320px-Flag_of_the_United_States.svg.png)	![Nova_Federation](https://static.wikia.nocookie.net/evn/images/4/42/Nova_Federation.png)
+
+![Intrepid](https://yksk.kancollewiki.net/w/images/8/80/Ship_Banner_Intrepid.png)	![Federation_Carrier](https://vignette.wikia.nocookie.net/evn/images/4/40/Nova_rleD_1030.gif)
 Intrepid is [Federation Carrier](https://evn.fandom.com/wiki/Federation_Carrier).
 
-![Houston](https://yksk.kancollewiki.net/w/images/7/71/KanMusu395Banner.png)	![Destroyer](https://vignette.wikia.nocookie.net/evn/images/5/52/Nova_rleD_1026.gif)	
+![Houston](https://yksk.kancollewiki.net/w/images/4/4d/Ship_Banner_Houston.png)	![Destroyer](https://vignette.wikia.nocookie.net/evn/images/5/52/Nova_rleD_1026.gif)	
 Houston is [Federation Destroyer](https://evn.fandom.com/wiki/Federation_Destroyer).
 
-![Johnston](https://yksk.kancollewiki.net/w/images/f/f8/KanMusu362Banner.png)	![RAGE_Gunboat](https://vignette.wikia.nocookie.net/evn/images/5/56/Nova_rleD_1088.gif)	
+![Johnston](https://yksk.kancollewiki.net/w/images/7/74/Ship_Banner_Johnston.png)	![RAGE_Gunboat](https://vignette.wikia.nocookie.net/evn/images/5/56/Nova_rleD_1088.gif)	
 Johnston is [Federation RAGE Gunboat](https://evn.fandom.com/wiki/RAGE_Gunboat).
 
-![Sammy B](https://yksk.kancollewiki.net/w/images/3/34/KanMusu361Banner.png)	![Federation_Patrol_Boat](https://vignette.wikia.nocookie.net/evn/images/d/dc/Nova_rleD_1028.gif)	
+![Sammy B](https://yksk.kancollewiki.net/w/images/f/fd/Ship_Banner_Samuel_B._Roberts.png)	![Federation_Patrol_Boat](https://vignette.wikia.nocookie.net/evn/images/d/dc/Nova_rleD_1028.gif)	
 Sammy B is [Federation Patrol Boat](https://evn.fandom.com/wiki/Federation_Patrol_Boat).
 
 ### Pirate
@@ -286,9 +304,7 @@ KC ships are named like their IJN counterpart. There are [conventions](https://e
 
 In EVN, some ships have generic names. Some cargo ships are named after mythical creatures, like Terrapin, Pegasus, Leviathan. Vell-os and Polaris ships can have names like Javelin, Arachnid, Scarab. Slightly poetic. There is a Dragon in EVN, but it's black w/ flourescent coloring, and it might not carry by default. But it has enough space for a fighter bay.
 
-## Weapons
 
-### 
 
 ## Map
 

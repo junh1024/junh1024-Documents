@@ -32,7 +32,6 @@ Part 3
 These might not appear in any IMAS anime, they're probably a bit obscure:
 * https://www.project-imas.com/wiki/Meguru_Hachimiya is Prinz Eugen. They're both somewhat genki & foreign, and blonde twintails.
 * https://www.project-imas.com/wiki/Atsumi_Munakata is Naka. Yuno, being in IMAS implicitly makes you an idol. She's very genki & the buns, but also touchy-feely.
-
 & CC u/LuidziTeitoku
 
 Part 4
@@ -40,5 +39,4 @@ Part 4
 * Yume from Grimgar & Ashes looks like Noshiro
 * May/Haruka from Pokemon looks like Kagerou
 * Mei Irizaki from Haifuri looks like i401
-
-[Previous parts](https://github.com/junh1024/junh1024-Documents/blob/master/KC/Anime%20characters%20that%20look%20%26%20behave%20like%20KC%20ships.md#part-1)
+* [Etou Kanami](https://anidb.net/character/89541) from Toji no Miko looks like Yukikaze

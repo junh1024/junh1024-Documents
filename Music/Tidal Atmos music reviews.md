@@ -50,8 +50,8 @@ Tidal now has Atmos music as of mid-2020. It's encoded in EC3 768kps (the highes
 - Anne-Sophie Mutter - John Williams in Vienna: I think this is discrete, 2/5
 - Gautier Capuçon - Saëns Le Cygne, 2/5
 - Itzhak Perlman -  Vivaldi Le quattro (4 Seasons): 1976 date & soloist uncomfortably sharp in rears suggest upscale, 1/5
-- Janine Jansen - Vivaldi 12 Violin Concertos: sounds OK. but C empty & LFE filled? 2/5
-- Lucerne Festival Orchestra - Stravinsky: is this upscaled? 1/5
+- Janine Jansen - Vivaldi 12 Violin Concertos: sounds OK. but C empty & LFE filled? might be upscale ? , 2/5
+- Lucerne Festival Orchestra - Stravinsky: is this upscaled? , 1/5
 - Seiji Ozawa - Beethoven Symphony No.9: Quiet discrete C. Japs love their Sym9. , 3/5
 - The Three Tenors - Puccini Turandot, 2/5
 - Wiener Philharmoniker - Mussorgsky -  Pictures at an Exhibition etc: 2000 date meters quiet C/LFE suggest upscale, 1/5
@@ -61,6 +61,7 @@ Tidal now has Atmos music as of mid-2020. It's encoded in EC3 768kps (the highes
 - London Elektricity - Building Better Worlds: On Final View From The Rooftops , 2/5
 - Fritz Hilpert – Atmos for Androids: , 2/5
 ### Oldies
+- Art Blakey - Moanin: I thought this was supposed to be 3ch + reverb according to [this article](https://www.mixonline.com/sfp/dolby-atmos-music-its-different-when-you-mix-music-only) ? But it is only 2ch + reverb , 1/5
 - Bing Crosby - Have Yourself A Merry Little xma, Sleigh Ride: 1/5
 - Bing Crosby - Let It Snow! Let It Snow! Let It Snow!: Did they DIY ML this? 1/5
 - John Lennon - GIMME SOME TRUTH: On Woman rhythm & LV bleed to back, 1/5

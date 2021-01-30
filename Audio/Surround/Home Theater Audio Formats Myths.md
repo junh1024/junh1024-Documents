@@ -6,7 +6,10 @@ There are many misconceptions about Home Theater 3D Audio formats on the interne
 
 - UBD = 4K UltraHD Blu-ray
 - ps = bits per second
+- EC3 = Dolby Digital Plus
 - EC3 Atmos = Dolby Digital Plus JOC (Atmos)
+- THD = TrueHD
+- DTS-HD = DTS High Definition
 - DTS-X = DTS:X
 - ELL = ear-level layer. I won't call this the bottom layer since NHK 22.2 has 3 layers, including a bottom layer.
 
@@ -28,7 +31,7 @@ FALSE. Atmos is an extension to TrueHD. TrueHD, while supported by many AVRs, is
 FALSE. As Auro-3D is carried in PCM, it can be supported on UBD through TrueHD & DTS-HD MA, too.
 
 ### THD cannot do height
-FALSE, PROBABLY. Some (newer?) versions of Dolby Media Producer/Encoder allow 5.1.2 TrueHD via channel input. I haven't tested this.
+FALSE. Dolby Media Producer allows several height layouts for THD and DDP/EC3, some of which DTS-HD also allows. I haven't tested this.
 
 ### DTS-HD cannot do height
 FALSE. DTS Master Audio Suite allows several height layouts.  [See here](https://frequenz.blogspot.com/2010/04/dts-surround-speaker-layout.html) for all supported layouts. But some layouts may not be correctly supported by older AVRs. It may appear as DTS-X on newer AVRs, but support is still flaky. You may need to choose the exact speaker layout & enable Neural-X DSP.
@@ -51,7 +54,7 @@ FALSE, MOSTLY. I'll split this up into 3 myths.
 FALSE. Auro-3D must be stored at a full 24b since that's where the data is. Atmos and DTS-X can operate at lower bitdepths so they can have potentially lower bitrates. It is sensitive to mishandling if it's in PCM/FLAC rather than THD/DTS-HD MA, so bitstream may not work if the PCM is tampered with (aka some scenarios with KODI).
 
 ### Auro-3D speaker layout is superior to Atmos
-FALSE, MOSTLY. Many A3D titles use the 11.1/5.1.6 layout. Hence Many people with legacy 7.1 speakers will get no benefit from A3D, unlike Atmos and DTS-X which are typically 7.1, since A3D 5.1.6 downmixes to 5.1. Also, In A3D 5.1.6, there is reduced rear & rear height resolution due to only 2 back speakers for each level. The layout is also uneven. A few newer A3D titles use 13.1/7.1.6, which rectifies problems with legacy systems & ELL back, but not height back.
+FALSE, MOSTLY. Many A3D titles use the 11.1/5.1.6 layout. Hence Many people with legacy 7.1 speakers will get no benefit from A3D, unlike Atmos and DTS-X which are typically 7.1, since A3D 5.1.6 downmixes to 5.1. Also, In A3D 5.1.6, there is reduced rear & rear height resolution due to only 2 back speakers for each level. The layout is also uneven. This leads to noticeably un-smooth pans at the top/back, especially with larger spaces. A few newer A3D titles use 13.1/7.1.6, which rectifies problems with legacy systems & ELL back, but not height back.
 
 [See here for diagrams](https://imgur.com/a/FYhUz)
 
@@ -118,17 +121,6 @@ TRUE, PROBABLY. DTS-X Encoder Suite has a preconditioning option, which is off b
 
 ### The Atmos used in games is the same as the Atmos used on BDs
 FALSE. Atmos for games uses Atmos MAT. This is different to TrueHD. Through HDMI probing (what's the proper name?), the device can find out the AVR supports Atmos. It can then skip the AC3 core & legacy 7.1 downmix, and trasmit Atmos MAT. Since no legacy material is needed, this leaves space for more objects.
-### TrueHD always has a AC3 core
-FALSE. Although on BD THD must have a AC3 core since THD is an optional codec on BD, it is possible to have THD without a AC3 core. In fact they are separate streams with the same ID on BD.
-
-### DTS-HD always has a DTS core
-TRUE. The core is required to decode the HD part.
-
-### The AC3 presentation of TrueHD is always an automatic downmix of the TrueHD
-FALSE. It can be your custom downmix or even completely different content. 2016 Atmos Demo where the AC3 track is just simply an announcer saying to switch your player to bitstream mode.
-
-### The DTS presentation of DTS-HD is always an automatic downmix of the DTS-HD
-TRUE. You can customize the downmix coefficients but sometimes there are weird constraints.
 
 ### EC3 Atmos always has a legacy 7.1 presentation
 FALSE. Sometimes you can get 7.1, but for streaming unfortunately, the legacy presentation is 5.1, 7.1 & above is locked to Atmos AVRs.
@@ -204,6 +196,18 @@ FALSE. See start of this document. Also, there could be a case where a film was 
 
 ## Legacy Formats
 
+### TrueHD always has a AC3 core
+FALSE. Although on BD THD must have a AC3 core since THD is an optional codec on BD, it is possible to have THD without a AC3 core. In fact they are separate streams with the same ID on BD.
+
+### DTS-HD always has a DTS core
+TRUE. The core is required to decode the HD part.
+
+### The AC3 presentation of TrueHD is always an automatic downmix of the TrueHD
+FALSE. It can be your custom downmix or even completely different content. 2016 Atmos Demo where the AC3 track is just simply an announcer saying to switch your player to bitstream mode.
+
+### The DTS presentation of DTS-HD is always an automatic downmix of the DTS-HD
+TRUE. You can customize the downmix coefficients but sometimes there are weird constraints.
+
 ### DTS is superior to AC3
 DEPENDS. DTS is a more inefficient codec but is typically used at higher bitrates. As long as the bitrate of DTS is 2x of AC3, it is better.
 
@@ -222,11 +226,18 @@ Overall & in practice, DTS-HD MA is (almost) completely superior to THD.
 ### DTS-HD MA is equivalent to THD
 TRUE, MOSTLY. They're both lossless codecs. But THD is dolby, and THD has dialnorm. So playing both codecs, THD may have a different volume due to dialnorm so may be perceived to be different/quieter. And louder is generally perceived to be better, so some may favor DTS-HD MA.
 
-### I don't like AC3 as a codec since it's quiet
-FALSE. You can encode AC3 as loud as you like. But Dolby will do loudness management on it, and Film/TV material, which is quieter than music is usually encoded in AC3, which contributes to this myth that AC3 modifies the audio signal to be quieter.
+### TrueHD 7.1 always has dedicated 5.1 & 2.0 streams
+FALSE. While the above is possible, it is not done in practice due to increased bitrate (see "DTS-HD MA is superior to THD"). Downmix presentations are encoded as metadata.
+
+### Listening to 7.1 on a 5.1 system will lose audio
+FALSE. AVRs will try to downmix so that you don't lose audio, assuming it is configured correctly.
+
+### AC3 is always quiet
+FALSE. You can encode AC3 as loud as you like. But Dolby will do loudness management on it, and Film/TV material, which is quieter than music is usually encoded in AC3, which contributes to this myth that AC3 modifies the audio signal to be quieter. See "Referencing Volume to a Known Level - Dialogue Normalization" in [this post](https://forum.doom9.org/showthread.php?s=&threadid=56020)
 
 ### Cinema AC3 is the same as Home AC3
 MAYBE. Cinema AC3 uses 320kps compared to home with is typically 384/448kps for 5.1.
+(Myth needs checking)
 
 ### Cinema DTS is the same as Home DTS
 FALSE. Cinema [uses APT-X](https://en.wikipedia.org/wiki/DTS_(sound_system)#Theatrical_use) which again, runs at lower bitrate so that an entire movie could fit on 1 CD.
@@ -246,7 +257,7 @@ Proven cases:
 - Finding Nemo had DTS EX for some releases. Eventually it got a 7.1 BD, with almost duplicate back channels. This is acceptable.
 
 ### There was no 7.1 before BDs
-FALSE. Sony SDDS 7.1f added front speakers in the 90s. And there were apparently some cinema formats in the 70s that added front or back speakers. Unfortunately, any unique 7.1 mixes will most likely get downmixed to 5.1 for BD, or lost, even though DTS-HD supports several alternate 7.1 layouts . The 7.1 wide layout adds wide speakers, but not center speakers so would not be spatially correct, but would be a possible 1-1 mapping. Some current-gen 3D formats can have speakers in the right locations, or you can encode the extra speakers as objects.
+FALSE. Sony SDDS 7.1f added front speakers in the 90s. And there were some cinema formats in the 70s that added more front or back speakers. Unfortunately, any unique 7.1 mixes will most likely get downmixed to 5.1 for BD, or lost, even though EC3, THD, and DTS-HD support several alternate 7.1 layouts . EC3 & THD are particularly relevant as they support 7.1 w/ CL & CR. Or you can encode L & R as WL & WR in DTS-HD or Atmos.
 
 ### You can't have lossless surround on DVD Video, unlike DVD Audio
 MAYBE. 6ch 48/16 won't exceed the DVD max bitrate, but if you're scared it won't work, Auro may have something for this, their Auro Stereomagic thing can cram 5.1 into 2ch so you could theoretically use it.

@@ -34,7 +34,7 @@ KC EN players have given nicknames to ships. But the origins & terminology aren'
 ## Food
 - Baguette = French ship
 - Burger (boat) = US ships
-- Pastaboats = Italian Boats
+- Pastaboats = Italian Boats. Some italian equipment says "produced in the countrty of Pasta"
 
 ## History
 - Flat Deck = Ryuujou	one of the only completely flush CV(L) (most CVs have a command tower which overlooks the deck)
@@ -43,6 +43,7 @@ KC EN players have given nicknames to ships. But the origins & terminology aren'
 - Journalist/Reporter = Aoba	Had one on board
 - Mama = Houshou	First purpose-built carrier in the world
 - PTSD = Shigure	she was the sole survivor of the Nishimura fleet, prolly due to the captain being a specialist in night warfare
+- Pudding (Radioactive) = Prinz Eugen	prinz sounds like pudding in JP. Also, she was part of the Operation Crossroads nuclear tests
 - Turkey = Zuikaku	an easy target due to inexperienced pilots later in the war
 - Wolf = Ashigara	nickname by UK journalists criticizing her function over form, which the JP interpreted as a compliment
 
@@ -82,7 +83,6 @@ KC EN players have given nicknames to ships. But the origins & terminology aren'
 - Bauxite queen = Akagi	You get her free by an early quest. But at that time you're not realizing how much resources she eats. Also, there was an early bug that increased her resource consumption
 - Comrade = Hibiki/Tashkent/Gangut
 - Idol = Naka	kandex48 <> AKB48
-- Pudding = Prinz Eugen	prinz sounds like pudding in JP
 
 ## Pun
 - Diejobu = Damaged (Haruna)
