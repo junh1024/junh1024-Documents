@@ -2,7 +2,7 @@
 
 Introduction
 ---
-A mix is when you join multiple songs seamlessly, with a focus on the transitions and keys. This guide is mainly for making mixes offline in a DAW, but half of it will be applicable to online mixes in a DJ program. It's easier to perfect your mix and apply more complex techniques to make your mix better, offline. This guide was written in mid-2020 and draws on my experiences making a bunch of mixes for about a year, and a few segues since 2015.
+A mix is when you join multiple songs seamlessly, with a focus on the transitions and keys. This guide is mainly for making mixes offline in a DAW with a bias on my style, but some of it will be applicable to live mixes in a DJ program, especially the music theory parts. It's easier to perfect your mix and apply more complex techniques to make your mix better, offline. This guide will not cover too much about management, performance, and audience issues. Please refer to another source, such as [this](https://youtu.be/lBxZp0vgapk). This guide was written in mid-2020 and draws on my experiences making a bunch of mixes for about a year, and a few segues since 2015.
 
 Software
 ---
@@ -22,19 +22,27 @@ Note for REAPER: REAPER doesn't have the concept of a clip BPM (maybe other DAWs
 
 Key tagging
 ---
-There should be no problems with conventions for Major keys. For minor keys, you can show the minor and its relative major e.g, Am/C. For sharps & flats, I use sharps only. Whatever you do, keep it consistent & clear, to make it easier to see relationships between your keys. You can new group/join songs of the same keys. For the pop/electronic, major seems to slighly dominate, but for Rock & Touhou, minor seems to slighly dominate (2hu is a game tho).
+You need to find the key of songs. You can use software such as [Keyfinder](http://www.ibrahimshaath.co.uk/keyfinder/) (free) to tag our files with key with a configureable system and choice of field. No software is totally accurate, so if you're relying on this into to make a mix or mashup, please check the estimated result.
+
+I use the standard system of single letter, or appended by m for minor keys. Like C and Am for C major & A minor. For sharps & flats, I use sharps only. Like A# instead of Bb. Whatever you do, keep it consistent & clear, to make it easier to see relationships between your keys. For  pop/electronic, major seems to slighly dominate, but for Rock & Touhou, minor seems to slighly dominate (2hu is a game tho).
 
 In REAPER, you can make an empty item, type in your key, stretch to fill item, and group it to your song to make a nice big key display. https://i.imgur.com/RSGMsH2.png . In other DAWs you may resort to small text & renaming your clips.
 
-There is software such as [Keyfinder](http://www.ibrahimshaath.co.uk/keyfinder/) (free) to tag our files with key. No software is totally accurate, so if you're relying on this into to make a mix or mashup, please check the estimated result.
+Meter
+---
+Most songs you have will be 4/4. If you encounter a song that is a different time signature like 6/8, you could throw them away, or make a dedicated 6/8 mix [like I did](https://www.youtube.com/watch?v=N32xvIMxQts) . To date, I have not made a 6/8 mix as successful as that. It's actually 6/4 in my DAW.
+
+Anyway, you can join 4/4 with 6/8 by treating 6/8 like 2/4, but to make sure they join good, the beats should be weak so they don't clash around the transition. Joining 4/4 with a song that's the same meter but 2x as fast or slow, is theoretically compatible, but may not work in practice due to a difference in intensity. 
 
 Starting
 ---
-Insert media into your DAW if you haven't already. Place them to the right, leave a large gap, and have your opening song to the left. What should be your opening song? Start off your mix with a song that's not too intense. Take a hint from Track order on albums (but maybe not anthologies or compilations), it can help you to make a journey as the mix progresses. You can join songs into groups of 2-3, then join those groups into a mix. Or you can join them sequentially.
+Insert media into your DAW if you haven't already. Place them to the right, leave a large gap, and have your opening song to the left. You can join songs into groups of 2-3, then join those groups into a mix. Or you can join them sequentially. If you're having trouble deciding on an order, at least join songs with the same keys.
 
-Vary your intensity as you go through the songs, but that might happen anyway due to differences in song content & key compatibility. This is important as if it's all high all the time, it will be very boring. Aim to have a noticeable dip in energy every 15 mins or so, should be at least an entire song. If there's a long breakdown in a song, I try to place that song at or after the middle of the mix, since my mixes seem to be around 25m.
+What should be your opening song? Start off your mix with a bright, mid-intensity song. Take a hint from track order on albums (but maybe not anthologies or compilations), it can help you to make a journey as the mix progresses. For a short mix, your peak song(s) should be around halfway or near the end of your mix. They should be prominent in at least intensity, and it may have a noticable melody/motif/vox, etc.  You can end your mix with a bang, or a wimper, but it should sound like an end, or edit it as such.
 
-With the ["BME"](https://www.youtube.com/watch?v=yaScgj3t9LM) approach, for shorter mixes <28mins, you can have 1 beginning & end tracks. For longer mixes >30mins, you can have 2 beginning & end tracks. This is a rough guide & comes from recalling my mixes. You can end your mix with a bang, or a chill track. Some of my best mixes are (partially) made in reverse, with the best songs at the end, so that's a valid approach as well. Maybe the ending is more important & it's OK to have bum transitions & filler tracks at the start.
+Vary your intensity as you go through the songs, but that might happen anyway due to differences in song content & key compatibility. This is important as if it's all high all the time, it will be very boring. Aim to have a noticeable dip in energy about halfway in the mix, maybe at least an entire song. If there's a long breakdown in a song, I try to place that song at or after the middle of the mix, since my mixes seem to be around 25m.
+
+For shorter mixes <30mins, you can have 1 beginning & end tracks. For longer mixes >30mins, you can have 2 beginning & end tracks. This is a rough guide & comes from recalling my mixes. Some of my best mixes are (partially) made in reverse, with the best songs at the end, so that's a valid approach as well. Maybe the ending is more important & it's OK to have bum transitions & filler tracks at the start.
 
 Circle of 5ths
 ---
@@ -45,7 +53,7 @@ If you're like me, you would've heard the circle of 5ths being mentioned many ti
 	C#	G#	D#	A#	F	[C]	G	D	A	E	B	F#
 	A#m	Fm	Cm	Gm	Dm	Am	Em	Bm	F#m	C#m	G#m	D#m
 
-If you join 2 songs in adjacent segments on the strip (move horizontally or vertically), it should sound good. But if you move diagonally, it might not. In the [Romantic era](https://tobyrush.com/theorypages/pdf/en-us/romantic-era-techniques.pdf) people started using 3rds more. Note that moving up & down is a 3rd, and moving diagonally down right is also a 3rd. Although horizontally neighboring keys are both a 5th apart, I often find that moving down a 5th sounds better, maybe cuz it sounds like a more usual descending perfect cadence. Depending on how your keys come out, you might be able to move around the circle for at least a few songs. You might need to do a 2nd round of importing songs to fill in gaps in your progression. It should go without saying that joining the same key & mode (like C > C) should sound good, and joining with the same key, but different mode (like C > Cm) could sound good.
+If you join 2 songs in adjacent segments on the strip (move horizontally or vertically), it should sound good. But if you move diagonally, it might not. In the [Romantic era](https://tobyrush.com/theorypages/pdf/en-us/romantic-era-techniques.pdf) people started using 3rds more. Note that moving up & down is a 3rd, and moving diagonally down right is also a 3rd. Although horizontally neighboring keys are both a 5th apart, I often find that moving down a 5th sounds better, maybe cuz it sounds like a perfect cadence. Depending on how your keys come out, you might be able to move around the circle for at least a few songs. You might need to do a 2nd round of importing songs to fill in gaps in your progression. It should go without saying that joining the same key & mode (like C > C) should sound good, and joining with the same key, but different mode (like C > Cm) could sound good.
 
 Many songs are in 1 key only. But there are some that are in 2 or more keys. These are more valuable as you can now have more possibilities to join keys, but you can only join certain keys at certain points, and it's now polarized (assuming each end is a different key). So you can't reverse your mix and it'll still sound good.
 
@@ -76,7 +84,7 @@ Try to make mixes with vocal songs (full lyrics). They'll be more memorable to y
 
 I avoid reusing the same versions of songs in mixes, different versions are OK. Example: I used Tomare! in my rock mix. But I also used that in my house mix, but a house remix. I also used Kaze no message in my initial rock mix, but I might use it in a future mix, so in the process of improving my rock mix, I removed that song & a few others, and re-released it. But supposedly many DJs have a (few) songs they want to play at every gig.
 
-I know many mixes are 1 hour long, but, I target a length of 28mins for mixes cuz:
+I know many mixes are 1 hour long, but, I target a length of 30mins for mixes cuz:
 * it fits on 1 side of a C60 tape (if you want to archive them on a cheap, non-digital format)
 * It's not too short, or long. It's a satisfying length
 * Making longer mixes is harder cuz you need to make lots of joins work
@@ -95,13 +103,13 @@ I generally don't use mashups in mixes cuz double stretching = LQ. So If I were 
 
 Surround
 ---
-Using surround in mixes is completely optional, but offers more flexibility. Though the need is declining due to more realtime separation technology, general interest in surround might be increasing. You can make surround mixes, but it will most likely be upscale. You can upscale after making a mix, but that's lazy & bad quality cuz phase information that upscalers use is mangled by pitch-time stretching. So, upscaling *before* is preferred. Deciding whether to make a surround mix or not depends on a few factors, how well I like the songs, and how well they upscale to surround. Non-vocal mixes I usually don't consider for surround.
+Using surround in mixes is completely optional, but offers more flexibility. Though the need is declining due to  realtime separation technology, general interest in surround might be increasing. You can make surround mixes, but it will most likely be upscale. You can upscale after making a mix, but that's lazy & bad quality cuz phase information that upscalers use is perhaps mangled by pitch-time stretching. So, upscaling *before* is preferred. Deciding whether to make a surround mix or not depends on a few factors, how well I like the songs, and how well they upscale to surround. Non-vocal mixes I usually don't bother for surround since you can't put vox for an easy discrete center.
 
 Order for 51/71 is L R C LFE BL BR SL SR (SMPTE-MS)
 
 If you make a 3ch mix of a song, you can have more control over vox, providing the instro is only in LR & vox is mostly in C. How to make such a clip is not covered in this guide. If you wanted this level of control previously, you would have 2x stereo clips. Having them as a single surround clip ensures they never get misaligned & bypasses the grouping hassle. Unless you have a DAW that imports stereo as separate mono clips *ahem Pro Tools*.
 
-If you're upscaling to 5.0 padded to 5.1, you also upscale the instro to the corner 4. If the vox has a significant side component, and you sometimes need a pure instrumental (ie, no vox) sometimes, and you're aiming for 5.0 surround delivery, you can upscale the vox to 3ch, but move L&R to SL SR. Then you can mute the side & get a surround instrumental. It's suggested to downmix the vox in side to the front for 5.0 surround.
+If you're upscaling to 5.0 padded to 5.1, you also upscale the instro to the corner 4. If the vox has a significant side component, and you sometimes need a pure instrumental (ie, no vox) sometimes, and you're aiming for 5.0 surround delivery, you can upscale the vox to 3ch, but move vox L&R to SL SR for a total of 7.1. Then you can mute C & side & get a surround instrumental. It's suggested to downmix the vox in side to the front for 5.0 surround.
 
 As I said earlier, upscaling to surround (at least in DSP order) before making your mix is preferred, but you don't want to waste time upscaling songs, only to throw them out, cuz tuning upscaling settings for a song takes 2 hours. I also have another quirk where the timing for the surround clip is changed, cuz if I make a new project, I usually start the songs to beat 1. This makes cutting easier (cuz the beat phase is matched with your DAW phase, at the expense of cutting a bit of audio at the start), and also offers dependable sync, ie, if I replace the file with another source (different sources can start at different times), I just re-sync to beat 1 and I don't need to re-align the project that depends on it (ie, a mix). What you can do, is make a mp3 proxy. And then if you are definitely using that song in your mix (maybe halfway to completion), you can spend your time to tune the upscale, and it will be well-spent.
 

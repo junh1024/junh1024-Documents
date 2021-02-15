@@ -51,7 +51,7 @@ FALSE. DTS-X is available in DTS-X MA (lossless) and DTS-X lossy.
 FALSE, MOSTLY. I'll split this up into 3 myths.
 
 ### Auro-3D codec is superior to Atmos
-FALSE. Auro-3D must be stored at a full 24b since that's where the data is. Atmos and DTS-X can operate at lower bitdepths so they can have potentially lower bitrates. It is sensitive to mishandling if it's in PCM/FLAC rather than THD/DTS-HD MA, so bitstream may not work if the PCM is tampered with (aka some scenarios with KODI).
+FALSE. Auro-3D must be stored at a full 24b since that's where the data is (the lower bits). Atmos and DTS-X can operate at lower bitdepths so they can have potentially lower bitrates. It is sensitive to mishandling if it's in PCM/FLAC rather than THD/DTS-HD MA, so bitstream may not work if the PCM is tampered with (aka some scenarios with KODI).
 
 ### Auro-3D speaker layout is superior to Atmos
 FALSE, MOSTLY. Many A3D titles use the 11.1/5.1.6 layout. Hence Many people with legacy 7.1 speakers will get no benefit from A3D, unlike Atmos and DTS-X which are typically 7.1, since A3D 5.1.6 downmixes to 5.1. Also, In A3D 5.1.6, there is reduced rear & rear height resolution due to only 2 back speakers for each level. The layout is also uneven. This leads to noticeably un-smooth pans at the top/back, especially with larger spaces. A few newer A3D titles use 13.1/7.1.6, which rectifies problems with legacy systems & ELL back, but not height back.
