@@ -5,6 +5,8 @@ Melodyne is a tool for pitch editing and extracting melodic material, particular
 
 The actual use of Melodyne is hence for manipulating polyphonic material. But with analyzing polyphonic material there will be errors. Unfortunately, the manual shoves this very important info at the back. I'll show you what you need to get started quickly. This Quickstart is aimed at Melodyne 4. You will need the Studio Edition for the multi-track capability.
 
+If you find this guide too abstract, try [note assignment mode melodyne](https://www.youtube.com/results?search_query=note+assignment+mode+melodyne) on YT.
+
 ## Competitors
 In the spectral editing arena, we have:
 - Very manual: Adobe Audition & Izotope RX, good for small, quick edits
