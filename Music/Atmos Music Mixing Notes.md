@@ -4,7 +4,7 @@
 These are my mixing notes for my [Atmos Music Collection](https://github.com/junh1024/junh1024-Documents/blob/master/Music/Atmos%20Music%20Collection.md#introduction) . Downloads in the previous link.
 
 ## General volume
-So near the end of Nov 2020, I was told about a cheap Atmos encoder. I spent a few days setting up my acc & then the following few weeks to rework my old 3D projects to be less hax & sound better. I also felt the need to get more stems to remix into songs, to form a substantial collection rather than just a few songs.
+So near the end of Nov 2020, I was told about a reasonably-priced Atmos encoder. I spent a few days setting up my acc & then the following few weeks to rework my old 3D projects to be less hax & sound better. I also felt the need to get more stems to remix into songs, to form a substantial collection rather than just a few songs.
 
 - Optinuum had little changes.
 - Katamari Stars had major infrastructure changes. It is now back to surround, but now with std 15.1 routing. The levels were re-balanced. Replacing the 3oA panners with 151 panner via RPP editing was compatible, but the ranges were slightly different so needed a bit of adjustment. Slightly more sophisticated string upscaling. Strings slightly lowered.
@@ -24,6 +24,8 @@ Despite spending some effort finding & explaining cuts, Ethan preferred to leave
 I thought that Adding in section dynamics by comparing to Ethan's 2020 mix would be enough, but comparing sections the instruments balance is still off. So I need to do bus automation. With section bus automation, I did a reduced range of automation compared to Ethan. For me, The main thing is the strings-wind balance. It doesn't matter if the brass is a bit soft. It should sit in the mix, and not be too distracting. Since the brass is @back, this adds additional emphasis, so you can deliberately mix it slightly lower. Due to reduced range, my string bed is a bit higher than Ethan's during the cello solo sections. I prefer this, but mainly cuz I'm used to hearing the whole mix w/o automation. Since Ethan knows the most about his work, I sorta expected no need for automation of his Cello solo track. This isn't the case and it needs some dynamics work.
 
 After a few weeks of leaving it, I realized the front may have too much reverb when downmixed to 51/71. So I need to change the reverb from 91 to 71.
+
+I have made changes to percussion to be more playable with heavy handheld crash cymbals...
 
 ## Pure Luxury
 Again, found on the Cambridge MT site. I was expecting another mediocre pop piece, but I liked it. At >100 tracks, I thought it must be the production of an accomplished artist. I started getting ideas for surround as I listened to the song. But when I got the stems, I was slightly disappointed by some of the vox SQ, Since "Vox-stacked-ahhs-all" was all in downmixed stereo. The artist didn't have further separation due to being overdubbed on hardware, but I really wanted the idea to work. I thought about Melodyne.
