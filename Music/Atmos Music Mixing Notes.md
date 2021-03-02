@@ -15,7 +15,7 @@ So near the end of Nov 2020, I was told about a reasonably-priced Atmos encoder.
 ## Cello Concerto
 Overall, I liked it. I found it on the CMT page, and was expecting it to be something boring like a Mozart or Beethoven symphony, but it got my interest. Maybe cuz it's in minor. The introduction was a bit weak but due to stockholm syndrome I'm now a bit ambivalent about it. It concerto also sounds a bit like Greig's Piano concerto, mainly cuz they're both in Am. There is a subforum on the CMT site for the concerto. Unfortunately, there aren't many mixing retrospectives, apart from "eggshell"
 
-Like me, eggshell applied reverb, compression, but doesn't want to spend too much time on automation. The brass is panned to the back, but this also includes a tuba, but the Tuba does bass duty (bass should at the front). Ethan then gave me a Tuba MIDI, which I then changed to a Bass Guitar. Which now makes more sense. I then realized that due to the length of the Concerto, that it would totally dominate the length of a pop compilation.
+Like me, eggshell applied reverb, compression, but doesn't want to spend too much time on automation. One of the first things you do to a classical MT is apply reverb. It makes the orchestra seem larger. But you can only apply so much reverb to enlarge a lack of players, before it sounds bad. The brass is panned to the back, but this also includes a tuba, but the Tuba does bass duty (bass should at the front). Ethan then gave me a Tuba MIDI, which I then changed to a Bass Guitar. Which now makes more sense. I then realized that due to the length of the Concerto, that it would totally dominate the length of a pop compilation.
 
 So I started marking possible cuts & testing them out. The cadenza is easy to cut since there's only 1 instrument, but most other sections are hard. I started cutting from the end. Cutting is hard since there's some key changes. I need to use my knowledge of cadences, but Bending rules like 5 > 1m. The cutting is based on cutting out sections of theme 1. The intro was also shortened so that the cello solo comes in within 1 min, (like Greig's Piano Concerto), rather than within 2.
 
@@ -25,7 +25,9 @@ I thought that Adding in section dynamics by comparing to Ethan's 2020 mix would
 
 After a few weeks of leaving it, I realized the front may have too much reverb when downmixed to 51/71. So I need to change the reverb from 91 to 71.
 
-I have made changes to percussion to be more playable with heavy handheld crash cymbals...
+I have made changes to percussion to be more playable with heavy handheld crash cymbals. The tambourine in the ballerina section was moved slightly to be more in time with the orchestra. The accenting is cool, but might be hard to play IRL.
+
+I sent Ethan a copy and he said it needs section dynamics. I had accidentally turned off global dynamics. Also, Revisiting the concerto in March, I decide to take a closer look at global dynamics automation. The motif should be about +1.5LU relative to -18LU, and section loudness should be compared to neighboring sections & globally.
 
 ## Pure Luxury
 Again, found on the Cambridge MT site. I was expecting another mediocre pop piece, but I liked it. At >100 tracks, I thought it must be the production of an accomplished artist. I started getting ideas for surround as I listened to the song. But when I got the stems, I was slightly disappointed by some of the vox SQ, Since "Vox-stacked-ahhs-all" was all in downmixed stereo. The artist didn't have further separation due to being overdubbed on hardware, but I really wanted the idea to work. I thought about Melodyne.

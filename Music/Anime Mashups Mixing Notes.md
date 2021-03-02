@@ -1,0 +1,6 @@
+# Anime Mashups Mixing Notes
+
+## Lucky Star-Katamari Exotica
+
+During July 2020, I was listening to the Lucky Star Remix albums. The Glucosa mix stands out as being different cuz it barely resembles the original Motekke Sailor Fuku, no-one sings the melody. Rather, there's some voice clips over some mellow lo-fi beats. I was also listening to some Katamari albums, collecting songs for my electro, house, and dance/909 mixes. I wake up one morning with a song in my head. It's Katamari, and maybe it's cosmic lounge, maybe something from novita. I search up cosmic & lounge, nope, wrong song, but it is on novita. It's Katamari Exotica. Maybe the next day I realise it would go well under Lucky Star voice clips. I was wanting to avoid using ML for this, I had in mind Kagami's discussing about the grocery store in ep17, but that's not a lot of talk, and not very interesting/expressive as the acting on Glucosa mix so ML it is. Also, Glucosa is chill at x bpm, but Exotica is fast at 14 bpm, so I had to do a compromise bpm to try to keep the chill feeling while not too many artefacts. Also, I did some variable stretching at the start to have sections start on 8-bar edges for easier cutting.
+
