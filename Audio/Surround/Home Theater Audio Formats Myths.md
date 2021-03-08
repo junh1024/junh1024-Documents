@@ -246,7 +246,7 @@ FALSE. Cinema [uses APT-X](https://en.wikipedia.org/wiki/DTS_(sound_system)#Thea
 FALSE. "Despite its name, it is in actuality a combination of discrete and matrix technologies". [Spannerworks](http://www.spannerworks.net/reference/10_9a.asp). But it's very good. In summary, The base track is matrix 5.1 for compatibility with older matrix decoders. The extra BC is fed to the BC speaker, and subtracted from the surround speakers.
 
 ### DD & DTS EX means that the source was 6.1
-FALSE. EX is just a flag. It doesn't change what the contents inside are, it is only a label. Analogy: if you have a jam jar, and stick a peanut butter label on it, some might think there's peanut butter inside, but the actual contents inside are not changed from jam. If it was mixed in 6.1, it should've gotten a discrete 6.1 release later. It's hard to tell at a glance, whether something is true EX or fake EX, unless you do detailed analysis/listening.
+FALSE. EX is just a flag for 5.1. It doesn't change what the contents inside are, it is only a label. Analogy: if you have a jam jar, and stick a peanut butter label on it, some might think there's peanut butter inside, but the actual contents inside are not changed from jam. If it was mixed in 6.1, it should've gotten a discrete 6.1 release later. It's hard to tell at a glance, whether something is true EX or fake EX, unless you do detailed analysis/listening. This practice was historically done since older AVRs wouldn't engage BC unless the MTX flag was on (apparently).
 
 Doubtful cases:
 - Harry Potter M1-3. It was supposedly EX, but all that was released on early BDs was 5.1. Later BDs got a DTS-X remix. So the source may not be 6.1.

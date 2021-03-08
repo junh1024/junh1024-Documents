@@ -2,7 +2,7 @@
 
 Aim
 ---
-This guide is meant to accompany your process of choosing PC parts for a PC tower or similar,  pre-chosen builds https://pcpartpicker.com/guide/ , or your own. My aim is to build a low-mid range, quiet, power-saving, money-saving PC that lasts, for light Audio/Video work. If you need to do very intense work all the time, or don't care about the above properties, this guide is not for you.
+This guide is meant to accompany your process of choosing PC parts for a PC tower or similar,  pre-chosen builds https://pcpartpicker.com/guide/ or https://www.logicalincrements.com/ , or your own. My aim is to build a low-mid range, quiet, power-saving, money-saving PC that lasts, for light Audio/Video work. If you need to do very intense work all the time, or don't care about the above properties, this guide is not for you.
 
 ## CPU
 Get a CPU with 4 physical cores. You can get more, but software might run slower due to lower clock, jumping between more cores, or mismanaging cores. www.REAPER.fm is particularly effective at utilizing multi-core CPUs, while other DAWs are playing catch-up. TDP is not a measure of how much power it will use in practice. Many low/mid-end CPUs have integrated graphics, so pick those. Just don't expect to do gaming at high settings, or at all. Many iGPUs support >1 monitor. Many low-mid range CPUs will also come with a cooler & thermal paste so you could skip those.

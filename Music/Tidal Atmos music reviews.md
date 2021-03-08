@@ -15,6 +15,7 @@ Tidal now has Atmos music as of mid-2020. It's encoded in EC3 768kps (the highes
 - Katrina & The Waves - Walking On Sunshine: 2/5
 - Kool & The Gang - Celebration: drums@back 2/5
 ### Oldies
+- Aretha Franklin - Bridge Over Troubled Water: The quad tape rip was better 1/5
 - The Supremes - Baby Love: 1/5
 - The Temptations - Ain't Too Proud To Beg: annoying claps@back 1/5
 - The Temptations - Just My Imagination: vox@back 2/5
@@ -26,6 +27,7 @@ Tidal now has Atmos music as of mid-2020. It's encoded in EC3 768kps (the highes
 ### Classical
 - Barenboim - Beethoven Symphony 9: better than DVDA. but still upscaled cuz wide back? only 1 digital mixer staff & recorded in 2000, 1/5
 - TrondheimSolistene - Magnificat: I'm biased towards 2L the [recording photos](http://www.2l.no/pages/album/106.html) show it was recorded in 9.1 but I'm ntrly hearing the SQ, 2/5
+VPO Otter - Mahler 3: I assuming SACD release means not upscale but SQ not great & seems like wrong chan order 1/5
 ### Disco
 - Bee Gees - More Than A Woman: worse than BD, 2/5
 - Marvin Gaye - Ain't No Mountain High Enough: better than DVDA, 3/5
@@ -51,15 +53,17 @@ Tidal now has Atmos music as of mid-2020. It's encoded in EC3 768kps (the highes
 - Gautier Capuçon - Saëns Le Cygne, 2/5
 - Itzhak Perlman -  Vivaldi Le quattro (4 Seasons): 1976 date & soloist uncomfortably sharp in rears suggest upscale, 1/5
 - Janine Jansen - Vivaldi 12 Violin Concertos: sounds OK. but C empty & LFE filled? might be upscale ? , 2/5
+- Lisa Batiashvili DG - City Lights:
 - Lucerne Festival Orchestra - Stravinsky: is this upscaled? , 1/5
 - Seiji Ozawa - Beethoven Symphony No.9: Quiet discrete C. Japs love their Sym9. , 3/5
-- The Three Tenors - Puccini Turandot, 2/5
+- The Three Tenors - Puccini Turandot: It is a bit surprising that the italians had 51 recording in 1990. Vox in C & applause in rears, 2/5
 - Wiener Philharmoniker - Mussorgsky -  Pictures at an Exhibition etc: 2000 date meters quiet C/LFE suggest upscale, 1/5
 ### EDM
 - Lady Gaga - Applause: Bass @ back 1/5
 - Bachelors of Science - The Space Between Remixes : 1st track 2/5
 - London Elektricity - Building Better Worlds: On Final View From The Rooftops , 2/5
 - Fritz Hilpert – Atmos for Androids: , 2/5
+- Rodriguez jr - Blisss: panning not that great 2/5
 ### Oldies
 - Art Blakey - Moanin: I thought this was supposed to be 3ch + reverb according to [this article](https://www.mixonline.com/sfp/dolby-atmos-music-its-different-when-you-mix-music-only) ? But it is only 2ch + reverb , 1/5
 - Bing Crosby - Have Yourself A Merry Little xma, Sleigh Ride: 1/5

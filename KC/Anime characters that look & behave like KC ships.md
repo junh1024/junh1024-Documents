@@ -40,3 +40,4 @@ Part 4
 * May/Haruka from Pokemon looks like Kagerou
 * Mei Irizaki from Haifuri looks like i401
 * [Etou Kanami](https://anidb.net/character/89541) from Toji no Miko looks like Yukikaze
+* [Origami Koori](https://safebooru.donmai.us/posts?tags=origami_koori) from School Girl Strikers also looks like Hatsuyuki. Apart from being kuudere & capable, there's not much info on this minor character

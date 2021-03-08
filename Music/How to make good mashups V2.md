@@ -66,15 +66,17 @@ You can use zplane ReTune to shift notes in a chord, but I more often use it to 
 
 Pitchshifting Tips:
 ---
-* In 2015 (but this article was written closer to 2018), Elastique V2 was standard across many DAWs. But if you upgrade your DAW, you may get Elastique V3, which is better for greater shifts & lower CPU.
-* Ableton Live, although good at stretching & warping, has "Complex Pro", which is supposedly inferior to Elastique. You could use VSTs instead. AL used to have PDC problems but supposedly it is fixed in V10.
-* Pitchshifting vocals require formant awareness/control for >1st changes to sound good.
 * You can change your pitchshifter/settings & balance sound quality & CPU.
-* If you're making small changes, you can try Elastique Soloist Speech on vox & Elastique Efficient on instros to save CPU. Elastique Soloist Speech may do some internal formant correction. If speech has blips due to instro bleed, try efficient instead.
-* If you're making larger changes, you may need to use the default Elastique Pro mode (medium CPU) &/ change the formant shift too. Or maybe you can try the different Elastique Pro Preserve Formants variations (high CPU) to make it sound more natural. For large changes to instros, you could try Elastique Pro Preserve Formants as a high-CPU alternative to an EQ boost.
+* Elastique V2 is a HQ general-purpose shifter w/medium CPU use, and standard across many DAWs. DAW-specific algos such as AL's "Complex Pro" tend to suck. Elastique is available as VST if you need it.
+* Elastique V3, may be available if you upgrade your DAW. It's better for greater shifts & uses less CPU.
+* Elastique Soloist Speech for vox & Elastique Efficient on instros can work well for small shifts to save CPU. Elastique Soloist Speech may do some internal formant correction. If speech has blips due to instro bleed, try efficient instead.
+* Soundtouch should sound good on vox, and might sound OK on instros. Watch out for blips.
+* Pitchshifting vocals require formant awareness/control for >1st changes to sound good.
+* Pitchshifting changes the frequency distribution, so you may need to EQ, kilohearts disperser (to shift the phase of the bass & hence boost the kicks), (rhythmic) distortion to compensate
+* Elastique Pro Preserve Formants is good for larger changes on vox. It can also be good for larger changes on instros @ PF high frequencies as a high-CPU alternative to an EQ boost.
 * You can gain more control by using varispeed on your stems then inserting a pitchshift FX on your tracks. But this requires carefully doing pitch maths on your part. speed * 1.059 (or 12th root of 2) = +1st, since 2x speed = up 12st or 1 octave.
 * If you have stems, separate unpitched (percussion) & pitched (others) instruments. Then you can apply separate time-pitchshifting settings to each to make both more natural.
-* Pitchshifting changes the frequency distribution, so you may need to EQ, kilohearts disperser (to shift the phase of the bass & hence boost the kicks), (rhythmic) distortion to compensate
+* RPR (earlier versions?) may have a bug with rendering & PDC. Please disable "Inform plugins of offline rendering state".
 
 
 General Tips:
