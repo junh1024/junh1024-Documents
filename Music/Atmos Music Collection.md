@@ -33,7 +33,7 @@ If you have a (Atmos) AVR or 5.1 speakers on your PC, you want this.
 
 ## Master Format Download
 
-For archival, or if you have REAPER and preferably my [Reaper-Surround suite](https://github.com/junh1024/Reaper-Surround#introduction) , you can make use of the 151 master format. A RPP is included with routing for 7.1.4 playback for PC speaker array.
+For archival. These are in Wavpack with a [custom order](https://github.com/junh1024/Reaper-Surround#introduction-to-151). You can play or convert it with http://reaper.fm/ , or convert it with FFMPEG using "FFMPEG.exe -i input.wv output.wav". A RPP is included with routing for 7.1.4 playback for PC speaker array, and a converter is included in the suite.
 
 1. https://app.box.com/s/86pa7pd04nhnoc5w8564evtivkts9d5m
 2. Reserved
