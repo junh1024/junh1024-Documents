@@ -96,14 +96,14 @@ FALSE. Objects can be partially imaged between multiple speakers. But channels m
 ### If you have a 5.1.2 system, but have an object at height front, it will phantom image between front & height side speakers
 FALSE. It may play back using height speakers only (Atmos), or ELL (DTS-X).
 
-### Atmos soundtracks will sound the same on all 5.1 system
-FALSE. Speaker panning will changce depending on how old your AVR is.
+### Atmos soundtracks will sound the same on all 5.1 systems
+FALSE. Speaker panning will change depending on how old your AVR is.
 
 ### Side speakers will image halfway back on a 5.1 AVR
 FALSE. On older AVRs, it will image all the way back. On Atmos AVRs, it will image about 2/3s back.
 
 ### 5.1.2 systems can reproduce all circular pans.
-If there is a circular pan @ 100% height, it will get all downmixed into HSL & HSR, transforming a circular movement into a LR movement. The only way to avoid this is to pan at partial height so you get some height depth. Ironically, it will sound OK on 2D 5.1 & 7.1 systems.
+FALSE. If there is a circular pan @ 100% height, it will get all downmixed into HSL & HSR, transforming a circular movement into a LR movement. The only way to avoid this is to pan at partial height so you get some height depth. Ironically, it will sound OK on 2D 5.1 & 7.1 systems.
 
 ### Channels are always at ear-level and objects can only be at the top
 FALSE. Atmos FC Base is 7.1.2, 2 side height. Objects can also be at ELL.
@@ -119,14 +119,16 @@ FALSE. It's closer to what mixers have, it saves bitrate, it scales to whatever 
 
 ## Technical
 
-### THD Atmos can be worth 24 bits
-FALSE, PROBABLY. THD is 24b, but the number of active bits is usually lower, and there's no option to turn off bit-reduction. Likely to save bitrate. Decode a THD Atmos through eac3to, and it may show something like this:
+### THD Atmos is always worth 24 bits
+FALSE. Most Atmos releases use bit-reduction, likely to save bitrate. Decode a THD Atmos through eac3to, and it may show something like this:
 
 	Original audio track, L+R+LFE+BL+BR+SL: constant bit depth of 20 bits.
 	Original audio track, C+SR: constant bit depth of 21 bits.
 
-### DTS-X can be worth 24 bits
-TRUE. DTS-X can use 24b, but many releases use preconditioning, which reduces the bits.
+There may be an option to turn it off in newer Dolby software.
+
+### DTS-X is always worth 24 bits
+FALSE. Some releases with DTS-X uses all 24b, but others use preconditioning, which reduces the bits.
 
 ### The Atmos used in games is the same as the Atmos used on BDs
 FALSE. Atmos for games uses Atmos MAT. This is different to TrueHD. Through HDMI probing (what's the proper name?), the device can find out the AVR supports Atmos. It can then skip the AC3 core & legacy 7.1 downmix, and trasmit Atmos MAT. Since no legacy material is needed, this leaves space for more objects.
@@ -135,7 +137,7 @@ FALSE. Atmos for games uses Atmos MAT. This is different to TrueHD. Through HDMI
 FALSE. Sometimes you can get 7.1, but for streaming unfortunately, the legacy presentation is 5.1, 7.1 & above is locked to Atmos AVRs.
 
 ### You can convert THD Atmos to EC3 Atmos without the master file
-FALSE, MOSTLY. Only in the most desperate situations may Dolby allow this, like HDMI eARC in TVs. The reason prolly being that THD Atmos may have a low object count, and if you wanted to raise the objects for a EC3 Atmos track, you can't do this unless you have the master.
+FALSE, MOSTLY. Only in the most desperate situations may Dolby allow this, like HDMI eARC in TVs, and only devices with certain chips.
 
 ### THD Atmos uses a different master to EC3 Atmos
 FALSE (I think). You can create both types from the same masters. There are 2 master file types, DAMF, and ADM. They should be equivalent. But for streaming, EC3 may have a different dialnorm which tells the decoder to change the volume, which contributes to this perception.
@@ -146,8 +148,8 @@ TRUE, PROBABLY. FFMPEG has a bitstream filter to remove the Atmos data from THD.
 ### You can separate EC3 core using FFMPEG
 FALSE. FFMPEG does not have a bitstream filter to remove the Atmos data from has a bitstream filter as of 2020. The EC3 bitstream filter is for removing the 7.1 part.
 
-### EC3 in mp4 is a hack
-MAYBE. Depending on how it was muxed, it might not be compliant, and may fall back to AC3 decoding or may not work. You could use mkv or m2ts containers.
+### EC3 in mp4 doesn't work all the time
+TRUE. Depending on how it was muxed, it might not be compliant, and may fall back to AC3 decoding or may not work depending on what devices expect. You could use mkv or m2ts containers instead.
 
 ### 7.1 adds rear speakers to 5.1
 DEPENDS on who you ask. Dolby & SMPTE will say yes. Microsoft will say no (in WAVEFORMATEXTENSIBLE back comes before side, so 5.1 has back speakers, not side speakers). DTS (in a YT video) claimed "7.1 splits the surround speakers of 5.1 into 2 pairs for an enlarged sweet spot". This must be universally correct since it's vague. The side/back difference in ordering can cause problems in data exchange.
@@ -310,6 +312,12 @@ FALSE.
 ### I can QC my Atmos mix on a PC
 FALSE. As of 2020, there are no THD/EC3 Atmos decoders for PC. You must use a AVR. The situation may change in the future. If you have DTS-X or Auro-3D suites, those may include a decoder.
 
+### There is no way to avoid undesirable downmix behavior
+FALSE. You can:
+1. Adapt your mixing strategy (works across all DAWs)
+2. Use zone masking (might be Pro Tools only)
+3. Bind a separate 5.1 mix or render, to the Atmos stream (THD only)
+
 ### I can use ADM from 3D OBA suite(s) with Dolby encoders
 FALSE. Although this is the ideal situation, and the Dolby Atmos Conversion Tool can convert between DAMF and ADM formats, Dolby tools currently only accept ADM WAV files made by Dolby tools. This is due to cubular vs spherical coordinates, among other possible differences. So if you use other OBA suites such as [VISR](http://www.s3a-spatialaudio.org/plugins) or [EBU EAR](https://ear-production-suite.ebu.io/) suites and want to deliver for Dolby codecs, you're in for a bad time(tm). Unless you mix in CBA (which is what many people are doing anyway, including myself).
 
@@ -322,10 +330,12 @@ FALSE, MAYBE. In PT & Nuendo, maybe you can convert legacy projects to Atmos pro
 ### It's hard to have consistent height content
 FALSE. [Boom library](https://www.boomlibrary.com/shop/?swoof=1&pa_producttype=3d-surround) have released a few 3D surround libraries with room tones & weather FX recorded with a 8.0 mic array.
 
-### It's expensive to deliver Atmos content for cinema.
-FALSE. You can:
-1. Convert your master with the Atmos Conversion Tool to IMF IAB, then use free software such as OpenDCP to make a package (I haven't tested this)
-2. Bring along a HDMI device which plugs into the projector. Cinema Atmos hardware can play back consumer formats such as EC3.
+### It's expensive to deliver Atmos content for cinema for independent creators
+FALSE, probably. You can:
+1. Convert your master with the Atmos Conversion Tool to IMF IAB, then use free software such as OpenDCP to make a package
+2. Bring along a HDMI device which plugs into the projector. Cinema Atmos hardware can play back consumer formats such as EC3. NB: EC3 has reduced objects.
+
+I have tested neither workflow. Depending on budget or other factors, you may need to monitor on a Atmos-certified facility &/ use more standard workflows.
 
 ### Dolby charges license fees per title
 
