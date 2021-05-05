@@ -34,7 +34,7 @@ FALSE. As Auro-3D is carried in PCM, it can be supported on UBD through TrueHD &
 FALSE. Dolby Media Producer allows several height layouts for THD and DDP/EC3, some of which DTS-HD also allows. I haven't tested this.
 
 ### DTS-HD cannot do height
-FALSE. DTS Master Audio Suite allows several height layouts.  [See here](https://frequenz.blogspot.com/2010/04/dts-surround-speaker-layout.html) for all supported layouts. But some layouts may not be correctly supported by older AVRs. It may appear as DTS-X on newer AVRs, but support is still flaky. You may need to choose the exact speaker layout & enable Neural-X DSP.
+FALSE. DTS Master Audio Suite allows several height layouts. [See here](https://frequenz.blogspot.com/2010/04/dts-surround-speaker-layout.html) for all supported layouts. But some layouts may not be correctly supported by older AVRs. It may appear as DTS-X on newer AVRs, but support is still flaky. You may need to choose the exact speaker layout & enable Neural-X DSP.
 
 ![DTSMAS](https://live.staticflickr.com/2690/4495882941_f4df7fcde9.jpg)
 
@@ -94,7 +94,16 @@ FALSE. Objects can move, and channels can't. This is what makes an OBA system su
 FALSE. Objects can be partially imaged between multiple speakers. But channels must have a 1-1 mapping to a speaker (except for C & LFE). This might be a problem with DTS-X 7.1.4 & non-7.1.4 speaker layouts
 
 ### If you have a 5.1.2 system, but have an object at height front, it will phantom image between front & height side speakers
-FALSE. It may play back using height speakers only.
+FALSE. It may play back using height speakers only (Atmos), or ELL (DTS-X).
+
+### Atmos soundtracks will sound the same on all 5.1 system
+FALSE. Speaker panning will changce depending on how old your AVR is.
+
+### Side speakers will image halfway back on a 5.1 AVR
+FALSE. On older AVRs, it will image all the way back. On Atmos AVRs, it will image about 2/3s back.
+
+### 5.1.2 systems can reproduce all circular pans.
+If there is a circular pan @ 100% height, it will get all downmixed into HSL & HSR, transforming a circular movement into a LR movement. The only way to avoid this is to pan at partial height so you get some height depth. Ironically, it will sound OK on 2D 5.1 & 7.1 systems.
 
 ### Channels are always at ear-level and objects can only be at the top
 FALSE. Atmos FC Base is 7.1.2, 2 side height. Objects can also be at ELL.
@@ -117,7 +126,7 @@ FALSE, PROBABLY. THD is 24b, but the number of active bits is usually lower, and
 	Original audio track, C+SR: constant bit depth of 21 bits.
 
 ### DTS-X can be worth 24 bits
-TRUE, PROBABLY. DTS-X Encoder Suite has a preconditioning option, which is off by default. Which gets you call 24b. High preconditioning probably reduces the bits, probably down to 18b.
+TRUE. DTS-X can use 24b, but many releases use preconditioning, which reduces the bits.
 
 ### The Atmos used in games is the same as the Atmos used on BDs
 FALSE. Atmos for games uses Atmos MAT. This is different to TrueHD. Through HDMI probing (what's the proper name?), the device can find out the AVR supports Atmos. It can then skip the AC3 core & legacy 7.1 downmix, and trasmit Atmos MAT. Since no legacy material is needed, this leaves space for more objects.
@@ -129,7 +138,7 @@ FALSE. Sometimes you can get 7.1, but for streaming unfortunately, the legacy pr
 FALSE, MOSTLY. Only in the most desperate situations may Dolby allow this, like HDMI eARC in TVs. The reason prolly being that THD Atmos may have a low object count, and if you wanted to raise the objects for a EC3 Atmos track, you can't do this unless you have the master.
 
 ### THD Atmos uses a different master to EC3 Atmos
-FALSE (I think). You can create both types from the same masters. There are 2 master file types, Atmos master file set, and BWF. They should be equivalent. But for streaming, EC3 may have a different dialnorm which tells the decoder to change the volume, which contributes to this perception.
+FALSE (I think). You can create both types from the same masters. There are 2 master file types, DAMF, and ADM. They should be equivalent. But for streaming, EC3 may have a different dialnorm which tells the decoder to change the volume, which contributes to this perception.
 
 ### You can separate THD core using FFMPEG
 TRUE, PROBABLY. FFMPEG has a bitstream filter to remove the Atmos data from THD.
@@ -166,7 +175,7 @@ I haven't tested this. At least some soundbars have detachable rears, and can ha
 ### There is no benefit to an Atmos soundtrack if you don't have height speakers.
 DEPENDS. If you have a 5.1 system, prolly no. If you have 7.1 speakers, maybe. Many older 5.1 titles have been reissued with a THD Atmos track which has a 7.1 mix. Most of them AFAIK aren't upmixes. So you get slightly increased resolution.
 
-Another benefit is [height virtualization](https://hometheaterreview.com/marantz-sr6014-92-channel-av-receiver-reviewed/) . Dolby and DTS have DSPs you can apply to 3D mixes to give a small height effect on a 2D system. It can be useful to peeps that can't install height speakers, or find physical height speakers distracting. But restrictions apply, such as not being able to apply DTS Virtual X to an Atmos soundtrack due to Dolby's AVR Mandate of 2018 which prohibits some cross-vendor DSP applications.
+Another benefit is [height virtualization](https://hometheaterreview.com/marantz-sr6014-92-channel-av-receiver-reviewed/) . Dolby and DTS have DSPs you can apply to 3D mixes to give a small height effect on a 2D system. It can be useful to people that can't install height speakers, or find physical height speakers distracting. But restrictions apply, such as not being able to apply DTS Virtual X to an Atmos soundtrack due to Dolby's AVR Mandate of 2018 which prohibits some cross-vendor DSP applications.
 
 ### THD Atmos may use a fixed 7.1.4 print
 TRUE. Some studios choose 12 objects for Atmos THD or use a fixed 7.1.4 render. Supposedly this is easier/faster for authoring software such as Scenarist Ateme Titan or Sony Blu-print since it doesn't need a 2nd pass for spatial coding. Another benefit is reduced bitrate.
@@ -186,7 +195,7 @@ MAYBE. There are several parts to this:
 2. Differing speaker placements and appropriateness. The Middle layer may be at screen level where the action is so sometimes it's not appropriate to pan sound upwards, even though there's a lot of action.
 3. Some people don't like aggressive Atmos mixes (these people do exist), leading to conservative mixes being most agreeable subset
 4. Not enough stem separation, especially for older movies. Though you can still move the whole bed up. Some reviewers may even hear things others don't
-5. Effort. It needs to be a team effort from the start of the movie to use Atmos effectively, not an afterthought on one dude. Also, some people think consumers won't listen in Atmos. The result is some bad mixes, at least in part. Like "The Lion King" (1994) " Scar's Be Prepared in chapter eight is a scene that seems like an ideal time for some spacial adds to the top that never really materialize with any overhead prominence" in a review from [blu-ray](https://www.blu-ray.com/movies/The-Lion-King-4K-Blu-ray/217393/#Review), or Back to the Future [others have claimed](https://www.avsforum.com/threads/back-to-the-future-ultra-hd-blu-ray-review.3170351/#post-60174382) . But [John Wick 2](https://www.youtube.com/watch?v=Nx4vve3UGUg) and  [Mission Impossible, I assume fallout](https://www.youtube.com/watch?v=pOI0T15d4R) are apparently examples of good mixes.
+5. Effort. It needs to be a team effort from the start of the movie to use Atmos effectively, not an afterthought on one dude. Also, some people think consumers won't listen in Atmos. The result is some bad mixes, at least in part. Like "The Lion King" (1994) " Scar's Be Prepared in chapter eight is a scene that seems like an ideal time for some spacial adds to the top that never really materialize with any overhead prominence" in a review from [blu-ray](https://www.blu-ray.com/movies/The-Lion-King-4K-Blu-ray/217393/#Review), or Back to the Future [others have claimed](https://www.avsforum.com/threads/back-to-the-future-ultra-hd-blu-ray-review.3170351/#post-60174382) . But [John Wick 2](https://www.youtube.com/watch?v=Nx4vve3UGUg) and [Mission Impossible, I assume fallout](https://www.youtube.com/watch?v=pOI0T15d4R) are apparently examples of good mixes.
 
 ### You will get the same experience at the cinema regardless of system
 FALSE. As most movies are now mixed in Atmos, others may be conversions. The Dolby Atmos Renderer was limited to 7.1.2 in the past so other presentations such as DTS-X, Auro-3D, and IMAX will be inferior conversions. As of V3.5, it can now output 7.1.4 (and a few others) so a bit better, but still not perfect.
@@ -204,6 +213,9 @@ TRUE. The core is required to decode the HD part.
 
 ### The AC3 presentation of TrueHD is always an automatic downmix of the TrueHD
 FALSE. It can be your custom downmix or even completely different content. 2016 Atmos Demo where the AC3 track is just simply an announcer saying to switch your player to bitstream mode.
+
+### The 5.1 presentation of TrueHD is always an automatic downmix of Atmos
+FALSE. TrueHD can store a separate 5.1 presentation. This "multiple presentations" feature of TrueHD dates back to the 2000s.
 
 ### The DTS presentation of DTS-HD is always an automatic downmix of the DTS-HD
 TRUE. You can customize the downmix coefficients but sometimes there are weird constraints.
@@ -264,8 +276,14 @@ MAYBE. 6ch 48/16 won't exceed the DVD max bitrate, but if you're scared it won't
 
 ## For Creators
 
-### You need expensive hardware to encode Atmos
-FALSE. The RMU is expensive, but "Dolby Atmos Production Suite" is an addon for PT that is $300, a software renderer. You can also access EC3 Atmos encoding through Amazon Mediaconvert.
+### You need expensive hardware and Pro Tools to mix in Atmos
+FALSE. The RMU is expensive, but "Dolby Atmos Production Suite" for mac is $300, and coupled with the free Atmos Music Panner, you can mix in Atmos in almost any DAW. DAPS can encode to EC3 in mp4.
+
+### You need to use a mac to mix in Atmos
+FALSE. Atmos features are available in DaVinci Resolve & Nuendo
+
+### You need expensive software to encode Atmos
+FALSE. Atmos encoding is available in cloud services such as Amazon.
 
 ### You need expensive hardware to encode DTS-X
 FALSE. DTS has said that DTS-X is a purely software solution (but may need routing hax in PT). The DTS-X creator suite is a few $K, but the encoder suite is cheaper.
@@ -293,13 +311,21 @@ FALSE.
 FALSE. As of 2020, there are no THD/EC3 Atmos decoders for PC. You must use a AVR. The situation may change in the future. If you have DTS-X or Auro-3D suites, those may include a decoder.
 
 ### I can use ADM from 3D OBA suite(s) with Dolby encoders
-FALSE. Although this is the ideal situation, and the Dolby Atmos Conversion Tool can convert between DAMP and ADM formats, Dolby tools currently only accept ADM WAV files made by Dolby tools. This is due to cubular vs spherical coordinates, among other possible differences. So if you use other OBA suites such as [VISR](http://www.s3a-spatialaudio.org/plugins) or [EBU EAR](https://ear-production-suite.ebu.io/) suites and want to deliver for Dolby codecs, you're in for a bad time(tm). Unless you mix in CBA (which is what many people are doing anyway, including myself).
+FALSE. Although this is the ideal situation, and the Dolby Atmos Conversion Tool can convert between DAMF and ADM formats, Dolby tools currently only accept ADM WAV files made by Dolby tools. This is due to cubular vs spherical coordinates, among other possible differences. So if you use other OBA suites such as [VISR](http://www.s3a-spatialaudio.org/plugins) or [EBU EAR](https://ear-production-suite.ebu.io/) suites and want to deliver for Dolby codecs, you're in for a bad time(tm). Unless you mix in CBA (which is what many people are doing anyway, including myself).
+
+### I can use Dolby ADM with other suites
+TURE. The EBU EAR suite and Fraunhofer MPEG-H suite accept Dolby ADM.
 
 ### It's hard to convert a legacy 5.1 project to an Atmos project
-FALSE, MAYBE. In PT & Nuendo, maybe you can convert legacy projects to Atmos projects using scripts. Or you can export 5.1 stems and start a new project. I haven't tested any of these.
+FALSE, MAYBE. In PT & Nuendo, maybe you can convert legacy projects to Atmos projects using scripts. PT 12.8 has a helpful "Auto-Height Overrides Height Automation" which generates height changes with existing 2D automation. Or you can export 5.1 stems and start a new project. I haven't tested any of these.
 
 ### It's hard to have consistent height content
 FALSE. [Boom library](https://www.boomlibrary.com/shop/?swoof=1&pa_producttype=3d-surround) have released a few 3D surround libraries with room tones & weather FX recorded with a 8.0 mic array.
+
+### It's expensive to deliver Atmos content for cinema.
+FALSE. You can:
+1. Convert your master with the Atmos Conversion Tool to IMF IAB, then use free software such as OpenDCP to make a package (I haven't tested this)
+2. Bring along a HDMI device which plugs into the projector. Cinema Atmos hardware can play back consumer formats such as EC3.
 
 ### Dolby charges license fees per title
 
