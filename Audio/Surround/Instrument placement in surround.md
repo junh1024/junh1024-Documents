@@ -19,9 +19,8 @@ Where to place/pan instruments in surround.
 #### Things With Long Notes
 - Vocal Fills/Backups
 - Strings (Usually All 4, Or Biased Front)
-- Sustained Guitars/Gtr reverb
 - Pads
-- NEVER pan sounds directly to the sides for too long, it will sound bad & unstable, due to bad localization. It is recommended to use reverb or my "2.0 to 5.0 Upmix V3 (L).txt" in [my suite](https://github.com/junh1024/Reaper-Surround#introduction) for spreading 2 to 4 to decorrelate so it's more stable. My Surround guide V3 coming somewhen.
+- NEVER pan sounds directly to the sides for too long, it will sound bad & unstable, due to bad localization. It is recommended to use reverb or my "2.0 to 5.0 Upmix V3 (S).txt" in [my suite](https://github.com/junh1024/Reaper-Surround#introduction) for spreading 2 to 4 to decorrelate so it's more stable. My Surround guide V3 coming somewhen.
 
 ## Back
 #### Don't make it too distracting

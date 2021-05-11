@@ -18,7 +18,7 @@ You should have at least 2 albums worth of material to join, cuz you will be thr
 
 REAPER & BPM
 ---
-Note for REAPER: REAPER doesn't have the concept of a clip BPM (maybe other DAWs too), so use my "Set item BPM.py" in https://github.com/junh1024/Reaper-Surround , and see my [Reascript Python](https://github.com/junh1024/Reaper-Surround#reascript-python-setup-for-windows) guide. Alternatively, new rate = new BPM/old PBM
+REAPER since v6 can set BPM directly, in media item properties > take properties > playback rate > set. For older versions, use my "Set item BPM.py" in https://github.com/junh1024/Reaper-Surround , and see my [Reascript Python](https://github.com/junh1024/Reaper-Surround#reascript-python-setup-for-windows) guide. Alternatively, new rate = new BPM/old PBM
 
 Key tagging
 ---

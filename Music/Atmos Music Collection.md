@@ -25,7 +25,7 @@ If you have a (Atmos) AVR or 5.1 speakers on your PC, you want this.
 2. Reserved
 3. Reserved
 4. Reserved
-5. Classical
+5. https://app.box.com/s/ool3zeubygx76ckcjb2s7craucjmzkrf
 6. https://app.box.com/s/8v0py19easqndotoosqgpertxhv33y1j
 7. Reserved
 8. Reserved
@@ -39,7 +39,7 @@ For archival. These are in Wavpack with a [custom order](https://github.com/junh
 2. Reserved
 3. Reserved
 4. Reserved
-5. Classical
+5. https://app.box.com/s/oen5eou7b8mur66qct0wn25jbuud5ntz
 6. https://app.box.com/s/vcybjdshzphbdaei6g365xlecr2wz905
 7. Reserved
 8. Reserved
@@ -48,28 +48,33 @@ For archival. These are in Wavpack with a [custom order](https://github.com/junh
 ## Songlist
 All tracks (re)mixed by junh1024, with my MIDI corrections/additions where applicable. Some songs & volumes may be unfinished. 
 
-- Keiki Kobayashi, Wolfe2x7 - AC4 Blockade MIDI
-- Paul Mauriat, junh1024 - Amapola MIDI
-- Hideki Tobeta, Bev Wooff/Rexy - Katamari Stars MIDI
+- Format: Original artist, MIDI sequencer - Title . Site
+- Keiki Kobayashi, Wolfe2x7 - AC4 Blockade
+- Paul Mauriat, junh1024 - Amapola
+- Hideki Tobeta, Bev Wooff/Rexy - Katamari Stars
 - NZCA Lines - Pure Luxury . https://nzcalines.bandcamp.com/
-- HOFA Xmas Mix - Maryam & Warheit
+- HOFA Xmas Mix Contest - Maryam & Warheit
 
 ---
 
 - Ethan Winer's Studio Orchestra - Concerto for Cello and Orchestra in A minor. http://ethanwiner.com/concerto.html
-- Aaron Dunn & Musopen project, Czech National Symphony Orchestra - XXX
+- Aaron Dunn & Musopen project, Czech National Symphony Orchestra - Peer Gynt Suite 1
 
 ---
 
 EnjoyPA on freesound - sample in GVR
 
-## Credits
+## Commissions
+Support the original artist if you can. If you insist on supporting me, commissions are available. To be announced.
 
+## Credits
 
 ---
 
-Tim Manwill - Katamari Lonely Rolling Star MIDI
-Yogurt & PiyoSys - CCS OP2 MIDI
-Takehiko Nisi & Satoshi Fujimoto - White Love MIDI
-
+- Yoshihito Yano & Saki Kabata, Tim Manwill - Katamari Lonely Rolling Star
+- ANZA, Yogurt & PiyoSys - Tobira wo Akete
+- SPEED, Takehiko Nisi & Satoshi Fujimoto - White Love
+- Moguai - Optinuum
+- Shibayan, 山本椛 - PSI-MISSING  (Electro house remix)
+- Trine - Katamari LOVEMIN
 ---

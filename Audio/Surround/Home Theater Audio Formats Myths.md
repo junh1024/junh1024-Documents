@@ -108,8 +108,8 @@ FALSE. If there is a circular pan @ 100% height, it will get all downmixed into 
 ### Channels are always at ear-level and objects can only be at the top
 FALSE. Atmos FC Base is 7.1.2, 2 side height. Objects can also be at ELL.
 
-### You can hear the difference between channels and objects
-FALSE, MOSTLY. Height of objects are not predictable as above. Also, spatial coding for Atmos Home converts everything to objects. But the objects don't move much.
+### The distinction between objects and beds will be carried over to the home
+FALSE. Spatial coding for Atmos Home converts everything to objects.
 
 ### Objects will be very dynamic on movies
 FALSE. Unlike this [object visualizer](https://www.youtube.com/watch?v=lfpncHDYM6I) demo, movies usually have static music & ambience beds. Combined with an object limit, typically, the movement at ELL will be very restricted, and you may get a bit of movement at height.
@@ -179,7 +179,10 @@ DEPENDS. If you have a 5.1 system, prolly no. If you have 7.1 speakers, maybe. M
 
 Another benefit is [height virtualization](https://hometheaterreview.com/marantz-sr6014-92-channel-av-receiver-reviewed/) . Dolby and DTS have DSPs you can apply to 3D mixes to give a small height effect on a 2D system. It can be useful to people that can't install height speakers, or find physical height speakers distracting. But restrictions apply, such as not being able to apply DTS Virtual X to an Atmos soundtrack due to Dolby's AVR Mandate of 2018 which prohibits some cross-vendor DSP applications.
 
-### THD Atmos may use a fixed 7.1.4 print
+### THD Atmos may be 7.1.2
+TRUE. 7.1.2 is due to the heavy reliance on the 7.1.2 bed, which is the maximum Atmos bed config for PT & the renderer. There are upmixers which can upmix to 7.1.2, so it could be an upmix. Or, the mixer forgot to use (more) objects inadvertently (object mixing is additional clicks in PT & needs to be connected to the renderer), or deliberately (7.1.2 file import).
+
+### THD Atmos may be 7.1.4
 TRUE. Some studios choose 12 objects for Atmos THD or use a fixed 7.1.4 render. Supposedly this is easier/faster for authoring software such as Scenarist Ateme Titan or Sony Blu-print since it doesn't need a 2nd pass for spatial coding. Another benefit is reduced bitrate.
 
 ### It doesn't matter what software they use to mix 3D
@@ -204,6 +207,9 @@ FALSE. As most movies are now mixed in Atmos, others may be conversions. The Dol
 
 ### If it was Atmos at the cinema it will be Atmos at home
 FALSE. See start of this document. Also, there could be a case where a film was Atmos at a German cinema, but on the home release, the English track gets Atmos, but the German track only gets 5.1 due to the label wanting less versions of discs & space issues fitting in many languages. Said film may have German Atmos on streaming (but in lossy).
+
+### It is easy to set up a cinema for Atmos
+FALSE. There are many requirements like where you need to aim speakers at, height of speakers, amount of speakers, zones, consistency, etc.
 
 ## Legacy Formats
 

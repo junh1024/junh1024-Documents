@@ -21,8 +21,10 @@ Tip: use [Rode Soundfield](https://www.rode.com/soundfieldplugin#footer_download
 - [Noisemakers Template Project](https://www.noisemakers.fr/downloads/#1511818712704-826211b5-c698) 7.1 wind stem
 - [4ch](https://freesound.org/search/?g=1&q=&f=%20channels:%224%22) , and [6ch](https://freesound.org/search/?g=1&q=&f=%20channels:%226%22) SFX on freesound.
 - [Lucid Samples](https://www.lucidsamples.com/surround-samples/121-free-3d-sounds-surround-51.html) free pack in surround, they also sell other SFX up to 7.1, but I get the feeling they're decoded 1oA.
-- [Boom Library](https://www.boomlibrary.com/shop/?swoof=1&pa_producttype=3d-surround) . Paid 8.0ch cube SFX.
+- [Boom Library](https://www.boomlibrary.com/shop/?swoof=1&pa_producttype=3d-surround) . Paid 8.0 cube cardioid, free demo
 - [Avosound Room Tones](https://www.avosound.com/en/sound-libraries/avosound/room-tones-sound-library) Paid Auro-3D 11.1 SFX
+- [Purist Library](https://puristlibrary.com/newsletter-sign-up/) Paid 8.0 cube omni, has a free pack after you sign up
+- [Pole Position Production - Ambiences for Atmos](https://pole.se/product/ambiences-for-atmos-vol-1-cities/) Paid 7.1.4
 - [ITE Test materials for three-dimensional multichannel sound systems](https://www.ite.or.jp/content/test-materials/3dmsss_a/) 22.2ch WAV files, but are for purchase at 750,00y and not for production use
 
 ## VST
