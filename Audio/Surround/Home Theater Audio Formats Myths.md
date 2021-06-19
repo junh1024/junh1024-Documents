@@ -157,6 +157,9 @@ DEPENDS on who you ask. Dolby & SMPTE will say yes. Microsoft will say no (in WA
 ### You can store Atmos in FLAC
 FALSE. Atmos for consumers is generally 12-16 channels or objects, but the FLAC codec only supports 8 fixed channels, so there's a problem. If you're able to "successfully" store Atmos in FLAC, you're prolly storing the legacy 7.1 presentation of THD Atmos.
 
+### The Home rendering is the same as cinema rendering
+FALSE. Home rendering may have decorrelation pre-applied to the objects depending on how big they are, and may have surround audio lowered.
+
 ## For Consumers
 
 ### There is only 1 version of the Atmos Home and DTS-X Home decoders
@@ -180,7 +183,7 @@ DEPENDS. If you have a 5.1 system, prolly no. If you have 7.1 speakers, maybe. M
 Another benefit is [height virtualization](https://hometheaterreview.com/marantz-sr6014-92-channel-av-receiver-reviewed/) . Dolby and DTS have DSPs you can apply to 3D mixes to give a small height effect on a 2D system. It can be useful to people that can't install height speakers, or find physical height speakers distracting. But restrictions apply, such as not being able to apply DTS Virtual X to an Atmos soundtrack due to Dolby's AVR Mandate of 2018 which prohibits some cross-vendor DSP applications.
 
 ### THD Atmos may be 7.1.2
-TRUE. 7.1.2 is due to the heavy reliance on the 7.1.2 bed, which is the maximum Atmos bed config for PT & the renderer. There are upmixers which can upmix to 7.1.2, so it could be an upmix. Or, the mixer forgot to use (more) objects inadvertently (object mixing is additional clicks in PT & needs to be connected to the renderer), or deliberately (7.1.2 file import).
+TRUE. 7.1.2 is due to the heavy reliance on the 7.1.2 bed, which is the maximum Atmos bed config for PT & the renderer. There are upmixers which can upmix to 7.1.2, so it could be an upmix. Or, the mixer forgot to use (more) objects inadvertently (object mixing is additional clicks in PT & needs to be connected to the renderer), or deliberately (7.1.2 file import). This flaw is hard to hear, as you need >=6 non-arrayed top speakers.
 
 ### THD Atmos may be 7.1.4
 TRUE. Some studios choose 12 objects for Atmos THD or use a fixed 7.1.4 render. Supposedly this is easier/faster for authoring software such as Scenarist Ateme Titan or Sony Blu-print since it doesn't need a 2nd pass for spatial coding. Another benefit is reduced bitrate.
@@ -201,6 +204,7 @@ MAYBE. There are several parts to this:
 3. Some people don't like aggressive Atmos mixes (these people do exist), leading to conservative mixes being most agreeable subset
 4. Not enough stem separation, especially for older movies. Though you can still move the whole bed up. Some reviewers may even hear things others don't
 5. Effort. It needs to be a team effort from the start of the movie to use Atmos effectively, not an afterthought on one dude. Also, some people think consumers won't listen in Atmos. The result is some bad mixes, at least in part. Like "The Lion King" (1994) " Scar's Be Prepared in chapter eight is a scene that seems like an ideal time for some spacial adds to the top that never really materialize with any overhead prominence" in a review from [blu-ray](https://www.blu-ray.com/movies/The-Lion-King-4K-Blu-ray/217393/#Review), or Back to the Future [others have claimed](https://www.avsforum.com/threads/back-to-the-future-ultra-hd-blu-ray-review.3170351/#post-60174382) . But [John Wick 2](https://www.youtube.com/watch?v=Nx4vve3UGUg) and [Mission Impossible, I assume fallout](https://www.youtube.com/watch?v=pOI0T15d4R) are apparently examples of good mixes.
+6. Cinema mixing rooms have all speakers above you, so the presence or absence of height activity is harder to detect.
 
 ### You will get the same experience at the cinema regardless of system
 FALSE. As most movies are now mixed in Atmos, others may be conversions. The Dolby Atmos Renderer was limited to 7.1.2 in the past so other presentations such as DTS-X, Auro-3D, and IMAX will be inferior conversions. As of V3.5, it can now output 7.1.4 (and a few others) so a bit better, but still not perfect.
@@ -317,6 +321,9 @@ FALSE.
 
 ### I can QC my Atmos mix on a PC
 FALSE. As of 2020, there are no THD/EC3 Atmos decoders for PC. You must use a AVR. The situation may change in the future. If you have DTS-X or Auro-3D suites, those may include a decoder.
+
+### It is hard to decide whether a track should be bed or object
+FALSE. Bed tracks will be sent to the speakers and may be arrayed. Objects will be pinpoint. In general, If something moves it should be an object, and for Atmos, if it is at height, it should also be an object. Since a 7.1.2 bed can't reproduce all height positions.
 
 ### There is no way to avoid undesirable downmix behavior
 FALSE. You can:
