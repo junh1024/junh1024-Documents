@@ -15,3 +15,8 @@ TDU is a racing lifestyle game developed by eden/atari, and released by atari in
 Outrun 2006
 ---
 Like RR, OR is also an arcade racer series, but developed by SEGA. It also has a variety of tracks for the variety in scenery. To note are the versions remixed for this game. Like, Splash Wave Euro Remix & Passing Breeze Euro Remix. You can [check them out](https://www.youtube.com/watch?v=bTxNpFdvmAI&list=PL_BhbJAAueZRGIUQiJttJc7Sl7OjThLIP&index=17) yourself.
+
+Other
+---
+Luke Skirenko made an electronic album in 2003 called Jigsaw Mind. Check out [Star I.D.](https://www.youtube.com/watch?v=U180kOsrVIE)
+

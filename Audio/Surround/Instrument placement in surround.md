@@ -11,9 +11,9 @@ Where to place/pan instruments in surround.
 #### Important Things
 - Rhythm section (Drum Kit, Percussion, Bass)
 - Lead instrument(s)
-- Percussive Synths & Piano
 - Guitars
 - Woodwinds (Oboe, Clarinet, Bassoon)
+- Percussive Synths & Pianos (if there's not enough activity @back, it's OK to put these @back. Remember to treat all pianos as a single group)
 
 ## Front & Back for 5.x/Front & Side for 7.x
 #### Things With Long Notes

@@ -27,7 +27,7 @@ You will need at least a 2.4ghz dual-core CPU for smooth x264 encoding. It is re
 
 Ulead VideoStudio SE DVD came with my EasyCAP (bundled commercial software). It can do directshow recording to MPEG-2. Make sure to set a high bitrate of 6000-8000kps VBR. Use PCM audio. Audio levels are fine.
 
-VirtualDub is free software. It somehow doesn't do Directshow on my capstick, so you need to use WDM instead. With WDM, Audio levels are so loud so you need to set it very low & might clip. But it can do HQ H264 with x264 VFW.
+VirtualDub is free software. It somehow doesn't do Directshow on my capstick, so you need to use WDM instead. With device audio, the levels are so loud so you need to set it very low & might clip. But it can do HQ H264 with x264 VFW.
 
 ### Cleaning
 A fast way to clean a VHS is to FFWD & rewind the tape to loosen the mould (could do this on a spare/no-picture VCR). You can open the top swing cover and empty out the dried mould into a bin if you wish. DO NOT open a VHS case to clean heavy mould. Mould is usually benign, but can sometimes be life-threatening.
@@ -50,7 +50,7 @@ Connect the VCR to the capstick using 3 RCA cables. Hi-Fi stereo tapes have high
 - Extra CLI: --tff --threads 4 (tff = top field 1st interlaced. Set threads equal to 2-4 depending on how many logical cores you have. Don't set higher than 4 as it reduces quality for SD. You must set at least tff for correct interlaced handling in x264.)
 7. Video > Custom format > 720 x 576 (or x480 for NTSC)
 8. Audio > Compression > PCM
-9. Capture > Settings > 25 (or 29.97 for NTSC)
+9. Capture > Settings > 25 for PAL, or 30 for NTSC. (I know NTSC is 29.97, but the actual captured fps is unlikely to be exactly 29.97 so set it to 30, to avoid fractional headaches later & less likely to drop actual frames, unless you're aiming for DVD)
 10. Capture > Timing
 - [v] Drop frames when...
 - [v] Insert null frames...
@@ -61,9 +61,9 @@ Connect the VCR to the capstick using 3 RCA cables. Hi-Fi stereo tapes have high
 11. File > Set capture file (you will need to do this every Vdub launch). Capture > v Autoincrement filename after capture.
 12. Capture > Capture video. Wait until Resample is stable <+-0.1st, otherwise you may hear pitching in the file. May take 1-2mins. Then play your tape. Ideally we can see people speaking (we're doing a test capture). In the Windows Sound control panel > $DEVICE > Properties > Listen > [v] Listen, and > Levels. Adjust levels until the peaks average -10 in vdub. For me this was 2-20%. You can adjust the listening level in Volume Mixer.
 13. Monitor CPU usage in task manager > performance (ctrl-shift-esc). It should not exceed 50% total too much for a SMT CPU or 80% for a non-SMT CPU.
-14. Capture > stop capture after 30s or software. If your CPU goes lower than the previous thresholds, use a slower preset, but no slower than Medium (slower preset is prolly not useful for VHS) and Return to step 12.
+14. Capture > stop capture after 30s or software. If your CPU goes lower than the previous thresholds, use a lower preset, but no lower than Medium (slower preset is prolly not useful for VHS) and Return to step 12.
 15. Play the captured AVI back. Mouthes should be in sync. If not, experiment timing settings in step 10.
-16. For next capture session (after you close FFMPEG), the settings are saved, and you can just enter capture mode, set filename, & capture.
+16. For next capture session (after you close vdub), the settings are saved, and you can just enter capture mode, set filename, & capture.
 17. Unplug the capstick since it tends to get warm.
 18. This completes our steps for WDM capture in vdub.
 

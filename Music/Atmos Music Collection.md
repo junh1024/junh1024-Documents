@@ -19,7 +19,7 @@ See my [mixing notes](https://github.com/junh1024/junh1024-Documents/blob/master
 
 ## Atmos & Surround Download
 
-If you have a (Atmos) AVR or 5.1 speakers on your PC, you want this.
+If you have a (Atmos) AVR or 5.1 speakers on your PC, you want this. Mac users may need to [use mpv](https://github.com/jnozsc/mpv-nightly-build/releases) or VLC.
 
 1. https://app.box.com/s/hkyvh0o1ar4casji92yhll8l7235du59
 2. Reserved
@@ -33,7 +33,7 @@ If you have a (Atmos) AVR or 5.1 speakers on your PC, you want this.
 
 ## Master Format Download
 
-For archival. These are in Wavpack with a [custom order](https://github.com/junh1024/Reaper-Surround#introduction-to-151). You can play or convert it with http://reaper.fm/ , or convert it with FFMPEG using "FFMPEG.exe -i input.wv output.wav". A RPP is included with routing for 7.1.4 playback for PC speaker array, and a converter is included in the suite.
+For archival. These are in Wavpack with a [custom order](https://github.com/junh1024/Reaper-Surround#introduction-to-151). You can play or convert it with http://reaper.fm/ , or convert it with FFMPEG using "FFMPEG.exe -i input.wv output.wav". A RPP is included with routing for 7.1.4 playback for computer speaker array in the SMPTE-Dolby 7.1.4 order, and a converter is included in the suite.
 
 1. https://app.box.com/s/86pa7pd04nhnoc5w8564evtivkts9d5m
 2. Reserved
@@ -53,7 +53,7 @@ All tracks (re)mixed by junh1024, with my MIDI corrections/additions where appli
 - Paul Mauriat, junh1024 - Amapola
 - Hideki Tobeta, Bev Wooff/Rexy - Katamari Stars
 - NZCA Lines - Pure Luxury . https://nzcalines.bandcamp.com/
-- HOFA Xmas Mix Contest - Maryam & Warheit
+- HOFA Xmas Mix Contest, Jochen Sachse - Maryam & Warheit
 
 ---
 
@@ -65,7 +65,7 @@ All tracks (re)mixed by junh1024, with my MIDI corrections/additions where appli
 EnjoyPA on freesound - sample in GVR
 
 ## Commissions
-Support the original artist if you can. If you insist on supporting me, commissions are available. To be announced.
+Support the original artist if you can. If you insist on supporting me, you can [donate](https://donorbox.org/junh1024), or [commissions](https://github.com/junh1024/junh1024-Documents/blob/master/Music/Comissions.md#introduction) are available.
 
 ## Credits
 

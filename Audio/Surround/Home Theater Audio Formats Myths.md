@@ -14,7 +14,8 @@ There are many misconceptions about Home Theater 3D Audio formats on the interne
 - ELL = ear-level layer. I won't call this the bottom layer since NHK 22.2 has 3 layers, including a bottom layer.
 
 ## Formats
-- THD Atmos extendeds THD (consumer version introduced 2014)
+- THD Atmos extendeds THD (cinema version 2012 with Brave, consumer version introduced 2014 with TR)
+- DDP Atmos extendeds DDP
 - DTS-X extendeds DTS-HD and is fully compatible. (consumer version introduced 2015)
 - Auro-3D embeds height channels within PCM, in a compatible manner. (introduced 2010)
 
@@ -61,6 +62,8 @@ FALSE, MOSTLY. Many A3D titles use the 11.1/5.1.6 layout. Hence Many people with
 ### Auro-3D in practice is superior to Atmos
 DEPENDS. This boils down to your preference for speaker layout & acoustics. Dolby recommends if your ceiling is low, that upfiring speakers be used instead of in-ceiling ones to create a better impression of space. The overhead/VOG speaker is the marketing point for A3D so Auro recommends one anyway. Some people prefer it. Some people dislike it.
 
+Atmos cinema installations typically place ELL speakers are too high (about 40*), which ruins the contrast between ELL & height. OTOH, A3D places emphasis on their 3-layered approach, and have ELL placed much closer where it should be (about 10*).
+
 ### X system is better than Y system
 DEPENDS. They all have their flaws, some are more flawed than others. No system is more natural, realistic, or emotional than others. That's just marketing collateral. But there are technical differences, and personal tastes.
 
@@ -76,7 +79,9 @@ FALSE. The consumer version of Atmos hereon called Atmos Home, has reduced objec
 MAYBE. DTS-X FC still supports 128 objects, but may have a more flexible base layout.
 
 ### DTS-X Home is superior to Atmos Home
-DEPENDS. While you would think 16 objects in Atmos Home vs 7.1.4 + 5 objects in DTS-X Home are equivalent, there is the difference between channels & static objects so imaging may be different. Also, DTS software isn't as smart as Atmos software which automatically does spatial coding to reduce objects. Instead, you must manually choose which objects to channelize and others to keep as objects. What happens in practice is studios just skip this process and channelize everything. Except for a few small studios like Well Go on say, "Ip man 3". [Ref2](https://www.avsforum.com/threads/trinnov-altitude.1516103/page-147#post-51314001). For 7.1.4, mixes in either system should sound similar. But for more speakers, since DTS-X is channel-based, it might be better since it can upmix missing speakers. But Atmos will probably leave them blank most of the time. Which is why many AVR owners with many speakers install additional AVRs to upmix more speakers rather than native Atmos rendering.
+DEPENDS. While you would think 16 objects in Atmos Home vs 7.1.4 + 5 objects in DTS-X Home are equivalent, there is the difference between channels & static objects so imaging may be different. Also, DTS software isn't as smart as Atmos software which automatically does spatial coding to reduce objects. Instead, you must manually choose which objects to channelize and others to keep as objects. What usually happens in practice is studios just skip this process and channelize everything. Except for a few small studios like Well Go on say, "Ip man 3". [Ref2](https://www.avsforum.com/threads/trinnov-altitude.1516103/page-147#post-51314001). Thus, you need to carefully reformat your project to make maximum use of 7.1.4 + 5 objects.
+
+For 7.1.4, mixes in either system should sound similar. But for more speakers, since DTS-X is channel-based, it might be better since it can upmix missing speakers. But Atmos will probably leave them blank most of the time. Which is why many AVR owners with many speakers install additional AVRs to upmix more speakers rather than native Atmos rendering.
 
 ### THD Atmos on BD has up to 24 objects
 
@@ -136,6 +141,9 @@ FALSE. Atmos for games uses Atmos MAT. This is different to TrueHD. Through HDMI
 ### EC3 Atmos always has a legacy 7.1 presentation
 FALSE. Sometimes you can get 7.1, but for streaming unfortunately, the legacy presentation is 5.1, 7.1 & above is locked to Atmos AVRs.
 
+### 7.1 DDP Atmos is efficient since it is already 7.1 before Atmos decoding
+FALSE. 7.1 DDP Atmos is stored as 5.1 AC3 + 4ch surround replacement + JOC, so is inefficient.
+
 ### You can convert THD Atmos to EC3 Atmos without the master file
 FALSE, MOSTLY. Only in the most desperate situations may Dolby allow this, like HDMI eARC in TVs, and only devices with certain chips.
 
@@ -181,6 +189,19 @@ I haven't tested this. At least some soundbars have detachable rears, and can ha
 DEPENDS. If you have a 5.1 system, prolly no. If you have 7.1 speakers, maybe. Many older 5.1 titles have been reissued with a THD Atmos track which has a 7.1 mix. Most of them AFAIK aren't upmixes. So you get slightly increased resolution.
 
 Another benefit is [height virtualization](https://hometheaterreview.com/marantz-sr6014-92-channel-av-receiver-reviewed/) . Dolby and DTS have DSPs you can apply to 3D mixes to give a small height effect on a 2D system. It can be useful to people that can't install height speakers, or find physical height speakers distracting. But restrictions apply, such as not being able to apply DTS Virtual X to an Atmos soundtrack due to Dolby's AVR Mandate of 2018 which prohibits some cross-vendor DSP applications.
+
+### There is little difference in theory between Heights vs Tops with AVR setup on Atmos
+FALSE. Although Dolby recommends you put height speakers halfway up the wall between ELL & the ceiling, height speakers are actually [at the very top front](https://www.youtube.com/watch?v=-2cD9CPLMyo) of Dolby coordinate system, and Tops are actually 25% way inwards. So there is a small difference.
+
+### There is little difference in practice between Heights vs Tops with AVR setup on Atmos
+TRUE. With only a max 25% difference, you might be unlikely to notice a difference with speaker setting on a given layout. Tops will be imaged 25% inwards on a height layout, and heights will be mapped to tops on a tops layout.
+
+### It doesn't matter whether I choose Heights vs Tops for a given codec
+FALSE. You may have no height activity depending on setting.
+
+- Atmos: either works
+- Auro: Heights
+- DTS-X: Tops (top is mapped to height, most soundtracks are encoded to 7.1.4 height)
 
 ### THD Atmos may be 7.1.2
 TRUE. 7.1.2 is due to the heavy reliance on the 7.1.2 bed, which is the maximum Atmos bed config for PT & the renderer. There are upmixers which can upmix to 7.1.2, so it could be an upmix. Or, the mixer forgot to use (more) objects inadvertently (object mixing is additional clicks in PT & needs to be connected to the renderer), or deliberately (7.1.2 file import). This flaw is hard to hear, as you need >=6 non-arrayed top speakers.
@@ -335,7 +356,7 @@ FALSE. You can:
 FALSE. Although this is the ideal situation, and the Dolby Atmos Conversion Tool can convert between DAMF and ADM formats, Dolby tools currently only accept ADM WAV files made by Dolby tools. This is due to cubular vs spherical coordinates, among other possible differences. So if you use other OBA suites such as [VISR](http://www.s3a-spatialaudio.org/plugins) or [EBU EAR](https://ear-production-suite.ebu.io/) suites and want to deliver for Dolby codecs, you're in for a bad time(tm). Unless you mix in CBA (which is what many people are doing anyway, including myself).
 
 ### I can use Dolby ADM with other suites
-TURE. The EBU EAR suite and Fraunhofer MPEG-H suite accept Dolby ADM.
+TURE. The EBU EAR suite (REAPER import) and Fraunhofer MPEG-H suite (converter) accept Dolby ADM.
 
 ### It's hard to convert a legacy 5.1 project to an Atmos project
 FALSE, MAYBE. In PT & Nuendo, maybe you can convert legacy projects to Atmos projects using scripts. PT 12.8 has a helpful "Auto-Height Overrides Height Automation" which generates height changes with existing 2D automation. Or you can export 5.1 stems and start a new project. I haven't tested any of these.
@@ -349,6 +370,9 @@ FALSE, probably. You can:
 2. Bring along a HDMI device which plugs into the projector. Cinema Atmos hardware can play back consumer formats such as EC3. NB: EC3 has reduced objects.
 
 I have tested neither workflow. Depending on budget or other factors, you may need to monitor on a Atmos-certified facility &/ use more standard workflows.
+
+### DAMF, ADM, and IMF IAB are the same quality
+FALSE, IMF IAB is reduced quality since the automation is quantized, and so IMF IAB (MXF) to ADM conversions should be avoided.
 
 ### Dolby charges license fees per title
 
@@ -364,3 +388,4 @@ Auro-3D charges an annual codec license. [ref.](https://www.auro-3d.com/buy/)
 Special thanks to the individuals that have contributed to my understanding.
 
 Date: Dec 2020
+
