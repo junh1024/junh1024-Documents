@@ -53,7 +53,7 @@ All tracks (re)mixed by junh1024, with my MIDI corrections/additions where appli
 - Paul Mauriat, junh1024 - Amapola
 - Hideki Tobeta, Bev Wooff/Rexy - Katamari Stars
 - NZCA Lines - Pure Luxury . https://nzcalines.bandcamp.com/
-- HOFA Xmas Mix Contest - Maryam & Warheit
+- HOFA Xmas Mix Contest, Jochen Sachse - Maryam & Warheit
 
 ---
 
@@ -65,7 +65,7 @@ All tracks (re)mixed by junh1024, with my MIDI corrections/additions where appli
 EnjoyPA on freesound - sample in GVR
 
 ## Commissions
-Support the original artist if you can. If you insist on supporting me, commissions are available. To be announced.
+Support the original artist if you can. If you insist on supporting me, you can [donate](https://donorbox.org/junh1024), or [commissions](https://github.com/junh1024/junh1024-Documents/blob/master/Music/Comissions.md#introduction) are available.
 
 ## Credits
 

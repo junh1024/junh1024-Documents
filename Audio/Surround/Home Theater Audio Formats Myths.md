@@ -136,6 +136,9 @@ FALSE. Atmos for games uses Atmos MAT. This is different to TrueHD. Through HDMI
 ### EC3 Atmos always has a legacy 7.1 presentation
 FALSE. Sometimes you can get 7.1, but for streaming unfortunately, the legacy presentation is 5.1, 7.1 & above is locked to Atmos AVRs.
 
+### 7.1 EC3 Atmos is efficient since it is already 7.1 before Atmos decoding
+FALSE. 7.1 EC3 is stored as 5.1 + 4ch surround replacement, so is inefficient.
+
 ### You can convert THD Atmos to EC3 Atmos without the master file
 FALSE, MOSTLY. Only in the most desperate situations may Dolby allow this, like HDMI eARC in TVs, and only devices with certain chips.
 
@@ -335,7 +338,7 @@ FALSE. You can:
 FALSE. Although this is the ideal situation, and the Dolby Atmos Conversion Tool can convert between DAMF and ADM formats, Dolby tools currently only accept ADM WAV files made by Dolby tools. This is due to cubular vs spherical coordinates, among other possible differences. So if you use other OBA suites such as [VISR](http://www.s3a-spatialaudio.org/plugins) or [EBU EAR](https://ear-production-suite.ebu.io/) suites and want to deliver for Dolby codecs, you're in for a bad time(tm). Unless you mix in CBA (which is what many people are doing anyway, including myself).
 
 ### I can use Dolby ADM with other suites
-TURE. The EBU EAR suite and Fraunhofer MPEG-H suite accept Dolby ADM.
+TURE. The EBU EAR suite (REAPER import) and Fraunhofer MPEG-H suite (converter) accept Dolby ADM.
 
 ### It's hard to convert a legacy 5.1 project to an Atmos project
 FALSE, MAYBE. In PT & Nuendo, maybe you can convert legacy projects to Atmos projects using scripts. PT 12.8 has a helpful "Auto-Height Overrides Height Automation" which generates height changes with existing 2D automation. Or you can export 5.1 stems and start a new project. I haven't tested any of these.
@@ -349,6 +352,9 @@ FALSE, probably. You can:
 2. Bring along a HDMI device which plugs into the projector. Cinema Atmos hardware can play back consumer formats such as EC3. NB: EC3 has reduced objects.
 
 I have tested neither workflow. Depending on budget or other factors, you may need to monitor on a Atmos-certified facility &/ use more standard workflows.
+
+### DAMF, ADM, and IMF IAB are the same quality
+FALSE, IMF IAB is reduced quality since the automation is quantized, and so IMF IAB (MXF) to ADM conversions should be avoided.
 
 ### Dolby charges license fees per title
 

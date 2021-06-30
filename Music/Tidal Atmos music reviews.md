@@ -41,6 +41,7 @@ VPO Otter - Mahler 3: I assuming SACD release means not upscale but SQ not great
 ### Pop
 - Keane - Somewhere Only We Know: better than SACD/DVDA, 3/5
 - Norah Jones - Don't Know Why: SACD but havent compared, 2/5
+- Queen - Bohemian Rhapsody: likely derived from DVDA, 2/5
 
 ## Exclusive
 ### Chamber
@@ -63,7 +64,7 @@ VPO Otter - Mahler 3: I assuming SACD release means not upscale but SQ not great
 - Bachelors of Science - The Space Between Remixes : 1st track 2/5
 - London Elektricity - Building Better Worlds: On Final View From The Rooftops , 2/5
 - Fritz Hilpert – Atmos for Androids: , 2/5
-- Rodriguez jr - Blisss: panning not that great 2/5
+- Rodriguez jr - Blisss: [panning not that great](https://www.youtube.com/watch?v=jLkQG6zR7Ac) 2/5
 ### Oldies
 - Art Blakey - Moanin: I thought this was supposed to be 3ch + reverb according to [this article](https://www.mixonline.com/sfp/dolby-atmos-music-its-different-when-you-mix-music-only) ? But it is only 2ch + reverb , 1/5
 - Bing Crosby - Have Yourself A Merry Little xma, Sleigh Ride: 1/5
@@ -72,7 +73,7 @@ VPO Otter - Mahler 3: I assuming SACD release means not upscale but SQ not great
 ### Pop
 - Donna Summer - Last Dance: 3/5
 - Donna Summer - Sunset People: 2/5
-- Prince - When Doves Cry (Atmos Mix): back too loud 1/5
+- Prince - When Doves Cry (Atmos Mix): [back too loud](https://www.youtube.com/watch?v=RHjQVFaV9EI) 1/5
 - Salt-N-Pepa - Whatta Man: sounds upscaled 1/5
 ### RnB
 - Weeknd - True colors: 3/5
