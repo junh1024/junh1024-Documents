@@ -44,7 +44,21 @@ https://codecs.multimedia.cx/2015/01/
 ## Opus low-bitrate quality does not scale to high-bitrate quality
 Several tests by users have shown that vorbis & AAC beat Opus at high bitrates
 
+AAC 128kps (qaac) might beat opus 128kps AAC
+https://www.zupimages.net/up/20/45/01gw.png
 https://hydrogenaud.io/index.php?topic=120166.0 +more tests
+
+
+
+You'll find listening tests on HA that Opus isn't definitively better than (HE) AAC, like:
+- HE-AAC 43kps (FDK-AAC) comes close to Opus 43kps 
+- https://hydrogenaud.io/index.php?topic=121155.0
+- AAC  269kps (qaac) matches Opus 300kps 
+- https://hydrogenaud.io/index.php?topic=119424.0
+
+FOr quality, you really only need to care about qAAC & FDK/FHG
+
+As for FOSS, [LC-AAC patents expired](https://hydrogenaud.io/index.php?topic=118084.msg976728#msg976728) and HE will follow soon. FDK-AAC (available under a custom license) while not as good as qAAC, is close in quality. AAC in general is faster to encode & more compatible if you care about these properties, 
 
 
 
@@ -56,3 +70,7 @@ TLDR
 
 
 TLDR: Opus isn't as great as it could be.
+
+
+IMD
+https://hydrogenaud.io/index.php?topic=116677.0

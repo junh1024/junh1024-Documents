@@ -14,8 +14,8 @@ There are many misconceptions about Home Theater 3D Audio formats on the interne
 - ELL = ear-level layer. I won't call this the bottom layer since NHK 22.2 has 3 layers, including a bottom layer.
 
 ## Formats
-- THD Atmos extendeds THD (cinema version 2012 with Brave, consumer version introduced 2014 with TR)
-- DDP Atmos extendeds DDP
+- THD Atmos extendeds THD 7.1 (cinema version 2012 with Brave, consumer version introduced 2014 with TR)
+- DDP Atmos extendeds DDP 5.1
 - DTS-X extendeds DTS-HD and is fully compatible. (consumer version introduced 2015)
 - Auro-3D embeds height channels within PCM, in a compatible manner. (introduced 2010)
 
@@ -192,6 +192,8 @@ Another benefit is [height virtualization](https://hometheaterreview.com/marantz
 
 ### There is little difference in theory between Heights vs Tops with AVR setup on Atmos
 FALSE. Although Dolby recommends you put height speakers halfway up the wall between ELL & the ceiling, height speakers are actually [at the very top front](https://www.youtube.com/watch?v=-2cD9CPLMyo) of Dolby coordinate system, and Tops are actually 25% way inwards. So there is a small difference.
+
+https://manuals.denon.com/AVRX8500H/NA/EN/DRDZSYpvilxnds.php
 
 ### There is little difference in practice between Heights vs Tops with AVR setup on Atmos
 TRUE. With only a max 25% difference, you might be unlikely to notice a difference with speaker setting on a given layout. Tops will be imaged 25% inwards on a height layout, and heights will be mapped to tops on a tops layout.
