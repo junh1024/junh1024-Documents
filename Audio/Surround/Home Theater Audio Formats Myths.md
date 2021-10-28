@@ -98,6 +98,28 @@ FALSE. Objects can move, and channels can't. This is what makes an OBA system su
 ### Channels & static objects are equivalent
 FALSE. Objects can be partially imaged between multiple speakers. But channels must have a 1-1 mapping to a speaker (except for C & LFE). This might be a problem with DTS-X 7.1.4 & non-7.1.4 speaker layouts
 
+
+### The distinction between objects and beds will be carried over to the home
+FALSE. Spatial coding for Atmos Home converts everything to objects.
+
+### Beds array at home
+FALSE. Due to spatial coding, beds don't array at home. If they did, the combination of spatial coding & arraying would make beds & objects sound unstable due to fluctuating object size.
+
+### Using beds only is fine since most users won't have more than a 7.1.2 system anyway
+FALSE. Due to the geometry & panning of beds, bed can only use half of the available area. Objects can use all of the area. The effect of objects can be heard on:
+
+- 5.1 & 7.1 systems (due to downmixing)
+- 7.1 wide & 9.1 2D systems
+- 7.1.4, 7.1.6 systems
+- 9.1.2, 9.1.4, 9.1.6 systems
+- **Headphone users** (due to 7.1.4 rendering)
+- or >90% users.
+
+The only users which won't hear the effect of objects are users with exactly 5.1.2 & 7.1.2 systems, or <10% users.
+
+### Beds can address all available speakers
+FALSE. There are some speakers that aren't a part of any array group so can't be addressed with beds, like WL WR, CL CR, BC. You must use objects to use the.
+
 ### If you have a 5.1.2 system, but have an object at height front, it will phantom image between front & height side speakers
 FALSE. It may play back using height speakers only (Atmos), or ELL (DTS-X).
 
@@ -113,8 +135,6 @@ FALSE. If there is a circular pan @ 100% height, it will get all downmixed into 
 ### Channels are always at ear-level and objects can only be at the top
 FALSE. Atmos FC Base is 7.1.2, 2 side height. Objects can also be at ELL.
 
-### The distinction between objects and beds will be carried over to the home
-FALSE. Spatial coding for Atmos Home converts everything to objects.
 
 ### Objects will be very dynamic on movies
 FALSE. Unlike this [object visualizer](https://www.youtube.com/watch?v=lfpncHDYM6I) demo, movies usually have static music & ambience beds. Combined with an object limit, typically, the movement at ELL will be very restricted, and you may get a bit of movement at height.
@@ -167,6 +187,7 @@ FALSE. Atmos for consumers is generally 12-16 channels or objects, but the FLAC 
 
 ### The Home rendering is the same as cinema rendering
 FALSE. Home rendering may have decorrelation pre-applied to the objects depending on how big they are, and may have surround audio lowered.
+
 
 ## For Consumers
 
@@ -389,5 +410,5 @@ Auro-3D charges an annual codec license. [ref.](https://www.auro-3d.com/buy/)
 
 Special thanks to the individuals that have contributed to my understanding.
 
-Date: Dec 2020
+Date: Dec 2020 - Dec 2021 
 

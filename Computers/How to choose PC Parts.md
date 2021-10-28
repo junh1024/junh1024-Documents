@@ -142,7 +142,11 @@ Most laptops these days don't have a ethernet ports, and if you want guaranteed 
 - [Ethernet adaptor with USB hub](https://www.orico.cc/us/product/detail/4058.html)
 - [Ethernet adaptor with USB hub, HDMI, and card reader](https://www.orico.cc/us/product/detail/7119.html)
 
-NB: If you get a USB2 Ethernet adaptor then you can only enjoy 100mps network speeds.
+NB: If you get a USB2 Ethernet adaptor then you can only enjoy 100mps network speeds. Some Ethernet adaptors with USB hub may corrupt data, so if you want to be cautious, avoid using USB storage with them.
+
+## bootloader
+
+GRUB supports windows, but install windows first, to avoid windows overwriting GRUB.
 
 ## HIDs
 
@@ -159,3 +163,5 @@ You can pick any mouse, but I use the [A4tech OP-620-D](https://www.a4tech.com/p
 ### Other
 
 Trackballs, trackpads, and tablets exist if you want alternative, RSI-friendly input devices. Keyboards with trackpads exist. Wired Keyboards with trackpads [also exist](https://www.logitech.com/en-nz/products/keyboards/k400-plus-touchpad-keyboard.920-007165.html), but rarer/more expensive like the [HP FK218AA](https://www.hp.com/gb-en/shop/product.aspx?id=FK218AA&opt=&sel=DEF).
+
+IF you're looking for a graphics tablet, the [Huion Kamvas](https://www.amazon.com/HUION-13-Graphics-Full-Laminated-Battery-Free/dp/B083TTQFKJ) is worth a look as many reviews say it's nice & cut-price.
