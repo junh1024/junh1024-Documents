@@ -10,11 +10,16 @@ Get a sensible case with enough room & slots for your needs. High end models may
 I am not a fan of RGB LED PC hardware, as LEDs consume power, and may disturb your sleep if you sleep in the same room.
 
 ## CPU
-Get a CPU with 4 physical cores. You can get more, but software might run slower due to lower clock, jumping between more cores, or mismanaging cores. www.REAPER.fm is particularly effective at utilizing multi-core CPUs, while other DAWs are playing catch-up. TDP is not a measure of how much power it will use in practice. Many low/mid-end CPUs have integrated graphics, so pick those. Just don't expect to do gaming at high settings, or at all. Many iGPUs support >1 monitor.
+Get a CPU with >=4 physical cores. You can get more, but software might run slower due to lower clock, jumping between more cores, or mismanaging cores. www.REAPER.fm is particularly effective at utilizing multi-core CPUs, while other DAWs are playing catch-up. TDP is not a measure of how much power it will use in practice. Many low/mid-end CPUs have integrated graphics, so pick those. Just don't expect to do gaming at high settings, or at all. Many iGPUs support >1 monitor.
 
 Many low-mid range CPUs will also come with a cooler & thermal paste so you could skip those. You need box CPU since you need fan.
 
 If you have lags or glitches when doing audio, try turning off SMT/HT in your BIOS. tweaking the min/max processor state in "power options"   to reduce dropouts  in DAWs.
+
+
+i9 & i7 are generally overpriced & you pay for the name, more than the performance. Example, comparing the [i7-11700 vs i5-11400](https://www.cpubenchmark.net/compare/Intel-i7-11700-vs-Intel-i5-11400/3947vs4233) , the i7 performance is 23% better, but the price is 55% higher. So not worth it IMO. The i5s & especially i3 is where the value is at for intel.
+
+don't buy intel 12th-gen (Alder lake) core processor due to the [big.LITTLE](https://www.anandtech.com/show/17047/the-intel-12th-gen-core-i912900k-review-hybrid-performance-brings-hybrid-complexity/4) architecture. Software isnt optimized yet, so some apps will run unexpectedly slower since they will be moved to the E-core when you least want it.
 
 AMD CPUs generally offer [better value-for-money](https://www.cpubenchmark.net/cpu_value_available.html) WRT performance, and may have extra features like ECC RAM support for consumer CPUs (unlike intel). AMD also changes socket more infrequently (4y vs 2y), and may have better APU/iGPU performance.
 

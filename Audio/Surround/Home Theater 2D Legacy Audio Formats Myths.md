@@ -1,6 +1,6 @@
 # Home Theater Legacy Audio Formats Myths
 
-## Legacy Formats
+## Technical
 
 ### TrueHD always has a AC3 core
 FALSE. Although on BD THD must have a AC3 core since THD is an optional codec on BD, it is possible to have THD without a AC3 core. In fact they are separate streams with the same ID on BD.
@@ -35,6 +35,9 @@ Overall & in practice, DTS-HD MA is (almost) completely superior to THD.
 ### DTS-HD MA is equivalent to THD
 TRUE, MOSTLY. They're both lossless codecs. But THD is dolby, and THD has dialnorm. So playing both codecs, THD may have a different volume due to dialnorm so may be perceived to be different/quieter. And louder is generally perceived to be better, so some may favor DTS-HD MA.
 
+### 7.1 adds rear speakers to 5.1
+DEPENDS on who you ask. Dolby & SMPTE will say yes. Microsoft will say no (in WAVEFORMATEXTENSIBLE back comes before side, so 5.1 has back speakers, not side speakers). DTS (in a YT video) claimed "7.1 splits the surround speakers of 5.1 into 2 pairs for an enlarged sweet spot". This must be universally correct since it's vague. The side/back difference in ordering can cause problems in data exchange.
+
 ### TrueHD 7.1 always has dedicated 5.1 & 2.0 streams
 FALSE. While the above is possible, it is not done in practice due to increased bitrate (see "DTS-HD MA is superior to THD"). Downmix presentations are encoded as metadata.
 
@@ -50,6 +53,15 @@ MAYBE. Cinema AC3 uses 320kps compared to home with is typically 384/448kps for 
 
 ### Cinema DTS is the same as Home DTS
 FALSE. Cinema [uses APT-X](https://en.wikipedia.org/wiki/DTS_(sound_system)#Theatrical_use) which again, runs at lower bitrate so that an entire movie could fit on 1 CD.
+
+## Matrix
+
+### It is best to listen to matrixed soundtracks with the same decoding system as the encoder
+#### For example, DS soundtracks with a DS decoder, DPL2 soundtracks with a DPL2 decoder
+
+FALSE. Although DS/DPL1 decoders might be more authentic to period limitations, DPL2 preserves the original better, even when the audio is DS encoded, since DPL2 implementations have 20-2000ish bands of steering vs DS of 0 and DPL of 1. Not to mention, DPL2 decoders are downmix-compatible, unlike DPL1 decoders. Also, all encoding methods use the same method (out-of-phase/wide phase) to indicate rear sounds in stereo, which is what all decoders pick up on.
+
+![DS & DPL2 decoding comparison](https://i.imgur.com/0o7Rflf.png)
 
 ### DTS EX is completely discrete system
 FALSE. "Despite its name, it is in actuality a combination of discrete and matrix technologies". [Spannerworks](http://www.spannerworks.net/reference/10_9a.asp). But it's very good. In summary, The base track is matrix 5.1 for compatibility with older matrix decoders. The extra BC is fed to the BC speaker, and subtracted from the surround speakers.
