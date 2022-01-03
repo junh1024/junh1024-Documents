@@ -29,6 +29,7 @@ EV Nova is a 2002 space adventure game. Split off from my main [EV Nova Guide](h
 - NPC ships now know how to land quickly, without swinging around like crazy prior.
 - In EV, you have 2 major governments & any mishap will immediately make a large portion of the map red. In EVN, you have 6, but big governments can be split up into 4 or more internal parts. You can make Sol mad, but you can still land in a few other places. Depending on how you view increased complexity/partitioning of governments it can be good or bad for fixing/evading your diplomacy.
 - You can't buy a fake ID to make the Federation govt like you again. You have to earn it the hard way. But most storylines will reset your record with them after completion.
+- About double the outfit types
 - Some outfits require licenses, and there are cheap & illegal versions of weapons with ceveats.
 - You don't need to travel all the way to the pirate base to buy pirate outfits. Many are sold 1 jump away from Sol.
 - EVN might be the 1st game to have ambient sounds in the spaceport. Also, it feels light there's some sound design going on as the weapons sound ambient & cohesive, not cheap like EV.
@@ -74,10 +75,10 @@ EV Nova is a 2002 space adventure game. Split off from my main [EV Nova Guide](h
 - Apple started a shift to a unix architecture with OSX server in 1999 (which looks much like OS9), and OSX public beta in 2001, to finally have a modern OS, without the quirky & buggy memory model of OS9-, completing with the recently released Windows XP. As a result, EVN is 1st EV to be both OSX/OS9 native, thanks to use of the Carbon API.
 - Also the 1st EV to have mac documentation in PDF, rather than a DOCMaker app to be future-proof for OSX
 - The previous change would be helpful for the 1st EV game on windows, in 2003
-- The mac version migrated to [ndat "at some point"](https://www.kickstarter.com/projects/cosmicfrontier/cosmic-frontier-override/posts/2970711) . Resource fork contents, but stored in data fork.  A different format (rez) is used for the windows port. Some things are different like  the CATS leviathan losing his paintjob after capture on windows (apparently).
+- The mac version migrated to [ndat "at some point"](https://www.kickstarter.com/projects/cosmicfrontier/cosmic-frontier-override/posts/2970711) . Resource fork contents, but stored in data fork. A different format (rez) is used for the windows port. Some things are different like the CATS leviathan losing his paintjob after capture on windows (apparently).
 - You can create pilotlog.txt & debuglog.txt files in the game folder, and they'll be filled in with information while the game is running. pilotlog will contain info like player stats, and mission bits set, so you can see which storyline you might be on and troubleshoot why a mission isn't appearing. debuglog will lot a lot of internal game events.
-- About double the outfit types
-- For more internal details, consult the Nova bible (in your EVN folder), Nova Reference by Azratax which summarizes game data, and [these](http://asw.forums.cytheraguides.com/topic/22191/a-list-of-nova-engine-eccentricities) [threads](http://asw.forums.cytheraguides.com/topic/22076/interesting-nova-engine-tidbits) of EVN quirks.
+- EVN Mac has a RAM limit of 4GB, but is restricted to 16MB per plug. EVN Win has a RAM limit of 1GB, but does not have any restriction per-plug. [Reference](https://github.com/NebulaTank/Supernova-Shipyard#important-note-about-winnova-memory-limits)
+- For more internal details, consult the Nova bible (in your EVN folder), Nova Reference by Azratax which summarizes game data, and [these](http://asw.forums.cytheraguides.com/topic/22191/a-list-of-nova-engine-eccentricities)  , [threads](http://asw.forums.cytheraguides.com/topic/22076/interesting-nova-engine-tidbits) , and [bugs](http://asw.forums.cytheraguides.com/topic/22013/comprehensive-list-of-known-bugs-in-ev-nova) of EVN quirks.
 
 ## Appendix 2
 ## Music
@@ -123,27 +124,32 @@ Different weapons make different colors & sounds. If you're trying to achieve a 
 ### Blasters
 
 ![Light cannon](https://vignette.wikia.nocookie.net/evn/images/0/0d/Nova_pict_6310.png)
+Light cannon
 
 Blasters are commonly available without much requirements. But they're not very damaging unless you stack lots.
 
-    Fusion pulse:		red-orange balls		poosh
-    Light/medium blaster:		yellow shots		G metallic shot
-    Light cannon (pictured)/Mining laser:		green shots		bassy electronic shot
-    Railguns:		blue tail		percussive woosh
+```
+Fusion pulse:				red-orange balls	poosh
+Light/medium blaster:		yellow shots		G metallic shot
+Light cannon/Mining laser:	green shots			bassy electronic shot
+Railguns:					blue tail			percussive woosh
+```
 
 ### Projectiles
 
 ![Gravimetric Missile](https://vignette.wikia.nocookie.net/evn/images/a/a6/Nova_pict_6011.png)
+Gravimetric Missile
 
 Projectiles are usually fired from a separate launcher. Damage varies a lot. There's other stuff from Polaris which are red/pink. Projectiles are usually multicolored so I'll refer to them by highlight, then casing/glow.
 
-    IR Missile		magenta		med freq descending woosh
-    Radar Missile		magenta		med-low freq descending woosh
-    Hellhound Missile		red-orange		LF rumble
-    EMP torpedo		light blue		LF rumble
-    Gravimetric Missile (pictured)		silver		thick short percussive woosh
-    Raven Rocket		grey		HF woosh
-
+```
+IR Missile				magenta			med freq descending woosh
+Radar Missile			magenta			med-low freq descending woosh
+Hellhound Missile		red-orange		LF rumble
+EMP torpedo				light blue		LF rumble
+Gravimetric Missile:	silver			thick short percussive woosh
+Raven Rocket			grey			HF woosh
+```
 
 ### Beams
 
@@ -151,11 +157,11 @@ Projectiles are usually fired from a separate launcher. Damage varies a lot. The
 
 Beams are powerful weapons & usually requires playing a storyline. There's other stuff from Polaris which are red/pink. Arcs are the most powerful weapons and requires playing a storyline, which are not covered here.
 
-    Summer Bloom		magenta		D pad
-    Autumn Petal		pale brown		G pad
-    Flower of Spring		yellow		C pad
-    Thunderhead lance (pictured)		light green		geese
-    Ion cannon		light blue		timpani
+ Summer Bloom		magenta		D pad
+ Autumn Petal		pale brown		G pad
+ Flower of Spring		yellow		C pad
+ Thunderhead lance (pictured)		light green		geese
+ Ion cannon		light blue		timpani
 
 ## Appendix 5
 ## History

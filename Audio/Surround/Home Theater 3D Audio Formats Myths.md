@@ -74,6 +74,10 @@ FALSE, MOSTLY. I'll split this up into 3 myths.
 ### Auro-3D codec is superior to Atmos
 FALSE. Auro-3D must be stored at a full 24b since that's where the data is (the lower bits). Atmos and DTS-X can operate at lower bitdepths so they can have potentially lower bitrates. It is sensitive to mishandling if it's in PCM/FLAC rather than THD/DTS-HD MA, so bitstream may not work if the PCM is tampered with (aka some scenarios with KODI).
 
+### Auro-3D upmix is superior to Atmos
+FALSE. It uses a combination of [panning & reverb](https://www.avsforum.com/threads/the-official-dolby-atmos-thread-home-theater-version.1574386/page-3150#post-61232027) to create height, and isn't very discrete.
+
+
 ### Auro-3D speaker layout is superior to Atmos
 FALSE, MOSTLY. Many A3D titles use the 11.1/5.1.6 layout. Hence Many people with legacy 7.1 speakers will get no benefit from A3D, unlike Atmos and DTS-X which are typically 7.1, since A3D 5.1.6 downmixes to 5.1. Also, In A3D 5.1.6, there is reduced rear & rear height resolution due to only 2 back speakers for each level. The layout is also uneven. This leads to noticeably un-smooth pans at the top/back, especially with larger spaces. A few newer A3D titles use 13.1/7.1.6, which rectifies problems with legacy systems & ELL back, but not height back.
 
@@ -297,6 +301,9 @@ FALSE. There are many requirements like where you need to aim speakers at, heigh
 #### For example, DD soundtracks with DSU, and DTS soundtracks with DTS-X
 FALSE. You can listen to any soundtrack with any upmixer. Some people prefer DSU, while others prefer Neural-X. Unless you have a AVR which has restrictions due to Dolby's AVR mandate of 2018, in which case you are restricted to vendor-only upmixing.
 
+### 5.1.2 rear height is a valid setup and sounds fine
+FALSE, at least on Denon AVRs. This setup is [not available](https://manuals.denon.com/AVRX2700H/NA/EN/DRDZSYpvilxnds.php) . Also, it will sound bad since many sounds will be above & behind you, not above or above front.
+
 ## For Creators
 
 ### You need expensive hardware and Pro Tools to mix in Atmos
@@ -370,6 +377,9 @@ FALSE. While it is efficient, you lose directionality since it's arrayed to 7.1.
 ### DAMF, ADM, and IMF IAB are the same quality
 FALSE, IMF IAB is reduced quality since the automation is quantized, and so IMF IAB (MXF) to ADM conversions should be avoided.
 
+### If I create in Dolby Atmos, I need to render a 7.1.4 and use the DTS-X creative suite to create a specific DTS-X mix for DTS-X theaters 
+FALSE. If you have produced IMF IAB, that is not Atmos-specific and will play back in DTS-X theaters fine.
+
 ### Dolby charges license fees per title
 
 FALSE. "We have never charged content fees for our licensed technologies..." [ref](https://dolbyac4.com/uk/cost.php)
@@ -385,3 +395,39 @@ Special thanks to the individuals that have contributed to my understanding.
 
 Date: Dec 2020 - Dec 2021 
 
+BIN uses 714 https://professionalsupport.dolby.com/s/question/0D54u000081EnDzCAK/trim-and-downmix-controls?language=en_US
+
+T: DDP compresion olud
+TRUE
+
+CR: As loud as I want OJK
+
+FALSE . LUFS -18 integrated.	
+
+I have done tests, and DDP comes out as a bit less dynamic on very loud sounds vs THD Atmos, otherwise very close.
+
+
+https://professionalsupport.dolby.com/s/question/0D54u000081G7hnCAC/soft-clip-limiter?language=en_US
+
+
+### Any Dolby Atmos will work for Dolby Atmos Headphone for Windows.
+FALSE. It must be DDP Atmos. THD Atmos will not work and you may get the 5.1 core only. 
+
+### Headphone Atmos is superior to speaker Atmos since the full vertical axis is virtualized on headphones.
+FALSE. Dolby Atmos Headphone is decoded to 7.1.4 so still only half vertical axis. But there may be other implementations for Spatial audio that can virtualize a full height axis.
+
+### Any app will work with Dolby Atmos Headphone. 
+FALSE. windows spatial audio is restricted to Media Foundation or spatial aware apps. If it was available to any app, apps which already virtualize audio, will be double-virtualized, sounding very bad. Hence this is disallowed with requiring specific use of the API. Examples:
+- Film & TV
+- Netflix
+- VLC from Microsoft Store
+- Windows Media Player
+
+### I need to pay for Dolby Access to enable  Dolby Atmos Headphone
+TRUE. You need to pay to enable it (after the end of the free trial). But there is Windows sonic which is free.
+
+### I need to pay for Dolby Access to enable  Dolby Atmos for Home Theater
+FALSE. Bitstreaming Atmos to your AVR is always free.
+
+### Every Dolby Atmos game will support Atmos on both Xbox & PC
+FALSE. Platform support  varies per title. Please check the list at https://www.avsforum.com/threads/dolby-atmos-for-gaming-thread.2941270/ 

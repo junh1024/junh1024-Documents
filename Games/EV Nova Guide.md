@@ -19,7 +19,34 @@ There are 6 major govenments in the game you can "join", and some factions withi
 The game, in terms of a modern experience, hasn't aged well. You will need 3rd-pty hacks to get widescreen, and works better at lower resolutions since HiDPI wasn't really a thing in 2002, unless you have a big monitor. If you have an unregistered copy, many things are limited. Outfits, ships, boarding actions, storyline progress, modifying game files, and loading plugins. And a overpowered ship that shoots you down after the trial period. But Ambrosia Software is now defunct so you can't pay for it. It is highly suggested you somehow coax the game into thinking your game is registered otherwise your experience will be very bad. Also, a quicktime dependancy for an app on windows was acceptable in 2002, but now even apple have deprecated it. There is a quicktime dll stub pack that you can use for windows to avoid installing all of QT. Also, the accented characters for resource types have also not gone well for plaintext files over to windows, as mac & win default to different codepages.
 
 ## Plugins
-The game also allows plugins to be installed. They can modify the game to add new ships, outfits, missions, and cheats, to completely replacing the game scenario. There are graphical enhancements like Colored_Targets & ShieldBubbles. I'll mention a few others that can improve your game experience throughout the guide. I'll also suggest the Neoplanets & Full screen map plugins, which make planets & maps larger, respectively. You can get plugins & guides from http://www.cytheraguides.com/archives/ambrosia_addons/evn/ . [ARPIA2](https://www.arpia.be/arpia2/) could be thought of a sequel to EVN since the author was inspired by EVN, and some of the EVN staff worked on ARPIA2 graphics. There are [some TCs](https://evn.fandom.com/wiki/Total_Conversions) .
+The game also allows plugins to be installed. They can modify the game to add new ships, outfits, missions, and cheats, to completely replacing the game scenario. You can get plugins & guides from http://www.cytheraguides.com/archives/ambrosia_addons/evn/ . [ARPIA2](https://www.arpia.be/arpia2/) could be thought of a sequel to EVN since the author was inspired by EVN, and some of the EVN staff worked on ARPIA2 graphics. There are [some TCs](https://evn.fandom.com/wiki/Total_Conversions) .
+
+### Appearance
+
+- Full screen map: "enlarges the map display window to fill your screen"
+- Targets
+- Neoplanets: "Replaces the planet graphics, or spobs, with new, larger, more visually appealing graphics"
+- PaintStation (PlugpackV18): "Get to the Paint Station in the Zel system and give it a paint job", the paint jobs look a bit meh IMO due to the nova engine
+- ShieldBubbles (PlugpackV18): "adds shield bubbles to every non-alien ship in the game. "
+- ShipVariants (PlugpackV18): "allows you to buy every variant of every ship in Nova, instead of having to capture them"
+
+### Gameplay
+- WIN-Hypergate fix: "This reactivates all(most all) the dead hypergates and reconnects them to the network in a logical fashion"
+- AllGoodBranches: "makes sure you always get the favorable branch whenever you don't have direct control over which you get"
+- Longer Battles: "This plug doubles the shields and armor of all the ships and doubles the strength of all shield and armor outfits so those battles can last longer"
+- ReturnToS7evyn (PlugpackV18): "get access to a Stargate System which links S7evyn and the Obatta System"
+- TechnicalData (PlugpackV18): "detailed ingame description information about any outfit available"
+- Sellable Outfits: "This plugin allows you to sell the Fed Cloaking device and the Bureau bomb at any planet, and it makes the Drop Bear Repellent a bit more forgiving"
+- SigmaSpecialsFixes: "This plugin allows all variants of Starliners to get sight-seeing missions, all variants of the Cambrian and the Leviathan to get large bulk deliveries, and all variants of the Pegasus, Cambrian and Leviathan to get regular bulk deliveries."
+- Archives (Qaanol's Plug-ins 1.1):"The Imperial Archives store centuries of data from across the Auroran empire and the universe beyond... Incorporated within this plug-in is a bug-fix that allows Vell-os skills to be relearned if they are accidentally lost when an escape pod is used"
+
+### Cheats
+- 2 mill: "It will allow you to access a mission that will give you 2 mill credits just take off and land after you accept the mission"
+- Novatech: "Unlocks all ships and outfits in EV Nova (including Alien technology). Items can be purchased on Sol"
+
+### Expansions
+- Rebel Yell: "a continuation of the Rebel story line, particularly the Rebel II story"
+- The Ringbuilders: "expands the Kontik probe mission into a full storyline, consistent with Nova's existing storylines"
 
 ## Mechanics
 
@@ -273,7 +300,7 @@ Moved to [EV Nova Appendix](https://github.com/junh1024/junh1024-Documents/blob/
 - EVN: [Gustav Holst - Mars](https://www.youtube.com/watch?v=PfL5w0FNnNw), played by Orcheste National de France, conducted by Lorin Maazel. My friend complains that this version is missing a bar at the start.
 - For well-known classical suites like the 2 above, there's  >50 recordings of each, so it's important to also state the orchestra/conductor
 
-The theme seems to be orchestral pieces with an emphasis on brass, perhaps as part of a suite. Apart from the OP music, EVN has been criticized for a lack of soundtrack. Russian review [via wikipedia](https://en.wikipedia.org/wiki/Escape_Velocity_Nova#Reception) . But there are some logical choices you can make. Obvious ones would be the rest of The Planets by Holst and Romeo & Juliet by Prokofiev. But there's also Richard Strauss' - An Alpine Symphony , [sample](https://www.youtube.com/watch?v=K3mKBjb0r0k) . All 3 works have several surround releases. If you want discrete, get Bernstein's Holst's Planets (but apparently the SACD release ruins the imaging of the original quad tape recording), and Ozawa's Strauss' Alpine. Haven't found a satisfactory discrete release for Romeo.
+The theme seems to be orchestral pieces with an emphasis on brass, perhaps as part of a suite. It seems brass helps to portray a sebs of tension/danger/intent. Apart from the OP music, EVN has been criticized for a lack of soundtrack. Russian review [via wikipedia](https://en.wikipedia.org/wiki/Escape_Velocity_Nova#Reception) . But there are some logical choices you can make. Obvious ones would be the rest of The Planets by Holst and Romeo & Juliet by Prokofiev. But there's also Richard Strauss' - An Alpine Symphony , [sample](https://www.youtube.com/watch?v=K3mKBjb0r0k) . All 3 works have several surround releases. If you want discrete, get Bernstein's Holst's Planets (but apparently the SACD release ruins the imaging of the original quad tape recording), and Ozawa's Strauss' Alpine. Haven't found a satisfactory discrete release for Romeo.
 
 ![pic](https://images-na.ssl-images-amazon.com/images/I/31Ge5zsGrvL.jpg)
 
@@ -330,7 +357,7 @@ In 2017, ASW went defunct. In 2020, Magia Record EN also closed shop due to "not
 OTOH, as EVN is an offline game & microsoft loves binary compatibility, it still functions in windows 10. You can convert plugins to rez, and even pilot files (but on mac). The mac UB version may be useless in a few years due to another arch shift, to ARM, and when rosetta 2 will be deprecated.
 
 
-## 
+## Inspiration for EV
 Matt Burch owned a copy of [Elite](https://en.wikipedia.org/wiki/Elite_\(video_game\)) , which he'd never played cuz he lost the Lenslok protection device. But it had a very detailed manual. It left an impression on him and he finally made a game Escape Velocity as a college student, released in 199x which captured the spirit of elite. Its expandability with plugins created a community. Peter Cartwright made a scenario called Override which was published as a new game by ASW. In 2000s, a bunch of students from Australia created another scenario. Matt Burch returned to make many significant code updates, and the result is the EVN we know today. Matt would like to thank his parents for equipping him at a young age with the right tools.
 
 https://lifeandtimes.games/episodes/files/pax-aus-19-ambrosia-sw-talk

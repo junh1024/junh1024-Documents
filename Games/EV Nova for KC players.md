@@ -31,7 +31,7 @@ Specific ship & ordering is also important. A ship in the 1st (flagship) or 6th 
 
 Also in events are historical bonuses (damage multipliers) for having certain ships &/ equipment in your fleet to encourage you to use them.
 
-Setting a particular ship as secretary is also done for cosmetic purposes. Like seeing them on your home screen & hearing their voice lines. The VAs are females, and speak mostly Japanese (including the foreign ships). Many VAs voice multiple ships, cuz there's >200 ships, and about 50 VAs in the game. There could be more VAs to potentially make the ships more unique in voice, but it's more convenient to reuse VAs, and there might not be that many appropriate VAs to fill the role of kanmusu.
+Setting a particular ship as secretary is also done for cosmetic purposes. Like seeing them on your home screen & hearing their voice lines. The VAs are females, and speak mostly Japanese (including the foreign ships). Many VAs voice multiple ships, since there's >200 ships, and about 50 VAs in the game. There could be more VAs to potentially make the ships more unique in voice, but it's more convenient to reuse VAs, and there might not be that many appropriate VAs to fill the role of kanmusu.
 
 In EVN, you drive 1 ship and have up to 5 escorts. You can have hired escorts (which cost credits), or captured escorts (free). You may also get escorts assigned to you for the duration of the mission (free).
 
@@ -85,7 +85,7 @@ KC has a slot-based system for equipment. Ships usually come with 2-4 slots, and
 
 For carriers, slot distribution is a thing. Slots can have different amounts of planes. You can have a CV with a large 1st slot for a powerful airstrike. Another ship may have a balanced slot distribution so you can have an even mix of plane types. For surface ships, there are also [incentives](https://en.kancollewiki.net/Gun_Fit_Bonuses) to fit guns of the right size on your ship, and penalties if you don't.
 
-You can choose equipment to add on your ships, to increase the chance of destroying the enemy efficiently, but be careful not to worsen your overall fleet. Cuz installing AA equipment on more ships [can](https://en.kancollewiki.net/Anti-Air_Fire#Anti-Air_Cut-In) make your AACI attacks worse due to ships with worse AA stealing the attack from ships with better AA. In reality tho, almost all IJN ships weren't designed to have their engines or guns swapped, it's just another gameplay element. Except for perhaps the [Mogami-class](https://en.wikipedia.org/wiki/Mogami-class_cruiser) .
+You can choose equipment to add on your ships, to increase the chance of destroying the enemy efficiently, but be careful not to worsen your overall fleet. Since installing AA equipment on more ships [can](https://en.kancollewiki.net/Anti-Air_Fire#Anti-Air_Cut-In) make your AACI attacks worse due to ships with worse AA stealing the attack from ships with better AA. In reality tho, almost all IJN ships weren't designed to have their engines or guns swapped, it's just another gameplay element. Except for perhaps the [Mogami-class](https://en.wikipedia.org/wiki/Mogami-class_cruiser) .
 
 Since smaller ships can't fit big guns, they rely on torpedoes to do big damage. But there's a special type of enemy called an [installation](https://en.kancollewiki.net/Combat/Anti-Installation), such as [Airfield Hime](https://en.kancollewiki.net/Airfield_Princess) which mimicked the land-based enemy, Henderson Field. In this case, torpedoes don't work, and DDs are much weaker, unless you give them rockets or landing craft. But those take up a slot & aren't that effective against regular surface targets. And you can't swap equipment mid-sortie. CVs behave differently with installations. So you need to configure your fleet what's effective for your sortie overall. Again, part of normal fleet management.
 
@@ -168,7 +168,7 @@ In EVN, you have primary & secondary weapons, controlled by separate keys. You c
 
 In KC, there is a technique known as "torpedobeats" where through careful selection of ship, formation, and optionally a [Ferrari Engine](https://en.kancollewiki.net/Enhanced_Steam_Boiler) , you can increase your chance of dodging torpedoes. In EVN, you can increase your chance of evading missiles by using a fast ship, suitable outfits, and driving.
 
-Maelstrom map nodes are where you lose resources. You can reduce the loss by adding Radar. You definitely want to avoid maelstroms cuz lost resources means a less effective fleet (reduced evasion, etc).
+Maelstrom map nodes are where you lose resources. You can reduce the loss by adding Radar. You definitely want to avoid maelstroms since lost resources means a less effective fleet (reduced evasion, etc).
 
 In EVN, they're roughly anagulous to pirate attacks. Likewise, you can avoid pirate attacks by running away or destroying the pirates. The consequence of a pirate attack is credits stolen. But unlike KC, your ship is disabled & you generally must call for help to get moving again (or just reload your pilot file). You can reduce the loss by bribing them (usually the bribe < credits that would be stolen), or simply not having that many credits in the 1st place.
 
@@ -214,7 +214,7 @@ Like KC, you can improve the stats of your ship by adding outfits, but you can o
 ### Auroran & Generic
 In EVN, Aurorans are a warrior race with inferior technology but strong spirits, and red as a theme color, kinda like the IJN. But in WW2, Japan were "the bad guys", but in EVN they're tying reform the evil Federation. You can purchase generic/civilian ships with the right licenses, but you must play the Auroran storyline to buy some of these ships.
 
-Aurorans have 5 official houses (family/faction) + 1 default "Dechtakar" house. Note that the news banner logo of the Heraan house (visibile if you click news in the bar of a Heraan planet, or pict ID ~~OVER 9000~~ 9007 in "Nova Graphics 3") which is supposedly a Heron looks like the JAL logo which has a crane, and KC did a [branding](https://old.reddit.com/r/kancolle/comments/djg908/media_jal_cranes_for_kure_tour/) , [collab](https://old.reddit.com/r/kancolle/comments/d344rv/news_shokaku_promotes_japan_airlines_in_the_tokyo/) last year. Also note that Heraan is the most technologically advanced house, and Shoukaku is (1 of) the most advanced CV of IJN and in KC (cuz it can have jet planes).
+Aurorans have 5 official houses (family/faction) + 1 default "Dechtakar" house. Note that the news banner logo of the Heraan house (visibile if you click news in the bar of a Heraan planet, or pict ID ~~OVER 9000~~ 9007 in "Nova Graphics 3") which is supposedly a Heron looks like the JAL logo which has a crane, and KC did a [branding](https://old.reddit.com/r/kancolle/comments/djg908/media_jal_cranes_for_kure_tour/) , [collab](https://old.reddit.com/r/kancolle/comments/d344rv/news_shokaku_promotes_japan_airlines_in_the_tokyo/) last year. Also note that Heraan is the most technologically advanced house, and Shoukaku is (1 of) the most advanced CV of IJN and in KC (since it can have jet planes).
 
 Note that the Heraan house has a green heron. The Heraan house is also a major element in the Rebel storyline. Rebels have green as a theme color. Likewise, Japan has red as its theme color. Japan and Italy are axis powers. Italy has green on their flag.
 
@@ -229,10 +229,10 @@ Note that the Heraan house has a green heron. The Heraan house is also a major e
 [Mogami](https://en.kancollewiki.net/Mogami#Info) is [Auroran Cruiser](https://evn.fandom.com/wiki/Aurora_Cruiser).
 
 ![Agano](https://yksk.kancollewiki.net/w/images/4/4a/Ship_Banner_Agano.png)	![IDA Frigate](https://vignette.wikia.nocookie.net/evn/images/a/ac/Nova_rleD_1024.gif)
-[Agano](https://en.kancollewiki.net/Agano#Info) is [IDA Frigate](https://evn.fandom.com/wiki/IDA_Frigate). I was gonna map Akitsu Maru to the Frigate. But decided otherwise cuz Naka-Agano-Nagano can map to Enterprise-Frigate-P'Enterprise since all 3 ships use the IDA engine. Agano is mostly better than Naka in KC. The IDA Frigate is better than the Enterprise in EVN cuz it doesn't have a blind spot in the center, and is smaller=less area for missiles to hit.
+[Agano](https://en.kancollewiki.net/Agano#Info) is [IDA Frigate](https://evn.fandom.com/wiki/IDA_Frigate). I was gonna map Akitsu Maru to the Frigate. But decided otherwise since Naka-Agano-Nagano can map to Enterprise-Frigate-P'Enterprise since all 3 ships use the IDA engine. Agano is mostly better than Naka in KC. The IDA Frigate is better than the Enterprise in EVN since it doesn't have a blind spot in the center, and is smaller=less area for missiles to hit.
 
 ![Naka](https://yksk.kancollewiki.net/w/images/c/c0/Ship_Banner_Naka_Kai_Ni.png)	![Enterprise](https://vignette.wikia.nocookie.net/evn/images/b/bc/Nova_rleD_1022.gif)
-[Naka](https://en.kancollewiki.net/Naka#Info) is [Auroran Enterprise](https://evn.fandom.com/wiki/Enterprise). I was gonna say Zuihou, for the historical connection.
+[Naka](https://en.kancollewiki.net/Naka#Info) is [Auroran Enterprise](https://evn.fandom.com/wiki/Enterprise). I was gonna say Zuihou, for the [historical connection](https://en.wikipedia.org/wiki/Japanese_aircraft_carrier_Zuih%C5%8D#Service).
 
 ![Kagerou](https://yksk.kancollewiki.net/w/images/e/ed/Ship_Banner_Kagerou.png)	![Abomination](https://vignette.wikia.nocookie.net/evn/images/8/8d/Nova_rleD_1048.gif)
 [Kagerou](https://en.kancollewiki.net/Kagerou#Info) is [Auroran Abomination](https://evn.fandom.com/wiki/Abomination). Kagerou got the quad-torpedo launcher. Likewise, the Abomination got the Fusion Pulse Canons. You could choose anyone else from the bike shorts (Kagerou) class except for Taihou, or a strong DD, really.
@@ -301,10 +301,10 @@ Pirate ships have no storyline requirement.
 
 ![Lightning](https://vignette.wikia.nocookie.net/evn/images/2/20/Nova_rleD_1014.gif)	![Thunderhead](https://vignette.wikia.nocookie.net/evn/images/b/bf/Nova_rleD_1058.gif)
 
-There are other ships in EVN, but I haven't mapped them to KC ships cuz I don't think they're close enough. Mainly Vell-os and Polaris ships since they're overpowered and rather unconventional-looking. There is a Lightning & Thunderhead (pictured above). You can map them to Inazuma & Ikazuchi based on name. But then the Inazuma & Ikazuchi in EVN would have much less shields than the Fubuki & co in KC, which is very untrue. You could also map Lightning to Shimakaze, for its speed & appearance, but I refrained, again for low shields. There is also a Thunderforge which is about as fast as Kongou, but (more) powerful than a Musashi (depending on range).
+There are other ships in EVN, but I haven't mapped them to KC ships since I don't think they're close enough. Mainly Vell-os and Polaris ships since they're overpowered and rather unconventional-looking. There is a Lightning & Thunderhead (pictured above). You can map them to Inazuma & Ikazuchi based on name. But then the Inazuma & Ikazuchi in EVN would have much less shields than the Fubuki & co in KC, which is very untrue. You could also map Lightning to Shimakaze, for its speed & appearance, but I refrained, again for low shields. There is also a Thunderforge which is about as fast as Kongou, but (more) powerful than a Musashi (depending on range).
 
 ### Naming
-KC ships are named like their IJN counterpart. There are [conventions](https://en.wikipedia.org/wiki/Japanese_ship-naming_conventions) , like CVs named after flying things, and DDs after natural phenomena. Shoukaku = soaring crane, Souryuu = blue dragon. Fubuki=blizzard, Shirayuki=white snow. Poetic names.
+KC ships are named like their IJN counterpart. There are [conventions](https://en.wikipedia.org/wiki/Japanese_ship-naming_conventions) , like CVs named after flying things, and DDs after natural phenomena. Shoukaku = soaring crane, Souryuu = blue dragon. Fubuki = blizzard, Shirayuki = white snow. Poetic names.
 
 In EVN, some ships have generic names. Some cargo ships are named after mythical creatures, like Terrapin, Pegasus, Leviathan. Vell-os and Polaris ships can have names like Javelin, Arachnid, Scarab. Slightly poetic. There is a Dragon in EVN, but it's black w/ flourescent coloring, and it might not carry by default. But it has enough space for a fighter bay.
 
@@ -337,3 +337,6 @@ REGEX
 
 ![]()	![]()
 ~~a~~
+
+
+KC non-interactive battles. Yes, if you fail to finish off/kill the enemy at the end of night battle, they will get to live

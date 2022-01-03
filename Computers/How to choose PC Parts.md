@@ -25,6 +25,9 @@ AMD CPUs generally offer [better value-for-money](https://www.cpubenchmark.net/c
 
 If you want to use Linux, it might be best to choose a older CPU such that it's supported by your kernel.
 
+### Thermal Paste
+AAA
+
 ## GPU
 If you must get a dedicated GPU, there are a small selection of fanless ones available for quiet operation.
 
@@ -83,7 +86,9 @@ Other neck speakers are available, but they may not have a mic, and almost certa
 https://www.panasonic.com/uk/consumer/home-entertainment/gaming/sc-gn01e.html
 
 
-## HDD
+## Storage
+
+### HDD
 If you want decent storage for cheap, get a conventional HD. Choose a NAS HD with a 5400rpm speed. I know you wouldn't usually pick a NAS HD for general use, but it's a valid choice. NAS HDs are built to handle a bit of heat & vibration, and usually have a decent warranty. A 5xxx rpm speed means it will probably run cooler, quieter, last longer. Yes it is a bit slower, but it's tolerable at sizes of >1TB. Suggestions:
 
 https://old.reddit.com/r/DataHoarder/comments/hsbmnr/wd_red_nas_helium_vs_air/
@@ -113,13 +118,18 @@ SSDs are available in several formats, traditional SATA, M2 NVMe, M2 SATA, and P
 
 If you want  
 
-2.5" cases are common, if you need to externalize a M2 SSD, [cases](https://www.orico.cc/us/product/detail/7122.html) are available. SOme might look like giant USB sticks.
+#### Brackets
+AAA
+
+2.5" cases are common, if you need to externalize a M2 SSD, [cases](https://www.orico.cc/us/product/detail/7122.html) are available. Some might look like giant USB sticks.
+
+
 
 ### External HDD
 Branded external HDD may have a proprietary partitioning scheme when you take the drive out, forcing you to use 1st-pty recovery services, so it's recommend to use a generic USB HD case + HD instead. Since SSDs are cheap & reliable in 2021, pick one from the suggested SSDs above.
 
 ### USB stick
-AKA USB flash drive. Recommend: Sandisk (ultra/extreme). Try to buy a USB3 one. Not that they will reach those speeds, but they tend to have a write speed >=15MPS. See benchmarks on https://usb.userbenchmark.com/ . And format them to NTFS for reliability.
+AKA USB flash drive. Recommended: Sandisk ultra/extreme with metal USB plugs, NOT the standard series with plastic USB plugs which break easily. Try to buy a USB3 one. Not that they will reach those speeds, but they tend to have a write speed >=15mps. See benchmarks on https://usb.userbenchmark.com/ . And format them to NTFS for reliability.
 
 ## ODD
 DVD writers go for dirt cheap, you may already have one, so there's little excuse not to have one. Also consider a BD writer so you can backup data or make BDs. USB ODDs are also possible.

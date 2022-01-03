@@ -1,5 +1,8 @@
 # Home Theater Legacy Audio Formats Myths
 
+## Introduction
+This is the 2D legacy companion to my 3D doc.
+
 ## Technical
 
 ### TrueHD always has a AC3 core
@@ -71,7 +74,7 @@ FALSE. EX is just a flag for 5.1. It doesn't change what the contents inside are
 
 Doubtful cases:
 - Harry Potter M1-3. It was supposedly EX, but all that was released on early BDs was 5.1. Later BDs got a DTS-X remix. So the source may not be 6.1.
-- Arashi no Yoru Ni got a DVD with 5.1 AC3 EX. It was a TV movie. I doubt it's true EX due to budget, and it's historically popular to use the EX flag even if it's not EX cuz older AVRs wouldn't use the BC speaker, unless there was a EX flag.
+- Arashi no Yoru Ni got a DVD with 5.1 AC3 EX. It was a TV movie. I doubt it's true EX due to budget, and it's historically popular to use the EX flag even if it's not EX since older AVRs wouldn't use the BC speaker, unless there was a EX flag.
 
 Proven cases:
 - Spirited away eventually got a 6.1, for the Japanese BD. Not that much separation tho. Most dubs are 5.1, may be EX. 
@@ -82,3 +85,68 @@ FALSE. Sony SDDS 7.1f added front speakers in the 90s. And there were some cinem
 
 ### You can't have lossless surround on DVD Video, unlike DVD Audio
 MAYBE. 6ch 48/16 won't exceed the DVD max bitrate, but if you're scared it won't work, Auro may have something for this, their Auro Stereomagic thing can cram 5.1 into 2ch so you could theoretically use it.
+
+###  Dolby Digital is stored on a digital track on LDs
+FALSE. Dolby Digital is stored on a analog track. It typically requires a suitable LD player, or demodulator (both expensive) to extract.
+
+###  DTS is stored on a digital track on LDs
+TRUE. DTS is stored on a digital track on LDs.
+
+## Dolby Encoding
+
+### You should always set the dialnorm to -31
+FALSE.
+
+
+Dialnorm is meant to represent the loudness of the program, 
+
+++
+
+Assuming a device reference of -31, a value of -31 means no adjustment, and a value of 
+
+so if you set it to -31 (off) it would be a bad experience for consumers who may experience a jump in volume with material that has DN set correctly. Ideally, you should measure the program loudness with Dolby implementations. Using free software, it's possible to get an approximate figure by measuring RMS of a section with dialog only, and round to quieter. [Reference](https://forum.doom9.org/showthread.php?t=56020)
+
+### DRC profile doesn't matter
+FALSE. Setting the DRC profile inappropriately may cause artefacts. Music profiles tend to gentle compression from a low threshold while film profiles tend to hard compression at high thresholds.  See other documentation for further details.
+
+### It's not possible to put >448kps DD on DVD
+FALSE. You can author DVDs with 640kps DD. Whether they're in-spec or play is another story.
+
+### It's fine to put DTS as the sole track on DVD
+FALSE. DTS was a late addition to the DVD spec, and DVD players aren't required to include a DTS decoder (unlike DD). Hence it's recommend to include a DD or PCM track also (they are mandatory codecs for DVD).
+
+### Free Dolby Digital encoders are competitive with commercial encoders
+FALSE. aften at 192kps on stereo has artefacts while a professional Dolby encoder will produce acceptable output.
+
+### Free DDP encoders are competitive with commercial encoders
+FALSE. "New E-AC3 coding tools are not actually implemented, unless required by the bitstream. Due to some coding improvements its minimally better then AC3 at any given bitrate, but probably not even measurable" - nevcairiel on [Doom9](https://forum.doom9.org/showthread.php?p=1951632#post1951632)
+
+### Free THD encoders are competitive with commercial encoders
+FALSE. The FFMPEG implementation
+- Doesn't include a DD core
+- Limited hardware compatibility (might be related to above)
+- Limited to 5.1
+- Doesn't support Atmos
+- May produce bigger files
+[Reference](https://forum.doom9.org/showthread.php?t=183363)
+
+## DTS Encoding
+
+### DTS Core bitrate for DTS-HD MA doesn't matter since the output is lossless
+FALSE. Very old devices will only get the legacy core, hence you 
+
+
+### You should always set the highest core bitrate of 1510kps
+FALSE. For stereo encodes, setting the highest core bitrate of 1510kps may significantly increase encoded size.
+
+### Downmix trims don't affect filesize
+FALSE. Setting custom downmix trims may increase filesize.
+
+### Default downmix trims will be full-volume
+FALSE. Default downmix trims may be set lower to reduce clipping on downmix.
+
+### Different DTS-HD MA encoders will produce the same filesize for the same input audio
+FALSE. Different encoders may produce different filesizes.
+
+### Free DTS encoders are competitive with commercial encoders
+FALSE. Free DTS encoders may be lower quality and may produce additional hiss when played back.
