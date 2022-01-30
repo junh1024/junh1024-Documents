@@ -18,27 +18,52 @@ There are 6 major govenments in the game you can "join", and some factions withi
 
 The game, in terms of a modern experience, hasn't aged well. You will need 3rd-pty hacks to get widescreen, and works better at lower resolutions since HiDPI wasn't really a thing in 2002, unless you have a big monitor. If you have an unregistered copy, many things are limited. Outfits, ships, boarding actions, storyline progress, modifying game files, and loading plugins. And a overpowered ship that shoots you down after the trial period. But Ambrosia Software is now defunct so you can't pay for it. It is highly suggested you somehow coax the game into thinking your game is registered otherwise your experience will be very bad. Also, a quicktime dependancy for an app on windows was acceptable in 2002, but now even apple have deprecated it. There is a quicktime dll stub pack that you can use for windows to avoid installing all of QT. Also, the accented characters for resource types have also not gone well for plaintext files over to windows, as mac & win default to different codepages.
 
+## Download & Installation
+1. [Manual installation](https://old.reddit.com/r/Escape_Velocity/comments/9atyzj/ev_nova_download_links_and_more/) OR
+2. [Pre-configured package](http://escape-velocity.games/) (I don't like that they replaced the old color Ambrosia logo with the new white one)
+
+## Troubleshooting
+As it is an old game, you might run into compatibility issues under modern setups. At least it's a 2D game so issues are easier to fix.
+
+#### EV Nova must be run in 256 or thousands of colors
+- W7: Disable display scaling on high DPI settings
+- W10: Change high DPI settings: Override high DPI scaling behavior: Scaling performed by: Application
+
+#### Quicktime 5.0 or later must be installed
+- Install Quicktime with minimum options & Quicktime still image. OR
+- Extract [this zip](https://drive.google.com/file/d/1KhvxgI4dEi1CBV8SbLeFQkaaZTpBM_65/view) into your EVN folder, which consists of QuickTime.qts & QuickTimelnternetExtras.qtx
+
+#### Menu display issues or unable to choose pilot
+- Disable second screen on multi-monitor setup
+
+#### Low FPS or laggy graphics
+- Press Capslock to enable 2x speed
+- Install [DDrawcompat](https://github.com/narzoul/DDrawCompat) into your EVN folder (probably does nothing, casual report)	
+
+#### Other issues
+- Run this program in compatibility mode for: Windows XP SP3 (might do nothing)	
+
 ## Plugins
 The game also allows plugins to be installed. They can modify the game to add new ships, outfits, missions, and cheats, to completely replacing the game scenario. You can get plugins & guides from http://www.cytheraguides.com/archives/ambrosia_addons/evn/ . [ARPIA2](https://www.arpia.be/arpia2/) could be thought of a sequel to EVN since the author was inspired by EVN, and some of the EVN staff worked on ARPIA2 graphics. There are [some TCs](https://evn.fandom.com/wiki/Total_Conversions) .
 
 ### Appearance
 
 - Full screen map: "enlarges the map display window to fill your screen"
-- Targets
 - Neoplanets: "Replaces the planet graphics, or spobs, with new, larger, more visually appealing graphics"
 - PaintStation (PlugpackV18): "Get to the Paint Station in the Zel system and give it a paint job", the paint jobs look a bit meh IMO due to the nova engine
 - ShieldBubbles (PlugpackV18): "adds shield bubbles to every non-alien ship in the game. "
 - ShipVariants (PlugpackV18): "allows you to buy every variant of every ship in Nova, instead of having to capture them"
+- Targets
 
 ### Gameplay
-- WIN-Hypergate fix: "This reactivates all(most all) the dead hypergates and reconnects them to the network in a logical fashion"
 - AllGoodBranches: "makes sure you always get the favorable branch whenever you don't have direct control over which you get"
+- Archives (Qaanol's Plug-ins 1.1):"The Imperial Archives store centuries of data from across the Auroran empire and the universe beyond... Incorporated within this plug-in is a bug-fix that allows Vell-os skills to be relearned if they are accidentally lost when an escape pod is used"
 - Longer Battles: "This plug doubles the shields and armor of all the ships and doubles the strength of all shield and armor outfits so those battles can last longer"
 - ReturnToS7evyn (PlugpackV18): "get access to a Stargate System which links S7evyn and the Obatta System"
-- TechnicalData (PlugpackV18): "detailed ingame description information about any outfit available"
 - Sellable Outfits: "This plugin allows you to sell the Fed Cloaking device and the Bureau bomb at any planet, and it makes the Drop Bear Repellent a bit more forgiving"
 - SigmaSpecialsFixes: "This plugin allows all variants of Starliners to get sight-seeing missions, all variants of the Cambrian and the Leviathan to get large bulk deliveries, and all variants of the Pegasus, Cambrian and Leviathan to get regular bulk deliveries."
-- Archives (Qaanol's Plug-ins 1.1):"The Imperial Archives store centuries of data from across the Auroran empire and the universe beyond... Incorporated within this plug-in is a bug-fix that allows Vell-os skills to be relearned if they are accidentally lost when an escape pod is used"
+- TechnicalData (PlugpackV18): "detailed ingame description information about any outfit available"
+- WIN-Hypergate fix: "This reactivates all(most all) the dead hypergates and reconnects them to the network in a logical fashion"
 
 ### Cheats
 - 2 mill: "It will allow you to access a mission that will give you 2 mill credits just take off and land after you accept the mission"
@@ -47,6 +72,10 @@ The game also allows plugins to be installed. They can modify the game to add ne
 ### Expansions
 - Rebel Yell: "a continuation of the Rebel story line, particularly the Rebel II story"
 - The Ringbuilders: "expands the Kontik probe mission into a full storyline, consistent with Nova's existing storylines"
+
+### Utility
+- Widescreen
+- 
 
 ## Mechanics
 

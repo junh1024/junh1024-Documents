@@ -130,6 +130,10 @@ FALSE. The FFMPEG implementation
 - May produce bigger files
 [Reference](https://forum.doom9.org/showthread.php?t=183363)
 
+
+### 7.1 DDP is as efficient as 5.1 DDP
+FALSE. 7.1 DDP Atmos is stored as 5.1 AC3 + [4ch surround replacement](https://professional.dolby.com/globalassets/dolby-digital-plus/dolby-digital-plus-audio-coding-tech-paper.pdf), so is inefficient and not recommend for "very low" bitrates.
+
 ## DTS Encoding
 
 ### DTS Core bitrate for DTS-HD MA doesn't matter since the output is lossless

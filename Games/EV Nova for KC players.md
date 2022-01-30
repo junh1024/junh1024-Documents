@@ -19,6 +19,20 @@ I'm not aware of any plugin that adds WW2-style ships, not even space battleship
 
 *Rebel Frigate with 4 large escorts*
 
+## Story
+Apart from killing aliens, there's not really a story (in contrast with FGO/MR). Maybe "we fight to keep the peace?". Maybe the aim is to be a [hard](https://danbooru.donmai.us/posts/3809592) game and to sorta represent the complexity of managing a navy & the losses of the IJN in WW2. [More discussion](https://old.reddit.com/r/kancolle/comments/jiq2t2/discussion_its_about_time_kancolle_nationalism/) . According to this [blog on wikia](https://kancolle.fandom.com/wiki/User_blog:Morgane_of_the_Mists/Cultural_exchange,_pt._1) , Japan likes to not talk about its past in a serious way. But maybe there's a hivemind sentiment that they don't want war again.
+
+EVN OTOH, has 6 major storylines & several minor ones. I guess you could say there's a message depending on which storyline you play. The Federation has been internally usurped by the evil Beureau. By joining 1 of the 6 major governments, you can reform the Federation (and bring a message of hope), rule cooperatively, or further the reach of the Beureau and commit genocide (maybe the message is genocide is bad). Since EVN isn't a modern F2P or VN game, there's no in-game library to re-read the text. So you need to travel to the planet to read the description, or use the [EVN wiki]( https://evn.fandom.com/wiki/Category:Genocide) . Also unlike some VNs, there is no singular "true route" that is unlocked after playing the story several times. Most of them are vaguely reinforce that the Federation loses some power. Only in the Fed storyline does the Federation increase in power. The Pirate storyline is more like a side story in that there's no change in the Fed power (although it locks you out from other stories).
+
+Vaguely WW2 [Babylon 5](https://en.wikipedia.org/wiki/Babylon_5)
+
+## Map
+In KC as of late 2020, there are 7 worlds and 34 maps. If you assume 10 nodes per map, then you have 340 total nodes. But not all nodes have battles. So there's prolly >200 with battles. The art for each battle looks mostly the same, unlike other F2P games like FGO/MR. The enemies at nodes can vary, chosen from a few pre-defined patterns.
+
+![EVN map small](https://vignette.wikia.nocookie.net/evn/images/a/aa/Evnovamap.jpg/revision/latest/scale-to-width-down/400)
+
+In the EVN default scenario, there are [>400 systems](https://vignette.wikia.nocookie.net/evn/images/a/aa/Evnovamap.jpg) , but only about 300 space objects. Not all of them are landable. So there's prolly >200 landable spobs. For each landable spob, there's some art, but it's prolly obscured much of the time by a dialog you open. Ships that appear in each system have a pre-defined chance of appearing, so the combination you see can vary between days. [Naka](https://evn.fandom.com/wiki/Naka) is a system in EVN, but there's nothing interesting there.
+
 ## Fleet
 
 ![fleet composition](https://yksk.kancollewiki.net/w/images/8/87/Composition_Menu.png)
@@ -310,18 +324,6 @@ In EVN, some ships have generic names. Some cargo ships are named after mythical
 
 
 
-## Map
-
-In KC as of late 2020, there are 7 worlds and 34 maps. If you assume 10 nodes per map, then you have 340 total nodes. But not all nodes have battles. So there's prolly >200 with battles. The art for each battle looks mostly the same, unlike other F2P games like FGO/MR. The enemies at nodes can vary, chosen from a few pre-defined patterns.
-
-![EVN map small](https://vignette.wikia.nocookie.net/evn/images/a/aa/Evnovamap.jpg/revision/latest/scale-to-width-down/400)
-
-In the EVN default scenario, there are [>400 systems](https://vignette.wikia.nocookie.net/evn/images/a/aa/Evnovamap.jpg) , but only about 300 space objects. Not all of them are landable. So there's prolly >200 landable spobs. For each landable spob, there's some art, but it's prolly obscured much of the time by a dialog you open. Ships that appear in each system have a pre-defined chance of appearing, so the combination you see can vary between days. [Naka](https://evn.fandom.com/wiki/Naka) is a system in EVN, but there's nothing interesting there.
-
-## Story
-Apart from killing aliens, there's not really a story (in contrast with FGO/MR). Maybe "we fight to keep the peace?". Maybe the aim is to be a [hard](https://danbooru.donmai.us/posts/3809592) game and to sorta represent the complexity of managing a navy & the losses of the IJN in WW2. [More discussion](https://old.reddit.com/r/kancolle/comments/jiq2t2/discussion_its_about_time_kancolle_nationalism/) . According to this [blog on wikia](https://kancolle.fandom.com/wiki/User_blog:Morgane_of_the_Mists/Cultural_exchange,_pt._1) , Japan likes to not talk about its past in a serious way. But maybe there's a hivemind sentiment that they don't want war again.
-
-EVN OTOH, has 6 major storylines & several minor ones. I guess you could say there's a message depending on which storyline you play. The Federation has been internally usurped by the evil Beureau. By joining 1 of the 6 major governments, you can reform the Federation (and bring a message of hope), rule cooperatively, or further the reach of the Beureau and commit genocide (maybe the message is genocide is bad). Since EVN isn't a modern F2P or VN game, there's no in-game library to re-read the text. So you need to travel to the planet to read the description, or use the [EVN wiki]( https://evn.fandom.com/wiki/Category:Genocide) . Also unlike some VNs, there is no singular "true route" that is unlocked after playing the story several times. Most of them are vaguely reinforce that the Federation loses some power. Only in the Fed storyline does the Federation increase in power. The Pirate storyline is more like a side story in that there's no change in the Fed power (although it locks you out from other stories).
 
 ## Conclusion
 Hopefully I've convinced you to play EVN, if not, enjoyed reading my comparison.

@@ -181,7 +181,7 @@ FALSE. Atmos for games uses Atmos MAT. This is different to TrueHD. Through HDMI
 FALSE. Sometimes you can get 7.1, but for streaming unfortunately, the legacy presentation is 5.1, 7.1 & above is locked to Atmos AVRs.
 
 ### 7.1 DDP Atmos is efficient since it is already 7.1 before Atmos decoding
-FALSE. 7.1 DDP Atmos is stored as 5.1 AC3 + 4ch surround replacement + JOC, so is inefficient.
+FALSE. For 7.1 DDP Atmos, the 7.1 part is discarded during Atmos decoding, only the core 5.1 + JOC is used, hence it is inefficient.
 
 ### You can convert THD Atmos to DDP Atmos without the master file
 FALSE, MOSTLY. Only in the most desperate situations may Dolby allow this, like HDMI eARC in TVs, and only devices with certain chips.
@@ -309,8 +309,11 @@ FALSE, at least on Denon AVRs. This setup is [not available](https://manuals.den
 ### You need expensive hardware and Pro Tools to mix in Atmos
 FALSE. The RMU is expensive, but "Dolby Atmos Production Suite" for mac is $300, and coupled with the free Atmos Music Panner, you can mix in Atmos in almost any DAW. DAPS can encode to DDP in mp4.
 
-### You need to use a mac to mix in Atmos
+### You need to use a Mac to mix in Atmos
 FALSE. Atmos features are available in DaVinci Resolve & Nuendo.
+
+### Dolby Atmos Production Suite is available for Windows
+FALSE. Only the Mastering suite, which doesn't include the core audio. But you can [bridge](https://professionalsupport.dolby.com/s/question/0D54u00008AUz8PCAT/problem-activating-the-dolby-atmos-renderer-on-win-10?language=en_US) any DAW with Resolve with JACKAudio.
 
 ### You need expensive software to encode Atmos
 FALSE. Atmos encoding is available in cloud services such as Amazon.
@@ -431,3 +434,7 @@ FALSE. Bitstreaming Atmos to your AVR is always free.
 
 ### Every Dolby Atmos game will support Atmos on both Xbox & PC
 FALSE. Platform support  varies per title. Please check the list at https://www.avsforum.com/threads/dolby-atmos-for-gaming-thread.2941270/ 
+
+
+### THD Atmos is always bigger than 7.1
+FALSE.

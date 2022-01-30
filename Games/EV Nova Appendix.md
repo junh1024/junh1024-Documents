@@ -68,7 +68,7 @@ EV Nova is a 2002 space adventure game. Split off from my main [EV Nova Guide](h
 - You don't press modifier keys to "about EV" to get additional credits, just Press x at the main screen.
 - Recall your starter ship in EV/O is a shuttle with no weapons. If you have a pilot named Kenny in EVO (I recall it happening in EV too, but maybe it didn't), you also get a blaster, and if Kenny dies, he has a special death string. In EVN, you get a blaster by default (no special name needed), but this egg is still there.
 - Creating a plugin with a l33t resource, some game text will appear in l33tspeak. DL: [mac](http://www.cytheraguides.com/archives/ambrosia_addons/evn/Plugins/1752_l33t_plugx0r.bin)|[windows](https://cdn.discordapp.com/attachments/542720828610052106/765670429603528744/l33t_plugx0r.rez)
-- The EV series have balloon help for the app icons. Since no-one uses it, it's become an easter egg. EVN has: "What started as a small pebble, Became an avalanche." (from memory & hex-search since Sheepshaver don't wanna work anymore). Also prolla a reference to [Babylon 5](https://www.quotes.net/mquote/679240) .
+- The EV series have balloon help for the app icons. Since no-one uses it, it's become an easter egg. EVN has: "What started as a small pebble, Became an avalanche." A likely reference to [Babylon 5](https://www.quotes.net/mquote/679240) .
 - After you finish the game, there's 4 new systems in northern space.
 
 ### Internals
