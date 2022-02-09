@@ -66,14 +66,14 @@ Running JSFX
 ### Windows:
 
 - Using REAPER natively
-- Transpiling to VST using [Geep-Jeez](https://github.com/derekjohnevans/Geep-Jeez)
-- Using the [ReaJS VST](https://www.reaper.fm/reaplugs)
-- Latter 2 are mainly for when you've finished development
-
+- Transpiling to VST2 using [Geep-Jeez](https://github.com/derekjohnevans/Geep-Jeez)
+- Using the [ReaJS VST2](https://www.reaper.fm/reaplugs)
+- Using the [YSFX VST3 host](https://github.com/jpcima/ysfx)
 ### Mac/Linux:
 
 - Using REAPER natively
 - Using REAPER on Wine
+- Using the [YSFX VST3/AU host](https://github.com/jpcima/ysfx)
 
 If you're using REAPER for VST development (not JSFX), that's fine too, cuz it provides features helpful for developers like CPU & PDC figures for individual FX, CPU per track, and and overall CPU & RAM usage.
 

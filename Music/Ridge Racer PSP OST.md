@@ -2,7 +2,7 @@
 
 Introduction
 ---
-Ridge Racer PSP OST is the best OST in the series imo. I've only played it for an hour or so in 2006-ish, but it has good music (I like 1/4-1/2 of the tracks). But I'm biased since I barely know the other OSTs well. But I might be [onto something](https://www.squareenixmusic.com/reviews/chris/ridgeracers.shtml). It has a mix of new songs and remixes of old songs. Including the irresistible [Disco Ball](https://www.youtube.com/watch?v=X3GLPLsjD24) & NuJazz-style [Blue Topaz remix](https://www.youtube.com/watch?v=kydwDBr9MoA). But I don't like the hardcore tracks. While I'm going through game OSTs to make mixes, I noticed a few that might fit into RR PSP.
+Ridge Racer PSP OST is the best OST in the series imo. I've only played it for an hour or so in 2006-ish, but it has good music (I like 1/4-1/2 of the tracks). But I'm biased since I barely know the other OSTs well. But I might be [onto something](https://www.squareenixmusic.com/reviews/chris/ridgeracers.shtml). It has a mix of new songs and remixes of old songs. Including the irresistible [Disco Ball](https://www.youtube.com/watch?v=X3GLPLsjD24)But I don't like the hardcore tracks. While I'm going through game OSTs to make mixes, I noticed a few that might fit into RR PSP.
 
 Test Drive Unlimited 1 PS2
 ---
@@ -15,6 +15,10 @@ TDU is a racing lifestyle game developed by eden/atari, and released by atari in
 Outrun 2006
 ---
 Like RR, OR is also an arcade racer series, but developed by SEGA. It also has a variety of tracks for the variety in scenery. To note are the versions remixed for this game. Like, Splash Wave Euro Remix & Passing Breeze Euro Remix. You can [check them out](https://www.youtube.com/watch?v=bTxNpFdvmAI&list=PL_BhbJAAueZRGIUQiJttJc7Sl7OjThLIP&index=17) yourself.
+
+Touhou Trance
+---
+Touhou is a bullet shooter game for PC by Team Shanghai Alice. It's notable for its music since there are many fan-made remixes in many different styles. If you liked the NuJazz-style [Blue Topaz remix](https://www.youtube.com/watch?v=kydwDBr9MoA) and regular Trance, you may like [estha - Blue State](https://youtu.be/YMiYhSVbpYo?t=926) (as part of my Touhou 2 mix) since the bassline is similar and there are key changes & polyphony.
 
 Other
 ---

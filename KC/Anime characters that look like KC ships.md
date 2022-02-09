@@ -1,5 +1,9 @@
 # Anime characters that look & behave like KC ships
 
+## Introduction
+Some games included
+
+
 Part 1
 ---
 - [SAO Silica](https://myanimelist.net/character/37681/Keiko_Ayano) like Sazanami
@@ -10,7 +14,7 @@ More: https://old.reddit.com/r/kancolle/comments/eb2ls7/the_admirals_lounge/fbh7
 
 Part 2
 ---
-* https://myanimelist.net/character/6499/Nagi This is Murakumo. She even has tied bangs & a staff. Behavior unknown. The OP "approximately" sounds like [this](https://hearthis.at/jzgmyrcb/kan-imas/) (my mashup)
+* https://myanimelist.net/character/6499/Nagi This is Murakumo. She even has tied bangs & a staff. Behavior unknown. The OP "approximately" sounds like [this](https://hearthis.at/junh1024/kan-imas/) (my mashup)
 * https://myanimelist.net/character/106863/Rino_Endou from jinsei looks like Ooyodo. She's shy.
 * https://myanimelist.net/character/74081/Megumi_Amatsuka from GJ-bu looks like Abruzzi (she has her hair down in only 1 ep so you don't see it)
 * https://myanimelist.net/character/38538/Eucliwood_Hellscythe from Zombie Desk car looks like Hibiki. Also a cool temperament.
@@ -30,8 +34,8 @@ Part 3
 * https://hai-furi.fandom.com/wiki/Mei_Irizaki from High School Fleet is your i401. They're both genki & have similar hairstyles & colors.
 
 These might not appear in any IMAS anime, they're probably a bit obscure:
-* https://www.project-imas.com/wiki/Meguru_Hachimiya is Prinz Eugen. They're both somewhat genki & foreign, and blonde twintails.
-* https://www.project-imas.com/wiki/Atsumi_Munakata is Naka. Yuno, being in IMAS implicitly makes you an idol. She's very genki & the buns, but also touchy-feely.
+- [Meguru Hachimiya](https://project-imas.wiki/Meguru_Hachimiya) from IMAS = Prinz Eugen. Complete with a cheery personality & foreign-ness.
+* https://www.project-imas.wiki/Atsumi_Munakata is Naka. Yuno, being in IMAS implicitly makes you an idol. She's very genki & the buns, but also touchy-feely.
 & CC u/LuidziTeitoku
 
 Part 4
@@ -41,3 +45,8 @@ Part 4
 * Mei Irizaki from Haifuri looks like i401
 * [Etou Kanami](https://anidb.net/character/89541) from Toji no Miko looks like Yukikaze
 * [Origami Koori](https://safebooru.donmai.us/posts?tags=origami_koori) from School Girl Strikers also looks like Hatsuyuki. Apart from being kuudere & capable, there's not much info on this minor character
+
+
+- [Kaho Komiya](https://project-imas.wiki/Kaho_Komiya) from IMAS = Arashi
+- [Rei Takanashi](https://alicegearaegis.fandom.com/wiki/Rei_Takanashi) from Alice Gear Aegis = Yuubari , or [Samidare](https://safebooru.donmai.us/posts/4122234) if her hair is down
+- [Ayaka](https://genshin-impact.fandom.com/wiki/Kamisato_Ayaka) from GI looks like Murakumo

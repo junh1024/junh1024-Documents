@@ -10,6 +10,7 @@ KC EN players have given nicknames to ships. But the origins & terminology aren'
 - Ookita = Ooi Kitakami
 - RJ = Ryuujou
 - Sammy = Samuel B Roberts
+- Sarah = Saratoga
 - SKK = Shoukaku
 - Zuizui = Zuikaku
 
@@ -18,12 +19,13 @@ KC EN players have given nicknames to ships. But the origins & terminology aren'
 - Lady/Elephant = Akatsuki	scenes where she's thrusting her arms/legs
 
 ## Appearance
-- Beaver = Yukikaze	teeth
+- Beaver/Bidoof = Yukikaze	teeth
 - Crab = Oboro	hair ornament
 - Doggo = Tokitsukaze/Yuudachi/i-47	ears
 - Flatsuragi = Katsuragi	chest
 - Fluffy Cloud  = Murakumo	hair
 - Melon = Yuubari	rockmelon
+- Michibuns - Michishio
 - Mutslug/Mutsnail = Mutsu	headgear
 - Potato = [Shibafu Ships, Esp. Fubuki-Class](Https://Cdn.Discordapp.Com/Attachments/165107321561808896/223813223093108737/Unknown.Png)
 	- Baked Potato = i-401
@@ -38,12 +40,14 @@ KC EN players have given nicknames to ships. But the origins & terminology aren'
 
 ## History
 - Flat Deck = Ryuujou	one of the only completely flush CV(L) (most CVs have a command tower which overlooks the deck)
+- Heater = Kaga	her one-sided smokestack
 - Honor Student = Asashio	sunk while trying to help a transport ship as the captain kept a 2-way help promise
 - Hotel = Yamato	She didn't do many battles & she had luxurious facilities including civilian chefs
 - Journalist/Reporter = Aoba	Had one on board
 - Mama = Houshou	First purpose-built carrier in the world
 - PTSD = Shigure	she was the sole survivor of the Nishimura fleet, prolly due to the captain being a specialist in night warfare
 - Pudding (Radioactive) = Prinz Eugen	prinz sounds like pudding in JP. Also, she was part of the Operation Crossroads nuclear tests
+- Nightmare of Solomon = Yuudachi	she acted aggressively and chaotically during the battle of Savo island, Guadalcanal campaign
 - Turkey = Zuikaku	an easy target due to inexperienced pilots later in the war
 - Wolf = Ashigara	nickname by UK journalists criticizing her function over form, which the JP interpreted as a compliment
 
@@ -65,6 +69,7 @@ KC EN players have given nicknames to ships. But the origins & terminology aren'
 - Cat = Tama
 - Dechi = i-58
 - Dolphin = Kumano	battle scream
+- Ichiban = Shiratsuyu
 - Kamo = Akitsushima
 - Klutz = Samidare
 - Mic Check = Kirishima
@@ -75,14 +80,20 @@ KC EN players have given nicknames to ships. But the origins & terminology aren'
 - Pyon = Uzuki
 - Sakusen = Ooyodo
 - Shireee = Yukikaze/Tokitsukaze
-- Tamagoyaki = Zuihou
+- Speed idiot = Shimakaze
+- Tamagoyaki/Egg = Zuihou
 - Wagahai = Tone
-- Yasen/Ninja = Sendai
+- Wannabe Battleship = Kiyoshimo
+- What day is it = Nenohi
+- Yasen/Ninja/Night battle idiot = Sendai
 
 ## Other
+- AA Queen = Atlanta and Maya	(stats in game)
 - Bauxite queen = Akagi	You get her free by an early quest. But at that time you're not realizing how much resources she eats. Also, there was an early bug that increased her resource consumption
 - Comrade = Hibiki/Tashkent/Gangut
 - Idol = Naka	kandex48 <> AKB48
+- Miss Sense of Direction - Gambier Bay	due to [this promo art](https://danbooru.donmai.us/posts/3063430)
+- Saberkaze = Isokaze (same VA as Saber)
 
 ## Pun
 - Diejobu = Damaged (Haruna)
@@ -94,14 +105,16 @@ KC EN players have given nicknames to ships. But the origins & terminology aren'
 
 ## Abyssal
 - Black Wock Shooter = Wo-class carrier	appearance of Kai form
+- DJ Hime = Supply Depot Princess	appearance (headphones)
 - Dyson = Battleship Hime	BBH has good ability to suck up your attacks just like Dyson vacuums don't lose suction
 - Hoppo = Northern Princess	kanji
 - Kitanda = Anti Defense Princess	lines
 - Nagano = Light Cruiser Oni	appearance
 - Ritou = Isolated Island Oni	kanji
+- Snek Hime = Heavy Cruiser Princess	appearance
 - Wanko = Harbour Princess	kanji
 
-[More names](https://old.reddit.com/r/kancolle/comments/jm7anq/the_admirals_lounge/gavndh7/)
+[More](https://old.reddit.com/r/kancolle/comments/jm7anq/the_admirals_lounge/gavndh7/) , [names](https://old.reddit.com/r/kancolle/comments/sv4ca3/misc_do_you_have_any_interesting_nicknames_for/)
 
 ## References
 - KC EN wiki

@@ -97,14 +97,11 @@ TRUE. DTS is stored on a digital track on LDs.
 ### You should always set the dialnorm to -31
 FALSE.
 
+Dialnorm is meant to represent the loudness of the program, measured around the dialogue. The idea is that you mix with the dialog at a certain level, and everything else accomodates that. With the DN set correctly, you will experience approximately the same loudness across different programs.
 
-Dialnorm is meant to represent the loudness of the program, 
+Assuming a device reference of -31, a value of -31 means no adjustment, and a value of -21 means a adjustment of -10dB. Using free software, it's possible to get an approximate figure by measuring RMS of a section with dialog only, and round to quieter.  Ideally, you should measure the program loudness with Dolby implementations.  [Reference](https://forum.doom9.org/showthread.php?t=56020)
 
-++
-
-Assuming a device reference of -31, a value of -31 means no adjustment, and a value of 
-
-so if you set it to -31 (off) it would be a bad experience for consumers who may experience a jump in volume with material that has DN set correctly. Ideally, you should measure the program loudness with Dolby implementations. Using free software, it's possible to get an approximate figure by measuring RMS of a section with dialog only, and round to quieter. [Reference](https://forum.doom9.org/showthread.php?t=56020)
+If you set it to -31 (off), or remove the DN metadata (equivalent to -31) it would be a bad experience for consumers who may experience a jump in volume with material that has DN set correctly. Setting DN incorrectly could also [remove Atmos capabilities](https://forum.doom9.org/showpost.php?p=1953784&postcount=14) . This makes sense since Atmos has mastering specifications for loudness.
 
 ### DRC profile doesn't matter
 FALSE. Setting the DRC profile inappropriately may cause artefacts. Music profiles tend to gentle compression from a low threshold while film profiles tend to hard compression at high thresholds.  See other documentation for further details.
