@@ -30,9 +30,11 @@ TRUE. DTS-HD MA:
 But:
 - Slower to decode due to decoding multiple layers
 - Legacy streams must be an automatic downmix (but you can customize the coefficients)
+
 Dolby claims about THD:
 - Downmix/legacy presentations need not be an automatic downmix at the cost of more bitrate. In practice, hardly anyone bothers with dedicated downmixes from 7.1 to 5.1
 - Compromises between the lossy & lossless parts. In practice, there's actually no compromise with DTS-HD MA when DTS core at 1510kps is above transparency levels, AND it's smaller than THD
+
 Overall & in practice, DTS-HD MA is (almost) completely superior to THD.
 
 ### DTS-HD MA is equivalent to THD
@@ -92,6 +94,38 @@ FALSE. Dolby Digital is stored on a analog track. It typically requires a suitab
 ###  DTS is stored on a digital track on LDs
 TRUE. DTS is stored on a digital track on LDs.
 
+## General Encoding
+
+### I must encode in DD or DTS to be compatible with hardware players
+FALSE. These days, many devices accept H264 & AAC in mp4/mkv for digital delivery, of which there are excellent free encoders, so no need to encoder DD or DTS. However, if you want *disc* delivery, you must encode DD/DTS, or use PCM.
+
+### Free Dolby Digital, DDP, and DTS encoders are competitive with commercial encoders
+FALSE. Free encoders don't produce acceptable quality at low bitrates and are thus not competitive. In addition,
+
+For DDP: "New E-AC3 coding tools are not actually implemented, unless required by the bitstream. Due to some coding improvements its minimally better then AC3 at any given bitrate, but probably not even measurable" - nevcairiel on [Doom9](https://forum.doom9.org/showthread.php?p=1951632#post1951632)
+
+For THD: The FFMPEG implementation:
+- Doesn't include a DD core
+- Limited hardware compatibility (might be related to above)
+- Limited to 5.1
+- Doesn't support Atmos
+
+For DTS: Free encoders may have [artefacts on hardware decoders](https://forum.doom9.org/showthread.php?p=1754796#post1754796)
+
+### Free or 3rd-party THD and DTS-HD MA encoders produce files of the same size as 1st party encoders
+FALSE. Free/3rd-party encoders may produce bigger files:
+- Versus [FFMPEG THD](https://forum.doom9.org/showthread.php?t=183363)
+- Versus Totalcode DTS-HD MA: maybe larger files.
+
+### DTS Core bitrate for DTS-HD MA doesn't matter since the output is lossless
+FALSE. Very old devices will only get the legacy core, hence you 
+
+### Downmix trims don't affect filesize
+FALSE. Setting custom downmix trims may increase filesize.
+
+### Default downmix trims will be full-volume
+FALSE. Default downmix trims may be set lower to reduce clipping on downmix.
+
 ## Dolby Encoding
 
 ### You should always set the dialnorm to -31
@@ -109,45 +143,13 @@ FALSE. Setting the DRC profile inappropriately may cause artefacts. Music profil
 ### It's not possible to put >448kps DD on DVD
 FALSE. You can author DVDs with 640kps DD. Whether they're in-spec or play is another story.
 
-### It's fine to put DTS as the sole track on DVD
-FALSE. DTS was a late addition to the DVD spec, and DVD players aren't required to include a DTS decoder (unlike DD). Hence it's recommend to include a DD or PCM track also (they are mandatory codecs for DVD).
-
-### Free Dolby Digital encoders are competitive with commercial encoders
-FALSE. aften at 192kps on stereo has artefacts while a professional Dolby encoder will produce acceptable output.
-
-### Free DDP encoders are competitive with commercial encoders
-FALSE. "New E-AC3 coding tools are not actually implemented, unless required by the bitstream. Due to some coding improvements its minimally better then AC3 at any given bitrate, but probably not even measurable" - nevcairiel on [Doom9](https://forum.doom9.org/showthread.php?p=1951632#post1951632)
-
-### Free THD encoders are competitive with commercial encoders
-FALSE. The FFMPEG implementation
-- Doesn't include a DD core
-- Limited hardware compatibility (might be related to above)
-- Limited to 5.1
-- Doesn't support Atmos
-- May produce bigger files
-[Reference](https://forum.doom9.org/showthread.php?t=183363)
-
-
 ### 7.1 DDP is as efficient as 5.1 DDP
 FALSE. 7.1 DDP Atmos is stored as 5.1 AC3 + [4ch surround replacement](https://professional.dolby.com/globalassets/dolby-digital-plus/dolby-digital-plus-audio-coding-tech-paper.pdf), so is inefficient and not recommend for "very low" bitrates.
 
 ## DTS Encoding
 
-### DTS Core bitrate for DTS-HD MA doesn't matter since the output is lossless
-FALSE. Very old devices will only get the legacy core, hence you 
-
+### It's fine to put DTS as the sole track on DVD
+FALSE. DTS was a late addition to the DVD spec, and DVD players aren't required to include a DTS decoder (unlike DD). Hence it's recommend to include a DD or PCM track also (they are mandatory codecs for DVD).
 
 ### You should always set the highest core bitrate of 1510kps
 FALSE. For stereo encodes, setting the highest core bitrate of 1510kps may significantly increase encoded size.
-
-### Downmix trims don't affect filesize
-FALSE. Setting custom downmix trims may increase filesize.
-
-### Default downmix trims will be full-volume
-FALSE. Default downmix trims may be set lower to reduce clipping on downmix.
-
-### Different DTS-HD MA encoders will produce the same filesize for the same input audio
-FALSE. Different encoders may produce different filesizes.
-
-### Free DTS encoders are competitive with commercial encoders
-FALSE. Free DTS encoders may be lower quality and may produce additional hiss when played back.
