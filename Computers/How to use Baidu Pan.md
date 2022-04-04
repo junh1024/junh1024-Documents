@@ -1,6 +1,6 @@
 # How to use Baidu Pan
 
-1. Register a Baidu account https://passport.baidu.com/v2/?reg (some mobiles may not work, if it doesn't there are methods using [duspeaker](https://www.gizdev.com/create-baidu-account-without-china-number-and-vpn/) )
+1. Register a Baidu account https://passport.baidu.com/v2/?reg . If it doesn't work, there are methods using [Baidu Cloud](https://www.infinityfolder.com/how-to-create-a-baidu-account-from-outside-china/) or [duspeaker](https://www.gizdev.com/create-baidu-account-without-china-number-and-vpn/) 
 2. Install the official client http://pan.baidu.com/download (unofficial & the webGUI clients tend to not transfer/work)
 3. Login (China loves their 2FA), and open your Pan link
 4. Check the files you want, and click and add to your drive (white []--> button with box & right arrow)

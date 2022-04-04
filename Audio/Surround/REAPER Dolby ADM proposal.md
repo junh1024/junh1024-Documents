@@ -3,6 +3,7 @@
 [/SIZE][/B]
 
 [B]## Changelog[/B]
+3.5: More Pan, EDM Element types.
 3.4: simplify, refine other sections, redo intelligent squashing of tracks. DDM/EDM variety.
 3.3: in progress - intelligent squashing of tracks, reorganize
 3.2: RSP tweaks
@@ -40,14 +41,16 @@ RSP has a NEW menu widget near the existing output layout for setting DA mode. I
 [*] Object (mono), sets input chans to 1
 [*] Object (stereo), sets input chans to 2
 [*] Object (multi), no change to input chans 
-[*] There may be more obj types in future due to EDM 
+[*] Follow options:
+[*] Follow clip pan. Instead of taking pan automation from RSP, it is taken from clips on the track.
+[*] Follow track pan. Instead of taking pan automation from RSP, it is taken from track pan.
 [/LIST]
 
 If a obj config is chosen, gain, LFE, delay, is locked to 0. The divergence control in RSP now controls the size of Atmos objects.
 
 If a bed is chosen, they should be larger & transparent on the graphics to show bed sounds are more diffuse & may array. If a obj is chosen, the should be smaller to show obj sounds are pinpoint. We want to encourage mixers to use objs more since beds don't really scale up on home soundtracks. 
 
-RSP has a NEW smaller menu beside the DA mode menu, which shows $num_total elements, and shows the following info. If the DDM/EDM LV4 Compat limits are exceeded, a star * appears.
+RSP has a NEW smaller near beside the DA mode menu, which shows $num_total elements, and shows the following info. If the DDM/EDM LV4 Compat Flimits are exceeded, a star * appears.
 
 [LIST]
 [*] $num_bed bed elements (total bed channels in rpp, preferably non-empty)
@@ -56,6 +59,30 @@ RSP has a NEW smaller menu beside the DA mode menu, which shows $num_total eleme
 [*] 4th item will appear: Conforms to Dolby ADM limits, OR Dolby ADM limits exceeded, objects may be reduced automatically.
 [*] 5th item: Conforms to EBU ADM $LEVEL, OR EBU ADM compatiblity may be low due to very high objects, objects may be reduced later (defined later)
 [/LIST]
+
+RSP has a NEW menu which you can select the Element type:
+
+[LIST]
+[*] Universal ADM categories: _grey menu item
+[*] None/Unknown
+[*] Dialog
+[*] Music
+[*] Effect
+[*] EBU ADM extended categories: _grey menu item
+[*] Complete Main
+[*] Bed (Mixed)
+[*] LFE
+[*] Voice Over
+[*] Spoken Subtitle
+[*] Audio Description
+[*] Commentary
+[*] Hearing Impaired
+[*] Emergency
+[*] Language: _grey menu item
+[*] Chinese, Dutch, English, Finnish, French, German, Hindi, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Spanish, Swedish, Arabic, Turkish, Vietnamese, Indonedian, Tagalog, Interlingua
+[/LIST]
+
+
 
 [B]## Render dialog[/B]
 [LIST]
@@ -87,11 +114,13 @@ During the collection pass, 2 stats on tracks w/ NO RSP is collected.
 
 Any ADM created must fit within DDM/EDM limits. If they do not, tracks may be combined.
 
+[LIST]
 [*] Tracks are considered candidates for reduction/combination, ONLY if they are adjacent, the same track width, color, folder status, #sends. 
 [*] Beds can be combined to beds, and objects to objects. Any object automation is also combined.
 [*] Tracks are combined ONLY if they do NOT have overlapping audio
 [*] Tracks are combined starting from the 2 adjacent that have the least activity. Continuing through the list of tracks. If this is not enough to hit the limits, then 3, 4, up to a maximum of 5 etc. After 5, then ADM assembly will fail with a dialog "Too many elements, please reduce number of top-level tracks"
 [*] This approach accomodates that ADM should be organized & may be edited further, and would not be too annoying to un-combine at a max of 5 sub-tracks per ADM track.
+[/LIST]
 
 [B]## File Menu[/B]
 A new item "Create project from ADM" exists in the EAR suite (could we combine RPR native import with this?). A new track is created, with the ADM on it, which sends beds & objects to new component tracks. New mono wavs are NOT created on disk (unlike EAR import). (Rationale: This is fastest & most efficient.)
