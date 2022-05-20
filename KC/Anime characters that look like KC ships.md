@@ -49,7 +49,8 @@ Part 4
 
 - [Kaho Komiya](https://project-imas.wiki/Kaho_Komiya) from IMAS = Arashi
 - [Rei Takanashi](https://alicegearaegis.fandom.com/wiki/Rei_Takanashi) from Alice Gear Aegis = Yuubari , or [Samidare](https://safebooru.donmai.us/posts/4122234) if her hair is down
-- [Ayaka](https://genshin-impact.fandom.com/wiki/Kamisato_Ayaka) from GI looks like Murakumo
+- [Ayaka](https://genshin-impact.fandom.com/wiki/Kamisato_Ayaka) from Genshin Impact looks like Murakumo
 
 
 - [Silence Suzuka](https://safebooru.donmai.us/posts/5340015) from umamusume sorta looks like De Ruyter when her hair's done up
+- [Norie_Okazaki](https://myanimelist.net/character/35470/Norie_Okazaki) from Tamayura, in certain situations, looks like Ayanami. In addition, most of the cast wears uniforms similar to the Ayanami-class. 

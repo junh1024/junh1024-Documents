@@ -52,9 +52,12 @@ How did it start? Probably Jazz & western music theory. Yuno, the Japanese might
 
 The **problem** is have with it is that, a lot of the time it's abused to  make songs quickly for low-effort releases, e.g, Anime character singles which are really, an excercise in making money (Lucky Star had 13 character singles). Sometimes they're good (the Nagato Yuki 2006 CS has a 6/8 song), but that's the exception rather than the norm. And sometimes there are supposedly high-effort releases that abuse 4536 very blatantly, without trying to make it interesting. Example: Claris' [Alicia/Shibunaru](https://www.youtube.com/watch?v=q12kHKOYz_k) , 1-2 have heavy use of 4536, and 3 has 456. All the songs sound very similar, and there's no attempt to vary the sound (as is usual for even low-effort character singles). It's like they all used the same DAW project template.
 
+
+https://en.wikipedia.org/wiki/IV%E2%96%B37%E2%80%93V7%E2%80%93iii7%E2%80%93vi_progression
+
 The same but different
 ---
-
+MSLN M1-2 IS & ED. Oreimo S1,2 OP
 
 6-8 Time (declining use)
 ---

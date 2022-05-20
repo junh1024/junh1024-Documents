@@ -83,3 +83,6 @@ At the end of The refrain, there is a part that is a 5th out of key, cuz if it w
 I originally used RX7 vox for SOMH. But that's not enough vox isolation to be convincing on the quiet parts. I now have vox by vocal-remover 4, MGM 44k model, but sometimes too much isolation (missing vox). So I need to fill in missing parts with FFTMT in gap-filler mode & some reverb. The vox & instro have high DR, and there's balance problems, so I use compressor on both. Still some balance problems, but hopefully better.
 
 Due to Mutsuki mashup experiments above, Soundtouch is the exclusive pitch shifter for this project. But it doesn't handle cuts well, so I need to audition each cut in the vox & instro and make micro-fades to smooth them.
+
+In 2022, I can now use some more ML implementations. I initially tried Demucs3. Since I can run it myself, it's reproducable.  But the quality isn't good enough as there's still some drum bleed in the chorus. MDX B is better overall, but imparts some drum bleed in arbitrary places. I also redid some fades at the end to sound better. SN said that the song was lacking bass, so I did a 1dB bass boost.
+
