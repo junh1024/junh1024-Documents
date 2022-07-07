@@ -52,5 +52,5 @@ Part 4
 - [Ayaka](https://genshin-impact.fandom.com/wiki/Kamisato_Ayaka) from Genshin Impact looks like Murakumo
 
 
-- [Silence Suzuka](https://safebooru.donmai.us/posts/5340015) from umamusume sorta looks like De Ruyter when her hair's done up
-- [Norie_Okazaki](https://myanimelist.net/character/35470/Norie_Okazaki) from Tamayura, in certain situations, looks like Ayanami. In addition, most of the cast wears uniforms similar to the Ayanami-class. 
+- [Silence Suzuka](https://danbooru.donmai.us/posts/5340015) from umamusume sorta looks like De Ruyter when her hair's done up
+- [Norie Okazaki](https://myanimelist.net/character/35470/Norie_Okazaki) from Tamayura, in certain situations, looks like Ayanami. In addition, most of the cast wears uniforms similar to the Ayanami-class. Also, a decently-rated anime franchise. 
