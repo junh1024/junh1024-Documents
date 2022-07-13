@@ -75,7 +75,7 @@ Running JSFX
 - Using REAPER on Wine
 - Using the [YSFX VST3/AU host](https://github.com/jpcima/ysfx)
 
-If you're using REAPER for VST development (not JSFX), that's fine too, cuz it provides features helpful for developers like CPU & PDC figures for individual FX, CPU per track, and and overall CPU & RAM usage.
+If you're using REAPER for VST development (not JSFX), that's fine too, since it provides features helpful for developers like CPU & PDC figures for individual FX, CPU per track, and and overall CPU & RAM usage.
 
 Alternatives
 ---

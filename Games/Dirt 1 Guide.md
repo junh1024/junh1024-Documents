@@ -17,7 +17,7 @@ This was mostly to positive acclaim. A small number of people were probably not 
 
 ## Addons
 
-There is a good reason why I'm discussing addons early in this document, cuz it's almost essential to gameplay IMO.
+There is a good reason why I'm discussing addons early in this document, since it's almost essential to gameplay IMO.
 
 ## Patch
 You should be running patch  >= 1.2 since it allows moving savegames across different computers (if I'm understanding it correctly) . The way that it was phrased in the patch notes is a bit awkward.

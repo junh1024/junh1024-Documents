@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This is not a complete beginner's guide, rather a bunch of info & tips. And my views/preferences. Use [MikuMikuMoving](https://sites.google.com/site/mikumikumovingeng/home) instead of MikuMikuDance cuz it has a better workflow & tools. KFS & lipsync depend on MMM.
+This is not a complete beginner's guide, rather a bunch of info & tips. And my views/preferences. Use [MikuMikuMoving](https://sites.google.com/site/mikumikumovingeng/home) instead of MikuMikuDance since it has a better workflow & tools. KFS & lipsync depend on MMM.
 
 ## How the system works
 

@@ -14,7 +14,7 @@ Text should be translated into English, so that markers & most readers can under
 
 You might ask how such as situation might arise when you can understand&/ translate the text, but a correct romanization of the title &/ the author is not available. I'll admit this is a rare case, but it could happen. APA would not've had such prolific if it didn't work in 99% of cases (in its domains). Although it's annoying.
 
-Please don't force us to transliterate cuz:
+Please don't force us to transliterate since:
 
 - It's hard to get correct in some cases
 - It mangles text into something which is meaningless for markers & native readers

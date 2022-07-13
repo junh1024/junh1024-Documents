@@ -175,7 +175,7 @@ There may be an option to turn it off in newer Dolby software.
 FALSE. Some releases with DTS-X uses all 24b, but others use preconditioning, which reduces the bits.
 
 ### The Atmos used in games is the same as the Atmos used on BDs
-FALSE. Atmos for games uses Atmos MAT. This is different to TrueHD. Through HDMI EDID, the device can find out the AVR supports Atmos. It can then skip the AC3 core & legacy 7.1 downmix, and trasmit Atmos MAT. Since no legacy material is needed, this leaves space for more objects.
+FALSE. Atmos for games uses Atmos MAT. This is different to TrueHD. Through HDMI EDID, the device can find out the AVR supports Atmos. It can then skip the AC3 core & legacy 7.1 downmix, and transmit Atmos MAT. Since no legacy material is needed, this leaves space for more objects.
 
 ### DDP Atmos always has a legacy 7.1 presentation
 FALSE. Sometimes you can get 7.1, but for streaming unfortunately, the legacy presentation is 5.1, 7.1 & above is locked to Atmos AVRs.
@@ -213,7 +213,7 @@ FALSE. Most AVRs implement only basic decoders, but not one for complex speaker 
 FALSE. Unlike this [object visualizer](https://www.youtube.com/watch?v=lfpncHDYM6I) demo, movies usually have static music & ambience beds. Combined with an object limit, typically, the movement at ELL will be very restricted, and you may get a bit of movement at height.
 
 ### More speakers = more need for precise placement
-FALSE, MOSTLY. As long as you are putting in some effort into positioning, multiple speakers in other spots can conpensate for 1 speaker in a disallowed spot. Obviously we are far from a situation where you can "place your speakers anywhere" and the system will compensate. You can do this with Ambisonics but it's tricky & has other flaws.
+FALSE, MOSTLY. As long as you are putting in some effort into positioning, multiple speakers in other spots can compensate for 1 speaker in a disallowed spot. Obviously we are far from a situation where you can "place your speakers anywhere" and the system will compensate. You can do this with Ambisonics but it's tricky & has other flaws.
 
 ### Upfiring Atmos speakers do not work.
 FALSE, MOSTLY. I tested this in person, and if you're at a distance, sound will appear to come from above. Some people even have fake-mos speakers, like, regular speakers angled upwards to achieve this effect. I haven't tested this.
@@ -400,7 +400,7 @@ Date: Dec 2020 - Dec 2021
 
 BIN uses 714 https://professionalsupport.dolby.com/s/question/0D54u000081EnDzCAK/trim-and-downmix-controls?language=en_US
 
-T: DDP compresion olud
+T: DDP compresion loud
 TRUE
 
 CR: As loud as I want OJK

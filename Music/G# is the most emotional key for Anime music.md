@@ -14,7 +14,7 @@ My idea is that G# is the single key with the highest proportion of emotional so
 
 G#= G# major, G# minor, Fm, but the relative major is G#. This covers 3/(4*12+2) of default modes, +2 fudge factor for non-default modes or 6% chance of sounding G# if we assume keys are evenly distributed. Or you can 1.5x that if you think they aren't. Spotify did a key analysis. [Article](https://www.hypebot.com/hypebot/2015/05/the-most-popular-keys-of-all-music-on-spotify.html) & [Graph](http://web.archive.org/web/20161206052806/https://spotifyinsights.files.wordpress.com/2015/05/keys.png). Summing my 3 cases with spotify gives 8%, so I was sorta close.
 
-By emotional I mean it sounds emotional &/ used in an emotional context. I can't really understand Asian, so it's my opinion based on the melody. I have used remixes when it's in the same key, but also cuz I'm more familiar with that. I think they're just as, if not more emotional than the original.
+By emotional I mean it sounds emotional &/ used in an emotional context. I can't really understand Asian, so it's my opinion based on the melody. I have used remixes when it's in the same key, but also since I'm more familiar with that. I think they're just as, if not more emotional than the original.
 
 Emotional songs in G#
 ---
@@ -50,7 +50,7 @@ I make mixes. My 1st longform mix was a [Rock Mix](https://hearthis.at/jzgmyrcb/
 
 Instrumentation
 ---
-Reading the spotify article, the reason why G, D and C are popular is cuz they're easy to play on Piano & Guitar, which are common instruments in Pop music. Looking at my songs above, I see a lot of vocals, synths, some piano & strings, but not a lot of guitar. So I take it that G# is hard for guitar. Vocals & synths (especially computers) is probably easy to play in any key. G# on Piano is annoying, but doable. I don't play violin so I looked up "how hard is g# key on violin" & I found [this dude](https://www.youtube.com/watch?v=0qY_UlM7kYU). He makes it look easy, but IDK if thats the case IRL, so u/ZeroFPS_hk I'd like your input. I think strings & piano influence how emotional a song is.
+Reading the spotify article, the reason why G, D and C are popular is since they're easy to play on Piano & Guitar, which are common instruments in Pop music. Looking at my songs above, I see a lot of vocals, synths, some piano & strings, but not a lot of guitar. So I take it that G# is hard for guitar. Vocals & synths (especially computers) is probably easy to play in any key. G# on Piano is annoying, but doable. I don't play violin so I looked up "how hard is g# key on violin" & I found [this dude](https://www.youtube.com/watch?v=0qY_UlM7kYU). He makes it look easy, but IDK if thats the case IRL, so u/ZeroFPS_hk I'd like your input. I think strings & piano influence how emotional a song is.
 
 Conclusion
 ---

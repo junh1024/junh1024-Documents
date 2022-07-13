@@ -2,7 +2,7 @@
 
 ## Introduction
 
-There is a lack of free & well-mixed Atmos music on the internet, so I have created my own collection available for free. I have spent many hours mixing & negotiating permissions. Permissions have already been cleared, or don't need to be cleard cuz they're public domain or due to distribution method.
+There is a lack of free & well-mixed Atmos music on the internet, so I have created my own collection available for free. I have spent many hours mixing & negotiating permissions. Permissions have already been cleared, or don't need to be cleard since they're public domain or due to distribution method.
 They are sorted into several volumes:
 
 1. General

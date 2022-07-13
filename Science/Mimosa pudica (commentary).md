@@ -6,7 +6,7 @@ There's been a few posts of MP pics & I recently got one. Its distinctive trait 
 
 Reasons
 ---
-**[MP moves cuz] Animals may be afraid of a fast moving plant and would rather eat a less active one**. Things like stick insects & primantises exist, so a static plant might be safer to eat.
+**[MP moves since] Animals may be afraid of a fast moving plant and would rather eat a less active one**. Things like stick insects & primantises exist, so a static plant might be safer to eat.
 **[MP moves to] shade the plant in order to reduce water lossage due to evaporation** 
 **[MP is] primarily found on soils with low nutrient concentrations**. So maybe it's found its own niche growing in poor soils with low competition. It makes friends with  nitrogen-fixing bacteria (this is how it gets most of its nitrogen), and wards off many others with chemical warfare.
 

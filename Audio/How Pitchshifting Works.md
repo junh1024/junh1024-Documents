@@ -12,7 +12,7 @@ Implementations: Adobe Audition 4, REAPER (don't preserve pitch when changing ra
 
 Windowed
 ---
-Windowed is the simplest way to change pitch or time, fixing the other. You chop up the audio into small blocks. Repeat blocks if you want to increase the length, and vice versa for shortening. For pitch shifting, you can varispeed the blocks. You typically do short fades on block edges to smooth the transitions (aka Windowing). This is very low CPU, but it sounds bad cuz combing artefacts appear due to cancellation of frequencies from playing same, but off-phase similar material. You may also get double drums. And you will almost certainly need to change the settings depending on your content, like a short window for drums & a long window for vocals & pads.
+Windowed is the simplest way to change pitch or time, fixing the other. You chop up the audio into small blocks. Repeat blocks if you want to increase the length, and vice versa for shortening. For pitch shifting, you can varispeed the blocks. You typically do short fades on block edges to smooth the transitions (aka Windowing). This is very low CPU, but it sounds bad since combing artefacts appear due to cancellation of frequencies from playing same, but off-phase similar material. You may also get double drums. And you will almost certainly need to change the settings depending on your content, like a short window for drums & a long window for vocals & pads.
 
 Implementations: REAPER (Simple windowed), pitch_ola.reajs
 
@@ -43,7 +43,7 @@ Implementations: Soundtouch, Rubber Band Audio
 
 Combination
 ---
-PSOLA sounds good for the general case, like smooth sounds. But for transients like drums, it will sound bad cuz you may hear double drums. So we take a hint from drum loop stretching, try not to duplicate transients, but loop smooth sections instead.
+PSOLA sounds good for the general case, like smooth sounds. But for transients like drums, it will sound bad since you may hear double drums. So we take a hint from drum loop stretching, try not to duplicate transients, but loop smooth sections instead.
 
 Implementations: Elastique 3?
 

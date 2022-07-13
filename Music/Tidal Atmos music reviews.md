@@ -25,7 +25,7 @@ Tidal now has Atmos music as of mid-2020. It's encoded in EC3 768kps (the highes
 
 ## Disc available
 ### Classical
-- Barenboim - Beethoven Symphony 9: better than DVDA. but still upscaled cuz wide back? only 1 digital mixer staff & recorded in 2000, 1/5
+- Barenboim - Beethoven Symphony 9: better than DVDA. but still upscaled since wide back? only 1 digital mixer staff & recorded in 2000, 1/5
 - TrondheimSolistene - Magnificat: I'm biased towards 2L the [recording photos](http://www.2l.no/pages/album/106.html) show it was recorded in 9.1 but I'm ntrly hearing the SQ, 2/5
 VPO Otter - Mahler 3: I assuming SACD release means not upscale but SQ not great & seems like wrong chan order 1/5
 ### Disco

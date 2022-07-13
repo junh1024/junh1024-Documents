@@ -9,7 +9,7 @@ Test Drive Unlimited 1 PS2
 TDU is a racing lifestyle game developed by eden/atari, and released by atari in 2007 for PC & PS2. The PS2/PSP version, apart from licensed songs, has a bunch of exclusive instrumental songs composed by Gavin Parker, son of the notable Marshall Parker. Some points: 
 
 - [Sunshower](https://www.youtube.com/watch?v=pRUDaUnvF8Y) sounds like it might come from Ace Combat 3/4 due to the pad motif.
-- [Wiki wiki](https://www.youtube.com/watch?v=UBRgr9OlCdo) sounds very much like [Tek Trek](https://www.youtube.com/watch?v=_StCqgqydtg) from RR PSP. They're both in the same key, and have delay on the synths & interval of 4ths on the pads. But he's added some arps at the end & tropical percussion at the start (cuz TDU is set in Oahu, Hawaii)
+- [Wiki wiki](https://www.youtube.com/watch?v=UBRgr9OlCdo) sounds very much like [Tek Trek](https://www.youtube.com/watch?v=_StCqgqydtg) from RR PSP. They're both in the same key, and have delay on the synths & interval of 4ths on the pads. But he's added some arps at the end & tropical percussion at the start (since TDU is set in Oahu, Hawaii)
 - There are [other songs](https://www.youtube.com/watch?v=RUpIqif6rE4), mainly on the 'Maximum Beats' part that sound like they'd fit in the RR OST due to (psy)-trance being a component of RR PSP OST. They're a bit repetitive & not as distinctive as the ones in RR PSP, but I can't blame him entirely as 1 person composed 3 discs worth of music for TDU1, rather than 5-10 people composing 2 discs worth for RR PSP.
 
 Outrun 2006

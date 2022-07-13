@@ -53,7 +53,7 @@ So we have a small/medium-size ensemble of various pop/orchestral instruments th
 Why one key?
 ---
 
-~~If you'll listen to the " Tamako Love Story OST" album, you'll notice that a lot of the songs are in F. What you can do with one key? Well, it gives you flexibility cuz you can rearrange neighboring songs and it'll still sound OK. Also, they'll flow really nicely.~~
+~~If you'll listen to the " Tamako Love Story OST" album, you'll notice that a lot of the songs are in F. What you can do with one key? Well, it gives you flexibility since you can rearrange neighboring songs and it'll still sound OK. Also, they'll flow really nicely.~~
 
 Why F?
 ---

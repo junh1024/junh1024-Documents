@@ -7,7 +7,7 @@ EV Nova is a space adventure game, released in 2002 for Mac OS classic & X, and 
 
 ![pic](https://vignette.wikia.nocookie.net/evn/images/c/c9/Ships.png)
 
-There are 6 major govenments in the game you can "join", and some factions within each. The Federation has become corrupt with its power but they cover the center portion of the map (roughly anagulous to "the Empire" in Star Wars), and so a simplification could be everyone else vs the Federation. We assume you have done Barry's tutorial, or at least know how press buttons & know what they do. This guide is slightly spoilerific to cover some pitfalls & nasties that you may experience so you can avoid them. If you don't want that/want a much shorter guide there is Aggro's [guide](https://evn.fandom.com/wiki/AgGro%27s_New_Pilot_Guide). Images taken from EVN wiki. This guide will cover several objectives:
+There are 6 major governments in the game you can "join", and some factions within each. The Federation has become corrupt with its power but they cover the center portion of the map (roughly anagulous to "the Empire" in Star Wars), and so a simplification could be everyone else vs the Federation. We assume you have done Barry's tutorial, or at least know how press buttons & know what they do. This guide is slightly spoilerific to cover some pitfalls & nasties that you may experience so you can avoid them. If you don't want that/want a much shorter guide there is Aggro's [guide](https://evn.fandom.com/wiki/AgGro%27s_New_Pilot_Guide). Images taken from EVN wiki. This guide will cover several objectives:
 
 - Decent money
 - Decent ship
@@ -88,7 +88,7 @@ The game also allows plugins to be installed. They can modify the game to add ne
 - To start a storyline, you probably need a combat record
 - To get a combat record, you need to destroy ships
 - But if you destroy arbitrary ships you will prolly get hated by major government(s)
-- Raising your rating with one government (even by destroying pirates) may decrese your rating with its enemies 
+- Raising your rating with one government (even by destroying pirates) may decrease your rating with its enemies 
 - If you get hated, ships of that government may attempt to destroy you & forbid you from landing, unless you pay a bribe
 - The game auto-saves to your pilot file when you take off. It's advised to make regular pilot backups.
 - If you are killed, just reload your pilot to revive them (unless you have strict play)
@@ -115,7 +115,7 @@ Shortcuts are vital to playing the game. Make sure you memorize most of what's i
 - Customized ships revert to a default configuration & color when you make them escorts (might be a bug on w32)
 - Ships come with cargo space, except when you buy them as fighters (c'mon, you can spend a few extra minutes to load cargo on your fighters right? it would make the game more intredasting with the possibility of losing cargo if your fighters die. This should be easy but tedious to implement)
 - NPCs can seem to land & stay on unlandable planets, unlike yourself.
-- Ships with 2 weapon exit points will always fire with both, even when theres only 1 weapon fitted (would need lots of conditional hacks to fix this, like a crons/mission/onbuy to give you another weapon if you buy a single weapon)
+- Ships with 2 weapon exit points will always fire with both, even when there's only 1 weapon fitted (would need lots of conditional hacks to fix this, like a crons/mission/onbuy to give you another weapon if you buy a single weapon)
 - And obviously, weapons in space make a lot of sounds, but you should hear almost nothing (p. much every fictional space work gets this wrong).
 - Few more [here](https://www.deviantart.com/scout29/art/EV-Nova-Bloopers-62436985)
 
@@ -152,7 +152,7 @@ Most Auroran & Fed ships are a bit boring since you see them so often. Vell-os s
 
 ![SB icon](https://vignette.wikia.nocookie.net/evn/images/e/ef/Nova_pict_5005.png)
 
-I drive a Starbridge cuz you can load up on weapons to do decent damage, but still fast enough to make a quick escape (except from the smallest fighters). My preferred style is long-range combat cuz you stay out of the way of dangerous close-range weapons like the ion cannon & th.head lance, and the Starbridge can take a few, but not too many hits. So my guide will focus on such a setup. I will also focus on weapons that you can buy without any storyline. Here are common ships with rare equipment:
+I drive a Starbridge since you can load up on weapons to do decent damage, but still fast enough to make a quick escape (except from the smallest fighters). My preferred style is long-range combat since you stay out of the way of dangerous close-range weapons like the ion cannon & th.head lance, and the Starbridge can take a few, but not too many hits. So my guide will focus on such a setup. I will also focus on weapons that you can buy without any storyline. Here are common ships with rare equipment:
 
 - IDA Frigate: Military IR jammer (Fed)
 - Pirate Manticore: Ion Cannon (legal)
@@ -263,7 +263,7 @@ The Bulk delivery missions are available if you have a Pegasus or bigger, but it
 
 Many weapons make your ship slower, by a tiny amount. The Pegasus is already a slow ship so we don't want to make it any slower. The above weapons don't slow your ship at all, and the Gravimetric missiles are less likely to be jammed by Fed & Pirate jammers. The shield rechargers come from the Pegasus (used, good condition) ship & it's highly recommended to get that version of Pegasus. It really helps. Combining jammers apparently stacks their effects somewhat. Carbon armor doesn't slow your ship. Reactors speed up your ship by a small bit. You can add Polaris reactors if you have access. The handling upgrades w/o the reactors now make the Pegasus turn at a non-annoying speed, but acceleration & top speed is still lacking.
 
-This setup was made to have the fastest Pegasus with only legal & common outfits. You may be up against Pirates with Ion cannons. Pirate Vipers should be gone almost instantly with the railguns. Pirate Starbridges will be gone in up to 5s. Manticore up to 10 (you will barely just retain a bit of armor). Spam the missiles as necessary. But you need to act quick to target and shoot, start the attack at range & finish it up close. Multiple pirates ganging up on you may not work. Running away may not work cuz you will may lose armor, while not gaining much distance. Or you can just add normal weapons which slow the ship down, or add an ion cannon. I was gonna suggest a light blaster & light canon to add more color to your spamming, but you need all the firepower you can get.
+This setup was made to have the fastest Pegasus with only legal & common outfits. You may be up against Pirates with Ion cannons. Pirate Vipers should be gone almost instantly with the railguns. Pirate Starbridges will be gone in up to 5s. Manticore up to 10 (you will barely just retain a bit of armor). Spam the missiles as necessary. But you need to act quick to target and shoot, start the attack at range & finish it up close. Multiple pirates ganging up on you may not work. Running away may not work since you will may lose armor, while not gaining much distance. Or you can just add normal weapons which slow the ship down, or add an ion cannon. I was gonna suggest a light blaster & light canon to add more color to your spamming, but you need all the firepower you can get.
 
 You may wonder why go through all the trouble of spending 7M on a slow ship just to do the sigmal bulk missions when you can drive a Starbridge, hire several Pegasi & do normal trading. Fair point. Ispz it is a bit pointless. But like anything equipped with railguns, you can take out much bigger ships at range like Fed DD/CV.
 
@@ -290,7 +290,7 @@ After you finish the story, you will sometimes encounter a Bureau cell ambush. T
 
 - Again, it may help to have a good rating with the Federation during the early stages of the Polaris storyline since your rating will drop soon.
 - Finding Mu'ar Haro is one mission when a red arrow won't show the destination. In Polaris space, keep on buying maps at outfitters. It's deep in Polaris space.
-- The Polaris storyline has 2 branches, the A branch (which will give you the cloeaking organ only & possibly make the wriath hostile), and the B branch (which will give you the multi-jump organ too). This is chosen rather early, so make a backup if your pilot before you land on Mu'ar Haro in case you get the bad branch. Avoided with the AllGoodBranches plugin.
+- The Polaris storyline has 2 branches, the A branch (which will give you the cloaking organ only & possibly make the wriath hostile), and the B branch (which will give you the multi-jump organ too). This is chosen rather early, so make a backup if your pilot before you land on Mu'ar Haro in case you get the bad branch. Avoided with the AllGoodBranches plugin.
 
 ### Wild Geese
 - "During an early Wild Geese mission, you'll get into a fight with a bunch of thugs. He won't die with this plug in place... At the end of the Wild Geese storyline, you'll have to take a peace proposal to the pirate leader McGowan." Also solvable, from the  AllGoodBranches plugin.
@@ -305,7 +305,7 @@ You can also download more plugins to add more story. There are a few plugs whic
 
 ### Others
 
-There are some other minor storylines like Cunjo Hunt & Rock Band missions that can pay  some credits, but shouldn't affect your rating or other storylines. See side missions on the walkthrough.
+There are some other minor storylines like Cunjo Hunt & Rock Band missions that can pay some credits, but shouldn't affect your rating or other storylines. See side missions on the walkthrough.
 
 ## Conclusion
 For more info on EVN mysteries like L1551, Kontik, and Kelariy, see [TWCB](https://evn.fandom.com/wiki/TWCB) and [Word of ATMOS](https://evn.fandom.com/wiki/Word_of_ATMOS) 
@@ -327,7 +327,7 @@ Moved to [EV Nova Appendix](https://github.com/junh1024/junh1024-Documents/blob/
 - EV: [Face of the Enemy aka KT56-7](https://www.youtube.com/watch?v=lkq06k1JA4E) , production/library music, previously from Killer Tracks, now available from [UPM](https://www.universalproductionmusic.com/en-us/discover/albums/611/Drama-Volume-2) . EV starts the series with a bold, realistic-sounding theme. Though in the middle part, the orchestra smothers the rhythm section=bad. EVO in comparison, [sounds cheap](https://www.youtube.com/watch?v=WFIvLPF__L4).
 - EV Galactic Scourge: [Prokofiev - Romeo & Juliet, Op. 64, Act II: No. 36, Finale. 2nd part.](https://www.youtube.com/watch?v=NOlhGc0d76c&t=74) Dunno exact version.
 - EVN: [Gustav Holst - Mars](https://www.youtube.com/watch?v=PfL5w0FNnNw), played by Orcheste National de France, conducted by Lorin Maazel. My friend complains that this version is missing a bar at the start.
-- For well-known classical suites like the 2 above, there's  >50 recordings of each, so it's important to also state the orchestra/conductor
+- For well-known classical suites like the 2 above, there's >50 recordings of each, so it's important to also state the orchestra/conductor
 
 The theme seems to be orchestral pieces with an emphasis on brass, perhaps as part of a suite. It seems brass helps to portray a sebs of tension/danger/intent. Apart from the OP music, EVN has been criticized for a lack of soundtrack. Russian review [via wikipedia](https://en.wikipedia.org/wiki/Escape_Velocity_Nova#Reception) . But there are some logical choices you can make. Obvious ones would be the rest of The Planets by Holst and Romeo & Juliet by Prokofiev. But there's also Richard Strauss' - An Alpine Symphony , [sample](https://www.youtube.com/watch?v=K3mKBjb0r0k) . All 3 works have several surround releases. If you want discrete, get Bernstein's Holst's Planets (but apparently the SACD release ruins the imaging of the original quad tape recording), and Ozawa's Strauss' Alpine. Haven't found a satisfactory discrete release for Romeo.
 
@@ -357,13 +357,13 @@ Unrelated: mac software readmes come as simpletext documents, but some are read-
 
 *Docmaker icon vs recreation from memory*
 
-Docmaker was also a thing in the 90s, when PDFs weren't ubiquitous & you wanted to have something longer/more complex than a plain simpletext document, but wanted to make it readable on any mac. The solution was to make the document an app. I started a Docmaker document/app, but couldn't resume editing it again by double-clicking on it, cuz you can usually re-edit most documents by double-click. Didn't realize until a while later that cuz it's an app, it just simply opens as an app. To re-edit it, you need to use the Docmaker editor.
+Docmaker was also a thing in the 90s, when PDFs weren't ubiquitous & you wanted to have something longer/more complex than a plain simpletext document, but wanted to make it readable on any mac. The solution was to make the document an app. I started a Docmaker document/app, but couldn't resume editing it again by double-clicking on it, since you can usually re-edit most documents by double-click. Didn't realize until a while later that since it's an app, it just simply opens as an app. To re-edit it, you need to use the Docmaker editor.
 
 I've played EVN on & off over the last 18 years. Due to being unregistered, you can't use cheats in the form of plugins, so they must be a pilot file. I remember DLing a pilot for EV which had all planets dominated & an alien carrier. I then converted the pilot file to EVN format. EVN has a larger universe than EV, so only some planets are dominated. Domination yields a daily pay, so you can hire an escort w/o losing credits. I think I hired a pirate carrier (those are p.expensive).
 
 due to neglect & money reasons, dad never purchased a mac for me past the hand-me-down 8600/300 (which was a slight upgrade over my 9600/200). I needed an upgrade for schoolwork, and I used another used Sony VAIO laptop. Dell optiplex GX260, iMac G5, iMac 2008. I built my own PC around 2009.
 
-After the trial period, I let it expire & installed EV. I couldn't get much to happen, so I downloaded the Galactic Scourge plugin over 56k dialup with a download manager on my dad's 8600/300 powermac & played it on my 9600/200. Not sure how got it to my mac. Maybe Zip100 disk or CD-R. I remember driving a Hydra (cuz it's fast & powerful), and large freight courier ticks. Later on in the scenario, you can't complete some courier missions cuz the universe is splitting apart.
+After the trial period, I let it expire & installed EV. I couldn't get much to happen, so I downloaded the Galactic Scourge plugin over 56k dialup with a download manager on my dad's 8600/300 powermac & played it on my 9600/200. Not sure how got it to my mac. Maybe Zip100 disk or CD-R. I remember driving a Hydra (since it's fast & powerful), and large freight courier ticks. Later on in the scenario, you can't complete some courier missions since the universe is splitting apart.
 
 
 <img src="https://cdn.discordapp.com/attachments/542720777393274902/758167384644386848/Escape_Velocity_Galactic_Scourge_maybe.png" width="50%">
@@ -379,7 +379,7 @@ Somewhen I started the Heeran storyline, not sure I finished it. In 2018 I start
 
 In 2006, Apple switched to intel CPUs for their new PCs, so PPC apps needed to be emulated. I was pleasantly surprised that ASW released a UB version of EVN shortly afterwards.
 
-In 2013, ASW had a [40% off sale](https://twitter.com/AmbrosiaSw/status/352825814330507266) , which I missed. EVN is $30 USD, but it would like double in my currency. I was hesitant to buy it. But maybe I should've cuz ASW was to fold a few years later.
+In 2013, ASW had a [40% off sale](https://twitter.com/AmbrosiaSw/status/352825814330507266) , which I missed. EVN is $30 USD, but it would like double in my currency. I was hesitant to buy it. But maybe I should've since ASW was to fold a few years later.
 
 In 2017, ASW went defunct. In 2020, Magia Record EN also closed shop due to "not enough whaling". Since MR is an online game, your saves are presumably inaccessible when the game closes. And due to the shaky relationship EN devs have with JP devs, there's no recourse like save transfers or pre-made saves at various points to ease the pain of lost progress (might also be hard due to content differences but anything can be overcome by willpower). In late 2020 there is another F2P game called Genshin Impact which encourages even more whaling so that'll prolly stay up longer.
 
@@ -387,7 +387,7 @@ OTOH, as EVN is an offline game & microsoft loves binary compatibility, it still
 
 
 ## Inspiration for EV
-Matt Burch owned a copy of [Elite](https://en.wikipedia.org/wiki/Elite_\(video_game\)) , which he'd never played cuz he lost the Lenslok protection device. But it had a very detailed manual. It left an impression on him and he finally made a game Escape Velocity as a college student, released in 199x which captured the spirit of elite. Its expandability with plugins created a community. Peter Cartwright made a scenario called Override which was published as a new game by ASW. In 2000s, a bunch of students from Australia created another scenario. Matt Burch returned to make many significant code updates, and the result is the EVN we know today. Matt would like to thank his parents for equipping him at a young age with the right tools.
+Matt Burch owned a copy of [Elite](https://en.wikipedia.org/wiki/Elite_\(video_game\)) , which he'd never played since he lost the Lenslok protection device. But it had a very detailed manual. It left an impression on him and he finally made a game Escape Velocity as a college student, released in 199x which captured the spirit of elite. Its expandability with plugins created a community. Peter Cartwright made a scenario called Override which was published as a new game by ASW. In 2000s, a bunch of students from Australia created another scenario. Matt Burch returned to make many significant code updates, and the result is the EVN we know today. Matt would like to thank his parents for equipping him at a young age with the right tools.
 
 https://lifeandtimes.games/episodes/files/pax-aus-19-ambrosia-sw-talk
 

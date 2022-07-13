@@ -1,26 +1,30 @@
-﻿# How to make (good) mashups V2 (Now with chord theory)
+﻿# How to Make Good Mashups V2 (Now with chord theory)
 
 Introduction
 ---
-A mashup is a popular way of simultaneously combining 2 songs. This guide was revised in mid-2020 and draws on my experience of 5 years & 25 mashups. Aim to complete no more than 1-2 per week, as this allows time for review & reflection. What do you need?
-* A solid concept. Ideally, the 2 songs shall be within 10% of the same key & BPM, because past 10% of change, digital pitch-time shifting artefacts will start getting audible.
-* A solid DAW. [REAPER](http://www.reaper.fm) (shareware) is suggested as you can mix & match files with different codecs, sample rates, channels, and [many ways to change pitch](https://i.imgur.com/FtJAE26.png) & tempo freely with the HQ Elastique algorithm. My [REAPER Quickstart guide](https://i.imgur.com/HA1Oo7D.png) .
-Destructive editors (like Audacity) are NOT recommended cuz they won't have features to expedite music editing (like, cutting on beats & bars). Video editors & (like Vegas) are NOT recommended cuz you'll be distracted making the video good, instead of the audio.
+A mashup is a popular way of simultaneously combining 2 songs. It should be made by overlaying acapella vocals of one song, over an instrumental of another song. There are other mashup structures, but they are harder to execute well. This guide has been revised a few times (V2 in 2020, V2.2 in 2022) and draws on my experience of several years & many mashups. Aim to complete no more than 1-2 per week, as this allows time for review & reflection.
+
+Prerequisites
+---
+What do you need?
+
+* Solid ideas. Ideally, the 2 songs would be within 10% of the same BPM & key. Otherwise, digital pitch-time shifting artefacts will start getting audible.
+* Solid software. You will need to find the BPMs & keys of both songs so that you can later match them. You'll also need production software. See my [Mixes guide](https://github.com/junh1024/junh1024-Documents/blob/master/Music/How%20to%20make%20good%20mixes.md#software) for more information.
 
 Sources
 ---
-Ideally, you shall have a studio acapella and an instrumental. Stems or MT are the best, but rare. Surround mixes are usually better than stereo but most aren't ready-made A+I so will need some processing before it's usable. You can get stuff from www.karaoke-version.com www.jamkazam.com , iTunes music store, etc. If you want more from an instrumental, (freeform) FFT imagers may help. Recently, there are some ML solutions. They can vary a lot, and is only a last restort.
-
-Recently, there's been a trend of using vocals from 2 songs (like, not completely removing vox from 1 song, resulting in mutual conflict when they overlap, or strangeness when they switch) with disregard to cohesiveness & song structure to blatantly show that this is a mashup. I'm not a fan of this style of mashup.
-
+Ideally, you have a studio acapella and an instrumental. Stems or MT are the best, but rare. Surround mixes are usually better than stereo but most aren't ready-made A+I so will need some processing before it's usable. You can get cover sterms from www.karaoke-version.com and www.jamkazam.com . You can make a DIY acapella if you have a full song + instrumental. iTunes and Amazon music stores often have karaoke covers with instrumentals so you can make a DIY acapella, as well as get an instrumental. To get more out of an instrumental, you can use [ReaFIR](https://www.reaper.fm/reaplugs/#tour) or freeform FFT imagers like [Mashtactic](https://quikquak.com/Prod_MashTactic.html) . Recently, there are some ML solutions. They can vary a lot, and should be last restort.
 
 Philosophy
 ---
-Generally, I listen to a song & if I think it sounds similar to another piece in terms of instrumentation, arrangement, melody, or chord progression then I'm inspired to make a mashup & do it on-demand. It's done on a musical basis, not on a marketing (similar names) or convenience basis. I don't batch-analyze a bunch of songs for BPM & key and then pick 2 that are similar to make a mashup (aka mashup factory). Your philosophy may differ. Maybe about half my ideas are successful, the others may not work due to large differences in key, tempo, arrangement, or tricky chord progressions. But I enjoy listening to most of my mashups/the songs I used. FYI, I analyzed the stats of 25 mashups up to 06.2020, and the average years for the vox & instro were 2001 & 2006, but the average difference is somehow 6. The medians are 2001, 2008, and 4 (median difference). I avoid making reverse mashups (ie, switching A for I to get a new deliverable), cuz I think it's cheap. If I'm doing a switch, I also change a song.
+Generally, I listen to a song & if I think it sounds similar to another piece in terms of instrumentation, arrangement, melody, or chord progression then I'm inspired to make a mashup. It's done on a musical basis, not on a marketing (similar names) or convenience basis. I don't batch-analyze a bunch of songs for BPM & key and then pick 2 that are similar to make a mashup (aka mashup factory). And I avoid making reverse mashups (ie, same songs, but switching vocals for instrumental to get a new deliverable), since 
+it's low-effort. If I'm doing a switch, I also change a song. Your philosophy may differ.
 
-Information
----
-You will need to find the BPMs & keys of both songs so that you can later match them. I use a DJ app (Traktor) for finding BPM, but there are other methods. For key, I use my ears & brain. Some DJ or library apps (like beatunes) can find key.
+I'm not fan of mashups that switch vocals frequently. It's distracting, and potentially shows lack of skill if you switch vocals on a tricky section. Mashups that use 1-2 full sources will likely fight with one another.
+
+Maybe about half my ideas are successful, the others may not work due to large differences in key, tempo, arrangement, or tricky chord progressions. But I do enjoy listening to most of my mashups, and the songs I used.
+
+I analyzed the stats of 25 mashups up to 06.2020, and the average years for the vox & instro were 2001 & 2006, but the average difference is somehow 6. The medians are 2001, 2008, and 4 (median difference)
 
 Planning
 ---
@@ -32,24 +36,48 @@ As the BPMs of both songs are probably different, you will want to reconcile the
 
 There are several valid methods. You can take an average of both songs, then round to the nearest integer. Or a more complex approach like a 2/3 bias towards the instrumental. If you have a MT or stems, you want to use the BPM of that instead, because pitchshifting many tracks is CPU intensive. Keep in mind lower pitch=slower tempo=natural, in line with varispeed results. I don't have any other specific advice for keys apart from it should sound good. 
 
+BPM Temp
+---
+The acapella is usually the most recognizable element in a mashup, so keeping its pitch is suggested. It's possible to maintain pitch of the acapella while maintaining quality for the instrumental.
+
+1. Shift the pitch of the instrumental to match the acapella
+2. Adjust the speed of the instrumental by 5.6% for every semitone you shifted it (average, over the whole instrumental). This could be 0, if there was no change in pitch, and it could still be 0 if the pitch changes cancel out (like, +2st & -2st). We are effectively doing varispeed stretching on the instrumental. Note the BPM of the instrumental.
+3. The ideal BPM of your mashup is now between the current BPM of your instrumental & the BPM of your acapella.
+4. Set the BPM of both instrumental and acapella partway between both these numbers. You want to bias it towards the instrumental since stretching instrumentals is more likely to produce artefacts. If the acapella sounds too awkward, set it to about halfway.
+5. If the pitch shifting quality is still too low, shift the acapella 1-2st towards the pitch of the instrumental (I hope I’ve got the maths right), and go back to step 1.
+
 Starting
 ---
-Insert media into your DAW. Set appropriate volumes for both. Loudness statistics are a good rough guide to matching, but should not trump your ear/brain. Vocals should not face an uphill battle with the instrumental, not should it overpower. Set your project and clip BPMs. See my [note on REAPER & BPM](https://github.com/junh1024/junh1024-Documents/blob/master/Music/How%20to%20make%20(good)%20mixes.md#reaper--bpm). Beat align your 2 songs, then Match the keys of the songs. You're allowed to make fractional pitch changes to either track to make them more cohesive, or make manual block pitch changes to make certain words or sections, etc more on-key.
+Insert media into your DAW. Set appropriate volumes for both. Loudness statistics are a good rough guide to matching, but should not trump your ear/brain. Set your project and clip BPMs. Beat align your 2 songs, then Match the keys of the songs. You're allowed to make fractional pitch changes to either track to make them more cohesive, or make manual block pitch changes to make certain words or sections, etc more on-key.
 
-Many noobs, after basic matching above then call it a day, but it's far from it. You need to match the song structure of the 2 songs, as they differ. Match the intensity of the acapella song for vareity & contrast (otherwise you'll have no breakdowns etc). Turn on snapping. You will be cutting by beats & bars now. The verse of the vocal should match the verse of the instrumental, etc. Cut both as appropriate. A quick & effective way to do this, especially for unfamiliar songs (I do this to realize an idea I have in my head, that 2 songs (should) go together well), is to slice up the instrumental into loops of compatible chord progressions, of varying (musical) intensities. Extend the loops to cover various song parts, increasing intensity from verse to chorus, and from start to end. This ensures some variety. Short & sweet > long & bad.
+Many noobs, after basic matching above then call it a day, but it's far from it. You need to match the song structure of the 2 songs, as they differ. Turn on snapping. You will be cutting by beats & bars now. The verse of the vocal should match the verse of the instrumental, etc. Cut both as appropriate. Match the intensity of the acapella song for variety & contrast (otherwise you'll have no breakdowns, etc). If there are instrumental breaks in the instrumental, you may need to add vocal fills/samples from the acapella to keep the energy up. If there are missing parts in the instrumental (like pre-chorus, or bridge), try to grab loops from elsewhere &/ use MIDI production.
 
+You can do your editing in multiple passes. Like, do a quick 1st pass to match the basic structure, then do a more detailed 2nd pass which matches the chords better (see later). The pre-chorus & bridge are often the hardest parts for a mashup, followed by the verse. The chorus is often the easiest part since they may use common chord progressions. If you can't match the pre-chorus, you can cut it out, but if you can't match the bridge, it'a a big deal as it can make or break a mashup. It's almost necessary to have a bridge in a pop song since it offers a welcome break in intensity &/key.
+
+A quick & effective way to edit, especially for unfamiliar songs (I do this to realize an idea I have in my head, that 2 songs (should) go together well), is to slice up the instrumental into loops of compatible chord progressions, of varying (musical) intensities. Extend the loops to cover various song parts, increasing intensity from verse to chorus, and from start to end. This ensures some variety. Short & sweet > long & bad.
+
+There are some cases that you should leave 1 or the other uncut. If there is a music video for the acapella, cut the instrumental, and leave the acapella (rate difference doesn't matter, you can change video FPS losslessly). If you want to use the mashup in place of the instrumental, then cut the acapella & leave the instrumental. Rate & length must match in this case.
+
+If your source(s) are non-constant BPM, cut them into clips of 8-16 bars long and then stretch until each clip aligns with the beat grid of your DAW.
 
 Chord theory
 ---
-Knowing music theory is not required to do mashups, but it may help you to make mashups faster & better. This guide uses my [Shorthand Relative Chord Notation System](https://github.com/junh1024/junh1024-Documents/blob/master/Music/Shorthand%20Relative%20Chord%20Notation%20System.md#shorthand-relative-chord-notation-system) so please read that beforehand. We assume you have/can chop up your instro into clips/bars of chords. Sometimes you may need to pitchshift clips to get the right chord, because the wanted chord is not available in the original.
+Knowing chord theory is not required to do mashups, but it will help you to make better mashups. This guide uses my [Shorthand Relative Chord Notation System](https://github.com/junh1024/junh1024-Documents/blob/master/Music/Shorthand%20Relative%20Chord%20Notation%20System.md#shorthand-relative-chord-notation-system) so please read that beforehand. Chord theory is useful about 25-50% of mashups where the chords don't match and they don't sound good by structure matching only.
+
+### Chord matching
+Chord matching will make your mashup more seamless. When the chords in the instrumental are closer to the chords in the acapella, your mashup will seem more like 1 song, rather than 2.
+
+Chop up your instro into clips/bars of chords, and match the chords of the instrumental with the chords of the acapella (full song of the original). But, restrict yourself to the current section. Like, only match chords of the verse in the acapella, with chords of the verse in the instrumental. This is to make the intensity in each section consistent. Pre-chorus can count as verse if you can't find matching chords.
+
+### Chord shifting
+Sometimes you may need to pitchshift clips to get the right chord, because the wanted chord is not available in the original.
 
 Say you have chords 1,2,4,5,6 but you want a 3. Since 3 is minor, you know to pick 2/6 (which are minor) & shift to make a 3. But if you wanted a 3M, you'll need to pick from the major chords of 1,4,5.
 
-Chord substitution
----
-For times when shifting doesn't sound good, maybe due to synths making whacky chords, you may need to substitute. Here are 2 approaches:
+### Chord substitution
+For times when shifting doesn't sound good, maybe due to synths making whacky chords or polyphony, you may need to substitute. Here are 2 approaches:
 - Analyze the dominant note in the melody, and choose a chord which has that note, ideally not in the bottom position. You can try 7ths. Sounding good is idempotent.
-- Choose a chord which is a 3rd apart. e.g, instead of 6, choose 4 or 1. Sounding good is not idempotent cuz performing multiple substitutions like this will sound bad.
+- Choose a chord which is a 3rd apart. e.g, instead of 6, choose 4 or 1. Sounding good is not idempotent since performing multiple substitutions like this will sound bad.
 
 Chord Progressions
 ---
@@ -58,7 +86,7 @@ Now that you've changed one chord, you may need to change other chords & follow 
 * any -> 1 -> any
 * any -> 5
 
-Choose whatever sounds good. But with all this theory, you might just choose a loop and use that without any analysis in practice.
+Choose whatever sounds good. But with all this theory, you might just choose a loop and use that without any analysis in practice, since even if the chord doesn't match the original, it sounds more natural to have chords change at the same rate throughout the song.
 
 Scale shifting
 ---
@@ -67,7 +95,7 @@ You can use zplane ReTune to shift notes in a chord, but I more often use it to 
 Pitchshifting Tips:
 ---
 * You can change your pitchshifter/settings & balance sound quality & CPU.
-* Elastique V2 is a HQ general-purpose shifter w/medium CPU use, and standard across many DAWs. DAW-specific algos such as AL's "Complex Pro" tend to suck. Elastique is available as VST if you need it.
+* Elastique V2 is a HQ general-purpose shifter w/medium CPU use, and standard across many DAWs. DAW-specific algos such as AL's "Complex Pro" might suck. Elastique is available as VST if you need it.
 * Elastique V3, may be available if you upgrade your DAW. It's better for greater shifts & uses less CPU.
 * Elastique Soloist Speech for vox & Elastique Efficient on instros can work well for small shifts to save CPU. Elastique Soloist Speech may do some internal formant correction. If speech has blips due to instro bleed, try efficient instead.
 * Soundtouch should sound good on vox, and might sound OK on instros. Watch out for blips.
@@ -75,13 +103,15 @@ Pitchshifting Tips:
 * Pitchshifting changes the frequency distribution, so you may need to EQ, kilohearts disperser (to shift the phase of the bass & hence boost the kicks), (rhythmic) distortion to compensate
 * Elastique Pro Preserve Formants is good for larger changes on vox. It can also be good for larger changes on instros @ PF high frequencies as a high-CPU alternative to an EQ boost.
 * You can gain more control by using varispeed on your stems then inserting a pitchshift FX on your tracks. But this requires carefully doing pitch maths on your part. speed * 1.059 (or 12th root of 2) = +1st, since 2x speed = up 12st or 1 octave.
-* If you have stems, separate unpitched (percussion) & pitched (others) instruments. Then you can apply separate time-pitchshifting settings to each to make both more natural.
+* If you have stems, separate unpitched (percussion) & pitched (others) instruments. Then you can apply separate time-pitchshifting settings to each to make both more natural. Like, varispeed for percussion & elastique for pitched instruments.
+* It may be helpful to read [how pitchshifting works](https://github.com/junh1024/junh1024-Documents/blob/master/Audio/How%20Pitchshifting%20Works.md#introduction)
 * RPR (earlier versions?) may have a bug with rendering & PDC. Please disable "Inform plugins of offline rendering state".
 
 
 General Tips:
 ---
 * Lead vocals should be narrow. Widening instruments can sometimes help contrast.
+* Vocals should not face an uphill battle with the instrumental, nor should it overpower the instrumental.
 * To make your vocals stand out more, analyze it via FFT, and EQ boost a dip >3k. Cut the dominant vocal frequencies that you found in the instro (prolly <3k). This isn't just good advice for mashups, this is good advice in general. If it stands out too much, do the reverse. If the instro has an annoying synth, compress the mids with ReaFIR.
 * You may need to apply (long-term) compression to vocals &/ a bit of reverb to hide artefacts
 * You can insert elements of each to have a more elegant mashup. If stems are not available, don't be afraid to make some MIDI snippets. If the song of the acapella originally had a silence, silence the new instrumental for a few seconds. Same goes for EQ cuts, fades, etc. This adds variety & familiarity.

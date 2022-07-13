@@ -1,4 +1,4 @@
-# Music Tagging Guide
+﻿# Music Tagging Guide
 
 These are based on Gazelle rules, but some may differ and may break rules (check your site rules before using these). If you're not sure of any field, refer to album art. You may notice a pattern while reading, if it shouldn't go in 1 field, it goes in another, or Comments. This works, as long as you don't have too many things in Comments. If you have a lot of alternate info to add, consider having a "info.txt".
 
@@ -34,7 +34,7 @@ Character set
 ---
 English
 ---
-For roman text, it is reccomended to use ASCII to avoid codepage issues, etc. Fields shouldn't have OS-reserved characters like """\/:*?"<>|""". They can be replaced with other characters. Fields shouldn't have accents.  "Pokémon" can turn to "PokÃ©mon". That also means no curly quotes. Fields & filenames should have no unique info & can be perfectly recreated from each other. Like, roomaji in filenames but hiragana in Title is bad. You can use Comments for alternate titles and Album Artist for alternate Artist.
+For roman text, it is recommended to use ASCII to avoid codepage issues, etc. Fields shouldn't have OS-reserved characters like """\/:*?"<>|""". They can be replaced with other characters. Fields shouldn't have accents.  "Pokémon" can turn to "PokÃ©mon". That also means no curly quotes. Fields & filenames should have no unique info & can be perfectly recreated from each other. Like, roomaji in filenames but hiragana in Title is bad. You can use Comments for alternate titles and Album Artist for alternate Artist.
 
 Japanese
 ---
@@ -119,20 +119,20 @@ Title
 If the capitalization of the Titles are sensible & consistent, you can leave them. If they're not (like a mix of lowercase & proper case) & it seems not-deliberate, adopt a more generic system like proper case, unimportant (depends on context) words in lower case. For a more comprehensive guide on capitalization, see the [RYM capitalization guide](https://rateyourmusic.com/wiki/RYM:Capitalization) . Title should not contain anything else, like credits. e.g, "feat. Myka" is not actually part of the title.
 
 Case study: Pokemon
-Some artists put other information, like where it's from, like """Surf Theme (From "Pokemon Diamond / Pearl / Platinum")""". It could be abbreviated to "Surf Theme (From Pokemon DPPT)", or the source game info can be put in Comments. It's not goot to put just "From Pokemon" across all fields cuz different games have different surf themes. But for "Azalea Town (From Pokémon Gold - Silver Crystal)", the specific game is maybe redundant, since there's only 1 "Azalea Town" in the entire series, and you don't even need to put "Pokemon", cuz "Azalea Town" is quite Pokemon-specific. But if you remove redundant info from fields, this may create inconsistency. So do what's sensible & appropriate, keeping in mind conciseness. And depending on how much time you're willing to spend.
+Some artists put other information, like where it's from, like """Surf Theme (From "Pokemon Diamond / Pearl / Platinum")""". It could be abbreviated to "Surf Theme (From Pokemon DPPT)", or the source game info can be put in Comments. It's not goot to put just "From Pokemon" across all fields since different games have different surf themes. But for "Azalea Town (From Pokémon Gold - Silver Crystal)", the specific game is maybe redundant, since there's only 1 "Azalea Town" in the entire series, and you don't even need to put "Pokemon", since "Azalea Town" is quite Pokemon-specific. But if you remove redundant info from fields, this may create inconsistency. So do what's sensible & appropriate, keeping in mind conciseness. And depending on how much time you're willing to spend.
 
 
 Artist
 ---
-Who the song is by. Featured artist credits also go here. e.g, "estha feat. mintea". For instrumental songs, it makes no sense to have the Artist field same as the vocal song, since the artist does not sing. Instead, have anyone else, like the composer (if Composer is blank), arranger or producer. You can still have set Album Artist to the vocal artist if appropriate. For classical songs, the Artist field should be set to at least the orchestra. Cuz you can make music with an orchestra (but no conductor), but not vice-versa. And the orchestra is most of the artist.
+Who the song is by. Featured artist credits also go here. e.g, "estha feat. mintea". For instrumental songs, it makes no sense to have the Artist field same as the vocal song, since the artist does not sing. Instead, have anyone else, like the composer (if Composer is blank), arranger or producer. You can still have set Album Artist to the vocal artist if appropriate. For classical songs, the Artist field should be set to at least the orchestra. since you can make music with an orchestra (but no conductor), but not vice-versa. And the orchestra is most of the artist.
 
 Album Artist
 ---
-Album Artist is supposed to give the whole album a single artist, if >0 songs have >1 artist. If it's a Michael Jackson/J5 compilation,  tracks may have "Michael Jackson" or "Jackson 5" in Artist, so you can set Album Artist to "Michael Jackson". If it's a multi-artist compilation with no single artist pioritized, you might use "Various Artists". If you have doujin music, you might have tracks with artists estha, koutaq, Taishi from the doujin circle "XL Project". So you can set Album Artist to "XL Project". If the whole album has only 1 artist,  Album Artist is redundant so it [can be blank](http://wiki.hydrogenaud.io/index.php?title=Foobar2000:Encouraged_Tag_Standards).
+Album Artist is supposed to give the whole album a single artist, if >0 songs have >1 artist. If it's a Michael Jackson/J5 compilation,  tracks may have "Michael Jackson" or "Jackson 5" in Artist, so you can set Album Artist to "Michael Jackson". If it's a multi-artist compilation with no single artist prioritized, you might use "Various Artists". If you have doujin music, you might have tracks with artists estha, koutaq, Taishi from the doujin circle "XL Project". So you can set Album Artist to "XL Project". If the whole album has only 1 artist,  Album Artist is redundant so it [can be blank](http://wiki.hydrogenaud.io/index.php?title=Foobar2000:Encouraged_Tag_Standards).
 
 Album
 ---
-Name of the album. Disc number is not actually part of the album. So, "Sampled Volume 3 (Disc 2)" is wrong. It should be "Sampled Volume 3" . Putting Disc number in the album means different discs are different albums, and maybe different (nested) folders. If the disc has a meaningful title, you can use that for Album instead, and put the boxset name in Comments & Path/Folder.  You can use common abbreviations like "OST" for "Original Sountrack" to shorten long Album fields.
+Name of the album. Disc number is not actually part of the album. So, "Sampled Volume 3 (Disc 2)" is wrong. It should be "Sampled Volume 3" . Putting Disc number in the album means different discs are different albums, and maybe different (nested) folders. If the disc has a meaningful title, you can use that for Album instead, and put the boxset name in Comments & Path/Folder.  You can use common abbreviations like "OST" for "Original Soundtrack" to shorten long Album fields.
 
 For classical (unless it has a specially made title), you can choose a generic title using a combination of work + other information, but try to keep it close to the original.
 
@@ -150,7 +150,7 @@ Ah, Genre. One of the most subjective fields. Your files may come pre-tagged wit
 
 Art
 ---
-For lossless files like FLAC, do NOT include art, cuz it's annoying to re-tag since the entire may be rewritten (which is slow), and annoying to remove the bloat since removing art may not decrease file size. Your media player should be smart enough to find a "cover.jpg" in the folder.
+For lossless files like FLAC, do NOT include art, since it's annoying to re-tag since the entire may be rewritten (which is slow), and annoying to remove the bloat since removing art may not decrease file size. Your media player should be smart enough to find a "cover.jpg" in the folder.
 
 For small lossy files like AAC, you can include art, and I also recommend that it's small. Like 75-150kb 512-1024px wide in JPEG or PNG.
 
@@ -223,7 +223,7 @@ If you want to give tags to someone else without the hassle of agreeing on a txt
 
 For tagging unknown audio, try musicbrainz picard or shazam
 
-To preview different codepages, try notepad++. Then you can convert to UTF8. It seems that japanese encoded with a chinese codepage isn't uncommon.
+To preview different codepages, try notepad++. Then you can convert to UTF8. It seems that Japanese encoded with a Chinese codepage isn't uncommon.
 
 Mp3tag can convert between filenames & tags, tag search & replace, and import/export text files.
 

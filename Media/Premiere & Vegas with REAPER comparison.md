@@ -2,13 +2,13 @@
 
 ## Introduction
 
-This comparison tries to cover various core aspects in-depth, and isn't intended to be a complete workflow guide. That will be covered in another document. Adobe Premiere Pro CS4 (Vx), Sony Vegas Pro 11, and REAPER 4.52. I'm using slightly older versions cuz I'm of the belief that older=faster.
+This comparison tries to cover various core aspects in-depth, and isn't intended to be a complete workflow guide. That will be covered in another document. Adobe Premiere Pro CS4 (Vx), Sony Vegas Pro 11, and REAPER 4.52. I'm using slightly older versions since I'm of the belief that older=faster.
 
 ## Why
 
-I've been using Premiere for 10+ years, and REAPER for 5+. I've tried my own workflows with various degrees of pain (I use very complex & awkward workflows to achieve the best quality, so I seldom export final video using a NLE). I use Premiere cuz it's famous & sensible, Pro 1, ironically on a Mac through boot camp in 2009, and CS4/5.5.
+I've been using Premiere for 10+ years, and REAPER for 5+. I've tried my own workflows with various degrees of pain (I use very complex & awkward workflows to achieve the best quality, so I seldom export final video using a NLE). I use Premiere since it's famous & sensible, Pro 1, ironically on a Mac through boot camp in 2009, and CS4/5.5.
 REAPER is a no-nonsense DAW from the writer of Winamp (Justin Frankel). It's very powerful & flexible. Apart from supporting VST, you can write scripts & custom audio Jeusonic Effects, and install extensions.
-I had Vegas laying around for "that one project" in 2017, and thought I'd give it a spin. I'd previously dismissed it as an "old wives trick" that people use for making mashups for Youtube cuz I'm surrounded by people that do that (YT doesn't accept audio-only, and [if you have a hammer, everything looks like a nail](https://blog.codinghorror.com/the-php-singularity/) ). It was surprisingly usable if you enable certain features, but also has its downsides. 
+I had Vegas laying around for "that one project" in 2017, and thought I'd give it a spin. I'd previously dismissed it as an "old wives trick" that people use for making mashups for Youtube since I'm surrounded by people that do that (YT doesn't accept audio-only, and [if you have a hammer, everything looks like a nail](https://blog.codinghorror.com/the-php-singularity/) ). It was surprisingly usable if you enable certain features, but also has its downsides. 
 
 ## Launch
 
@@ -38,7 +38,7 @@ Vegas & REAPER: 8 & 2 on the numpad move clips up & down tracks.
 
 ## Ripple
 
-Premiere has ripple edit as a tool, though I've never used it much (maybe cuz I mostly do video set to music, clips are already placed to my liking so I don't want to disturb them). REAPER has 3 ripple modes, which I do use a lot, alt-P cycles between the 3 modes (off, track, all). Vegas also has 3 ripple modes which might roughly mirror REAPER's. There's no shortcut, which is not a problem as  I don't use much.
+Premiere has ripple edit as a tool, though I've never used it much (maybe since I mostly do video set to music, clips are already placed to my liking so I don't want to disturb them). REAPER has 3 ripple modes, which I do use a lot, alt-P cycles between the 3 modes (off, track, all). Vegas also has 3 ripple modes which might roughly mirror REAPER's. There's no shortcut, which is not a problem as  I don't use much.
 
 ## Resizing
 Premiere  by default keeps the source res as-is, so it may apprear matted or cropped.
@@ -110,7 +110,7 @@ REAPER uses a lightweight XML-like format.
 
 REAPER can directly import Vegas TXT EDL. Be default, only audio tracks are imported, but you can trick REAPER into also importing the video tracks by replacing the string "video" with "audio" in the TXT. Then, you will have video clips, and if the video files are compatible, you can see the video edits in REAPER.
 
-There's no direct route from Premiere to REAPER cuz REAPER doesn't support AAF/OMF, unless you use vordio or AAtranslator (paid tools). The demo version of vordio can work, but it has a few limitations.
+There's no direct route from Premiere to REAPER since REAPER doesn't support AAF/OMF, unless you use vordio or AAtranslator (paid tools). The demo version of vordio can work, but it has a few limitations.
 
 You may also find AATranslator helpful to convert projects between different DAW/NLEs, but keep in mind only basic things are converted (like, volume & pan).
 

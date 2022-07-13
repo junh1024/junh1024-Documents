@@ -1,4 +1,4 @@
-# How to capture VHS with VirtualDub
+﻿# How to capture VHS with VirtualDub
 
 ## Introduction
 This guide is intended to be a AIO guide which covers a reasonable amount of issues & knowledge. This guide is written in 2021 & collects my knowledge & online resources for a few years experience capping VHS. It's not meant to be a highest-quality lossless workflow, but a reasonable medium-high quality for archiving/playback. This guide assumes windows.
@@ -7,7 +7,7 @@ This guide is intended to be a AIO guide which covers a reasonable amount of iss
 
 ### USB Capture stick
 
-It's popular to have HDMI capture devices for your PS6 or XBS1X so you might get a composite to HDMI converter. But also not ideal since I'm not confident about its handling of interlacing & you'll make bigger files since it's upcaled to HD.
+It's popular to have HDMI capture devices for your PS6 or XBS1X so you might get a composite to HDMI converter. But also not ideal since I'm not confident about its handling of interlacing & you'll make bigger files since it's upscaled to HD.
 
 I recommend [Hauppauge USB Live 2](https://www.hauppauge.com/pages/products/data_usblive2.html) . It does interlaced output which is correct for analog sources. There are [other products](https://www.linuxtv.org/wiki/index.php/Conexant_CX2310x) with the same Conexant 2310 chip. Be careful when buying USB capsticks. I had a counterfeit version of EasyCAP, it doesn't handle interlacing correctly, and has no built-in audio output.
 
@@ -76,7 +76,7 @@ The next phase is to make a smaller, filtered file. This tpoic will not be cover
 Try FFW & RWD tape. Or try it in a different VCR.
 
 ### Snapped tape
-If you have a snapped tape, basically just tape it back together with sellotape. [This tutorial](https://www.youtube.com/watch?v=clQSFl_qzao) suggests to tape the underside of the tape, but in my case, this was impossibru cuz the tape was snapped off the spool at the end. Could tape the top & bottom side of the tape but apparently this is bad for the head. The tricky part for me was to re-thread the tape back, before closing the case again. Consult internet pictures for how a VHS should look in its proper state.
+If you have a snapped tape, basically just tape it back together with sellotape. [This tutorial](https://www.youtube.com/watch?v=clQSFl_qzao) suggests to tape the underside of the tape, but in my case, this was impossibru since the tape was snapped off the spool at the end. Could tape the top & bottom side of the tape but apparently this is bad for the head. The tricky part for me was to re-thread the tape back, before closing the case again. Consult internet pictures for how a VHS should look in its proper state.
 
 ### Case swap
 In case you have a VHS case that is in a bad condition, you need to do a case swap. See [this tutorial](https://www.youtube.com/watch?v=4k7tOVwhqgE)

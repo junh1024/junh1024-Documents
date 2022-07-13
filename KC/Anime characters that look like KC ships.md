@@ -21,7 +21,7 @@ Part 2
 * https://myanimelist.net/character/5504/Haruka_Minami looks like Haruna, just imagine her hair as black. Also dere.
 * https://myanimelist.net/character/37212/Minko_Tsurugi/pictures This is your Akebono. A real tsun.
 * https://mashiroirosymphony.fandom.com/wiki/Miu_Amaha This is your Shoukaku. Yes she has a headband but not white hair, but it's what's inside that matters - she's a real dere.
-* https://myanimelist.net/character/54727/Ginbei_Haruomi_Sawatari looks like Shimushu
+* https://myanimelist.net/character/54727/Ginbei_Haruomi_Sawatari from OniAi looks like Shimushu
 
 https://old.reddit.com/r/kancolle/comments/er04ie/the_admirals_lounge/ff7jay4/
 
@@ -47,10 +47,19 @@ Part 4
 * [Origami Koori](https://safebooru.donmai.us/posts?tags=origami_koori) from School Girl Strikers also looks like Hatsuyuki. Apart from being kuudere & capable, there's not much info on this minor character
 
 
-- [Kaho Komiya](https://project-imas.wiki/Kaho_Komiya) from IMAS = Arashi
+- [Kaho Komiya](https://project-imas.wiki/Kaho_Komiya) from Idolmaster = Arashi
 - [Rei Takanashi](https://alicegearaegis.fandom.com/wiki/Rei_Takanashi) from Alice Gear Aegis = Yuubari , or [Samidare](https://safebooru.donmai.us/posts/4122234) if her hair is down
 - [Ayaka](https://genshin-impact.fandom.com/wiki/Kamisato_Ayaka) from Genshin Impact looks like Murakumo
 
 
 - [Silence Suzuka](https://danbooru.donmai.us/posts/5340015) from umamusume sorta looks like De Ruyter when her hair's done up
 - [Norie Okazaki](https://myanimelist.net/character/35470/Norie_Okazaki) from Tamayura, in certain situations, looks like Ayanami. In addition, most of the cast wears uniforms similar to the Ayanami-class. Also, a decently-rated anime franchise. 
+
+
+- [Huang LingYin](https://anidb.net/character/20538) from Infinite Stratos looks like Zuikaku
+- [Yang Harim](https://www.animecharactersdatabase.com/image.php?type_id=1&imgid=120282) from Counter:Side looks like a grown-up version of the recently released Ukuru
+
+- Not a ship, but [Aoyama Nanami](https://anidb.net/character/43398) from Sakurasou looks like [Reika-chan the C2 mascot](https://old.reddit.com/r/kancolle/comments/txhwbs/media_curry_architecture_15th_with_kancolle_9th/) . Don't watch the anime, it's mediocre & drags on.
+- [Shiina Mashiro](https://anidb.net/character/43395) from Sakurasou looks like Brooklyn.
+- [Kamiyama Shiki](https://vndb.org/v20424/chars#chars) Summer Pockets looks like i-168. An anime adaptation has been announced, but she might not be in it since she's only in the 2nd release.
+- [Hazuki Ren](https://anidb.net/character/110055) from Love Live superstar looks like Houshou. They both have a reserved attitude and some responsibility, but whether she shows responsibility is another matter. According to anidb, OK anime, so watch if you wish.

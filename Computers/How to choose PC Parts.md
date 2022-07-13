@@ -62,7 +62,7 @@ Usually, you'd connect your PC to desktop speakers, HiFi, AVR, or headphones. AI
 - Flexible cable management since you can buy USB & audio extension cords, and they're thinner than mains power cords
 - Flexible power management, since 1 USB multi-charger can power multiple speakers.
 
-So you will mainly be looking at the [Genius](https://us.geniusnet.com/speakers/) range of speakers. I have the SP-U115 (a discontinued model) which has a FR of 200-18khz. Newer models average 150-20khz , and the [SP-HF280](https://us.geniusnet.com/product/sp-hf280/) does 100-20khz if the manufacturer is to be believed. Speakers may not be on display to test, so you will need to have some faith, or a good returns policy. For my speakers, there is a bit of bass, but not much, so I don't use them as main LR speakers. The newer models should have more bass. It is important for LR speakers to have good bass, so have traditional powered PC speakers if you must.
+So you will mainly be looking at the [Genius](https://us.geniusnet.com/speakers/) range of speakers. I have the SP-U115 (a discontinued model) which has a FR of 200-18khz. Newer models average 150-20khz, and the [SP-HF280](https://us.geniusnet.com/product/sp-hf280/) does 100-20khz if the manufacturer is to be believed. Speakers may not be on display to test, so you will need to have some faith, or a good returns policy. For my speakers, there is a bit of bass, but not much, so I don't use them as main LR speakers. The newer models should have more bass. It is important for LR speakers to have good bass, so have traditional powered PC speakers if you must.
 
 USB extension cables you can pretty much get any one, I haven't had many break so far. But for 3.5mm audio cables, do NOT get cheap $2-5 ones that are 3.5mm thick. Those break easily. Instead, get "professional" ones which are about 5mm thick. They cost a bit more, but don't break easily.
 
@@ -137,7 +137,7 @@ DVD writers go for dirt cheap, you may already have one, so there's little excus
 ## PSU
 Many guides will suggest a 80+ bronze PSU. I'll suggest a semi-modular PSU (for better cable management), and a 80+ gold to save more power. You might save $20-50/year depending on how much you use your PC. Some lower watt PSU are only available in the SFX size. You can buy brackets/adaptors to fit a standard PC case. I suggest Corsair although Cooler Master or Seasonic might do. Do NOT cheap out on a PSU. You can damage your PC if you do.
 
-- [Corsair SF450](https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/SF-Series%E2%84%A2-80-PLUS-Gold-Power-Supplies/p/CP-9020104-NA) Modular, gold. It is SFX, so you'l need to buy an adaptor
+- [Corsair SF450](https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/SF-Series%E2%84%A2-80-PLUS-Gold-Power-Supplies/p/CP-9020104-NA) Modular, gold. It is SFX, so you'll need to buy an adaptor
 - [Seasonic Focus SGX](https://seasonic.com/focus-sgx) Modular, Gold. 
 - Other modular gold PSUs are available, but I have only listed those with lower wattage
 
@@ -147,11 +147,11 @@ https://outervision.com/power-supply-calculator
 
 Most important when you're buying a monitor is that you're comfortable with the size & PPI. It's not a question, but you should be buying LED monitors since they're bright & last long. And you should have some sort of digital input for a clear picture (DVI, HDMI, DP). I have some legacy apps that might not behave well on custom DPI settings, and I want a small-ish screen so I have the Dell P2213 , which is 22", but 1050p & has USB ports. It's a discontinued product, which I got 2ndhand. If you want a new monitor with low PPI, luckily, there are now 27" 1080p screens for sale. But a bit big.
 
-Avoid monitors with inbuit speakers as they sound terrible and you might accidentally route audio to them (if they're connected via HDMI or DP), but not biggies if they do. You can get aroud this by using a DVI-DVI cable, or HDMI-DVI cable.
+Avoid monitors with inbuilt speakers as they sound terrible and you might accidentally route audio to them (if they're connected via HDMI or DP), but not biggies if they do. You can get around this by using a DVI-DVI cable, or HDMI-DVI cable.
 
 ## Laptop peripherals
 
-Most laptops these days don't have a ethernet ports, and if you want guaranteed stable network speeds, you'll need a wired ethernet adaptor. Choices:
+Most laptops these days don't have an ethernet port, and if you want guaranteed stable network speeds, you'll need a wired ethernet adaptor. Choices:
 
 - [Ethernet adaptor](https://www.orico.cc/us/product/detail/3335.html)
 - [Ethernet adaptor with USB hub](https://www.orico.cc/us/product/detail/4058.html)
