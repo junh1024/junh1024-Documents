@@ -13,7 +13,12 @@ Where to place/pan instruments in surround.
 - Lead instrument(s)
 - Guitars
 - Woodwinds (Oboe, Clarinet, Bassoon)
-- Percussive Synths & Pianos (if there's not enough activity @back, it's OK to put these @back. Remember to treat all pianos as a single group)
+- Percussive Synths
+
+## Front OR Back
+- Acoustic Piano
+- Electric Piano
+- It might be a good idea to put all pianos in the same place as they share some characteristics
 
 ## Front & Back for 5.x/Front & Side for 7.x
 #### Things With Long Notes
