@@ -45,7 +45,7 @@ Connect the VCR to the capstick using 3 RCA cables. Hi-Fi stereo tapes have high
 5. In VirtualDub, File > Capture AVI, and Device > WDM (if vdub freezes replug the USB capstick & restart vdub)
 6. Video > Compression > x264 VFW > configure
 - [v] Zero Latency (VirtualDub expects this, otherwise we'll get sync issues)
-- ABR 6000-8000kps or CRF 21
+- ABR 6000-8000kps
 - Preset: Faster (we'll change this later)
 - Extra CLI: --tff --threads 4 (tff = top field 1st interlaced. Set threads equal to 2-4 depending on how many logical cores you have. Don't set higher than 4 as it reduces quality for SD. You must set at least tff for correct interlaced handling in x264.)
 7. Video > Custom format > 720 x 576 (or x480 for NTSC)

@@ -6,22 +6,18 @@ I would've liked a web service where you can encode DTS-X for a reasonable price
 
 Instructions
 ---
-1. Mix your music in 3D however you like. Surround, OBA, SPS are preferred. Ambisonics is dispreferred due to low separation. There is a "15.1 Ambisonics decoder.txt" for fuma in my suite. If you're using [**my suite**](https://github.com/junh1024/Reaper-Surround#introduction), use:
+1. Mix your music in 3D however you like. Surround and OBA are preferred. Ambisonics is dispreferred due to low separation. There is a "15.1 Ambisonics decoder.txt" for fuma in my suite. If you're using [**my suite**](https://github.com/junh1024/Reaper-Surround#introduction), use:
 - mono: "1.0 to 15.1 Panner GUI (L).txt"
 - stereo: [parent channels](http://d2zjg0qo565n2.cloudfront.net/sites/default/files/focusrite/Screen%20Shot%202015-06-10%20at%2014.42.00.png) . [See here](https://github.com/junh1024/Reaper-Surround#introduction-to-151) for the channel specifications and [**see here**](https://github.com/junh1024/junh1024-Documents/blob/master/Audio/Surround/Instrument%20placement%20in%20surround.md#center) for where to place instruments in surround. 
 2. Target -18LUFS. [More info](https://musicsupport.dolby.com/support/home) .  You can use "15.1 to 5.1 Downmix (M).txt" and then 5.1 LUFS measurement software like Izotope Insight.
 3. Export your mix as 16ch WAV for [these specifications](https://docs.aws.amazon.com/mediaconvert/latest/ug/using-dolby-atmos-encoding.html#proc-atmos-single-input-file). 48k/16b is recommended, there is little in practice that is worth much more than 16b. <16ch & WV will not work. A 916 mode is now included in "15.1 to 3D Downmix (M).txt" . If you have strong side/back, It is suggested to move the side 20-33% forward (this ability is included in the previous tool), sice the Amazon encoder makes EC3 with a 51 legacy presentation which downmixes side & back directly to back of 51, and hence may overload them. It's possible to encode Atmos EC3 with a legacy 71 presentation but prolly with older Atmos software. You content WILL be heard on 51/51x systems so you need to cater for this aspect. If you want a 16 channel test, [here is a numbered callout](https://cdn.discordapp.com/attachments/380573049893814272/790491016994095114/GVR_16ch.zip) 41" long.
 4. Sign up for a [Amazon web account](https://aws.amazon.com/) , this is different to a regular shopping account. You will need to verify your mobile number & your CC. You can't progress until you've done this.
 5. Setup a default mediaconvert role. [Fast way](https://docs.aws.amazon.com/mediaconvert/latest/ug/creating-the-iam-role-in-mediaconvert-full.html) . Jobs will fail if you do this step wrong. You can redo this step later until you get it right.
-6. See their [pricing guide](https://aws.amazon.com/mediaconvert/pricing/) and decide on a region. This will impact on pricing & latency. . EC3 Atmos should be charged as Audio-only & Dolby Audio.
+6. See their [pricing guide](https://aws.amazon.com/mediaconvert/pricing/) and decide on a region. This will impact on pricing & latency. EC3 Atmos should be charged as Audio-only & Dolby Audio.
 4. [Create a S3 bucket](https://console.aws.amazon.com/s3/bucket/create) in the region you decided on in your previous step. Mediaconvert export can only use S3. "Create Bucket". Click into your bucket. Drag and drop your WAV file into S3. "Upload". Codecommit doesn't seem to be usable for mediaconvert input. You get some S3 storage for the 1st year, and you pay after that. An incentive to use it quickly & store minimally.
 8. Go to the [Mediaconvert console](https://console.aws.amazon.com/mediaconvert/home) . Verify the region at the top right matches your region in the previous step. "Create Job". Input 1 > Browse. "Remove video selector". Output groups "add", "Select". "H264, AAC". "Remove video". Audio codec: DD+JOC codec.
 9. Select settings:
-- Bitrate. Suggestions for active channels (on average), such that you get about 50kps/channel:
-	- 384 kps for 7.1, 18khz cutoff
-	- 448 kps for 9.1, 20kco
-	- 576 kps for 11.1 (this bitrate may be available in the future)
-	- 640 kps for 13.1
+- Bitrate. I suggest 448-640 kps for compatibility & quality. Higher bitrates aren't really useful due to how JOC works.
 	- VBR isn't available so if you want faux-VBR, you could separately encode different parts at different bitrates. BUT see note about dialnorm later. I haven't checked this.
 - Surround EX mode: Off. You shouldn't be matrixing a BC anyway.
 - Stereo downmix: Stereo. You should be checking in stereo and some material may sound worse with DPL2. Surround downmix is almost guaranteed to sound worse due to polarity cancellation. Unless you QC with DPL2 and it sounds better or if in doubt, choose stereo.

@@ -96,7 +96,7 @@ KC EN players have given nicknames to ships. But the origins & terminology aren'
 - Saberkaze = Isokaze (same VA as Saber)
 
 ## Pun
-- Diejobu = Damaged (Haruna)
+- Diejoubu = Damaged (Haruna)
 - Isekai = Ise Kai
 - Shigurekt = Damaged (Shigure)
 

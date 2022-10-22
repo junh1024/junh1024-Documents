@@ -20,6 +20,16 @@ FALSE. TrueHD can store a separate 5.1 presentation. This "multiple presentation
 ### The DTS presentation of DTS-HD is always an automatic downmix of the DTS-HD
 TRUE. You can customize the downmix coefficients but sometimes there are weird constraints.
 
+### The 7.1 presentation of TrueHD is the main mix, and everything else is a downmix at the bitstream level
+FALSE. TrueHD has the following structure:
+
+* Substream 1: 2.0 downmix
+* Substream 2: 5.1 extension
+* Substream 3: 7.1 extension
+* Substream 4: Atmos extension
+
+As such, the 2.0 core is actually the standalone mix, and everything else is a reconstruction. Substream 2-4 are not usable by themselves. This is the reason that some AVRs do a 7.1 to 5.1 summation downmix, since it's easier to decode just substreams 1-2.  But it's still useful to refer to 7.1 & below as downmixes, since that's what software tools refer to them by.
+
 ### DTS is superior to AC3
 DEPENDS. DTS is a more inefficient codec but is typically used at higher bitrates. As long as the bitrate of DTS is 2x of AC3, it is better.
 
@@ -51,6 +61,12 @@ FALSE. AVRs will try to downmix so that you don't lose audio, assuming it is con
 
 ### AC3 is always quiet
 FALSE. You can encode AC3 as loud as you like. But Dolby will do loudness management on it, and Film/TV material, which is quieter than music is usually encoded in AC3, which contributes to this myth that AC3 modifies the audio signal to be quieter. See "Referencing Volume to a Known Level - Dialogue Normalization" in [this post](https://forum.doom9.org/showthread.php?s=&threadid=56020)
+
+### 7.1 DDP is as efficient as 5.1 DDP
+FALSE. 7.1 DDP is structured as a DDP 5.1 core + [4ch surround extension](https://professional.dolby.com/globalassets/dolby-digital-plus/dolby-digital-plus-audio-coding-tech-paper.pdf) . The extra channels replace the surrounds in 5.1. Thus, it needs about 2x the bitrate as it's effectively storing 9.1.
+
+### The 5.1 AC3 core of DDP Blu-ray profile is fully independent and separable from the 7.1 extension
+FALSE. The 7.1 extension relies on the 5.1 AC3 core for some channels in a similar fashion to the above.
 
 ### Cinema AC3 is the same as Home AC3
 MAYBE. Cinema AC3 uses 320kps compared to home with is typically 384/448kps for 5.1.
@@ -95,6 +111,12 @@ FALSE. Dolby Digital is stored on a analog track. It typically requires a suitab
 TRUE. DTS is stored on a digital track on LDs.
 
 ## General Encoding
+
+### Saving a AC3 file with exactly the same specifications and bitrate as the original will result in no quality loss
+FALSE. When you edit audio in an audio editor, the audio has already been decoded to PCM, and so the saving process has no knowledge of the original AC3 data. In addition, when you re-save as AC3, you are likely getting a double hit in quality since:
+
+- A Lossy to Lossy conversion was performed
+- You are likely using free encoders which have [inferior quality](### Free Dolby Digital, DDP, and DTS encoders are competitive with commercial encoders) compared to paid professional ones. The only way to avoid any quality loss is to use tools that operate directly on the bitstream and can't perform arbitrary editing like mkvmerge.
 
 ### I must encode in DD or DTS to be compatible with hardware players
 FALSE. These days, many devices accept H264 & AAC in mp4/mkv for digital delivery, of which there are excellent free encoders, so no need to encoder DD or DTS. However, if you want *disc* delivery, you must encode DD/DTS, or use PCM.
@@ -143,8 +165,7 @@ FALSE. Setting the DRC profile inappropriately may cause artefacts. Music profil
 ### It's not possible to put >448kps DD on DVD
 FALSE. You can author DVDs with 640kps DD. Whether they're in-spec or play is another story.
 
-### 7.1 DDP is as efficient as 5.1 DDP
-FALSE. 7.1 DDP Atmos is stored as 5.1 AC3 + [4ch surround replacement](https://professional.dolby.com/globalassets/dolby-digital-plus/dolby-digital-plus-audio-coding-tech-paper.pdf), so is inefficient and not recommend for "very low" bitrates.
+
 
 ## DTS Encoding
 

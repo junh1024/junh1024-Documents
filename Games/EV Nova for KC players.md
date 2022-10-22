@@ -202,7 +202,7 @@ The general philosophy of KC and (non-combat) RNG is that with enough time & eff
 
 The general philosophy of EVN is that you know what you're getting, but can't always get it (unless you use cheats/exploits). For many ships & outfits, you need to play the story and ally with a government, which generally locks you out of other stories. You can board & capture ships to make your own or as escorts, but doing so you prolly earns you the hate of major governments, unless the ship is from Pirate, Marauder, or Houseless governments. RNG plays mostly a minor role in day-to-day activities, like which ships/outfits appear, the destination of regular passenger/cargo missions, which ships appear on a given day, etc. RNG does have a major role in the Polaris (major) & Wild Geese (minor) stories, and influences choice of "good" or "bad" branch. Which is fixed with the AllGoodBranches plugin.
 
-[Old compass fairy dance easter egg](https://www.youtube.com/watch?v=XUeJn5yy4Gg) .
+[Old compass fairy dance easter egg](https://www.youtube.com/watch?v=XUeJn5yy4Gg) Stravinsky - Danse russe
 
 ## Ships
 

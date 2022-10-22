@@ -156,7 +156,7 @@ For small lossy files like AAC, you can include art, and I also recommend that i
 
 Scans
 ---
-Scans should be stored in a subfolder. Scan filenames should be descriptive and in a sensible order. Scans should be in a reasonable resolution, without visible compression artefacts. I very much do NOT want to see moire, unless it's part of artistic intent. You could scan in a higher res then downsample.
+Scans should be stored in a subfolder. Scan filenames should be descriptive and in a sensible order. Scans should be in a reasonable resolution, without visible compression artefacts. Moire is generally a fault of scanning at insufficient resolution, you should be scanning in at least 300-600dpi.
 
 Minor tags
 ---

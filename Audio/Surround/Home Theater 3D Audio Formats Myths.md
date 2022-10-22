@@ -174,14 +174,20 @@ There may be an option to turn it off in newer Dolby software.
 ### DTS-X is always worth 24 bits
 FALSE. Some releases with DTS-X uses all 24b, but others use preconditioning, which reduces the bits.
 
+### The Dolby Atmos extension is just metadata
+FALSE. In addition to metadata of the object positions, it's not possible to describe audio in detail, unless you store something approaching audio.
+
+* For TrueHD Atmos, as it is lossless, the Atmos extension does actually contain audio, but it's obviously not usable by itself. You can check this yourself. Re-encode a THD Atmos track to just 7.1, and the size will shrink by about 25-50% depending on element count and activity.
+* For DDP Atmos, the Atmos extension contains a frequency-based approximation of how to extract the objects from the DDP core (ETSI 103 420 specification "object carriage using E-AC3"). It takes up about half the bitrate (Dolby 2017 Melbourne AES conference p50).
+
 ### The Atmos used in games is the same as the Atmos used on BDs
 FALSE. Atmos for games uses Atmos MAT. This is different to TrueHD. Through HDMI EDID, the device can find out the AVR supports Atmos. It can then skip the AC3 core & legacy 7.1 downmix, and transmit Atmos MAT. Since no legacy material is needed, this leaves space for more objects.
 
 ### DDP Atmos always has a legacy 7.1 presentation
 FALSE. Sometimes you can get 7.1, but for streaming unfortunately, the legacy presentation is 5.1, 7.1 & above is locked to Atmos AVRs.
 
-### 7.1 DDP Atmos is efficient since it is already 7.1 before Atmos decoding
-FALSE. For 7.1 DDP Atmos, the 7.1 part is discarded during Atmos decoding, only the core 5.1 + JOC is used, hence it is inefficient.
+### Only the 7.1 or 5.1 bed will get played for legacy devices
+FALSE. There is no more bed for home mixes due to spatial coding. Also, if this were true, the audio from the objects would be missing. This is not the case, so the 7.1/5.1 core for legacy devices is a downmix. Play some files like a 7.1.4 test tone to confirm this happens.
 
 ### You can convert THD Atmos to DDP Atmos without the master file
 FALSE, MOSTLY. Only in the most desperate situations may Dolby allow this, like HDMI eARC in TVs, and only devices with certain chips.
@@ -325,7 +331,7 @@ FALSE. DTS has said that DTS-X is a purely software solution (but may need routi
 FALSE. Again, Auro-3D is a software solution, but the software is still expensive.
 
 ### You must have object input to encode Atmos
-FALSE. You can feed 7.1.2 to most Atmos DAWs for the base. And some encoders allow 9.1.6 input. But that's about it. If you want other layouts, you must make static objects, or pad to 9.1.6.
+FALSE. Some encoders allow 9.1.6 input. But that's about it. If you want other layouts, you must make static objects, or pad to 9.1.6.
 
 ### You must have object input to encode DTS-X
 FALSE. DTS-X Encoder Suite is more flexible, and allows 5.1.2 up to 7.1.4 input for DTS-X, including weirdo layouts like 7.1.3. For more channels, you need to use objects or the DAW panner.
@@ -335,13 +341,13 @@ FALSE. You can mix in other channel-based 3D surround formats using any tools. S
 
 ### You can't convert between Atmos, DTS-X, and Auro-3D
 FALSE.
-- If you start with Atmos, you can export 7.1.4, setup a new project, and pan objects/channels in the appropriate positions. If you only have an encoded bitstream, you need to play it through Dolby Media Decoder and somehow capture the output.
+- If you start with Atmos, you can export 7.1.4/9.1.6, setup a new project, and pan objects/channels in the appropriate positions.
 - If you start with DTS-X, you can export 7.1.4 and do similar. If you only have an encoded bitstream, you can use DTS-X Bitstream tools to decode DTS-X to WAVs.
 - If you start with Auro-3D, you can use channel exports. If you're using Nuendo, maybe you can convert Auro-3D panners to Atmos panners. If you only have an encoded bitstream, you can use the Auro-3D decoder in their suite.
 - I haven't tested any of these.
 
 ### I can QC my Atmos mix on a PC
-FALSE. As of 2020, there are no THD/DDP Atmos decoders for PC. You must use a AVR. The situation may change in the future. If you have DTS-X or Auro-3D suites, those may include a decoder.
+FALSE. If you have DTS-X or Auro-3D suites, those may include a decoder.
 
 ### It is hard to decide whether a track should be bed or object
 FALSE. Bed tracks will be sent to the speakers and may be arrayed. Objects will be pinpoint. In general, If something moves, or is at height, it should be an object. Since a 7.1.2 bed can't reproduce all height positions, and can't address all speakers.
@@ -367,6 +373,15 @@ FALSE, MAYBE. In PT & Nuendo, maybe you can convert legacy projects to Atmos pro
 ### It's hard to have consistent height content
 FALSE. [Boom library](https://www.boomlibrary.com/shop/?swoof=1&pa_producttype=3d-surround) have released a few 3D surround libraries with room tones & weather FX recorded with a 8.0 mic array, which you can then expand to 7.1.4 or 9.1.4 using Penteo16.
 
+### I can pan objects anywhere, and it won't matter
+FALSE. It's advised to pan around the edges (like conventional surround) to sound stable. If you pan to the middle, in addition to sounding unstable, objects may be lower quality for streaming, since the Atmos reconstruction process needs to work harder to reconstruct those objects for playback. 
+
+### I can make my Atmos mix as loud as I want with no consequence
+FALSE. There is a [limiter](https://professionalsupport.dolby.com/s/question/0D54u000081G7hnCAC/soft-clip-limiter) on playback set before 0dB. Also, peaks will be increased slightly due to the lossy nature of DDP Atmos (as with most lossy codecs) so it's advised not to mix too loudly to avoid clipping. The Dolby Atmos Music Specification mandates -18 LUFS for music delivery (which means clipping rarely happens), and for TV & Film, there are usually targets of around -24 to -27 LUFS.
+
+### A higher DDP Atmos bitrate always means higher audio quality
+FALSE. DDP Atmos has technical & design limitations. There is a limit to the amount of frequency bands available for the Atmos reconstruction process. The number is chosen based on content & available bitrate. When it is hit, you will hear little improvement in audio quality if the bitrate is increased, even though there may still be audible artefacts. You will only get an improvement if you use a newer codec Dolby AC4 or MPEG-H (but those aren't mainstream yet). For most content, 640kps is quite sufficient. For simple content, maybe 448kps is enough. Please see the ETSI specification for more details.
+
 ### It's expensive to deliver Atmos content for cinema for independent creators
 FALSE, probably. You can:
 1. Convert your master with the Atmos Conversion Tool to IMF IAB, then use free software such as OpenDCP to make a package
@@ -374,7 +389,7 @@ FALSE, probably. You can:
 
 I have tested neither workflow. Depending on budget or other factors, you may need to monitor on a Atmos-certified facility &/ use more standard workflows.
 
-### DDP Atmos is the best way to delivery Atmos for cinema
+### DDP Atmos is the best way to deliver Atmos for cinema
 FALSE. While it is efficient, you lose directionality since it's arrayed to 7.1.2. A regular DCP workflow would be better.
 
 ### DAMF, ADM, and IMF IAB are the same quality

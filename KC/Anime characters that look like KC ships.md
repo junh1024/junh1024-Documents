@@ -62,4 +62,11 @@ Part 4
 - Not a ship, but [Aoyama Nanami](https://anidb.net/character/43398) from Sakurasou looks like [Reika-chan the C2 mascot](https://old.reddit.com/r/kancolle/comments/txhwbs/media_curry_architecture_15th_with_kancolle_9th/) . Don't watch the anime, it's mediocre & drags on.
 - [Shiina Mashiro](https://anidb.net/character/43395) from Sakurasou looks like Brooklyn.
 - [Kamiyama Shiki](https://vndb.org/v20424/chars#chars) Summer Pockets looks like i-168. An anime adaptation has been announced, but she might not be in it since she's only in the 2nd release.
-- [Hazuki Ren](https://anidb.net/character/110055) from Love Live superstar looks like Houshou. They both have a reserved attitude and some responsibility, but whether she shows responsibility is another matter. According to anidb, OK anime, so watch if you wish.
+- [Hazuki Ren](https://anidb.net/character/110055) from Love Live superstar looks like Houshou. They both have a reserved attitude and some responsibility, but whether she shows responsibility is another matter.
+- [Ishimaki Motoko](https://anidb.net/character/73126) , a very minor character from Saekano,  looks like Mogami
+- [Ayumi Takahara](https://myanimelist.net/character/15636/Ayumi_Takahara) from KamiNomi looks a bit like Natori
+
+
+- [Manaka](https://anidb.net/character/3477) from the Toheart2 series  looks a bit like grown-up Inazuma. She's also shy. She's "secondary cast" in a somewhat mediocre anime franchise.
+
+- [Shion Ogura](https://machikado-mazoku.fandom.com/wiki/Sion_Ogura) from Machikado Mazoku looks like Ooyodo

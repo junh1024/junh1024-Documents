@@ -2,12 +2,12 @@
 
 ## Introduction
 
-Opus was touted as a general-purpose audio codec which can scale to all bitrates. Unfortunately, this isn't really the case, as it doesn't scale to higher bitrates. It also has a few other disadvantages. Opus was designed for HQ playback, at low bitrates, on cheap hardware. Opus was also designed for teleconferencing, so it  low-latency. This also impedes Opus' quality at higher bitrates.
+Opus was touted as a general-purpose audio codec which can scale to all bitrates. Unfortunately, this isn't really the case, as it doesn't scale to higher bitrates. It also has a few other disadvantages. Opus was designed for HQ playback, at low bitrates, on cheap hardware. Opus was also designed for teleconferencing, so it's low-latency. This also impedes Opus' quality at higher bitrates.
 
 
 ## Possible Mkv sync issues with opus
 
-"Opus doesn't play well with mkv and can throw sub timing off. It also only has benefits at low bitrates when nobody should be encoding at under 128k in this day and age. … it's not a good idea for anyone to start encoding anime in Opus." -kuchi on AB
+"Opus doesn't play well with mkv and can throw sub timing off. It also only has benefits at low bitrates when nobody should be encoding at under 128k in this day and age... it's not a good idea for anyone to start encoding anime in Opus." -kuchi on AB
 
 ## Forced resampling to 48k
 
@@ -30,6 +30,9 @@ Decode times takes about 5x longer. [link](https://forum.doom9.org/showpost.php?
 
 ## Opus is not as compatible as older codecs
 
+## Opus uses SBR
+Opus uses Spectral Band Replication. Rather than storing the high spectral bands directly, a description of how to approximately replicate them from the lower spectral bands is stored. This uses a lot less bandwidth at the expense of being more inaccurate, and is a technique for improving quality at low bitrates. At higher bitrates, I assume less SBR is used. SBR isn't bad in itself, but is an indicator that opus was designed for (very) low bitrates. And using SBR is obviously bad for archival.
+
 ## Opus low-bitrate quality does not scale to high-bitrate quality
 This graph has been shown a lot of times : https://opus-codec.org/static/comparison/quality.png 
 But Several tests by users have shown that vorbis & AAC beat Opus at high bitrates:
@@ -48,7 +51,12 @@ For quality, you really only need to care about qAAC & FDK/FHG.
 
 Opus is quality-restrained at high bitrates since due to its low-delay design, for telephony purposes.
 
-As for FOSS, [LC-AAC patents expired](https://hydrogenaud.io/index.php?topic=118084.msg976728#msg976728) and HE will follow soon. FDK-AAC (available under a custom license) while not as good as qAAC, is close in quality. AAC in general is faster to encode & more compatible if you care about these properties.
+## Opus and FOSS
+
+[LC-AAC patents expired](https://hydrogenaud.io/index.php?topic=118084.msg976728#msg976728) and HE will follow soon. FDK-AAC (available under a custom license) while not as good as qAAC, is close in quality. AAC in general is faster to encode & more compatible if you care about these properties.
+
+Opus now has a [patent pool](https://en.wikipedia.org/wiki/Opus_(audio_format)#Patent_Claims) if that means anything, but all open source software is still exempt from royalties.
+
 
 ## Conclusion
 

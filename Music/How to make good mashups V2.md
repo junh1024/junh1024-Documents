@@ -13,7 +13,7 @@ What do you need?
 
 Sources
 ---
-Ideally, you have a studio acapella and an instrumental. Stems or MT are the best, but rare. Surround mixes are usually better than stereo but most aren't ready-made A+I so will need some processing before it's usable. You can get cover sterms from www.karaoke-version.com and www.jamkazam.com . You can make a DIY acapella if you have a full song + instrumental. iTunes and Amazon music stores often have karaoke covers with instrumentals so you can make a DIY acapella, as well as get an instrumental. To get more out of an instrumental, you can use [ReaFIR](https://www.reaper.fm/reaplugs/#tour) or freeform FFT imagers like [Mashtactic](https://quikquak.com/Prod_MashTactic.html) . Recently, there are some ML solutions. They can vary a lot, and should be last restort.
+Ideally, you have a studio acapella and an instrumental. Stems or MT are the best, but rare. Surround mixes are usually better than stereo but most aren't ready-made A+I so will need some processing before it's usable. You can get cover sterms from www.karaoke-version.com and www.jamkazam.com . You can make a DIY acapella if you have a full song + instrumental. iTunes and Amazon music stores often have karaoke covers with instrumentals so you can make a DIY acapella, as well as get an instrumental. To get more out of an instrumental, you can use [ReaFIR](https://www.reaper.fm/reaplugs/#tour) or freeform FFT imagers like [Mashtactic](https://quikquak.com/Prod_MashTactic.html) . Recently, there are some ML solutions. They can vary a lot, and should be last resort.
 
 Philosophy
 ---
@@ -34,7 +34,13 @@ You will need to match the BPMs of both songs. We assume both songs have a const
 
 As the BPMs of both songs are probably different, you will want to reconcile them. Vocals are more conductive to changes, but sometimes I change the instrumental instead, due to constraints (e.g, an in-memory acapella), or to match my artistic vision (e.g, I'm familiar with the vox/song so any change in key sounds bad).
 
-There are several valid methods. You can take an average of both songs, then round to the nearest integer. Or a more complex approach like a 2/3 bias towards the instrumental. If you have a MT or stems, you want to use the BPM of that instead, because pitchshifting many tracks is CPU intensive. Keep in mind lower pitch=slower tempo=natural, in line with varispeed results. I don't have any other specific advice for keys apart from it should sound good. 
+There are several valid methods. You can:
+1. Use the BPM of the acapella (perhaps due to a in-DAW DIY acapella)
+2. You can take an average of both songs, then round to the nearest integer (to balance the artefacts of instrumental & acapella)
+3. A 2/3 bias towards the instrumental (since shifting the instrumental rather than the acapella results in lower quality)
+4. Use the BPM of the instrumental (perhaps due to stems, since pitchshifting many tracks is CPU intensive)
+
+Keep in mind lower pitch=slower tempo=natural, in line with varispeed results. 3 usually results the best quality. The limitations of 1 & 4 can be overcome with using varispeed on the clips, then routing to a bus then correcting with pitchshifting. I don't have any other specific advice for keys apart from it should sound good.
 
 BPM Temp
 ---
@@ -48,7 +54,9 @@ The acapella is usually the most recognizable element in a mashup, so keeping it
 
 Starting
 ---
-Insert media into your DAW. Set appropriate volumes for both. Loudness statistics are a good rough guide to matching, but should not trump your ear/brain. Set your project and clip BPMs. Beat align your 2 songs, then Match the keys of the songs. You're allowed to make fractional pitch changes to either track to make them more cohesive, or make manual block pitch changes to make certain words or sections, etc more on-key.
+Insert media into your DAW. Set appropriate volumes for both. Loudness statistics are a good rough guide to matching, but should not trump your ear/brain. Set your project and clip BPMs. Beat align your 2 songs. You should Have at least 2 beats of Silence before your mashup starts.
+
+Match the keys of the songs. You're allowed to make fractional pitch changes to either track to make them more cohesive, or make manual block pitch changes to make certain words or sections, etc more on-key.
 
 Many noobs, after basic matching above then call it a day, but it's far from it. You need to match the song structure of the 2 songs, as they differ. Turn on snapping. You will be cutting by beats & bars now. The verse of the vocal should match the verse of the instrumental, etc. Cut both as appropriate. Match the intensity of the acapella song for variety & contrast (otherwise you'll have no breakdowns, etc). If there are instrumental breaks in the instrumental, you may need to add vocal fills/samples from the acapella to keep the energy up. If there are missing parts in the instrumental (like pre-chorus, or bridge), try to grab loops from elsewhere &/ use MIDI production.
 
@@ -56,9 +64,15 @@ You can do your editing in multiple passes. Like, do a quick 1st pass to match t
 
 A quick & effective way to edit, especially for unfamiliar songs (I do this to realize an idea I have in my head, that 2 songs (should) go together well), is to slice up the instrumental into loops of compatible chord progressions, of varying (musical) intensities. Extend the loops to cover various song parts, increasing intensity from verse to chorus, and from start to end. This ensures some variety. Short & sweet > long & bad.
 
-There are some cases that you should leave 1 or the other uncut. If there is a music video for the acapella, cut the instrumental, and leave the acapella (rate difference doesn't matter, you can change video FPS losslessly). If you want to use the mashup in place of the instrumental, then cut the acapella & leave the instrumental. Rate & length must match in this case.
-
 If your source(s) are non-constant BPM, cut them into clips of 8-16 bars long and then stretch until each clip aligns with the beat grid of your DAW.
+
+There are multiple methods for the arrangement of the mashup:
+
+1. Acapella master sync, cut the instrumental
+2. Cut both to fit each other and remove gaps
+3. Instrumental master sync, cut the acapella
+
+I would reccommend 2 for beginners. 1 & 3 are beneficial if you want to pair your mashup with the video of the acapella, or instrumental (perhaps AMV) afterwards. You can just set the appropriate rate & delay, and mux your video losslessly with mkvnix. Speeding up video isn't a problem, since it will appear smoother. But slowing down 24fps videos may noticably add stutter.
 
 Chord theory
 ---
@@ -123,8 +137,46 @@ General Tips:
 * If you've matched the pitches of A & I, but it still sounds bad & you don't know why, maybe it's a 5ths trap (they're a 5th apart), or it's possible A/I have shifted keys, particularly in the (pre) chorus.
 * In Traktor, fractional BPM with a deviation of 0.001 to an integer can usually be rounded & ignored. But if it's 0.003, maybe it's right
 
+Video
+---
+If you've kept the arrangement of the acapella with instrumental as above adding a video will be easy. This section covers this case and results in a quick process with no quality loss. We assume you have downloaded a music video which matches the arrangement of your acapella/instrumental, and from a site such as YouTube. You will need MKVtoolnix.
+
+If you have made an arbitrary arrangement for your mashup, then you may need to make a dedicated video in a video in a NLE. If stretching video in Vegas, uncheck "resample frames" to avoid blending. 
+
+1. Insert the video in your DAW. If you're having trouble, extract/convert the audio so that it's accepted by your DAW. Quality doesn't matter, this is only for sync purposes. 
+2. Set the BPM of your video to your mashup BPM 
+3. Trim & Align the audio of the video to your mashup such that the video starts at time zero in your timeline. If the video starts before your mashup audio, that is fine. 
+4. Note the "start in source" time for the video, and convert it to milliseconds
+5. Mute the video in your DAW
+6. Export the mashup audio from your DAW to a file
+7. Open MKVtoolnix GUI
+8. Insert the video into mkvmerge, but uncheck the audio afterwards
+9. Insert your mashup audio from the step 6
+10. You will need to get the rate of the video from your DAW. If it doesn't, Rate = mashup BPM/original video BPM. Then divide 1 by this number.
+11. Select the video track in MKVtoolnix GUI
+12. Insert the value from step 10, into the "stretch by" field of the video track
+13. Multiply the value from step 4 by the value in step 10, and insert this as a negative value in "delay"
+14. Start muxing
+15. Watch & test your video
+
+You now have a video file with no quality loss of an arbitrary fps. Not sure what happens when those get uploaded to a video site.
+
 What next?
 ---
 After you have followed these instructions, you should have a mashup of minimum quality. Making mashups of modern/EDM (2015+ stuff) is easy because it sounds very samey. For a challenge, try some stuff from 2000s or older.
 
 A [mix](https://github.com/junh1024/junh1024-Documents/blob/master/Music/How%20to%20make%20good%20mixes.md#introduction) is where the songs are sequentially combined. Sometimes, a it's better for songs which otherwise a mashup would be hard or unsuitable, or for combining songs of similar moods, key & BPM. Sometimes, it's easier & requires no stems, but a few cuts. Sometimes, it requires advanced techniques such as MIDI-powered vocal pitchshifting. I've done both and none is definitively better or worse. But, mashups focus on compatibility, while mixes focus on consistency.
+
+Retrospective
+---
+Over the years, I've improved my mashups in these aspects. Most of these techniques are documented above.
+
+1. Use of chord theory to make mashups more correct and seamless
+2. Use of ML extraction to open up more mashup possibilities
+3. Use of ML stems for better surround
+4. Use of partial or full MIDI for better/more mashup possibilities
+5. Use of additional samples/arrangement to fill time
+6. A weighted approach to project BPM instead of binary/simple average approach for better audio quality
+7. Master sync is the stretched acapella, which allows for easier video marriage
+8. Increased use of open-source plugins
+9. Silence at the start for better mastering compliance
