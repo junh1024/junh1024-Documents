@@ -11,20 +11,20 @@
 - Widescreen: Hack available for full game
 - DL: https://www.moddb.com/games/need-for-speed-porsche-unleashed/downloads/need-for-speed-porsche-unleashed-demo
 
-### Need for Speed 6: Porsche Unleashed
+### Need for Speed 6 - HP2
 - Drive the  Ferrari 360 Spider and a Porsche 911 Turbo and one route-Calypso Coast
 - Widescreen: ini
 - DL: https://www.gamepressure.com/download.asp?ID=1887
-
-### Need for Speed 9: MW
-- Drive the XXX
-- Widescreen: Hack available for full game
-- DL: https://www.gamepressure.com/download.asp?ID=9889
 
 ### Need for Speed 8
 - Drive the Nissan 350Z
 - Widescreen: Hack available for full game
 - DL: https://www.gamepressure.com/download.asp?ID=6299
+
+### Need for Speed 9: MW
+- Drive the XXX
+- Widescreen: Hack available for full game
+- DL: https://www.gamepressure.com/download.asp?ID=9889
 
 ### Need for Speed 11 PS
 - Drive the Porsche GT2, GT3RS in Leipzig, Germany
@@ -90,7 +90,6 @@
 - Widescreen:
 - DL: https://games.reveur.de/de/worldracing-2/demos/1/  (3 Demos)
 
-- There is a snow mod for it.
 
 ### WRC
 - Drive the Citroen C4 or Ford Focus in FInland or Jordan.

@@ -215,6 +215,8 @@ When your ship gets down to 10% or 33% armor, you're disabled & pirates can boar
 
 You can also save on fighter fees if you have an appropriate bay, by boarding/capturing, [apparently](https://evn.fandom.com/wiki/Thunderhead_Bay). You can capture specific variants like the *Light Destroyer class Thunderhead* with the imfamous Ion cannon. Finding & capturing such a ship is another story however.
 
+If you get disabled for any reason, or run out of fuel, you can request assistance from the communication dialog. If they are friendly to you, they'll ask you to pay a fee for help, usually around 2000cr +- 50%.
+
 **Flee & fight back aka "Monty Python Maneuver"**
 
 These 2 strategies taken from the EVN wiki. If you have a small ship, you can't take many projectile hits, so it's wise to flee & wait till their missiles, rockets, etc run out. Then you can turn around & fight back from long range, while they run into your fire.

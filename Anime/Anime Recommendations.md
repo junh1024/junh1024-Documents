@@ -31,12 +31,12 @@ These are 5 well-known and often referenced anime that are meant to show a diffe
 
 ## Anime is weaboo trash
 - AoButa: Sakuta solves the problems of girls around him, including those of his new girlfriend, Mai. But some problems are harder than others, especially if they're close to your heart.
-- Hataraku Maou-sama!
+- Hataraku Maou-sama!: Demon king Sadao, on the cusp of his defeat from Hero Emilia have unexpectedly landed... in modern-day Tokyo. Join Sadao and his friends as they attempt to cope with modern life, and past enemies.
 
 Anime meant to show that anime is not just *moe moe kyun*, but has some sophistication & deepness
 
 ## Action
-- Angel Beats! Otonashi, unsure of who he is, joins a rebel faction of the afterlife in the search for answers. With a rock band as their front, they help others, and conduct missions to uncover the mysteries of their afterlife . And hopefully, he may eventually find himself too.
+- Angel Beats!: Otonashi, unsure of who he is, joins a rebel faction of the afterlife in the search for answers. With a rock band as their front, they help others, and conduct missions to uncover the mysteries of their afterlife . And hopefully, he may eventually find himself too.
 - Shinsekai Yori. Satoru and co have graduated elementary and are now allowed to use and train their psychic powers. When a summer camp goes terribly wrong, they scramble to save themselves and discover disturbing secrets of their world, while trouble slowly ingresses into their society.
 - Mawaru Penguindrum: What is destiny? X X and Himari find out, as they hold on for dear life. This story is told in a highly nonlinear fashion, with flashback revealing more and more. 
 - Puella Magi Madoka Magica: With great power comes great responsibility. Madoka and her friends discover the makings behind the magical girls who protect Mitakihara city, and not all is as it seems. When things turn from bad to worse, what will happen to Mitakihara City?
@@ -47,21 +47,23 @@ Anime meant to show that anime is not just *moe moe kyun*, but has some sophisti
 - Chuunibyou: Yuuta Togashi though he'd left his past behind, but along comes Rikka Takanashi. She still fights in a realm of darkness, while other people go about their lives, often with hilarious results. But reality & romance are calling, and they must face it.
 - Shirokuma Cafe: Join Panda and the gang as they go about their daily lives. Every day is full of laughter. 
 - Hitoribocchi no OO Seikatsu. The road to befriending the whole class isn't without its hurdles, Especially if you have social anxiety. Join Bocchi and her friends (when she makes them) in her OO school life. 
-- Workplace comedy with romantic undertones: Working!!, Denki-gai
-- Comedy with romantic undertones: Kaguya-sama,. Chuunibyou, Toradora, School rumble
+- Working!!: Souta Takanashi is invited by Popura Taneshima to work at the Wagnaria family restaurant. It turns out that most of the workers are at least as quirky as he is, from the ever-scheming Satou, to highly-talkative Yachiyo.
+- Comedy with romantic undertones: Kaguya-sama,.  School rumble
+- Toradora: Ryuuji is a gentle student, but often falls on the wrong side of things due to his looks. One day, Ryuuji bumps into the imfamous Taiga. Ryuuji reveals he has a crush on Minori, while Taiga actally has a crush on Yuusaku aka Ryuuji's mate. How will this romcom unfold?
 - Acchi kocchi: Io and Tamaki would be a perfect couple... if only they would realise it. Join them and their friends as they try to edge them closer together through festivals, snow fights, whatever really. 
 - Konobi: Mizuki draws apples, but Subaru draws the perfect 2D waifu, while other members have no meaningful contribution. Tension arises even on the most trivial matters. No wonder the art club has a problem.
 - Baka and Test: Yoshii must score high in tests to advance up classes. It's a tough job for an idiot. But surprisingly, being an idiot has its perks.
 - Full Metal Panic Fumoffu: Kaname is an average highschool student. Her friend Sousuke with a military background, is not. He assumes the worst in every situation and comes with all guns blazing. And so begins his long, and often hilarious journey of integrating into highschool life.
 
 ## Drama
-- Anohana: They were once a group of friends, but someone has one last wish
+- Anohana: They were once a group of friends, but someone has one last wish. Spurred on by Meiko, Jinta begrudgingly gathers his estranged friends to fufil one last wish.
 - AnoNatsu: Kaito and his friends make a film over summer. But as the filming unfolds, so do their feelings.
-- Hanasaku iroha. Ohana's irresponsible parents have left with her estranged grandmother, who runs a traditional Japanese inn. She's forced to adapt and start a new life in the countryside, while getting along with her friends and workmates. 
+- Denpa Onna: Makoto has gone to live with his aunt since his parents are away. It turns out he has a cousin, Erio - a self-proclaimed alien who spends her days wrapped around a futon. This is on top of his quirky classmates. His adolescent life is about to get more interesting.
+- Hanasaku Iroha: Ohana's irresponsible parents have left with her estranged grandmother, who runs a traditional Japanese inn. She's forced to adapt and start a new life in the countryside, while getting along with her friends and workmates. 
 - Oregairu: Hachiman the pessimist, Yukino the ice queen, and Yui the extrovert form the school's service club. Together, they help the students with their problems. But the three develop problems of their own, too.
 - Hourou Musuko: Shuuichi-kun and Yoshino-chan each dream of becoming the opposite sex. When they enter middle school, how will they navigate what lies ahead?
-- Drama with romantic undertones: Kokoro connect, Nagi no Asukara
-- Kokoro connect: Taichi, Iori, Himeko, Yoshifumi and Yui form the cultural research club. One day, a mysterious being known as "heartseed" being randomly swapping their bodies between themselves. Their friendships are put to the ultimate test as they try to cope and hide their secret from everyone else.
+- Nagi no Asukara:
+- Kokoro connect: Taichi, Iori, Himeko, Yoshifumi and Yui form the cultural research club. One day, a mysterious being known as "heartseed" beings randomly swapping their bodies between themselves. Their friendships are put to the ultimate test as they try to cope and hide their secret from everyone else.
 - Shinkai's distance between two people: 5 centimeters, Garden of Words, Weathering with you
 
 ## Ecchi/Hentai
@@ -74,15 +76,18 @@ Anime meant to show that anime is not just *moe moe kyun*, but has some sophisti
 
 
 ## Romance
-- Kobato: If we look at the Romance aspect of AnoNatsu you can distill it to - girl appears, Boy falls in love, girl has to go, go girl returns. In that case, Kobato fits the bill. Even though that's not the primary objective. The primary objective to make a film, and the case of kobato, to mend Broken Hearts. Kobato is on a mission to mend broken hearts, but time is running out, and love beckons to ruin her goal.
-- Romance based off VN: Mashi-iro symphony. XXN finds love in the tense school-integration situation, Kimikiss. Kouichi, Kazuki, and Mao find love at school., White Album 2. Hazuki hopes to form a band to play in the school festival, with no one by his side, except hope.
-- Drama-romance: CLANNAD: Tomoya the delinquent, befriends Nagisa and others. Slowly, his life begins to change, but life isn't without its troubles. ef - a tale of memories, True Tears, Kimi ga Nozomu Eien , 
+- Kobato: Kobato is on a mission to mend broken hearts, but time is running out, and love beckons to ruin her goal.
+- Mashi-iro symphony. XXN finds love in the tense school-integration situation,
+- Kimikiss. Kouichi, Kazuki, and Mao find love at school.
+, White Album 2. Hazuki hopes to form a band to play in the school festival, with no one by his side, except hope.
+- CLANNAD: Tomoya the delinquent, befriends Nagisa and others. Slowly, his life begins to change, but life isn't without its troubles.
+- ef - a tale of memories, True Tears, Kimi ga Nozomu Eien , 
 - Rec 2006: 2 people live under the same roof in secret from their employers and attempt to develop their professional, and personal lives.
 - KamiNomi: Keima is a girl game master. One day, while gaming, he inadvertently accepts a real-life mission with an absurd twist. He must date girls to capture loose spirits which would otherwise wreck havoc. Should he fail, he gives up his life.
 - Drama-romance film: Tamako Love Story, 
-- A Silent Voice: Shoya, now in high school, makes amends with Shoko, whom he bullied in elementary. But by doing so, unravels significant drama. Words can only go so far, but are they enough?
+- A Silent Voice: Shoya, now in high school, makes amends with Shoko, whom he bullied in elementary. But by doing so, unravels significant drama with current and past friends. Words can only go so far, but are they enough?
 ### Romance from a girl's view:
-- B-Gata H-kei: Her friend already has one, but when Yamada tries to get a boyfriend, it's a lot harder than it seems.
+- B-Gata H-kei: Yamada is aiming to get 100 sex friends, but she's having trouble seducing even the most boring boy in her class. Nothing ever seems to go right. Perhaps divine advice is needed.
 - Ao-chan can't study. Ao just wants to study, but sexuality runs in the blood.
 
 ## Extra

@@ -159,6 +159,14 @@ Assuming a device reference of -31, a value of -31 means no adjustment, and a va
 
 If you set it to -31 (off), or remove the DN metadata (equivalent to -31) it would be a bad experience for consumers who may experience a jump in volume with material that has DN set correctly. Setting DN incorrectly could also [remove Atmos capabilities](https://forum.doom9.org/showpost.php?p=1953784&postcount=14) . This makes sense since Atmos has mastering specifications for loudness.
 
+### You should always remove dialnorm
+FALSE. Removing dialnorm is not recommended.
+
+1. It is loss of information
+2. Many free software ignores dialnorm anyway, but it may lead to inconsistent loudness between programs on hardware as said above
+3. It leads to removal of Dolby Atmos capability on hardware and software
+
+
 ### DRC profile doesn't matter
 FALSE. Setting the DRC profile inappropriately may cause artefacts. Music profiles tend to gentle compression from a low threshold while film profiles tend to hard compression at high thresholds.  See other documentation for further details.
 

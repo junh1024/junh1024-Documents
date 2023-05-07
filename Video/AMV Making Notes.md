@@ -24,6 +24,9 @@ I realise that the video audio & subtitle projects are all running at different 
 I denoise & deband the video but it wasn't particularly effective and it killed details so I left it unfiltered from my doki source. Maybe I need a 10 bit display to see the difference. 
 It's also worth noting that for all 3 soundtracks, they are all coincidentally in A minor at the end. For the passage of emptiness in evangelion, perhaps this was necessary since A is the lowest key in the piano, so you can create a dark and sombre sound. There is some piano leakage to the rear speakers so I add some manual automation to turn it down during the mainly piano sections.
 
-If you try to put This in the full episode it won't work since the video and audio were specially edited for each other.
+If you try to put this in the full episode it won't work since the video & audio were specially edited for each other.
 
-The Pokemon bgm might reflect the overall scene better. The evangelion might reflect her inner turmoil   better and the timing of the music is more impressive. I can do this since the original is 6min and offers many variations and intensities I can experiment with.
+The Pokemon BGM might reflect the overall scene better, but the NGE BGM might reflect her inner turmoil better & the timing of the music is more impressive. I can do this since the original is 6min and offers many variations and intensities I can experiment with. 10/23
+
+Revisiting this in 05/23, Even though my rear speakers are calibrated to about the same levels at the front, they may need 1-2 dB boost depending on content, due to timbre differences. With the boost, the NGE track now sounds a bit loud from the rear speakers, so I turn down the rear levels, and finally acknowledge the F/B level difference between the PM & NGE BGMs, and now both are more consistent with each other.
+

@@ -19,11 +19,11 @@ There are many misconceptions about Home Theater 3D Audio formats on the interne
 - DTS-X extends DTS-HD and is fully compatible. (consumer version introduced 2015)
 - Auro-3D embeds height channels within PCM, in a compatible manner. (introduced 2010)
 
-These are the 3 contenders for 3D sound in the Home Theater arena. They are compatible with previous BD formats. The main purpose of the new formats is to store height. A secondary purpose of some is to be scalable to high speaker counts in a bitrate-efficient way, wether through the codec, or decoder.
+These are the 3 contenders for 3D sound in the Home Theater arena. They are compatible with previous BD formats. The main purpose of the new formats is to store height. A secondary purpose of some is to be scalable to high speaker counts in a bitrate-efficient way, wether through the authoring with objects in the codec, or decoder.
 
 Consumer Atmos has a legacy core + extension structure, to maintain compatibility with legacy devices. If you have no Atmos decoder, you get the legacy 5.1/7.1 presentation. If you have a Atmos decoder, the legacy 5.1/7.1 presentation disappears & you get the 3D Atmos presentation after a reconstruction process of 12-16 objects. DTS-X with legacy DTS-HD & DTS core functions in a similar way. Cinema versions of these codecs have more objects, but for home, the objects are reduced to a more managable number.
 
-Since Auro-3D is backwards compatible with PCM, it has a legacy 5.1/7.1 PCM stream for older devices, and the 3D presentation is stored in the lower 6-8 bits of 24bit PCM. A  Auro-3D decoder uses the lower bits to create a 3D presentation.
+Since Auro-3D is backwards compatible with PCM, it has a legacy 5.1/7.1 PCM stream for older devices, and the 3D presentation is stored in the lower 6-8 bits of 24bit PCM. A Auro-3D decoder uses the lower bits to create a 3D presentation.
 
 ## General
 
@@ -79,7 +79,7 @@ FALSE. It uses a combination of [panning & reverb](https://www.avsforum.com/thre
 
 
 ### Auro-3D speaker layout is superior to Atmos
-FALSE, MOSTLY. Many A3D titles use the 11.1/5.1.6 layout. Hence Many people with legacy 7.1 speakers will get no benefit from A3D, unlike Atmos and DTS-X which are typically 7.1, since A3D 5.1.6 downmixes to 5.1. Also, In A3D 5.1.6, there is reduced rear & rear height resolution due to only 2 back speakers for each level. The layout is also uneven. This leads to noticeably un-smooth pans at the top/back, especially with larger spaces. A few newer A3D titles use 13.1/7.1.6, which rectifies problems with legacy systems & ELL back, but not height back.
+FALSE, MOSTLY. Many A3D titles use the 11.1/5.1.6 layout. Hence, many people with legacy 7.1 speakers will get no benefit from A3D, unlike Atmos and DTS-X which are typically 7.1, since A3D 5.1.6 downmixes to 5.1. Also, In A3D 5.1.6, there is reduced rear & rear height resolution due to only 2 back speakers for each level. The layout is also uneven. This leads to noticeably un-smooth pans at the top/back, especially with larger spaces. A few newer A3D titles use 13.1/7.1.6, which rectifies problems with legacy systems & ELL back, but not height back.
 
 [See here for diagrams](https://imgur.com/a/FYhUz)
 
@@ -103,7 +103,7 @@ FALSE. The consumer version of Atmos, Atmos HE (Home Entertainment), has reduced
 TRUE. DTS-X CE still supports 128 elements, but has a more flexible bed layout, including native support for 7.1.4 beds.
 
 ### DTS-X HE is superior to Atmos HE
-DEPENDS. While you would think 16 objects in Atmos Home vs 7.1.4 + 5 objects in DTS-X Home are equivalent, there is the difference between channels & static objects so imaging may be different. Also, DTS software isn't as smart as Atmos software which automatically does spatial coding to reduce objects. Instead, you must manually choose which objects to channelize and others to keep as objects. What usually happens in practice is studios just skip this process and channelize everything. Except for select past releases like Well Go's, "Ip man 3". [Ref2](https://www.avsforum.com/threads/trinnov-altitude.1516103/page-147#post-51314001). Thus, you need to carefully reformat your project to make maximum use of 7.1.4 + 5 objects.
+DEPENDS. While you would think 16 objects in Atmos Home vs 7.1.4 + 5 objects in DTS-X Home are equivalent, there is the difference between channels & static objects so imaging may be different. Also, DTS software isn't as smart as Atmos software which automatically does spatial coding to reduce objects. Instead, you must manually choose which objects to channelize and others to keep as objects. What usually happens in practice is studios just skip this process and channelize everything to 7.1.4. Except for select past releases like Well Go's, "Ip man 3". [Ref2](https://www.avsforum.com/threads/trinnov-altitude.1516103/page-147#post-51314001). Thus, you need to carefully reformat your project to make maximum use of 7.1.4 + 5 objects.
 
 For 7.1.4 systems, mixes in either codec should sound similar. But for more speakers, since DTS-X is channel-based, it might be better since it can upmix missing speakers. But Atmos will probably leave them blank most of the time. Which is why many AVR owners with many speakers install additional AVRs to upmix more speakers rather than native Atmos rendering.
 
@@ -121,7 +121,7 @@ FALSE. It's closer to what mixers have, it saves bitrate, it scales to whatever 
 FALSE. Spatial coding for Atmos HE converts everything to objects.
 
 ### Beds array at home
-FALSE. Due to spatial coding, beds are converted to point objects and don't array at home. If they did, the combination of spatial coding & arraying would make beds & objects sound unstable due to fluctuating object size.
+FALSE. While beds array at the cinema (that is, the LS channel of a 7.1 bed will address all speakers of the LS array), Due to spatial coding for consumer codecs of DA, DA beds are converted to point objects and don't array at home and bed channels only address individual speakers even if there are multiple LS speakers (unless every LS speaker is connected to the same amp output).
 
 ### Using beds only is fine since most users won't have more than a 7.1.2 system anyway
 FALSE. Due to the geometry & panning of beds, bed can only use half of the available area. Objects can use all of the area. The effect of objects can be heard on:
@@ -142,6 +142,10 @@ FALSE. There are some speakers that aren't a part of any array group so can't be
 
 ### Beds can address all available area
 FALSE. 7.1.2 beds can only use half the available area since 2 top speakers only cover a tiny area at the top.
+
+
+### It is hard to decide whether a track should be bed or object
+FALSE. Bed tracks will be sent to the speakers and may be arrayed. Objects will be pinpoint. In general, If something moves, or is at height, it should be an object. Since a 7.1.2 bed can't reproduce all height positions, and can't address all speakers.
 
 ### Atmos soundtracks will sound the same on all 5.1 systems
 FALSE. Speaker panning will change depending on how old your AVR is.
@@ -169,7 +173,7 @@ FALSE. Most Atmos releases use bit-reduction, likely to save bitrate. Decode a T
 	Original audio track, L+R+LFE+BL+BR+SL: constant bit depth of 20 bits.
 	Original audio track, C+SR: constant bit depth of 21 bits.
 
-There may be an option to turn it off in newer Dolby software.
+There may be an option to turn it off in some Dolby software.
 
 ### DTS-X is always worth 24 bits
 FALSE. Some releases with DTS-X uses all 24b, but others use preconditioning, which reduces the bits.
@@ -189,8 +193,8 @@ FALSE. Sometimes you can get 7.1, but for streaming unfortunately, the legacy pr
 ### Only the 7.1 or 5.1 bed will get played for legacy devices
 FALSE. There is no more bed for home mixes due to spatial coding. Also, if this were true, the audio from the objects would be missing. This is not the case, so the 7.1/5.1 core for legacy devices is a downmix. Play some files like a 7.1.4 test tone to confirm this happens.
 
-### You can convert THD Atmos to DDP Atmos without the master file
-FALSE, MOSTLY. Only in the most desperate situations may Dolby allow this, like HDMI eARC in TVs, and only devices with certain chips.
+### You can convert THD Atmos to DDP Atmos without the master file and get the same result
+FALSE. If you don't have the master file, any recording-to-DDPA conversion would be different since the recording would be to a fixed CBA layout, but the master could have moving objects.
 
 ### THD Atmos uses a different master to DDP Atmos
 FALSE (I think). You can create both types from the same masters. There are 2 master file types, DAMF, and ADM. They should be equivalent. But for streaming, DDP may have a different dialnorm which tells the decoder to change the volume, which contributes to this perception.
@@ -219,7 +223,7 @@ FALSE. Most AVRs implement only basic decoders, but not one for complex speaker 
 FALSE. Unlike this [object visualizer](https://www.youtube.com/watch?v=lfpncHDYM6I) demo, movies usually have static music & ambience beds. Combined with an object limit, typically, the movement at ELL will be very restricted, and you may get a bit of movement at height.
 
 ### More speakers = more need for precise placement
-FALSE, MOSTLY. As long as you are putting in some effort into positioning, multiple speakers in other spots can compensate for 1 speaker in a disallowed spot. Obviously we are far from a situation where you can "place your speakers anywhere" and the system will compensate. You can do this with Ambisonics but it's tricky & has other flaws.
+FALSE, MOSTLY. As long as you are putting in some effort into positioning, multiple speakers in other spots can compensate for 1 speaker in a disallowed spot. Obviously we are far from a situation where you can "place your speakers anywhere" and the system will compensate unless you have expensive Trinnov AVRs. You can do this with Ambisonics but it's tricky & has other flaws.
 
 ### Upfiring Atmos speakers do not work.
 FALSE, MOSTLY. I tested this in person, and if you're at a distance, sound will appear to come from above. Some people even have fake-mos speakers, like, regular speakers angled upwards to achieve this effect. I haven't tested this.
@@ -228,7 +232,7 @@ FALSE, MOSTLY. I tested this in person, and if you're at a distance, sound will 
 MAYBE. From my limited testing, TV Atmos speakers have a much reduced perception of direction, side is lumped in with back, and seems to employ the out-of-phase trick for rear sounds. Needs more testing.
 
 ### Atmos soundbars do not work.
-I haven't tested this. At least some soundbars have detachable rears, and can have upfiring drivers.
+I haven't tested this. At least some soundbars have detachable rears, and even upfiring drivers. Like the Samsung HW-Q930
 
 ### There is no benefit to an Atmos soundtrack if you don't have height speakers.
 DEPENDS. If you have a 5.1 system, prolly no. If you have 7.1 speakers, maybe. Many older 5.1 titles have been reissued with a THD Atmos track which has a 7.1 mix. Most of them AFAIK aren't upmixes. So you get slightly increased resolution.
@@ -244,12 +248,12 @@ TRUE, probably. There are 2 differences:
 2. (reversal) of a 90* phase shift for surround channels.
 
 ### There is little difference in theory between Heights vs Tops with AVR setup on Atmos
-FALSE. Although Dolby recommends you put height speakers halfway up the wall between ELL & the ceiling, height speakers are actually [at the very top front](https://www.youtube.com/watch?v=-2cD9CPLMyo) of Dolby coordinate system, and Tops are actually 25% way inwards. So there is a small difference.
+FALSE. Although Dolby recommends you put height speakers halfway up the wall between ELL & the ceiling, height speakers are actually [at the very top front](https://www.youtube.com/watch?v=-2cD9CPLMyo) of Dolby coordinate system, and Tops are actually 25% way inwards. So there is a small difference. 11.1.8 have [both](https://www.dolby.com/siteassets/about/support/guide/setup-guides/11.1.8-mounted-overhead-speakers-setup-guide/sell-sheet-11.1.8-mounted2.pdf) heights and tops.
 
 https://manuals.denon.com/AVRX8500H/NA/EN/DRDZSYpvilxnds.php
 
 ### There is little difference in practice between Heights vs Tops with AVR setup on Atmos
-TRUE. With only a max 25% difference, you might be unlikely to notice a difference with speaker setting on a given layout. Tops will be imaged 25% inwards on a height layout, and heights will be mapped to tops on a tops layout.
+TRUE. With only a max 25% difference, you might be unlikely to notice a difference with 7.1.4h vs 7.1.4t. Tops will be imaged 25% inwards on a height layout, and heights will be mapped to tops on a tops layout.
 
 ### It doesn't matter whether I choose Heights vs Tops for a given codec
 FALSE. You may have no height activity depending on setting.
@@ -263,6 +267,7 @@ TRUE. 7.1.2 is due to the heavy reliance on the 7.1.2 bed, which is the maximum 
 
 ### THD Atmos may be 7.1.4
 TRUE. Some studios choose 12 objects for Atmos THD or use a fixed 7.1.4 render. Supposedly this is easier/faster for authoring software such as Scenarist Ateme Titan or Sony Blu-print since it doesn't need a 2nd pass for spatial coding. Another benefit is reduced bitrate.
+
 XX disney 714 
 
 ### Disney uses 7.1.4
@@ -301,7 +306,7 @@ FALSE. As most movies are now mixed in Atmos, others may be conversions. The Dol
 FALSE. See start of this document. Also, there could be a case where a film was Atmos at a German cinema, but on the home release, the English track gets Atmos, but the German track only gets 5.1 due to the label wanting less versions of discs & space issues fitting in many languages. Said film may have German Atmos on streaming (but in lossy).
 
 ### It is easy to set up a cinema for Atmos
-FALSE. There are many requirements like where you need to aim speakers at, height of speakers, amount of speakers, zones, consistency, etc. But easier than Auro-3D as you can retrofit, not rebuild.
+FALSE. There are many requirements like where you need to aim speakers at, height of speakers, amount of speakers, zones, consistency, etc. But easier than Auro-3D since for the latter you need to rebuild.
 
 ### It is best to listen to soundtracks with the same upmix system as the encoder
 #### For example, DD soundtracks with DSU, and DTS soundtracks with DTS-X
@@ -310,16 +315,17 @@ FALSE. You can listen to any soundtrack with any upmixer. Some people prefer DSU
 ### 5.1.2 rear height is a valid setup and sounds fine
 FALSE, at least on Denon AVRs. This setup is [not available](https://manuals.denon.com/AVRX2700H/NA/EN/DRDZSYpvilxnds.php) . Also, it will sound bad since many sounds will be above & behind you, not above or above front.
 
+
+### Home theatre speaker locations are a subset of cinema speaker locations
+FALSE. The Back Center speaker is unique to the Home layout.
+
 ## For Creators
 
 ### You need expensive hardware and Pro Tools to mix in Atmos
-FALSE. The RMU is expensive, but "Dolby Atmos Production Suite" for mac is $300, and coupled with the free Atmos Music Panner, you can mix in Atmos in almost any DAW. DAPS can encode to DDP in mp4.
+FALSE. The RMU is expensive, but the "Dolby Atmos Renderer" for mac is $300, and coupled with the free Atmos Music Panner, you can mix in Atmos in almost any DAW. DAR can encode to DDP in mp4.
 
 ### You need to use a Mac to mix in Atmos
-FALSE. Atmos features are available in DaVinci Resolve & Nuendo.
-
-### Dolby Atmos Production Suite is available for Windows
-FALSE. Only the Mastering suite, which doesn't include the core audio. But you can [bridge](https://professionalsupport.dolby.com/s/question/0D54u00008AUz8PCAT/problem-activating-the-dolby-atmos-renderer-on-win-10?language=en_US) any DAW with Resolve with JACKAudio.
+FALSE. Atmos features are available in DaVinci Resolve studio, Cubase/Nuendo, Studio One, although Cubendo would be the one which is most music-oriented and has the most routing features.
 
 ### You need expensive software to encode Atmos
 FALSE. Atmos encoding is available in cloud services such as Amazon.
@@ -346,17 +352,14 @@ FALSE.
 - If you start with Auro-3D, you can use channel exports. If you're using Nuendo, maybe you can convert Auro-3D panners to Atmos panners. If you only have an encoded bitstream, you can use the Auro-3D decoder in their suite.
 - I haven't tested any of these.
 
-### I can QC my Atmos mix on a PC
-FALSE. If you have DTS-X or Auro-3D suites, those may include a decoder.
 
-### It is hard to decide whether a track should be bed or object
-FALSE. Bed tracks will be sent to the speakers and may be arrayed. Objects will be pinpoint. In general, If something moves, or is at height, it should be an object. Since a 7.1.2 bed can't reproduce all height positions, and can't address all speakers.
+
 
 ### There is no way to avoid undesirable downmix behavior
 FALSE. You can:
 1. Adapt your mixing strategy (works across all DAWs)
-2. Use zone masking (might be Pro Tools only)
-3. Bind a separate 5.1 mix or render, to the Atmos stream (THD only)
+2. Use zone masking
+3. Change the downmix mode and trims
 
 ### I can use ADM from 3D OBA suite(s) with Dolby encoders
 FALSE. Although this is the ideal situation, and the Dolby Atmos Conversion Tool can convert between DAMF and ADM formats, Dolby tools currently only accept ADM WAV files made by Dolby tools. This is due to cubular vs spherical coordinates, among other possible differences. So if you use other OBA suites such as [VISR](http://www.s3a-spatialaudio.org/plugins) or [EBU EAR](https://ear-production-suite.ebu.io/) suites and want to deliver for Dolby codecs, you're in for a bad time(tm). Unless you mix in CBA (which is what many people are doing anyway, including myself).
@@ -441,15 +444,64 @@ FALSE. windows spatial audio is restricted to Media Foundation or spatial aware 
 - VLC from Microsoft Store
 - Windows Media Player
 
-### I need to pay for Dolby Access to enable  Dolby Atmos Headphone
+### I need to pay for Dolby Access to enable Dolby Atmos Headphone
 TRUE. You need to pay to enable it (after the end of the free trial). But there is Windows sonic which is free.
 
-### I need to pay for Dolby Access to enable  Dolby Atmos for Home Theater
+### I need to pay for Dolby Access to enable Dolby Atmos for Home Theater
 FALSE. Bitstreaming Atmos to your AVR is always free.
 
 ### Every Dolby Atmos game will support Atmos on both Xbox & PC
-FALSE. Platform support  varies per title. Please check the list at https://www.avsforum.com/threads/dolby-atmos-for-gaming-thread.2941270/ 
+FALSE. Platform support varies per title. Please check the list at https://www.avsforum.com/threads/dolby-atmos-for-gaming-thread.2941270/ 
 
 
 ### THD Atmos is always bigger than 7.1
+FALSE. Dolby authoring apps typically use bit-reduction to save space. In many cases it can be smaller than 7.1 48/24.
+
+
+### Dolby Atmos releases are deliberately lower volume and lacking bass compared to 5.1 releases
+- Low volume: with 51, you can adjust the volume at the master and apply DRC to smash the levels up. With Dolby Atmos, you can't do this since the master is object. Loudness needs to be at the source, or you need to insert a FX on every object to bring the volume up ( cumbersome) 
+- Low bass. With 51 & historical practice, i suspect studios didn't apply bass management properly, LFE is sent directly to the sub (wrong), AVR applies a 10dB gain, and consumers turn down the sub to compensate. With DA, DAR apparently applies BMS +10 LFE, so the LFE monitoring levels should be correct. Consumers who had set the sub lower for 51, would notice in DA the bass is too low. 
+
+So conclusion, what had been done with 51 in the past was (probably) incorrect with too high bass levels, with DA it should now be correct. See <https://en.wikipedia.org/wiki/Bass_management> for more details about 10dB.
+
+### DDPA artefacts at height
+
+## Dolby Atmos for Home Theater supports unlimited speakers anywhere
+FALSE. DA HT supports a maximum of 35 speakers in a 24.1.10 layout, arranged in 2 layers. Here are the positions (not in order):
+
+
+- Front: L R C, Lscr Rscr, Lc Rc, Sub
+- Side: Lw Rw, Ls Ls1 Ls2, Rs Rs1 Rs2, Lrs2 Rrs2
+- Back: Lrs Lrs1, Rrs1 Rrs, Lcs Rcs Cs
+- Top : Lfh Ltf Ltm Ltr Lrh, Rfh Rtf Rtm Rtr Rrh
+
+## DTSX supports unlimited speakers anywhere.
+FALSE. DTSX HT supports a maximum of 32 speakers in a 30.2 layout, arranged in 5 layers like a dome. Here are the positions:
+
+- Front: L R C, Lc Rc, Sub1 Sub2
+- Side: Lw Rw, Lss Rss, Ls Rs
+- Back: Lsr Rsr, Cs
+- Height: Lh Rh Ch Lhs Rhs Lhr Rhr Chr
+- Top: Ltf Rtf Ltr Rtr, Oh
+- Bottom: Lb Rb Cb
+
+
+References: [Trinnov Speaker Layout Guide](https://www.trinnov.com/en/blog/posts/trinnov-speaker-layout-guide/) , [DA HT Installation guide](https://www.dolby.com/siteassets/technologies/dolby-atmos/atmos-installation-guidelines-121318_r3.1.pdf) ,  [DA HT studio guide](https://dolby.my.salesforce.com/sfc/p/#700000009YuG/a/4u000000lFHc/UYA0IZeD632SUXVmEPmUcr.wIuhpHp6Q7bVSl4LrbUQ) 
+
+
+### All consumer Dolby Atmos content will fill up my 9.1.6 system
+False. There are a range of factors which contribute to poor speaker occupancy.
+1. The average movie in DA does not have much height activity, and about half of mixers don't know to use (enough) objects
+2. THDA authoring has a default of 12 elements, so when there's too many objects, spatial coding will downmix to about 7.1.4 
+3. Many Studios are monitoring on only 7.1.4, so speaker occupancy beyond that isn't something they typically test
+
+
+### Dolby Atmos mastering is the same as traditional mastering in that you need to push up loudness levels to remain competitive
+FALSE. Although there are software like Hornet SAMP which can emulate master bus processing, Dolby Atmos music specifications mandate a -18LUFS target, so there isn't a need to heavily compress your master to meet traditional loudness wars targets like -9 LUFS. You could achieve this just by adjusting track gains.
+
+### 5.1.2 and 7.1.2 are good monitoring layout for mixing Dolby Atmos
+FALSE. Height in 5.1.2/7.1.2 is just a straight line of speakers, and the way DA height is downmixed to 2 speakers is a summation-type downmix. So you can't monitor the whole height geometry. It may leade you to make bad mixes since depth panning at the top has no effect, but there are very real consequences for people with lesser and more speaker layouts, as it results in increased correlation and precedence effects. In a sense, it's a downgrade from 5.1. Which is why Dolby recommends a minimuim of 5.1.4 for mixing in DA, and subjective feedback from Home Theater owners is that 5.1.4 is 2x as good as 7.1.2.
+
+
+### It's not possible to  achieve a good speakers and headphones mix
 FALSE.
