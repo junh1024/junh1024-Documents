@@ -488,6 +488,8 @@ FALSE. DTSX HT supports a maximum of 32 speakers in a 30.2 layout, arranged in 5
 
 References: [Trinnov Speaker Layout Guide](https://www.trinnov.com/en/blog/posts/trinnov-speaker-layout-guide/) , [DA HT Installation guide](https://www.dolby.com/siteassets/technologies/dolby-atmos/atmos-installation-guidelines-121318_r3.1.pdf) ,  [DA HT studio guide](https://dolby.my.salesforce.com/sfc/p/#700000009YuG/a/4u000000lFHc/UYA0IZeD632SUXVmEPmUcr.wIuhpHp6Q7bVSl4LrbUQ) 
 
+Music Specs
+https://dolby.my.salesforce.com/sfc/p/#700000009YuG/a/4u000000lFJ9/IVkxI54tPvDbGymtjQ6tyIjEvkaA7xPa_Byq6.vH_dA
 
 ### All consumer Dolby Atmos content will fill up my 9.1.6 system
 False. There are a range of factors which contribute to poor speaker occupancy.
@@ -505,3 +507,15 @@ FALSE. Height in 5.1.2/7.1.2 is just a straight line of speakers, and the way DA
 
 ### It's not possible to  achieve a good speakers and headphones mix
 FALSE.
+
+img: https://ent.box.com/representation/file_version_798342603666/thumb_1024.jpg?shared_name=oxnoownji36b37aa9u0q1a4vx64tlken
+via learning material: http://web.archive.org/web/20210729211208/https://learning.dolby.com/hc/en-us/articles/360055055311-Appendix-A-Dolby-Atmos-Delivery-Codecs 
+
+### The defaults for DDP encoding are fine
+DEPENDS. They're more movie-oriented and would work okay for music up mixes but if you wanted to preserve the levels or have more control than you'd want to set them yourself. 
+
+### The defaults for THDA encoding are fine
+DEPENDS. The default spatial elements is 12 (lower than DDPA) so if you don't exceed that it's fine. Otherwise, you'd want to set it higher.
+
+### The Legacy trims don't matter
+FALSE. Playing back on a legacy device, both Atmos and legacy may trims apply, since the DA to 5.1 trim is used to generate the legacy 5.1 core. Thereafter, the legacy trims apply. So on a legacy device, you may get double attenuation as both DA to 5.1, and legacy 5.1 to 2.0 trims may apply. Some software may ignore legacy trims and apply a -3dB surround trim for the legacy 5.1, so it's important to account for all situations and set both sets of trims appropriately.

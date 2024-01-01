@@ -1,14 +1,17 @@
-# Instrument placement in surround
+# Instrument panning in surround
 
-Where to place/pan instruments in surround.
+## Introduction
 
-## Center
+Where to place/pan instruments in surround. This is targeted towards a general/music context, but if you're mixing for a movie, it would be better to pan things front where I offer a choice.
+
+## Front Center
 #### Stars of the show
 - Lead vocals
 - Lead instrument for instrumental songs
 
 ## Front
 #### Important Things
+- All vocals (If you don't have separated lead/back vocals)
 - Rhythm section (Drum Kit, Percussion, Bass)
 - Lead instrument(s)
 - Guitars
@@ -16,22 +19,25 @@ Where to place/pan instruments in surround.
 - Percussive Synths
 
 ## Front OR Back
-- Acoustic Piano
+- Acoustic Piano (it should be front in most cases unless you know what you're doing) 
 - Electric Piano
 - It might be a good idea to put all pianos in the same place as they share some characteristics
 - Brass & Sax
+- May also be a good idea to put all Brass/Sax near each other, too
 
-## Front & Back for 5.x/Front & Side for 7.x
+## Front AND Surround
 #### Things With Long Notes
 - Vocal Fills/Backups
-- Strings (Usually All 4, Or Biased Front)
+- Strings
 - Pads
-- NEVER pan sounds directly to the sides for too long, it will sound bad & unstable, due to bad localization. It is recommended to use reverb or my "2.0 to 5.0 Upmix V3 (S).txt" in [my suite](https://github.com/junh1024/Reaper-Surround#introduction) for spreading 2 to 4 to decorrelate so it's more stable. My Surround guide V3 coming somewhen.
+- You SHOULD only spread these instruments to multiple pairs of speakers, ONLY if you use reverb, upmixers, or (object) size >30, since these approaches decorrelate the signal, so that it's more stable. They should also be biased slighly front to avoid balance issues. My Surround guide V3 coming somewhen.
 
 ## Height
 #### Occasional Emphasis
-- Front: High-pitched synths, maybe some percussion
-- Front partial height: Flute, Piccolo, Oboe
-- Side: Tubular bells, heavenly choirs
-- All: Weather FX
+- Front full height: High-pitched synths
+- Front 1/2 height: Maybe some Auxuliary Percussion (or front, no height) 
+- Front 1/5 height: Flute, Piccolo, Oboe (or front, no height)
+- Front OR Side height: Tubular bells
+- Front AND OR Side height: Choirs
+- Half height: Weather Effects
 - It might be good to slightly reduce the height of height-panned items

@@ -10,7 +10,7 @@ I encoded it to DDP Atmos. They were compatibility issues with certain software.
 
 After increasing diffusion of percussion to back, I noticed there was still triangle from the back, and this wasn't completely controlled by the drum stem so I added some ReaFIR to remove it.
 
-Some months later, I revisit this project, mainly to set the sound to end on more silence. I also check the vocal balance with my vocal loudness meter trick, and it seems the vocals are too loud, so I reduce them a bit. I a;sp redp the gain settings to make it more simple.  Also, the surround image of the strings is slightly biased back, so I inch it forward by tweaking the upmixer settings.
+Some months later, I revisit this project, mainly to set the sound to end on more silence. I also check the vocal balance with my vocal loudness meter trick, and it seems the vocals are too loud, so I reduce them a bit. I a;sp redp the gain settings to make it more simple. Also, the surround image of the strings is slightly biased back, so I inch it forward by tweaking the upmixer settings.
 
 
 ## Crazy by Gnarls Barkley
@@ -81,8 +81,47 @@ I thought the drum pattern was too complex so I muted it and created a new drum 
 
 The first step is to ingest the stems. So this means to pair up stems that might go well as a stereo pair. Like backup vocals and similar sounding guitars. Remove duplicates. So the stems were reduced from about 44 to about 33 .
 
-There is a difference between Overdrive and distortion guitar. [This video](https://www.youtube.com/watch?v=nEe1eNv7o40) by Kevin Balke  shows examples. I initially researched this topic due to criteria for a mashup contest where no distorted electric guitars were allowed. So Overdrive guitar is want that sounds like a square wave where you can still hear the fundamental clearly. A distorted guitar is one with lots of harmonics & noise.
+There is a difference between Overdrive and distortion guitar. [This video](https://www.youtube.com/watch?v=nEe1eNv7o40) by Kevin Balke shows examples. I initially researched this topic due to criteria for a mashup contest where no distorted electric guitars were allowed. So Overdrive guitar is want that sounds like a square wave where you can still hear the fundamental clearly. A distorted guitar is one with lots of harmonics & noise.
 
-The next step is to make basic mix. This means adjusting the balance of instruments. Regardless of how you set the lead vocal level it's be wrong, so you need to apply some compression. Individual clip gain was also applied. With a high compressor ratio example >5, regardless of how you boost that input volume, the output volume will stay basically the same, so if you want to have some pre-compressor volume control, you'll need to lower the ratio. The vocals also needed some reverb to sound not raw. But of course as with most mixing practice stems you get they are not fully raw. They will have pitch correction applied, and most of the time it's obvious and overdone. 
+The next step is to make basic mix. This means adjusting the balance of instruments. Regardless of how you set the lead vocal level it's wrong, so you need to apply some compression. Individual clip gain was also applied. With a high compressor ratio example >5, regardless of how you boost that input volume, the output volume will stay basically the same, so if you want to have some pre-compressor volume control, you'll need to lower the ratio. The vocals also needed some reverb to sound not raw. But of course as with most mixing practice stems you get, they are not fully raw. They will have pitch correction applied, and most of the time it's obvious and overdone. 
 
 The drums also needed processing to sound better. It seems the snare drum was recorded from the top. It's almost as if the snare wire were disengaged. So I apply some distortion to give it more impact but it sounds a bit bad. I think David may have opted for drum replacement but I wanted to keep it simple. The hi-hats and symbols are also lacking volume, but if you just boost or pan them this also affects the snare due to mic bleed in the overheads. So you need to apply a high pass EQ to remove the kick & snare from the overheads. Carefully listen to the overheads as you adjust the filter frequency so that you don't remove too much. Then you can Pan and adjust the overheads with more control.
+
+
+
+## The place where the wind arrives
+
+I was hesitant to start this surround project since there didn't seem to be many elements that could be put in surround. But on a careful listen, there are some pads, so I thought I'd give it a try and also fix up in the issues to be discussed below.
+
+I noticed that the bass was too wide. I chose to select the left channel only to avoid issues when both channels are mixed together, since they seem to be stereoised by applying a time delay. Stereo width has some side signal which has some volume. So I compensated for the loss in volume due to reduction of stereo width by applying a small volume boost afterwards. I later reverted the 1db boost since the bass was ample strength on the FFT. Some stereo width was added later. 
+
+The harsh bell at the start of the song was turned down using ReaFIR. ReaFIR Tip: By default if you're only doing cuts, neighbouring frequencies could be boosted since it's trying to interpolate a smooth curve. If you're doing targeted cuts, it would be better to use the sharp mode so that cuts don't boost.
+
+The drums high frequency was also slightly cut and the width was reduced.
+
+Vocals being too quiet is the main issue of this song. I thought a 1 DB boost would fix it, but it needs something like + 2.5 DB. Gentle compression was used in the chorus To prevent the vocals being too loud. When the vocals are boosted, more issues are apparent like the vocals need de-essing and maybe exciting as well.
+
+For the elements that I'd try to pan to the front I'd usually get them separated out. Like the piano. But no ML could get all the piano out. Luckily, MO had sequenced the MIDI file, so I have some more options. initially, I tried to remove the piano from the back, but not all of the piano was removed. So I tried the reverse approach of adding the pad to the back. That was more successful. One needs to be careful about how much sound to move to the back since front/back balance would be impacted. As with my aespa better things, surround activity was lacking. The vocals were upmixed to 5.0 surround & some bleed from the front was added. I was going to get the strings out and widen them, but I'm not bothered with enough bleed from the upmix.
+
+Vocal extraction left some artifacts when listening to the full mix since the vocals were originally too quiet. It turns out that MDX23 is the current rage. I looked into the code, and it seems to be doing Kim vocal first and then DEMUCS which is the reason for its High Quality. But I couldn't see that clamp mode clamp was set for DEMUCS, and hence the balance of stems might be off. 
+
+After a few days of hesitating, I finally set up MDX23. I need to use the --single_onnx option otherwise it would crash. It took about half an hour for a successful run.  MDX23 has better isolation and Less artifacts on the vocals.  But it doesn't add to Unity - there is a difference in bass after comparing with the original.
+
+
+## Kaijutsu Renka
+
+I know the song from rewrite arrange album. The drums in the original version sounded weak, so I wanted to replace it with something stronger from the ridge racers 2004 soundtrack. In the end I chose Night Stream over Vanishing Point. The BPM of this project was set to exactly halfway between the two songs. 
+
+### Drums
+
+The drums varies in intensity in the original, so I found 3 sections in Night Stream which were varying intensities that I can put in the appropriate places, cut to 16 bars long. The most intense section was dropped by about 1 DB for balance reasons. When mixing the drums into the original, I want the drums to be heard alongside the vocals and not behind it. It's a very subtle difference of 1 DB.
+
+My original approach to making this remix and surround mix was to have the stems stretched since DEMUCS has better isolation than spleeter, so hopefully there's less phasing. But after listening to the stretched stems, it felt like something was missing, so I need to use the upscale-then- separate with FFT approach like I've used in the past for spleeter.
+
+Depending on the pitch algorithm & settings, drums from Night Stream can sound different. Obviously Elastique 3 sounds better, but uses more CPU & isn't Legacy compatible. So I used Elastique 2 with a slight pitch down towards varispeed.
+
+DEMUCS didn't put all the percussion in the drum stem, so I need to use looping & FFT to get more of the drums out from the original.
+
+One of the problems that I wanted to fix and the original regardless of everything else, the vocals were a tad quiet , so I boosted it by 1db.
+
+The surround activity is going to be a bit low for the song, so I want to have some rhythm bleed to the back. So the piano is on the half removed before surround upmixing. Some reverb verb was added to the back speakers.

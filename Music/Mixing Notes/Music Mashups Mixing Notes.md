@@ -1,5 +1,13 @@
 # Music Mashups Mixing Notes
 
+## That's the way-Spellbound
+
+That's the way I like it. The instrumental Grant Nelson - Spellbound is actually a remix of Bas Noir - [My Love Is Magic](https://www.youtube.com/watch?v=qvUd4f50wzQ) from 1988. Although my mashup is short & there are several edits of the song, I need the full 7 min version due to having the required arrangement & variations for my mashup.
+
+There is a story behind how I know this song. Around 2010, I was listening to a house radio station. The song came on but I don't know it. So I  recorded it with a Olympus Voice recorder (This was before the days of Shazam). The voice recorder needed installation of software to access the recordings. I sent a recording to the radio station, but they didn't reply for a while . I phoned the radio station and the DJ said phone again in about a minute. The next phone call I've got the answer.
+
+The vox needed stretching in editing to conform to a constant BPM since that's probably the way the original song was. In 2023 I lengthen the mashup with an intro and outro to make it more house-like. Reverb was also added to the vox, and the vox were turned down. 
+
 ## Never Give Up on the Good Times-Nexus
 
 So, I had the idea for NGU-Nexus when I was listening to a cover of NGU, and noticed the chords sounded like 4536, It would go well with Osanpo biyori instro, except I had already used it with Nexus aca. So I need to use it with the Nexus instro. I tried shuffling the chords in Nexus, originally 3456 to 4536. But the original 3456 sounded more natural due to piano & etc fill. I originally had the proj @ 120bpm since the vox was at 117. But due to stretching & a pitch shift of the vox at the end of +2st, and the fast speed of the original instro, it would sound bad, so I raised it to 128. I thought about using Mai Kotone's Renai Circulation House cover, and the speed matches a bit better, but the minimal instrumentation and spectrum conflicted with NGU, so I reverted back to Nexus. I set the bpm to 124 and made the vox go only up by 1st at the end to reduce speed issues. Elastique VST2 now works, but I'm hesitant to use it in a project . I used MIDI to recreate the flute from Never Give Up into a synth for the mashup.
@@ -41,33 +49,6 @@ Skyfall is the opening song from the Skyfall movie. The movie is available in su
 I have another idea for the contest. The last bullet is in the same key as no one knows. The arrangement is set to the last bullet since I'm more familiar with that song. The lyrics of no one knows 1st verse verses are split over the 1st & 2nd verse of my mashup since the rhyming & theme is similar. The pre-chorus is filled with lyrics from later on in the song. The chorus audio is duplicated three times in my mashup because I'm lazy. The bridge lyrics in my mashup are taken from the ending of no one knows to complement the strings. Overall I don't really like this mashup due to the instrumental. 
 
 
-## S-WT
-
-### Why
-S was in my mind because I was trying to find a certain R&B song asking for Reddit help. Someone suggested S, it was only 1% relevant but it was in my mind.
-I heard WT in a strings and acoustic mashup contest submission, used as an instrumental. I liked the funky chords. The mashup wasn't done that well though. I thought it would fit well with S since S has similar chords in the chorus. The introduction mentions Memphis, Tennessee. Justin Timberlake was born there. 
-
-### Song
-
-This is a b or c-class song, because it's short, there are few instruments, and there's a mixing issue - the vocals are too loud. If it was a a-class song this wouldn't happen. Also, the unit may have been formed specifically for the song
-
-### Editing
-
-WT is a lot shorter than S, so I need to loop WT to cover S. I know S has a music video so my target arrangement is that. If my mashup is the video arrangement, then I'll need to delete a Bridge, but that's ok since there's another bridge earlier. 
-
-The bridge is slightly tricky since it changes key. My my goal for the bridge is to make it sound acceptable & maybe use a 5ths or 3rds trap to avoid shifting WT by too much, since it's already shifted -2. Luckily, +1 and -1 sounded ok & seemed to match the chords and key of S.
-
-Almost all of the WT instrumental was used to cover the mashup. Some variation was added to the calling section near the end. WT didn't end nicely, so I edited in a hard ending from elsewhere in the song. The WT instrumental had a low-energy section after the first CHORUS so I just left that run to add some variety. I also put in a low-energy section from WT in a chorus also to add variety.
-
-Originally, I used a combination of FFT and time domain to isolate the vox, but there was some high-frequency bleed in the middle of the song, so I need to use 100% FFT instead. if you remove all the instrumental, there's some pumping of the vox prolly due to master compression. WT is RnB song, also with strong beats so that could hide some pumping artefacts.
-
-There were some high-frequency bleed from the acapella. I initially turned the high frequencies up from WT due to loss of high frequency from shifting down, but then I turned the high frequencies down, since there's was high frequency bleed from S. 
-
-With my mashup, the theme _WIKIPEDIA of the lyrics was flipped from an "independent woman"-type of song, to serenading a woman, which is a notable change.
-
-### Elastique
-
-I was editing my mashup and I noticed some discontinuity artefacts around the middle even though there didn't seem to be any large discontinuities in the cut waveforms. I tried changing the sampling rate but it didn't have an effect. The default pitch shift mode was set to Elastique 3. Changing it to Elastique 2 lessened the discontinuity artefacts, but also reduced the bass. As shown by this issue and also in Oxydlate, newer isn't always better.
 
 
 ## CANDY POP-IDK
@@ -185,17 +166,39 @@ Most of the modules in Ozone I have now replaced with free or built-in alternati
 - Trash 2 Distortion: distort-fuzz
 
 
-## CW
+## Believing in Lovely
 
-The idea of doing the Cindy wonder came about since someone wanted to do a mashup of Cindy and Tommy Tallerico song from earthworm jim. The original idea didn't work well, but I heard Stevie Wonder's SL. Since the key change is moderate, I need to use a MIDI version. This also ensures that I can make the tempo constant.
+The idea of doing the Cindy-Wonder came about since someone wanted to do a mashup of Cindy & Tommy Tallerico songs from earthworm jim. The original idea didn't work well, but I had Stevie Wonder - Isn't She Lovely in mind. Since the key change is moderate, I need to use a MIDI version. This also ensures that I can make the tempo constant.
 
-However, SL is 12/8 time, and Cindy is 4/4 time. I initially thought of editing and removing drum beats from SL. But I left that for a few months. A few months later, the idea of stretch markers popped into my head. I also found out Reaper has an adjustable swing grid. I read some information on both, but it isn't quite as easy as that since neither built-in feature can add swing to a finished song. After some research online, I came up with a working method:
+Although I used Stevie Wonder for this mashup, there is actually a real link between Cindy and Stevie Wonder. [He produced her debut album](https://www.discogs.com/artist/3036474-Cindy-26) . 
+
+### Converting 4/4 audio to 6/8
+
+However, Isn't She Lovely is 12/8 time, and Cindy is 4/4 time. I initially thought of editing and removing drum beats from SL. But I left that for a few months. A few months later, the idea of stretch markers popped into my head. I also found out Reaper has an adjustable swing grid. I read some information on both, but it isn't quite as easy as that since neither built-in feature can add swing to a finished song. After some research online, I came up with a working method:
 
 1. Download and install S&M tools for RPR. I currently use RPR 6.8, and I was surprised that you only need a minimum of 5.9 for the latest version, since I remember when I was trying to add it to Reaper 4.5 (dated 2013 ish), it was quite sensitive to version changes.
 2. Set a Tempo grid of 1/8.
 3. Add X-raym add stretch markers at Tempo grid divisions.
 4. Install mpl quantize tool. I found the latest 3.5 version too complex, so I found a 1.8 version from the git commit history.
 5. Set the source as swing grid 66%, and set the target as stretch markers. This will turn your audio into 12/8 by adding swing. Since the time-stretch ratios get moderately large it works best on vocals, not instrumentals.
+
+You also need to set the stretch marker mode to tonal, to reduce artefacts.
+
+### Structure
+
+The two songs differ in arrangement, and the Cindy song is quite long. So I decided on verse verse chorus, instrumental break verse chorus. The harmonica Melody in the break was modified to include parts of Cindy's melody and a bit of Pitch Bend was added.
+
+Each sections were taken in order from the original song. Since the structure of Cindy was changed, the lyrics might not be logical anymore.
+
+I could have also added the lalala lalala from My Cherie Amour, but I'm not bothered, and there might be some trouble fitting it in.
+
+I tested my mashup on some headphones, it sounded a bit bright. ReaFIR was used to compress the highs /tambs since there were multiple MIDI clips.
+
+This mashup was submitted for a love mashathon contest. The contest aims are slightly different in that there's no voting phase, and difficulty of execution as a judging criteria. so that means more than a simple A vs B mashup. Converting 4/4 audio to 6/8, and use of MIDI are factors, but that might pale in comparison to people then used many different songs.
+
+As with MIDI in reaper 6 the output is not deterministic - you sometimes have stuck notes, so you need to render a few times, then subtract the outputs to compare differences and hope for the best.
+
+After rendering, I noticed a difference - a bass instrument paned slightly left. I made a new project with all basses centered, but after consideration that the claivnet was panned right, it would balance the bass guitar panned left, so I left it as is.
 
 ## Style-Last Christmas
 This mashup was originally submitted to the Christmas 2022 mashup contest. It was a great concept, but There were some tuning issues on Last Christmas. The Judge remade it with a different instrumental for the album. The original concept was remade and included as a bonus track on the Christmas album, but I didn't like it since it had last Christmas vocals and the vox was pitched down to match the non-regular tuning of Last Christmas. I sought permission from Philip 16 mashups to remake it and they agreed.
@@ -216,5 +219,3 @@ The feedback from the original author was that the vocals came too early. I got 
 
 There were also some low-level tones at the start & end of the song. I had to gain the master by 30DB to hear it. It's not a master bus issue. It's a track issue, and It's caused by using analog / hybrid crossover in izotope ozone 4 (on digital silence). Using digital crossover fixed it, but uses slightly more CPU. It's not fixed in version 4.04, nor 5.04. This issue potentially effects every project that I used ozone 4 on. 
 
-## VAV DDD
-I know this song because when I was searching for Senorita, I was trying to find the Justin Timberlake song but I found the VAV senorita, and designer was a related video. I actually know that song some weeks prior, but it was only in November 2023 that my brain was able to make the link between designer and PPP. Don't find the Moonlight remix is also an acapella candidate, but that changes key. Lady Gaga Just Dance is also another candidate, but that's in a slightly different key. There's a noticeable tempo difference between DDD and PPP , and I was wondering if the mashup would work in practice but it does. 

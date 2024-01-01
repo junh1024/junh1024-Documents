@@ -58,15 +58,15 @@ There are several valid methods. You can:
 
 Keep in mind lower pitch=slower tempo=natural, in line with varispeed results. 3 usually results the best quality. The limitations of 1 & 4 can be overcome with using varispeed on the clips, then routing to a bus then correcting with pitchshifting. I don't have any other specific advice for keys apart from it should sound good.
 
-BPM Temp
+Choosing the Mashup BPM
 ---
 The acapella is usually the most recognizable element in a mashup, so keeping its pitch is suggested. It's possible to maintain pitch of the acapella while maintaining quality for the instrumental.
 
 1. Shift the pitch of the instrumental to match the acapella
-2. Adjust the speed of the instrumental by 5.6% for every semitone you shifted it (average, over the whole instrumental). This could be 0, if there was no change in pitch, and it could still be 0 if the pitch changes cancel out (like, +2st & -2st). We are effectively doing varispeed stretching on the instrumental. Note the BPM of the instrumental.
+2. Multiply or divide the BPM of the instrumental by 1.059, and do this the number of times for every semitone you shifted it up or down. Example: If you shifted your 120bpm instrumental down 2 semitones, divide by 1.059, and 1.059 again to reach 107 bpm. Note that this is NOT the same as dividing by 1.118, due to the logarithmic nature of pitches. We are effectively doing varispeed stretching on the instrumental. Set this as the BPM of the instrumental.
 3. The ideal BPM of your mashup is now between the current BPM of your instrumental & the BPM of your acapella.
 4. Set the BPM of both instrumental and acapella partway between both these numbers. You want to bias it towards the instrumental since stretching instrumentals is more likely to produce artefacts. If the acapella sounds too awkward, set it to about halfway.
-5. If the pitch shifting quality is still too low, shift the acapella 1-2st towards the pitch of the instrumental (I hope I’ve got the maths right), and go back to step 1.
+5. If the pitch shifting quality is still too low, shift the acapella 1-2st towards the pitch of the instrumental (I hope I’ve got the maths right), reset the BPM & pitch of your instrumental, and go back to step 1.
 
 Starting
 ---

@@ -266,14 +266,6 @@ In Reaper 6, you can set a default envelope Point shape for the automation lane.
 - Contest: 02/07/2023 - 11/07/2023 
 - Finished:
 
-### EL-S
-
-I know the S via the retrac 01 album. I know that album since I purchased that song from the same label on Bandcamp, and they sent me a new album email. Well, it's technically not new since it was released some months, ago but it's still recent. EL Is from WLK. In that game, when the song loops, you get an instrumental of that song. But for that song due to arrangement, not all of the acapella can be extracted using subtraction. Also, the dynamic range is reduced maybe due to ADPCM, so I need to use ML to extract the vocals. 
-
-The chords only sort of match, but it sounds okay since there are frequent chord changes. Also, most phrases end on the tonic chord which is common to both songs. The arrangement of Sizigi is a bit different & a bit weird, so I cut the song into different parts as I rearrange, and try to have an appropriate intensity for the different sections of my mashup.
-
-I only need vocal ML separation for this mashup. I can use spleeter and it would be fine for the S, but it might be a bit bad for EL since it's hard rock. I tried setting up bytedance music separation, but since it requires specific and outdated versions of libraries, I was unable to get it working so I just used the usual DEMUCS.
-
 ## Hello World-Cubic Futurismo
 
 The arrangement is mostly hello world, but there's some cuts since I can't find any hello world music video.  I did The initial vocal separation with isotope RX7. it doesn't get the vocals out well & I can't use this to balance, but I can use this to do a basic arrangement of my mashup. Due to the poor isolation, the bridge didn't sound very good & I truncated the ending lyrics to sound more snappy. But after using DEMUCS, the bridge sounds a bit better. The ending lyrics were restored (after the contest) to respect the Integrity of the original lyrics even though it sounds a bit worse.
