@@ -53,7 +53,7 @@ I was glad when I got this MT in Nov 2017 that there were lots of BVs, so that I
 
 I revisited this after a few months to finish it, and was expecting a short job, but I was wrong. After I added reverb, routing & levels needed attention. I had learned from mixing Maryam from HOFA, that even tho the levels for reverb might look OK, it might still sound a bit too back-biased. I also reduced the compression on the LVs, and EQ'd the BVs to make them clearer. I had a listen to the reference mix, and it sounds very different. That's expected, but they did sidechaining on the bass to make it stand out more. I tried PMOD LFO for fake sidechaining, but it sound unsatisfactory. So I did true sidechaining with Reacomp, which sounds better. There were also a few arrangement tweaks to make things less annoying/more consistent.
 
-In 2023 I want to deploy this to share this is an example good Dolby Atmos mix. I redid the balance of the vox by turning them down. The hi hats were slightly annoying due to the left right panning,  so I reduced the Stereo width and volume. I wanted to have only free plugins effecting the sounds, but this has kilohertz disperser, which is a pain plugin, so I replace it with the ReaEQ + allpass filter with a narrow bandwidth to try and replicate it, but the effect is weak compared to disperser.
+In 2023 I want to deploy this to share this is an example good Dolby Atmos mix. I redid the balance of the vox by turning them down. The hi hats were slightly annoying due to the left right panning, so I reduced the Stereo width and volume. I wanted to have only free plugins effecting the sounds, but this has kilohertz disperser, which is a pain plugin, so I replace it with the ReaEQ + allpass filter with a narrow bandwidth to try and replicate it, but the effect is weak compared to disperser.
 
 A mastering engineer said overall it was ok, but maybe there could be more bass and less mids & Highs from about 1k. 
 
@@ -79,75 +79,103 @@ I thought I was ready to export it, but then I notice the cymbals are missing, s
 
 ## Tchaikovsky Symphony 6
 
-With this suite, I had a logic project to guide my editing, but getting an actual logic conversion working in RPR was a "long" and unsuccessful journey. Converted PTF to RPPs aren't very useful as usual (no editing done). The logic files have a preview in windows, but still not ttly useful. I boot up my OSX 10.6 VM. Logic 8 express eventually opens up the logic documents after a few errors. But it took several tries to get the audio clips looking right, since I tried to load LQ stubs instead of 96/24 in logic initially. It seems that logic stores fseek offsets in documents as for WAV files, so only files of exactly the same sample format will do.
+With this suite, I had a logic project to guide my editing, but getting an actual logic conversion working in RPR was a "long" and unsuccessful journey. Converted PTF to RPPs aren't very useful as usual (no editing done). The logic files have a preview in Windows, but still not ttly useful. I boot up my OSX 10.6 VM. Logic 8 Express eventually opens up the logic documents after a few errors. But it took several tries to get the audio clips looking right, since I tried to load LQ stubs instead of 96/24 in logic initially. It seems that logic stores fseek offsets in documents as for WAV files, so only files of exactly the same sample format will do.
 
 AAF & OMF converts were unreliable to RPR. In the end, I settled for screenshots of the edits in logic (with filenames/takes clearly visible) & recreated them in RPR. Although the length didn't always match for some reason.
 
 ## Golden Hour
 
-Why this song. Stems were available for this song and the artists looked a bit Japanese like Joji so I decided to check out the song on YT. It turns out the song is in English, but it sounds ok so I go ahead with the project.
+### GH stems
+
+Stems were available for this song and the artist looked a bit Japanese like Joji, so I decided to check out the song on YT. It turns out the song is in English, but it sounds ok so I go ahead with the project.
 
 This is a pop-orchestral ballad with drums, piano, strings, and strings. There's potentially a combination of real & fake violins. The piano part sounds like Chilly Gonzales - White Keys from his Solo Piano II album.
 
-There are some people that don't like the song other artists due to what was done on tiktok about it but I don't know about that. From what I gather Charlie puth also went on tiktok and basically made light switch in front of tiktok and released it as a song. But it's more a run-of-the-mill pop-EDM song rather than an emotional song so it's less polarising.
+There are some people that don't like the song/artist due to what was done on tiktok about it, but I don't know about that. From what I gather, Charlie puth also went on tiktok and basically made light switch in front of them and released it as a song. But it's more a run-of-the-mill pop-EDM song rather than an emotional song so it's less polarising.
 
 The stems also seemingly have DC offset and dither so reducing bitdepth doesn't really remove them.
 
-There are limited stems and most stems are reduced from multiple sources, which might not make sense in terms of organisation. The FX & risers stem has vox reverb, and the bass has some non-base synths. I don't like the rap in the verses so I mute it for my arrangements. I then listened to the instrumental on YT & that sounded good, so I can just take out most of the vocals.
+There are limited stems and most stems are reduced from multiple sources, which might not make sense in terms of organisation. The FX & risers stem has vox reverb, and the bass has some non-bass synths. I don't like the rap in the verses so I mute it for my arrangements. I then listened to the instrumental on YT & that sounded good, so I can just take out most of the vocals.
 
+### GH Mixing
 
-The bass in the bass stem isn't very prominent since its more like a sub. To add distortion to the bass to make it more prominent, while leaving the other synth in the bass stem, I use ReaXcomp to compress the low frequencies at a high ratio and fast time constants.
+The bass in the bass stem isn't very prominent since its more like a sub. I wanted to add distortion to the bass to make it more prominent, while leaving the other synth in the bass stem, so I use ReaXcomp to compress the low frequencies at a high ratio and fast time constants.
 
-There is some high-pitched synth in The synth stem along with a pad, so I can witti's 2band splitter to effectively Pan the high-pitched synth up. There is an arp synth which is heard in isolation earlier, so I can use FFTMT to get it out when it is mixed in. 
+There is some high-pitched synth along with a pad in the synth stem, so I can use witti's 2band splitter to effectively Pan the high-pitched synth up. There is an arp synth which is heard in isolation earlier, so I can use FFTMT to get it out when it's mixed in. 
 
-The string bass heard in isolation earlier so I can get it out when it's mixed ,but it's not enough to isolate the violin ostinato. I make some MIDI notes and the Yamaha XG VST makes the sound. Surprisingly, this gets most of it out so I can pan it separately. The panning idea come from [this Eru Matsumoto](https://www.youtube.com/watch?v=wUYByf8mcaw) video. There, the string section and drums pan counterclockwise around the listener, about every 8 bars or 32 beats. In this project it's a 6/8 song and I chose every 6 bars or 24 beats.
+The string bass heard in isolation earlier so I can get it out when it's mixed, but it's not enough to isolate the violin ostinato. I make some MIDI notes and the Yamaha XG VST makes the sound. Surprisingly, this gets most of it out so I can pan it separately. The panning idea come from [this Eru Matsumoto](https://www.youtube.com/watch?v=wUYByf8mcaw) video. There, the string section and drums pan counterclockwise around the listener, about every 8 bars or 32 beats. In this project it's a 6/8 song and I chose every 6 bars or 24 beats.
 
-The arrangement changed. The vocals were removed. And I found that I needed to change the arrangements and balance to make the song work so that the chorus has enough impact when it comes in, rather than a power loss. To do this I slightly boosted the piano since it carries the melody and also looped the strings from the second part of the chorus. 
+The arrangement changed - The vocals were removed. And I found that I needed to change the arrangement and balance to make the song work, so that the chorus has enough impact when it comes in, rather than a power loss. To do this I slightly boosted the piano since it carries the melody and also looped the strings from the second part of the chorus. 
 
-Tunebat says 94bpm for this song but it's actually 94.5. There's still misalignment after you set the correct BPM since there's a tiny ritardando before the first chorus (why is it there if it hardly builds tension?). I need to fix this & conform the whole song to constant BPM, otherwise PMOD LFO panning will be a bit tricky.
+Tunebat says 94bpm for this song, but it's actually 94.5. There's still misalignment after you set the correct BPM since there's a tiny ritardando before the first chorus (why is it there if it hardly builds tension?). I need to fix this & conform the whole song to constant BPM, otherwise PMOD LFO panning will be a bit tricky.
 
 Previously, the violin sidechain occupies a few channels due to duplicating MIDI notes - working around bugs in my MIDI octaver. There might be a way to reduce the tracks if there was plugin that duplicates & shifts notes. MIDI tool II & MIDI router certainly don't. MIDI chorderizer does do the job, and you can also control the velocity of the extra notes which is good, but it always makes 4 notes, so it potentially increases the volume via duplicate notes. You can shift high the unwanted notes & remove using MIDI note filter, but that leaves extra note off events which might overload the Yamaha XG VST. Recall Excessive MIDI events may cause glitches as I documented in my Aru-money mashup. So I made a variant of MIDI chorderizer that is able to turn off unwanted notes. An additional feature that would be nice as to see the extra notes to a new channel for more flexibility but this will have to do for now.
 
-I found a bug - only voices 1 & 4 make sound. voices 2 & 3 make MIDI events, but you can't hear the sound. This bug is also in the original. I found out this is due to the velocity is too low due to a equation error. This is fixed in my version.
+I found a bug - only voices 1 & 4 make sound. voices 2 & 3 make MIDI events, but you can't hear the sound. This bug is also in the original. I found out this is due to the velocity is too low due to an equation error. This is fixed in my version.
 
-In sept 2023, I do some balance tweaks, finally turn down the discontinuity glitches in the piano stem, and add some reverb so that the piano fades out nicely. The song starts on bar 1 instead of bar2. For that, I needed to change the phase of the PMOD of 2 tracks. I was about to finish revision J, but upon magnifying the peaks with Peaks Display settings, there's some residual activity in the heights in chorus 1. So I need to bypass a panner to remove it, and tweak my clip timings.
+In Sept 2023, I do some balance tweaks, finally turn down the discontinuity glitches in the piano stem, and add some reverb so that the piano fades out nicely. The song starts on bar 1 instead of bar2. For that, I needed to change the phase of the PMOD of 2 tracks. I was about to finish revision J, but upon magnifying the peaks with Peaks Display settings, there's some residual activity in the heights in chorus 1. So I need to bypass a panner to remove it, and tweak my clip timings.
 
 3D reverb is not used in this mix since there was a small problem getting it working, and also CPU issues.
 
 
 ## Aespa - Better Things
 
-How I know the song. Someone shared a compilation comparing the stereo & DA versions of songs. I liked that song, but I wanted to see if the dynamic panning of the auxuliary percussion could be converted into static panning. I did a quick test of effects in the song w/o ML separation, and it seems that the cowbells and the clap are separated in time, so that with dynamic panning I have the illusions of separate stems and static panning.
+How I know the song. Someone shared a compilation comparing the stereo & DA versions of songs. I liked that song, but I wanted to see if the dynamic panning of the auxiliary percussion could be converted into static panning. I did a quick test of effects in the song w/o ML separation, and it seems that the cowbells and the clap are separated in time, so that with dynamic panning I have the illusions of separate stems and static panning.
 
-It took a few months for the DA version to arrive on tidal so I can listen on speakers. But it doesn't sound that great on speakers. It's an object mix, but most of the objects are clustered around two-thirds front. I wanted to do ML stem separation to get stems, but I deferred it due to low space.
+It took a few months for the DA version to arrive on Tidal so I can listen on speakers. But it doesn't sound that great on speakers. It's an object mix, but most of the objects are clustered around two-thirds front. I wanted to do ML stem separation to get stems, but I deferred it due to low space.
 
 A few months later, an instrumental is available and I thought it would be a good time to start The Project properly. the ML stem separation actually turned out pretty good. I was a bit hesitant about using DEMUCS since DEMUCS is bad with piano, but the piano turned out fine. It also put some electric piano in the guitar stem and there are somehow some vocals in the instrumental. I don't how like that electric piano is doubling the vocal Melody, so I turn it down with linear EQ since there is some pads I want to keep in the same stem. Originally, I had a more complex setup where the saw pad in the other stem was panned slightly to the side for 7.1 via phase shift to emulate object size, but seeing how the pad is also in the guitar aka electric piano, I was happy with the pad in the guitar stem being the front, and the other stem being the side of the pad, but the phase shift on.
 
 Since I need the cowbells and claps isolated, I tried drum separation. But they weren't isolated for the whole song so it's not a huge improvement in usability over the original drum steam. So the cowbells and claps were isolated by looping the start of the song which has those plus the hi-hat, and removing the hi-hat using linear EQ and using that as a side chain for FFT to cover the whole song. +- 50% sounded too wide for those elements, but 25% sounded too narrow, So I used plus minus 33%.
 
-DEMUCS didn't reliably extract the choir so again, FFT was used along with sidechain. Similar to my golden hour mix, this song has multiple layers of height.  The rhythm at ELL. Some stereo elements like pads at 1/3 height, then finally choirs at 2/3 height.  The choir was slightly boosted, but I undid that since they were now too loud on the stereo downmix. Initially when making this project I had planned for this to be in 5.1.4, even though there May be precedence effects and pan law errors since I don't know what to make difference between the sides and the back. The DDPA encoder would then upmix to 7.1.4 . But I decided to have vocals upmixed to 5.1s and somehow figure out to redo the vox automation, then have the pads upmixed to 5.1b . 
+DEMUCS didn't reliably extract the choir so again, FFT was used along with sidechain. Similar to my Golden Hour mix, this song has multiple layers of height. The rhythm at ELL. Some stereo elements like pads at 1/3 height, then finally choirs at 2/3 height. The choir was slightly boosted, but I undid that since they were now too loud on the stereo downmix. Initially when making this project I had planned for this to be in 5.1.4, even though there May be precedence effects and pan law errors since I don't know what to make difference between the sides and the back. The DDPA encoder would then upmix to 7.1.4 . But I decided to have vocals upmixed to 5.1s and somehow figure out to redo the vox automation, then have the pads upmixed to 5.1b . 
 
 I rendered a 5.1 version to check surround activity, But it was a bit low. *So actually, this is a fun song, but you might be struggling to find stuff to put in the back speakers, because during the chorus there are few textural elements like pads* . To get more surround activity overall I did some things I may not usually do like spreading a small amount of rhythm to the back speakers and putting some secondary vocals (not VFs or BVs) in the back speakers as well.
 
-The vocals were isolated by subtracting that instrumental from the vocal version in the time & frequency Domain. Since there is some high frequency bleed on the vox, I use linear EQ on the drums to turn down those high frequencies to compensate. Linear EQ is used a lot in this project to avoid phasing artifacts.
+The vocals were isolated by subtracting that instrumental from the vocal version in the time & frequency Domain. Since there is some high-frequency bleed on the vox, I use linear EQ on the drums to turn down those high frequencies to compensate. Linear EQ is used a lot in this project to avoid phasing artifacts.
 
-I also listened to the demo version of better things mostly out of boredom, but I was inspired to change the arrangement to get slightly more surround activity. In this second part of the last chorus, I put in some pads to fill the surround speakers, but you can barely hear it.
+I also listened to the demo version of Better Things mostly out of boredom, but I was inspired to change the arrangement to get slightly more surround activity. In this second part of the last chorus, I put in some pads to fill the surround speakers, but you can barely hear it.
 
 ## Vantablack - IES V1
 
-I chose this project to do since the author's mix was underdone, and there was another mix that was overdone. This EP is three songs.
+I chose this project to do since the author's mix was underdone, and there was another mix that was overdone. This EP is three songs. This EP is inspired by my love to epic music since 2012 , they got some ideas in Jan ,2024 
 
-I thought it would be a good idea to do a full album workflow while mixing this album, as a learning experience for myself. So this would mean adhering to the Dolby Atmos music spec as close as possible, and mixing the all the songs in one project to enforce consistency. The main points for albums are (rephrased from the DA music spec):
+## Ingest & Organization
+
+I thought it would be a good idea to do a full album workflow while mixing this album, as a learning experience for myself. So this would mean adhering to the Dolby Atmos music spec as close as possible, and mixing all the songs in one project to enforce consistency. The main points for albums are (rephrased from the DA music spec):
 
 1. Each bed/object ID should have the same BRM across songs (N/A for my workflow, but each track should have similar content across songs)
 2. Each song must have the same length, and be within 1,000sa @48k of sync as the stereo master
 3. Each song must be an individual file, and should be exported from the same project
 
-To match the timings, I downloaded LQ previews off Bandcamp. Luckily, it seems that all the songs are 120 BPM, every song ends on whole seconds, and the inserted silences are also whole seconds, so that makes it a lot easier to align or realign if mistakes happen.
+To match the timings, I downloaded LQ previews off Bandcamp. Luckily, added silences and lengths are whole seconds, so that makes it a lot easier to align or realign.
 
 To adhere to point 1, this means a lot of organization which I'll describe below.
 
 Ingesting and organisation took at least a few days.
 
-I initially imported all 3 songs at separate times and separate tracks in my DAW. Each song has about 30 stems, so there were over 90 tracks in my Daw initially. I spent a few days reducing the number of tracks by putting similar instruments on the same track. Where there are separate tracks of similar sounds and similar intended panning, but the audio content doesn't overlap in time, then those can be combined into a single track. Of note there were about 11 string stems in the 2nd song (of various instruments & articulations). This was compressed to about six tracks. They were compressed to about 26 tracks for each song, and 36 tracks before mixing & additional buses.
+I initially imported all 3 songs at separate times and separate tracks in my DAW. Each song has about 30 stems, so there were over 90 tracks in my Daw initially. I spent a few days reducing the number of tracks by putting similar instruments on the same track. Where there are separate tracks of similar sounds and similar intended panning, but the audio content doesn't overlap in time, then those can be combined into a single track. Of note there were about 11 string stems in the 2nd song (of various instruments & articulations). This was compressed to about six tracks. They were compressed to about 26 tracks for each song, and 36 tracks before mixing & additional buses.  An additional round of organisation and compression was done after some mixing to combine/reduce the one-shot sound effects.
 
+## Arrangement
+
+In "The Great Siege", I thought the piano in the introduction wasn't adding much with singular notes, And the ending piano wasn't that great. So I swapped the occurrences of the piano bass with the piano Motif so that the Motif is heard more often and lingers in your memory is the song ends. I would have liked the piano Motif to repeat one more time, but I'm trying to adhere to the Dolby Atmos music specs about timing, so I can't do this.
+
+Turning piano bass double notes into single notes was done via parameter modulation and raising the threshold of a gate. Extending notes was done via Reverb as a clip effect. Although Reaper supports Tempo & time signature markers, they only affect clip snapping & MIDI, not parameter modulation. So for parameter modulation, you need to manually specify a Hertz instead of sync to tempo. It works fine for this project, since the tempi are nice numbers & they translate well to decimal hertz.
+
+For movement 3 Victorious tribal run, I thought it would make more sense if two bars were swapped and the variation was presented after the original instead of before. I thought that if bass drops were done too often (like certain TV commercials), then it would decrease the impact of a singular bass drop. so I reduced and quietened some bass drops. A string riser was also added to the end to make the song end on less of a wimper.
+
+
+## Panning
+
+After organisation, I did some static panning & routing for some instruments. The instruments were organised into groups. Each group was further divided into 2 parts - the bass & treble were panned differently. I used a combination of direct routing, static panning, upmixing, and reverb to make the surround image. In terms of dynamic panning, I turned to the author's original mix for inspiration, rather than other mixes, since assumedly, the author would have a more considered intent. We'll go through the 3 different movements for panning.
+
+1. the piano in "Mental Courage" does ostinato, so it's a candidate for circular panning, but I decided to leave it static, since I want the impact to increase through the album, not decrease. 
+2. There was some reverse cymbals that were a candidate for dynamic panning (left-right square panning). But it's mixed into the main drum stem. I saw that there were noticeable features in the spectrum, so I used ReaFIR to turn those frequencies down, and then pan them when I get them back. Unfortunately, even at full L & R directions, the effect is a bit subtle. In "The Great Siege", There was some left-right panning on the gated riser, so I turned that into a circular pan. The shaker had some Psnning travelling from left to right in a saw pattern, so I replicated that except at half-width.
+3. The author had some dynamic panning for the shouts. Since this is called "Victorious tribal run", I thought that I can pan different parts to different directions across the front (reduced LCR panorama) to represent different tribes. There was also some left-to-right panning in the shaker, and I turn that into a triangle pan also at half-width. There were some metal hits in different pitches, and I was inspired to do left-right panning with a square wave but you can't hear it that much. For the shakers and metal hits since they only occupy half width, then they can go in CL & CR at full width and it should sound about the same. Which it did, but there are somehow small differences in sample value which I can't figure out why.
+
+Some SFX had reverb, so I thought it would be appropriate to spread it to the back. But a surround upmixer puts too much direct/transient sound at the back, so I used my own fft transient designer to spread the ambience to the back. I also had a look at the main drum stems and I found them too wide on earbuds, so I need to reduce the bass width of the drums. The strings, were also viewed on the phase vectorscope, and they were also to wide, so bass width was also reduced.
+
+### Effects
+I noticed that for the author's surround mix, they used master compression, so I did the same to my mix.
+
+I noticed some phasing in the vocal shouts, and I asked the author. They just added reverb, the phasing was in the original, so it's up to me to fix it. Various approaches were initially tried, but "DTBlkFX" with negative strength added some body & high end. Then, conventional post-EQ was added to match the original tone. I also thought afterwards to use my own FFTMT in Noise Control/GR3 mode, but DTBlkFX used less CPU & removed more phasing.
