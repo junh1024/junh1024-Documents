@@ -15,7 +15,7 @@ Dolby Atmos was originally conceived in 2012 as a Theatrical-only, and professio
 
 A 7.1.2 bed is the default bed in S1. The way that 7.1.2 is implemented in S1 gives the illusion to rookies, that all height area is available and there are no consequences, since you can smoothly raise and pan around with a 7.1.2 bed, when the reality is far from the case. A 7.1.2 bed is bad because it has precedence & correlation effects when downmixed. It also cuts the available 3D area in half !
 
-![pic](https://cdn.discordapp.com/attachments/1063004899828314184/1077478388832411678/712bed.png) . 
+![pic](https://i.imgur.com/eQcHrnD.png) . 
 
 Over-use of the 7.1.2 bed, is evident, even in the Dolby Atmos tutorial project (where most tracks are assigned to a 7.1.2 bed with all its faults), which goes to show it's a trap, even for professionals!
 
@@ -88,6 +88,8 @@ Generous behaviour would be to allow such files, and allow typing in negative el
 Or just clamp the Z value to >=0 when importing. 
 
 Resolve can create file with -Z, and Nuendo imports files with -Z.
+
+CAnnot import files with no bed - make a default stereo bed?
 
 ### 916 layout
 

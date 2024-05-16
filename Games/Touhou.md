@@ -78,3 +78,16 @@ Audio
 Touhou is also known for its large amount of doujin albums. There's a large collection of it online, I initially assumed it was music from the games, but if you do some quick maths on the size, and it's all fanmade remixes. So around 2010-2012 I was looking for Key & Pokemon music and it just so happens that a few of those songs are on mainly touhou albums. Now, if it's touhou doujin music, it's relatively available thanks to TLMC. If it's not, well, YMMV. But you can't get individual songs. So you have to get the entire album. So I got an anthology, I liked some of the songs, and I got the source albums, "Multiple Far East" & "Faith of Shrinemaiden" from "XL Project". Another album I got was "BubbleRecords - Reel". I've been listening to them a few times over the years. I made 2 Anime House mixes, which I was happy with, and I wondered if I could make a Touhou house mix. And the answer is, [yes], with a few extra pieces. So, now I'm looking into making 2 more, in different electronic styles.
 
 Key music in TLMC
+
+
+### How to sell Touhou music as a foreigner
+
+In general, when creating Touhou fanworks, you should do so in a respectful manner, as per the [Touhou official fan creator guidelines](https://touhou-project.news/guidelines_en/) . Touhou music distribution is controlled so the composer can get royalities.
+
+You can [sell](https://booth.pm/guide) on booth, and there are [booth rules for Touhou](https://booth.pm/rights_clearance_touhou) . Booth is a download platform.
+
+If you wanted to deploy to spotify or music streaming, you would usually need to [join Touhou Digital Music Distribution](https://www.touhou-music.jp/circle/) . However, they are "only accepting new circles from the BOOTH Transition Circle and the Contract Circle" , or you get a referral from an existing circle.
+
+If you release an album for free anywhere, then that would be fine since you're not collecting revenue. If you sell physical media at officialy-endorsed Touhou events, that would be fine, and your charge would be used to cover media & printing costs.
+
+Since it's potentially hard to do the correct process for distributing paid digital Touhou music, especially as a foreigner, many people/foreigners put their music on spotify, bandcamp, or whatever anyway.

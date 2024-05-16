@@ -64,6 +64,13 @@ Routing in S1 is pretty basic. For files in the inspector, you can change the ch
 
 If you want S1 to start up faster, you can disable some services in the preferences. Also, in S1 > S1 installation > Installed content, disable all addons.
 
+Going further, moving extensions and plugins can noticeably speed up startup time and reduce memory usage, but this is done it on risk.
+
+as this  
+You can also De-Esser, Fat Channel, Tuner
+
+
+
 While S1 is generally responsive, some plugins are CPU-hungry. Like room reverb in surround. The performance monitor has a handy feature to sort FX by CPU use, and then disable plugins. If you want a low-CPU surround reverb, try FDNreverb with FDN size 16-32.
 
 Conclusion: Dolby Atmos support in S1 is basic, buggy, and responsive. It's still usable though if you know what you're doing.

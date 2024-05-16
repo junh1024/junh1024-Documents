@@ -141,6 +141,28 @@ Pitchshifting Tips:
 * It may be helpful to read [how pitchshifting works](https://github.com/junh1024/junh1024-Documents/blob/master/Audio/How%20Pitchshifting%20Works.md#introduction)
 * RPR may have a bug with rendering & PDC. Please disable "Inform plugins of offline rendering state".
 
+TODO
+Pitch shifting can be an important part of your mashup production, and depending on the implementations & settings you use, could greatly impact on the character and quality of your vocals. Different pitch shifters have different behaviour and tradeoffs so it's important to know about them.
+
+Elastique 3 Pro is the latest version of Elastique, and has the most preservation on bass and transients. But may produce artefacts as such due to the. None/manual and automatic formant control is available. Hi CPU. Elastique 2 Pro is widely available and has some preservation of bass and transients but may still produce artifacts. None/manual and automatic formant control is available. Medium CPU.
+Elastique 2 efficient has no formant controls. In my produce frequency Domain artifacts on vocals and bass. But may have less transient artifacts than Elastique 2 Pro. Low CPU.
+Elastique soloist and is suitable for vocals. This is also low CPU. Monophonic automatically preserves formats, while speech does not.
+Soundtouch is suitable for vocals and low CPU. No formant controls are available.
+Voice Pitcher 3 is available as a free plugin. Low CPU & adjustable formant correction, but it could make amplitude modulation artifacts. See "Where can I find V3 plugins" on https://www.toneboosters.com/support.html
+
+
+Soundtouch doesn't increase peak levels, hinting it's purely frequency Domain operation. But Elastique does increase peaks so it's hints at time Domain operation. Elastique efficient makes some vocal artefacts on some songs, so it also hints at some frequency Domain operation. In combination with the last 2 sentances, we conclude that Elastique 2 efficient works in both domains.
+
+Elastique Pro preserve formants can help preserve the timbre of vocals with appropriate settings, and perhaps even instrumentals by seating to High formant. If you find that Elastique Pro preserve formant sounds unnatural with weird harmonics or distortion, you can set it back to regular Elastique Pro, setting your desired pitch shift, then shifting the formant in the opposite direction by about half amount. For example, if you're shifting the pitch down by 1st, then you can try shifting the formant up by 50 cents.
+
+Doing pitch shifting and the timbre changes, you could also try using EQ to compensate. For example, if you shift the pitch up , they might be less in bass &/ an increase in triple. therefore, You can EQ up the bass, and/or EQ down the treble. The opposite can apply if you shifting the pitch down.  
+
+If it sounds like the vocals or instrumentals are the same volume but not in the same space, then the vocal or instrumental could need widening or narrowing. The vocal could also need some reverb. specific frequency ranges in the instrumental could also need narrowing 2 sound more comfortable. For example, the bass or high frequencies.
+
+
+
+TODO END
+
 Balance
 ---
 Vocal-Instrument balance is an important mixing issue, not just for mashups, but for vocal songs in general. If the balance is wrong, one will overpower the other, making your mashup stand out in a bad way. I present a systematic approach for getting the balance approximately correct, that I've developed recently. LUFS is a perceptual loudness metric, and most meters should be gated (ignores silence).
@@ -168,6 +190,7 @@ General Tips:
 * Layer clips if you're short on ideas for ending.
 * Sectional/clip filtering is good.
 * In Traktor, fractional BPM with a deviation of 0.001 to an integer can usually be rounded & ignored. But if it's 0.003, maybe it's right
+* Mixmsterstel has [a post](https://old.reddit.com/r/mashups/comments/1cvejbs/resource_you_never_know_who_will_play_your_mashup/) on common issues with mashups.
 
 Video
 ---

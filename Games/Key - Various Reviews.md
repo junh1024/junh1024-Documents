@@ -2,7 +2,18 @@
 
 ## Introduction
 
-This document has my own analysis/reviews split off from the [main document](https://github.com/junh1024/junh1024-Documents/blob/master/Games/Key%20-%20Overview%20of%20Visual%20Novels.md#introduction) due to length reasons.
+This document has my own reviews, analyses, and technical notes split off from the [main document](https://github.com/junh1024/junh1024-Documents/blob/master/Games/Key%20-%20Overview%20of%20Visual%20Novels.md#introduction) due to length reasons.
+
+## Accessibility
+
+If you're visually impaired (AKA blind), newer Key VNs which use the Siglus engine [don't support screenreaders](https://old.reddit.com/r/visualnovels/comments/190rnek/weekly_questions_and_recommendations_megathread/kgynr6d/) . So you may be limited to older games which use the AVG32 and RealLive engine. Re-releases (including official English releases) may use the newer Siglus engine, so you may be limited to older games from Kanon through to Little Busters, and fan translations.
+
+VNDS is a VN script interpreter. Originally for DS, but now supports  Android, iOS, PSP, Windows, Mac, Linux, and Switch. A Windows interpreter is [available here](https://github.com/ajusa/VNDS-LOVE) . CLANNAD has [been ported](https://web.archive.org/web/20101205113404/http://digital-haze.net/ch/vnds/kareha.pl/1276442564/) to VNDS.
+
+ren'py has a self-voicing (TTS) feature. No Key games have been ported to ren'py, but there is a fan game called [CLANNAD - The Past Path](https://renai.us/game/clannadthepastpath.shtml) in ren'py.
+
+You could always watch the English Dub of anime. Dub exists for Kanon, Air, CLANNAD, and Angel Beats.
+
 
 ## CLANNAD HD technical analysis
 
