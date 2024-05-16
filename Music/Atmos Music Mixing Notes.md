@@ -91,7 +91,7 @@ Stems were available for this song and the artist looked a bit Japanese like Joj
 
 This is a pop-orchestral ballad with drums, piano, strings, and strings. There's potentially a combination of real & fake violins. The piano part sounds like Chilly Gonzales - White Keys from his Solo Piano II album.
 
-There are some people that don't like the song/artist due to what was done on tiktok about it, but I don't know about that. From what I gather, Charlie puth also went on tiktok and basically made light switch in front of them and released it as a song. But it's more a run-of-the-mill pop-EDM song rather than an emotional song so it's less polarising.
+There are some people that don't like the song/artist due to what was done on tiktok about it, but I don't know about that. From what I gather, Charlie Puth also went on tiktok and basically made light switch in front of them and released it as a song. But it's more a run-of-the-mill pop-EDM song rather than an emotional song so it's less polarising.
 
 The stems also seemingly have DC offset and dither so reducing bitdepth doesn't really remove them.
 
@@ -113,28 +113,105 @@ Previously, the violin sidechain occupies a few channels due to duplicating MIDI
 
 I found a bug - only voices 1 & 4 make sound. voices 2 & 3 make MIDI events, but you can't hear the sound. This bug is also in the original. I found out this is due to the velocity is too low due to an equation error. This is fixed in my version.
 
-In Sept 2023, I do some balance tweaks, finally turn down the discontinuity glitches in the piano stem, and add some reverb so that the piano fades out nicely. The song starts on bar 1 instead of bar2. For that, I needed to change the phase of the PMOD of 2 tracks. I was about to finish revision J, but upon magnifying the peaks with Peaks Display settings, there's some residual activity in the heights in chorus 1. So I need to bypass a panner to remove it, and tweak my clip timings.
+In Sept 2023, I do some balance tweaks, finally turn down the discontinuity glitches in the piano stem, and add some reverb so that the piano fades out nicely. The song starts on bar 1 instead of bar 2. For that, I needed to change the phase of the PMOD of 2 tracks. I was about to finish revision J, but upon magnifying the peaks with Peaks Display settings, there's some residual activity in the heights in chorus 1. So I need to bypass a panner to remove it, and tweak my clip timings.
 
 3D reverb is not used in this mix since there was a small problem getting it working, and also CPU issues.
 
 
 ## Aespa - Better Things
 
-How I know the song. Someone shared a compilation comparing the stereo & DA versions of songs. I liked that song, but I wanted to see if the dynamic panning of the auxiliary percussion could be converted into static panning. I did a quick test of effects in the song w/o ML separation, and it seems that the cowbells and the clap are separated in time, so that with dynamic panning I have the illusions of separate stems and static panning.
+### Introduction
 
-It took a few months for the DA version to arrive on Tidal so I can listen on speakers. But it doesn't sound that great on speakers. It's an object mix, but most of the objects are clustered around two-thirds front. I wanted to do ML stem separation to get stems, but I deferred it due to low space.
+Better things is "described as an up-tempo minimalistic dance song" . [Source](https://v.daum.net/v/20230731100431193) , via Wikipedia. The song is memorable and catchy, since it only uses the two chords of 1 & 5. But it's made interesting through the use of Mixolydian mode AKA the mode that starts on the 5th note of the scale - deceptively simple. CHECKTHIS
 
-A few months later, an instrumental is available and I thought it would be a good time to start The Project properly. the ML stem separation actually turned out pretty good. I was a bit hesitant about using DEMUCS since DEMUCS is bad with piano, but the piano turned out fine. It also put some electric piano in the guitar stem and there are somehow some vocals in the instrumental. I don't how like that electric piano is doubling the vocal Melody, so I turn it down with linear EQ since there is some pads I want to keep in the same stem. Originally, I had a more complex setup where the saw pad in the other stem was panned slightly to the side for 7.1 via phase shift to emulate object size, but seeing how the pad is also in the guitar aka electric piano, I was happy with the pad in the guitar stem being the front, and the other stem being the side of the pad, but the phase shift on.
+Someone shared a compilation comparing the stereo & DA versions of songs in mid-2023. I liked that song, but I wanted to see if the dynamic panning of the auxiliary percussion could be converted into static panning. I did a quick test of effects in the song w/o ML separation, and it seems that the cowbells and the clap are separated in time, so that with dynamic panning I have the illusions of separate stems and static panning.
+
+It took a few months for the DA version to arrive on Tidal so I can listen on speakers. But it doesn't sound that great on speakers. It's an object mix, but most of the objects are clustered around two-thirds front with some occasional dynamic panning which was too fast. I wanted to do ML stem separation to get stems, but I deferred it due to low space.
+
+### Stem Separation
+
+A few months later, an instrumental is available and I thought it would be a good time to start The Project properly. the ML stem separation actually turned out pretty good. I was a bit hesitant about using DEMUCS since DEMUCS is bad with piano, but the piano turned out fine. It also put some electric piano in the guitar stem and there are somehow some vocals in the instrumental.
+
+Changes: I don't how the electric piano is doubling the vocal Melody, so I turn it down with linear EQ since there are some pads I want to keep in the same stem. I also didn't like the vocals that were formant-shifted down, so I finally turned it down via linear EQ bass cut near the end of the checking process.
+
+
+Originally, I had a more complex setup where the saw pad in the other stem was panned slightly to the side for 7.1 via phase shift to emulate object size, but seeing how the pad is also in the guitar aka electric piano, I was happy with the pad in the guitar stem being the front, and the other stem being the side of the pad, but the phase shift on. Unfortunately, listening on speakers, it sometimes comes exclusively from the back, and the saw pad was inconsistently extracted from the guitar, piano and choir, so i finally placed that at the front for simplicity.
 
 Since I need the cowbells and claps isolated, I tried drum separation. But they weren't isolated for the whole song so it's not a huge improvement in usability over the original drum steam. So the cowbells and claps were isolated by looping the start of the song which has those plus the hi-hat, and removing the hi-hat using linear EQ and using that as a side chain for FFT to cover the whole song. +- 50% sounded too wide for those elements, but 25% sounded too narrow, So I used plus minus 33%.
 
 DEMUCS didn't reliably extract the choir so again, FFT was used along with sidechain. Similar to my Golden Hour mix, this song has multiple layers of height. The rhythm at ELL. Some stereo elements like pads at 1/3 height, then finally choirs at 2/3 height. The choir was slightly boosted, but I undid that since they were now too loud on the stereo downmix. Initially when making this project I had planned for this to be in 5.1.4, even though there May be precedence effects and pan law errors since I don't know what to make difference between the sides and the back. The DDPA encoder would then upmix to 7.1.4 . But I decided to have vocals upmixed to 5.1s and somehow figure out to redo the vox automation, then have the pads upmixed to 5.1b . 
 
-I rendered a 5.1 version to check surround activity, But it was a bit low. *So actually, this is a fun song, but you might be struggling to find stuff to put in the back speakers, because during the chorus there are few textural elements like pads* . To get more surround activity overall I did some things I may not usually do like spreading a small amount of rhythm to the back speakers and putting some secondary vocals (not VFs or BVs) in the back speakers as well.
-
 The vocals were isolated by subtracting that instrumental from the vocal version in the time & frequency Domain. Since there is some high-frequency bleed on the vox, I use linear EQ on the drums to turn down those high frequencies to compensate. Linear EQ is used a lot in this project to avoid phasing artifacts.
 
+### Mixing
+
+I rendered a 5.1 version to check surround activity, But it was a bit low. *So actually, this is a fun song, but you might be struggling to find stuff to put in the back speakers, because during the chorus there are few textural elements like pads* . To get more surround activity overall I did some things I may not usually do like spreading a small amount of rhythm to the back speakers and putting some secondary vocals (not VFs or BVs) in the back speakers as well.
+
 I also listened to the demo version of Better Things mostly out of boredom, but I was inspired to change the arrangement to get slightly more surround activity. In this second part of the last chorus, I put in some pads to fill the surround speakers, but you can barely hear it.
+
+When listening on earbuds binaural, I noticed final vocal chops were a bit inconsistent in volume. The waveform of the 5.1 downmix also hinted at this. So I used a combination of clip take volume and clip take automation to fix this. The LUFS momentary graph now has less variation.
+
+The clap of the auxiliary percussion is a bit loud. This isn't a problem when they're both panned to the center, but since I'm spreading them to CL and CR, it's a bit noticeable so I turned down the volume of the clap by one DB.
+
+Checking channel pairs of the DDPA render, I heard some artifacts on the vocals in the surround channels, so I increased the FFT size of the upmixer. This also increased the surround activity, so I also increase the rear threshold to compensate. More rhythm was upmixed into the center to cover the center vocals.
+
+I recalibrated my speakers and played a newer DDPA encode. The pads seem to be biased backwards after upmixing. Checking isotope insight, the pads were indeed biased backwards. Looking at the phase vectorscope, the stereo image correlation is negative. So I reduced the studio width, and then the pad sounds a bit more balanced on speakers.
+
+Most of the initial mixing & stem separation in DAW was done in about three days. I can do it quickly since I don't need to balance raw multitracks. One previous problem I had on Golden Hour, is that some instruments sound louder in binaural due to pan law, so I revised some of my panners to have variable pan law, and updated my project with a compromise -4.5dB pan law for my panners. Object authoring took a few days, and final checking/edits another few. So overall, About 2 weeks over a few months.
+
+### Object authoring
+
+I put the auxiliary percussion into their own CL & CR channels, but I forgot to expand the with to compensate for the narrower speaker positions. I noticed that they were a bit loud and resonant on my speakers, and I realised they might be boosted by being panned to the side, so I turned down the pan law in volume_pan.
+
+I made a 7.1.4 encode. But I later decided to make it an object mix for better control over trims, more consistent instrument balance due to pan law of objects, and to demonstrate how to use objects to others. I wanted to have auxiliary percussion as objects since they have high activity and their own position.
+
+To make a custom static object mix I need to choose a channel mapping for the channels before being passed to object authoring AKA editing text files for DAMF. When editing the DAMF metadata, you need to be very careful as it's very picky about the formatting. Extra or missing spaces will cause the Dolby encoder to fail. Likewise, using tabs instead of spaces, and unexpected values will also cause errors. The initial mapping was like 9.1.4 except centers before the top channels, since it's similar to what was generated by DACE (I'm not using DACE for the final since it has mapping issues). But then I chose a mapping similar to 15.1 except the bottom is replaced with CL CR. It's good since I have tools & presets to handle that, except monitoring in binaural is a bit incorrect.
+
+Recall The pads and choir are panned at 1/3 and 2/3 height respectively. If I added them as separate objects, then 2x4 objects in addition to the percussion would exceed the spatial coding limits of 16. So I decided to combine them into 4 objects shared with the bed to stay under the limit, and efficiency reasons as those textural elements only have moderate activity. 33% and 66% height is equivalent to 50% and 100% height in an object at 66% high. 
+
+I also checked on an earlier version encoding to DDPA, then decoding back to objects. The objects are arbitrarily reordered, but the ordering is stable, AKA object tracks are reused for the same source, since the total entities is below the spatial coding limit of 16.
+
+
+
+### Masters distribution format
+
+ADM is the most compatible master format as basically all Dolby Atmos editing software can open this, but it's very big due to 24-bit audio and silences aren't compressed. 16-bit ADM is possible, but Dolby software will error on it.
+
+DAMF has moderate compatibility. DAMF by default is 24-bit, but 16-bit DAMF is completely valid to Dolby software, which can be produced by some non-DA tools. And you can directly edit the metadata.
+
+MXF is 24-bit, but silences are compressed. DME can directly encode from it, but compatibility is the lowest. Dolby claims that automation is quantized.
+
+Further compression. ADM can be compressed using compressed archive formats like zip, rar, and 7z which typically reduces the size & hence transmission time over the internets. You should do this when sending ADM files, especially for ADM > 500MB.
+
+Zip offers wide compatibility since zip archives can be created and extracted using most common OS today. 7-zip and RAR offer better compression, but less compatible since you need to download 3rd-party software. Note that RAR4 is the older & non-default profile which is most compatible with older/free software. WinRAR 7 removes support for creating RAR4, increasing lock-in.
+
+NTFS compression has some compression, but it's built into Windows. The use-case for this is large files that you want to store and read only, since compression also takes a long time. The compression would not apply when sending files over the internet.
+
+Some statistics:
+
+- ADM & DAMF 24b: 396 MB
+- MXF 24b: 301 MB
+- DAMF 16b: 264 MB
+- DAMF 16b, NTFS compression: 182 MB
+
+- ADM in ZIP: 132 MB
+- MXF in ZIP: 106 MB
+- DAMF 16b in ZIP: 119 MB
+
+- DAMF 16b in 7z, Fast: 105 MB
+- DAMF 16b in 7z, Normal: 83 MB
+- DAMF 16b in 7z, Max: 82 MB
+
+- DAMF 16b in RAR4, Fast: 110 MB
+- DAMF 16b in RAR4, Normal: 72 MB
+- DAMF 16b in RAR4, Good: 72 MB
+
+- Original WV: 46 MB
+
+Conclusion: ADM in ZIP offers the widest compatibility in terms of DAW & OS. But DAMF 16b in RAR4 can be for personal archiving.
+
+
+
 
 ## Vantablack - IES V1
 
@@ -171,11 +248,43 @@ After organisation, I did some static panning & routing for some instruments. Th
 
 1. the piano in "Mental Courage" does ostinato, so it's a candidate for circular panning, but I decided to leave it static, since I want the impact to increase through the album, not decrease. 
 2. There was some reverse cymbals that were a candidate for dynamic panning (left-right square panning). But it's mixed into the main drum stem. I saw that there were noticeable features in the spectrum, so I used ReaFIR to turn those frequencies down, and then pan them when I get them back. Unfortunately, even at full L & R directions, the effect is a bit subtle. In "The Great Siege", There was some left-right panning on the gated riser, so I turned that into a circular pan. The shaker had some Psnning travelling from left to right in a saw pattern, so I replicated that except at half-width.
-3. The author had some dynamic panning for the shouts. Since this is called "Victorious tribal run", I thought that I can pan different parts to different directions across the front (reduced LCR panorama) to represent different tribes. There was also some left-to-right panning in the shaker, and I turn that into a triangle pan also at half-width. There were some metal hits in different pitches, and I was inspired to do left-right panning with a square wave but you can't hear it that much. For the shakers and metal hits since they only occupy half width, then they can go in CL & CR at full width and it should sound about the same. Which it did, but there are somehow small differences in sample value which I can't figure out why.
+3. The author had some dynamic panning for the shouts. Since this is called "Victorious tribal run", I thought that I can pan different parts to different directions across the front (reduced LCR panorama) to represent different tribes. There was also some left-to-right panning in the shaker, and I turn that into a triangle pan also at half-width. There were some metal hits in different pitches, and I was inspired to do left-right panning with a square wave but you can't hear it that much. For the shakers and metal hits since they only occupy half width, then they can go in CL & CR at full width and it should sound about the same. Which it did, but there are somehow small differences in sample value and I can't figure out why.
 
-Some SFX had reverb, so I thought it would be appropriate to spread it to the back. But a surround upmixer puts too much direct/transient sound at the back, so I used my own fft transient designer to spread the ambience to the back. I also had a look at the main drum stems and I found them too wide on earbuds, so I need to reduce the bass width of the drums. The strings, were also viewed on the phase vectorscope, and they were also to wide, so bass width was also reduced.
+Some SFX had reverb, so I thought it would be appropriate to spread it to the back. But a surround upmixer puts too much direct/transient sound at the back, so I used my own FFT transient designer to spread the ambience to the back.
+
+I initially had the brass at the front for a conservative cinematic panning style, but the author had some of the brass at the back. I was considering moving the brass (which would involve redoing some routing), but I decided against it since some brass riser samples had percussion built-in which leaks  to the back after upmixing, and separating it properly would need ML = more complexity, so I decided not to.
 
 ### Effects
-I noticed that for the author's surround mix, they used master compression, so I did the same to my mix.
+
 
 I noticed some phasing in the vocal shouts, and I asked the author. They just added reverb, the phasing was in the original, so it's up to me to fix it. Various approaches were initially tried, but "DTBlkFX" with negative strength added some body & high end. Then, conventional post-EQ was added to match the original tone. I also thought afterwards to use my own FFTMT in Noise Control/GR3 mode, but DTBlkFX used less CPU & removed more phasing.
+
+I also had a look at the main drum stems and I found them too wide on earbuds, so I need to reduce the bass width of the drums. The strings, were also viewed on the phase vectorscope, and they were also to wide, so bass width was also reduced. Extra narrowing was done on Tribal run, since it was extra wide.
+
+I was going through some rhythm/SFX tracks to add upmixers to fill the centre channel, but when I put a upmixer on the piano, there wasn't much Center activity. I saw on the phase vectorscope that the correlation was about -20%. The piano bass didn't have this problem so that needed to be treated separately, but didn't have separated a piano bass steam for all the songs. So I used a combination of hacks like multi-band stereo imaging, changing polarity of channels, and stereo width control to fix the imaging issues. A piano bus was added to reduce the hacks and to make my intentions clearer.
+
+Actually, a lot of the rhythm tracks have stereo issues. Shaker was turned into mono to make the panning clearer.
+
+
+
+### Loudness
+
+Having consistent perceptual loudness across all 3 songs is important. Since all 3 songs have loud & soft sections, you could argue that the loudness target can be the same. I analyzed 3 sets of files. The binaural version, every song is limited to -12 LUFS and there's distortion artifacts. The stereo Masters I got as part of the stems were different loudnesses. The stereo render I made from my project had similar LUFS except for the last song which is about 1.5 DB Louder. so I turn the volume down for that song using master automation on bitutils.
+
+I noticed that for the author's surround mix, they used master compression, so I did the same to my mix. When you use master compression, you generally want the gain reduction to be below 3db. On the last song it's about 4.5. I considered moving the volume reduction to clip gain, but then it will be unclear which clips had further volume reduction due to balance rather than volume, so I keep it on the master even though the master compressor is working harder.
+
+The author didn't want the songs to be too quiet so I had initial aim of -21 to -18.
+
+### Multichannel compressors
+
+In terms of surround compressors, my compressor_multi works, but there are some issues like few controls and gain changes occur in steps. So I was wondering about IEM Omnicompressor at the back of my head.  That also works but there are other issues. 
+
+1. It's actually a ambisonic compressor where W is the trigger channel. This means L  in surround. This isn't a problem if L is mostly the loudest channel, and it's actually not much of a downgrade for some surround Dynamics processors I've used in the past where L&R are the trigger channels only. But if you want all the channels to be trigger channels, then you can  make a mono downmix and send that to the 1st channel of the compressor.
+2. It's ambisonic, so it only affects a square number of channels in line with whole ambisonics orders. So with the VST2 version, the only way to increase the affected channels is to increase the channel width. But for the VST3 version, there's a hack to get it working on arbitrary channel widths. Let's say you wanted a 20 Channel compressor. In the FX I/O routing panel, set the VST3 bus width to 32 channels, then increase the actual channel width to 32 channels. That will activate the compressor for 4th order. Then you can decrease the channel width back to 20. This activation will stay after you close and reopen the project.
+3. Due to controls, it's only suitable as a short-term compressor, and typing in arbitrary values won't work (unlike JSFX). On the Flipside, you can use it as a multi-channel gain plugin.
+
+
+With the release of Reaper 6, a limited number of built-in FX can run in multichannel, including ReaComp. You can run it in multi-mono, multi-stereo, or multi-channel. The effect is slightly different, equivalent to a channel link of 0% to 100%. The effects are a bit counterintuitive, so I'll explain. With a channel link of 100% in  multi-channel (the behavior of most modern surround compessors), the image is preserved, but the ambience is turned down since the whole audio is compressed during loud sounds. With a channel link of 0% in multi-mono, the image may be warped, but the loudness & width of ambience is preserved.
+
+In terms of CPU, my compressor_multi uses the most CPU due to JSFX, IEM Omnicompressor uses over half, and ReaComp uses about half.
+

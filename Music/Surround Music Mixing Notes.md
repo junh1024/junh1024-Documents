@@ -69,7 +69,6 @@ This project has two reverbs. There's a global surround reverb which shapes much
 
 Left-right panning was added to the lead vocals at the ending to complement the Rising tension, similar to the ending of the last bullet.
 
-
 The project was taking a little long to render, so I wanted to reduce the CPU usage. My own FFT tools have silence CPU gating but manually gating them further reduces CPU use. I thought upgrading from elastique 2 to 3 would reduce CPU, (NB this would be incompatible with reaper 4), but it actually increased CPU. Good that they kept v2. Retune and elastique soloist have their own CPU gating, which is quite effective, so it's not worth it to make manual automation for those. Changing the project sample rate from 48k to 44k reduced to render time about 25% since all of the media is 44k.
 
 ### Oxydlate Drums
@@ -88,8 +87,8 @@ The next step is to make basic mix. This means adjusting the balance of instrume
 The drums also needed processing to sound better. It seems the snare drum was recorded from the top. It's almost as if the snare wire were disengaged. So I apply some distortion to give it more impact but it sounds a bit bad. I think David may have opted for drum replacement but I wanted to keep it simple. The hi-hats and symbols are also lacking volume, but if you just boost or pan them this also affects the snare due to mic bleed in the overheads. So you need to apply a high pass EQ to remove the kick & snare from the overheads. Carefully listen to the overheads as you adjust the filter frequency so that you don't remove too much. Then you can Pan and adjust the overheads with more control.
 
 
-
-## The place where the wind arrives
+## Kanon ED
+**The place where the wind arrives**
 
 I was hesitant to start this surround project since there didn't seem to be many elements that could be put in surround. But on a careful listen, there are some pads, so I thought I'd give it a try and also fix up in the issues to be discussed below.
 
@@ -101,16 +100,36 @@ The drums high frequency was also slightly cut and the width was reduced.
 
 Vocals being too quiet is the main issue of this song. I thought a 1 DB boost would fix it, but it needs something like + 2.5 DB. Gentle compression was used in the chorus To prevent the vocals being too loud. When the vocals are boosted, more issues are apparent like the vocals need de-essing and maybe exciting as well.
 
-For the elements that I'd try to pan to the front I'd usually get them separated out. Like the piano. But no ML could get all the piano out. Luckily, MO had sequenced the MIDI file, so I have some more options. initially, I tried to remove the piano from the back, but not all of the piano was removed. So I tried the reverse approach of adding the pad to the back. That was more successful. One needs to be careful about how much sound to move to the back since front/back balance would be impacted. As with my aespa better things, surround activity was lacking. The vocals were upmixed to 5.0 surround & some bleed from the front was added. I was going to get the strings out and widen them, but I'm not bothered with enough bleed from the upmix.
+For the elements that I'd try to pan to the front I'd usually get them separated out. Like the piano. But no ML could get all the piano out. Luckily, MO had sequenced the MIDI file, so I have some more options. initially, I tried to remove the piano from the back, but not all of the piano was removed. So I tried the reverse approach of adding the pad to the back. That was more successful. One needs to be careful about how much sound to move to the back since front/back balance would be impacted. As with my Aespa - Better Things, surround activity was lacking. The vocals were upmixed to 5.0 surround & some bleed from the front was added. I was going to get the strings out and widen them, but I'm not bothered with enough bleed from the upmix.
 
-Vocal extraction left some artifacts when listening to the full mix since the vocals were originally too quiet. It turns out that MDX23 is the current rage. I looked into the code, and it seems to be doing Kim vocal first and then DEMUCS which is the reason for its High Quality. But I couldn't see that clamp mode clamp was set for DEMUCS, and hence the balance of stems might be off. 
+Vocal extraction left some artifacts when listening to the full mix since the vocals were originally too quiet. It turns out that MDX23 is the current rage. I looked into the code, and it seems to be doing Kim vocal first and then DEMUCS, which is the reason for its High Quality. But I couldn't see that --clip-mode clamp was set for DEMUCS, and hence the balance of stems might be off. 
 
-After a few days of hesitating, I finally set up MDX23. I need to use the --single_onnx option otherwise it would crash. It took about half an hour for a successful run.  MDX23 has better isolation and Less artifacts on the vocals.  But it doesn't add to Unity - there is a difference in bass after comparing with the original.
+After a few days of hesitating, I finally set up MDX23. I need to use the --single_onnx option otherwise it would crash. It took about half an hour for a successful run. MDX23 has better isolation and less artifacts on the vocals. But it doesn't add to Unity - there is a difference in bass after comparing with the original.
+
+
+
+## Unforgettable
+
+I know the song since it was being played at a funeral and I was invited to control the audio for it. I know Sia sung it for Finding Dory since I read the Wikipedia article for it. Earlier this year, the song popped into my head, and I thought that Finding Dory might have a surround version of it. It does, but there are some sound effects over it.
+
+So I need to use FFT to remove SFX with the CD version (no SFX) as a side chain. After a while of trying, it should work, but it's not working very well. I eventually realized that the CD is at the original cinematic 24 FPS, speed but the BD is at 23.976 FPS speed. Similar to my Garden of Words project. So after slowing down the CD, the SFX can be removed much better. There are some distortion artifacts left. From some analysis of the 7.1, mixing the front and back channels forms the side channels, so the side is therefore upmixed & not unique. It can be removed. This is similar to the initial 2011 BD release of the Lion King with 7.1. But after revisiting this project some months later and applying the vocal loudness metres trick, I find out that the vocals are too loud due to the balance being changed with side chans removed. So I reduce the center channel by 2dBs. The center channel is still louder than 2dBs under the 4.0 subset, but this might be the right balance for this mix since the center channel also contains content apart from vocals.
+
+I was going to call it finished since there were some noises I can't remove. But I asked myself, can I do better? And the answer is yes.
+
+By starting from the CD version and using the BD version to assist. Perhaps I should've done this 1st.
+
+So I redid the project. Upscale CD to 3ch, using FFT to "correct" the center ch with BD, and using FFT to pull content into the back speakers, also with BD. To reduce the bass going into those channels, I use Hipass EQ on those channels from the BD version, before FFT. I need to check carefully the amount of strings moved to the rear to balance image & F/B domiance, since FFTMT is >100%. One issue was balancing adequate surround activity without having the image be too backwards. So I used Use automation to change the surround levels during the string swell before the intro and during the cello-heavy Bridge.
+
+While I was reading the ReaFIR manual I saw that the subtract mode can be used to denoise and you can also build a noise profile. It's not a right minus left kind of subtract. I was thinking maybe it can be used to remove dithering noise. FFT subtract isn't the same as EQ. EQ is a multiplication, so in most cases you will need not be able to completely remove the noise for a particular frequency. Also if you're using EQ to remove to the noise, you will also likely affect musical content. Since FFT subtraction is actually a subtraction, you can more effectively target noise and as long as the subtraction amount is low, musical content will be minimally affected. Tuning the thresholds is an important part, so I set the thresholds to remove some of the noise while making the fade-ins not look like they have FFT holes.
+
+- Start: 17/07/2023
+- Finish: xx/03/2024
+
 
 
 ## Kaijutsu Renka
 
-I know the song from rewrite arrange album. The drums in the original version sounded weak, so I wanted to replace it with something stronger from the ridge racers 2004 soundtrack. In the end I chose Night Stream over Vanishing Point. The BPM of this project was set to exactly halfway between the two songs. 
+I know the song from rewrite arrange album. The drums in the original version sounded weak, so I wanted to replace it with something stronger from the Ridge Racers 2004 soundtrack. In the end, I chose Night Stream over Vanishing Point. The BPM of this project was set to exactly halfway between the two songs. 
 
 ### Drums
 

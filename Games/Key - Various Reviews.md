@@ -2,7 +2,18 @@
 
 ## Introduction
 
-This document has my own analysis/reviews split off from the [main document](https://github.com/junh1024/junh1024-Documents/blob/master/Games/Key%20-%20Overview%20of%20Visual%20Novels.md#introduction) due to length reasons.
+This document has my own reviews, analyses, and technical notes split off from the [main document](https://github.com/junh1024/junh1024-Documents/blob/master/Games/Key%20-%20Overview%20of%20Visual%20Novels.md#introduction) due to length reasons.
+
+## Accessibility
+
+If you're visually impaired (AKA blind), newer Key VNs which use the Siglus engine [don't support screenreaders](https://old.reddit.com/r/visualnovels/comments/190rnek/weekly_questions_and_recommendations_megathread/kgynr6d/) . So you may be limited to older games which use the AVG32 and RealLive engine. Re-releases (including official English releases) may use the newer Siglus engine, so you may be limited to older games from Kanon through to Little Busters, and fan translations.
+
+VNDS is a VN script interpreter. Originally for DS, but now supports  Android, iOS, PSP, Windows, Mac, Linux, and Switch. A Windows interpreter is [available here](https://github.com/ajusa/VNDS-LOVE) . CLANNAD has [been ported](https://web.archive.org/web/20101205113404/http://digital-haze.net/ch/vnds/kareha.pl/1276442564/) to VNDS.
+
+ren'py has a self-voicing (TTS) feature. No Key games have been ported to ren'py, but there is a fan game called [CLANNAD - The Past Path](https://renai.us/game/clannadthepastpath.shtml) in ren'py.
+
+You could always watch the English Dub of anime. Dub exists for Kanon, Air, CLANNAD, and Angel Beats.
+
 
 ## CLANNAD HD technical analysis
 
@@ -10,7 +21,7 @@ CLANNAD has been remastered for a new generation of widescreen HD consoles start
 
 Due to the widescreen HD display format, most art is now sharper, but some artwork could be cropped, leading to less picture _CHECKTHIS. On the [switch version](https://old.reddit.com/r/Clannad/comments/l0iqa3/clannad_original2004_vs_switch_hd_edition/gjtvzyl/) , "you can tilt the screen up and down using the right stick" to reveal more picture. The soundtrack has been slightly remixed, but you might prefer the original version, especially if you're accustomed to it from the original or the anime. But my biggest complaint is about the 5.1 surround handling of the soundtrack.
 
-The 5.1 soundtrack is a significantly worse experience then the stereo version, including the OP. It's badly upmixed, the width has been reduced to almost mono, it's tilted to the left, and significant center channel activity means dialogue is subtlely obscured. It's worse than using the upmix feature on your AVR.
+The 5.1 soundtrack is a significantly worse experience than the stereo version, including the OP. It's badly upmixed, the width has been reduced to almost mono, it's tilted to the left, and significant center channel activity means dialogue is subtlely obscured. It's worse than using the upmix feature on your AVR.
 
 What I would have recommended to the developers, if you want a surround experience, but don't want to spend too much time on it, is perform mixing in the game engine like the following:
 - Dialogue goes to only the center speaker.
@@ -59,7 +70,7 @@ NB: This is a satirical review of Chihaya Rolling.
 
 [back to main document](https://github.com/junh1024/junh1024-Documents/blob/master/Games/Key%20-%20Overview%20of%20Visual%20Novels.md#rewrite)
 
-## Siglus Engine – the Controls
+## Siglus Engine - the Controls
 
 Rewrite being the first Key game using the Siglus Engine the UI looks a bit Janky. But at least the button text is big and readable. Successive Key games have shrunk the button text, and with Summer Pockets, it's probably the worst since icons were added, and now the button text is now very small and in a Serif font. There are a variety of ways to implement the controls and UI for Siglus, as [shown on vndb](https://vndb.org/r?f=fwSiglusEngine-&fil=&o=a&s=released). 
 
@@ -69,11 +80,11 @@ Angel Beats had a good design with small icons, but medium-sized text to the rig
 
 ## Key Box - "For two decades" review
 
-![](http://Key.visualarts.gr.jp/Key20th/common/image/20th_box_image.jpg)
+![KeyBOX characters](https://obs.line-scdn.net/r/linenews/a/zOO7XcZNsFOEMAhI19ca2766t0a33a710/n600x400)
 
 *image: KeyBOX contents and outside*
 
-I'm going to do a critical review of this box set. Disk list is [here](https://musicbrainz.org/release/208f1ca5-d6c4-4b21-9810-39a51faf842f/discids). My review is based on disc list, and listening to some of the individual songs.
+I'm going to do a critical review of this box set. Disc list is [here](https://musicbrainz.org/release/208f1ca5-d6c4-4b21-9810-39a51faf842f/discids). My review is based on disc list, and listening to some of the individual songs.
 
 When I found out that Key was going to release a boxset of Key songs, I thought would be great since it would have some soundtracks, but it doesn't include any. Not even important themes or leitmotifs of the heroines as a "soundtrack sampler". To be fair, if they did include the soundtracks in full, it would take up about half of 50 discs. 
 
@@ -94,6 +105,20 @@ They could've included a DVD-ROM or download card for MP3/HE-AAC files so that y
 Conclusion: If you want a bunch of Key vocal songs and remixes you'll get it. But if you have specific tastes and wants like me, then you'll probably be better off buying individual releases. Perhaps this box is not for Key fans, but for other people to get introduced to Key songs.
 
 [back to main document](https://github.com/junh1024/junh1024-Documents/blob/master/Games/Key%20-%20Overview%20of%20Visual%20Novels.md#summer-pockets)
+
+### How to make a good remix
+After being unimpressed with the style &/effort of (some) of the remixes from Key Box, I decided to write this rant.
+
+A good remix inserts new compositional elements to make it seamlessly fit into the target genre, rather than just instrument & sound changes. Ostinatos don't count. Some examples:
+
+
+- Yami no Kanata He Night Funk Remix: Apart from a few added beats, there's no new compositional elements. EQ and gating aren't composition. Bad remix.
+- Catch You Catch Me House Remix (from KIRAKIRA MAJOCCO CLUV): is a good remix since it adds new compositional elements. A new brass motif was added to the introduction, and chords were made more repetitive in the verse to make them more suitable for a house style.
+- Tori no Uta | cosmic seekers remix: adds ostinatos which don't count, but it adds a very prominent saw Motif in the post-chorus. Good remix.
+- Sunbright | Brightest Sunflowers remix: adds a few elements. if you don't count the new motif in the introduction, there's still the post-chorus motif, and a Bridge was made out of the outro & 2nd chorus lyrics. Very good remix. 
+
+These are some examples of (good) remixes that have new compositional elements. Ayumi Hamasaki - M | Above & Beyond Remix doesn't add many new composition elements (mostly lots of ostinatos) but somehow it's still good.
+
 
 ## Appendix
 

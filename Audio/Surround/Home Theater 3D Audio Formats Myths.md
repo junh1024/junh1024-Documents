@@ -368,7 +368,7 @@ FALSE. Although this is the ideal situation, and the Dolby Atmos Conversion Tool
 TURE. The EBU EAR suite (REAPER import) and Fraunhofer MPEG-H suite (converter) accept Dolby ADM.
 
 ### I can change the downmix trims of a Dolby ADM file using the Dolby Renderer
-FALSE. You must convert the file to DAMF using the Dolby Atmos Conversion Tool before the downmix trims are unlocked in the Dolby Renderer.
+FALSE. You must [convert the file to DAMF](https://professionalsupport.dolby.com/s/article/Why-can-t-I-unlock-a-master-file-for-punch-ins-and-metadata-edits?language=en_US) using the Dolby Atmos Conversion Tool before the downmix trims are unlocked in the Dolby Renderer.
 
 ### It's hard to convert a legacy 5.1 project to an Atmos project
 FALSE, MAYBE. In PT & Nuendo, maybe you can convert legacy projects to Atmos projects using scripts. PT 12.8 has a helpful "Auto-Height Overrides Height Automation" which generates height changes with existing 2D automation. Or you can export 5.1 stems and start a new project. I haven't tested any of these.
@@ -396,7 +396,9 @@ I have tested neither workflow. Depending on budget or other factors, you may ne
 FALSE. While it is efficient, you lose directionality since it's arrayed to 7.1.2. A regular DCP workflow would be better.
 
 ### DAMF, ADM, and IMF IAB are the same quality
-FALSE, IMF IAB is reduced quality since the automation is quantized, and so IMF IAB (MXF) to ADM conversions should be avoided.
+FALSE, IMF IAB is reduced quality since the automation is quantized, and so IMF IAB (MXF) to ADM conversions should be avoided. 
+
+"IMF IAB positional metadata is quantized to eight events per frame, an IMF IAB is considered a mezzanine rather than a master... it may be desirable to convert from the original master file rather than from the IMF IAB mezzanine" - Dolby Atmos Conversion Tool manual.
 
 ### If I create in Dolby Atmos, I need to render a 7.1.4 and use the DTS-X creative suite to create a specific DTS-X mix for DTS-X theaters 
 FALSE. If you have produced IMF IAB, that is not Atmos-specific and will play back in DTS-X theaters fine.
@@ -416,7 +418,7 @@ Special thanks to the individuals that have contributed to my understanding.
 
 Date: Dec 2020 - Dec 2021 
 
-BIN uses 714 https://professionalsupport.dolby.com/s/question/0D54u000081EnDzCAK/trim-and-downmix-controls?language=en_US
+BIN uses 7.1.4 https://professionalsupport.dolby.com/s/question/0D54u000081EnDzCAK/trim-and-downmix-controls?language=en_US
 
 T: DDP compresion loud
 TRUE
@@ -519,3 +521,26 @@ DEPENDS. The default spatial elements is 12 (lower than DDPA) so if you don't ex
 
 ### The Legacy trims don't matter
 FALSE. Playing back on a legacy device, both Atmos and legacy may trims apply, since the DA to 5.1 trim is used to generate the legacy 5.1 core. Thereafter, the legacy trims apply. So on a legacy device, you may get double attenuation as both DA to 5.1, and legacy 5.1 to 2.0 trims may apply. Some software may ignore legacy trims and apply a -3dB surround trim for the legacy 5.1, so it's important to account for all situations and set both sets of trims appropriately.
+
+### The Dolby Atmos Renderer is better than a DAW internal renderer
+Depends. Its a matter of workflow preferences. Internal offers a more seamless workflow. The DAR supports higher speaker layouts and array mode for theatrical applications. And DDPA MP4 encoding. You can use the DAR if you like, but some users have experienced LTC sync dropouts.
+
+### The Dolby Atmos Renderer sounds more accurate than a DAW internal renderer since it's by Dolby
+FALSE. DA DAWs typically licence renderer SDK code from Dolby for their Dolby Atmos implementation so they sound the same. It's just that the UI looks different.
+
+The Dolby Atmos renderer is a licensed technology which includes the Binaural renderer, with its signature sound. If DAWs made their own implementation of DA, their binaural renderer would sound different due to different using different IRs. For example, Noisemakers Binauralizer uses measurements from the Neumann KU100, which sounds very different to DA BRM. But instead, regardless of which DA DAW you use, most of them sound the same, including in bunaural, because they use the same DA SDK from Dolby.
+
+The UIs look different due to technical reasons. If the Dolby renderer SDK provided full UI code, it's unlikely to be useful for technical reasons. Every DAW uses their own frameworks and libraries to draw the UI, so if Dolby provided full UI code, it would be incompatible. For example, Dolby may use JUCE, but the DAW may use WDL. Also, even if these technical issues were overcome, having a Dolby-provided UI would look inconsistent with the rest of the DAW.
+
+In conclusion, most Dolby Atmos DAWs use Dolby renderer SDK code for the renderer, so sound the same. It just looks different for technical & internal consistency reasons.
+
+### CBA mixes are better since spatial coding isn't used
+FALSE
+
+https://professionalsupport.dolby.com/s/question/0D54u00009YkmRBCAZ/bypass-spatial-coding?language=en_US
+
+### The bed positioning will not change depending on down mix mode.
+FALSE. Although the surrounds and 71 will always be summed together for 5.1 regardless of downmix mode, the positioning of the top side channels in 7.1.2 may change. So you get either precedence effects, or overloading the surrounds. This is why one should avoid a 7.1.2 bed and use either 7.1 or 7.1.4.
+
+### It's possible to upmix 5.1 to 7.1.2 and have a downmix that adds unity
+TRUE. However, this is only in theory and I don't know any software that exists that implements this. Upmixers typically mix front & rear content into the top side channels, (AKA summing to mono depth) and this can't be reversed. Which is why again, one should use either 7.1 or 7.1.4 beds if you care about quality.

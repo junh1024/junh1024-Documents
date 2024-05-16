@@ -1,6 +1,6 @@
 # Anime Mashups Mixing Notes
 
-## LS-KE
+## Lucky Star-Katamari Exotica
 
 During July 2020, I was listening to the LS Remix albums. The Glucosa mix stands out as being different since it barely resembles the original MTSF, no-one sings the melody. Rather, there's some voice clips over some mellow lo-fi beats. I was also listening to some Katamari albums, collecting songs for my electro, house, and dance/909 mixes. I wake up one morning with a song in my head. It's Katamari, and maybe it's cosmic lounge, maybe something from Novita. I search up cosmic & lounge, nope, wrong song, but it is on Novita. It's KE. Maybe the next day I realise it would go well under LS voice clips.
 
@@ -70,7 +70,7 @@ Playing back the project in RPR 6 I immediately noticed something is wrong with 
 
 ### MIDI stuck notes
 
-Upon rendering the project to MP3 with RPR6, I can hear stuck notes, more noticeably towards the end of the song. Doing a web search, it seems to be a well-known issue, at least amongst people affected, and a worsening problem on newer versions. 2 quick fixes were proposed - inserting ReacontrolMIDI, and MIDI_sanitizer. None of them seemed to completely eliminate stuck notes even with adjusted settings.
+Upon rendering the project to MP3 with RPR6 (late 2023), I can hear stuck notes, more noticeably towards the end of the song. Doing a web search, it seems to be a well-known issue, at least amongst people affected, and a worsening problem on newer versions. 2 quick fixes were proposed - inserting ReacontrolMIDI, and MIDI_sanitizer. None of them seemed to completely eliminate stuck notes even with adjusted settings.
 
 Basically, the only other suggestion was to clean up & and eliminate overlapping notes. I don't think I have any of those, so I try to tidy up notes around clip edges.
 
@@ -78,11 +78,96 @@ Stuck notes are commonly caused by excessive events in a short time, so I remove
 
 I remember someone saying turning off anticipative FX for Fiedler Dolby Atmos composer, and it reduced some glitches so I tried that. And it mostly eliminated stuck notes for my project on playback, but that wouldn't work for a full-speed offline render. Also, on the audio buffering page are some settings for audio threads & priority. I then remembered that in RPR4, I had set custom CPU & thread settings, So I opened RPR4 to check them. It turns out I had set RPR4 to use 3/4 cores (I have a 2core +HT) and to not relocate threads. So, I set RPR6 to use 2 threads for the app & audio, and not to relocate threads, and those seemed to resolve stuck notes on a full-speed offline render, most of the time. I also tried a 1x offline render, to similar results.
 
-I did  multiple renders to FLAC & compared them. There were some slight differences when you do a null test.  Since the XG VST and my other MIDI instruments are 32-bit VSTs, but I'm using the 64-bit version of Reaper, they are hosted in a separate process since. There could be inter-process communication (IPC) issues. So I tried using 32-bit version of Reaper. It took about 10 minutes to rescan all my VSTs. But this still didn't completely eliminate deviations between renders, so I just need to live with it, since it otherwise sounds the same with regular listening.
+I did multiple renders to FLAC & compared them. There were some slight differences when you do a null test. Since the XG VST and my other MIDI instruments are 32-bit VSTs, but I'm using the 64-bit version of Reaper, they are hosted in a separate process since. There could be inter-process communication (IPC) issues. So I tried using 32-bit version of Reaper. It took about 10 minutes to rescan all my VSTs. But this still didn't completely eliminate deviations between renders, so I just need to live with it, since it otherwise sounds the same with regular listening.
+
+### MIDI revisited
+
+I also thought about installing Roland sound canvas to revisit this issue in March 2024. The main issue is non-deterministic audio renders due to stuck notes and late notes. The test method is simple - Adding the same project five times to the render Queue, and rendering them five times in a row at full-speed to different MP3s, then comparing them afterwards.
+
+Note that Yamaha XG VST sounds the best to me since I'm used to it. Edirol hyper canvas & Roland sound canvas sound worse on the drum kits. So you need to send bank select of 127, then fiddle with changing the drum kits. Yamaha XG is quite loud, so the other VSTi need a volume boost to match Yamaha. Also, Roland sound canvas needs a large bass & and treble boost to match the strings of Yamaha XG. 
+
+Spreading the MIDI tracks to multiple instances of the Yamaha XG VST, there are less stuck notes but late notes are still a problem. Using one instance of Edirol hyper canvas they were no stuck notes I noticed but still the occasional late notes. But the most reliable VST is Roland sound canvas since it's 64-bit and the most modern. Comparing different renders there was very little difference in audio, and the file sizes were almost the same. Conclusion: you really want to avoid Yamaha XG VST to reduce issues, and 32 bits instruments in general.
+
+Luxonix Purity is also another GM sound module. I tried this in about 2011. In 2022, it was released as Sonic cat purity and are a few changes. The UI is now scalable to up to 200%, but at small sizes the text could be unreadable/blurry so I suggest 150% as a sweet spot. The main sub feature is also there for 4 channels outputs, but if I assign instruments to sub, it keeps on reverting to Main (unlike the original), rendering it effectively unusable. It includes a GM bank and also additional Banks. The GM Bank sounds a bit worse, but the key feature is that you can chain channels together to do sound layering.
+
+
+
+#### Save state
+
+save state is the amount of data each plugin uses when saving your projects. Yamaha XG and Edirol hyper campus are pretty minimal. Purity (both old & new) are about 120k which is moderate. But Roland sound canvas uses about 500k which is huge and unacceptable. I'm guessing this has to do with the effects since there are lots of settings for that. Although Roland sound canvas may sound more realistic than Yamaha XG after large EQ tweaks, the huge save state makes me reconsider using it. 
+
+Edirol hyper canvas allows you to choose which parameters to automate and assign different instruments to different outputs. But these settings are forgotten, so they're effectively useless features, as the save state is minimal. in fact, they prefer you to manually load and save settings using the system menu dialog. Which is about 8 seconds and 8 extra clicks every time you open a project. This is completely unacceptable in a modern context. There was a reason I relegated this to making this as a Sibelius 5 synth, rather than for serious production in the past. The reason is clear - It's set and forget. And *only* set and forget - all settings that aren't controlled by MIDI events are forgotten. To their credit, the saved performance file is almost 300 KB which is medium-large . Perhaps Roland sound canvas should have adopted this approach of a minimal save state plus manually loading a save file. 
+
+
+### Cakewalk TTS-1
+
+28/04/2024 ish
+
+Cakewalk TTS alternative ? SOLVED
+https://forums.cockos.com/showthread.php?p=2344968
+
+
+DXI wrappers
+
+https://www.kvraudio.com/forum/viewtopic.php?f=7&t=177538
+
+UI size
+
+https://forum.cockos.com/showthread.php?t=229249
+
+register dx 
+http://forum.cakewalk.com/Solved-How-to-Manually-Register-a-dx-plugin-m3409272.aspx
+
+I found out about this since I was searching the web to make sure I had almost all my bases covered when I was suggesting GM sound modules for someone else. The cakewalk TTS-1 seems to be mentioned occasionally, so I thought I'd check it out. It's technically free abandonware since it's included with some versions of cakewalk bandlab, but they removed it in later versions. I installed version 28. The only surround format is 5.1 (you can't change this), but Supposedly, in even older versions, you can choose the surround format up to 7.1 and 8.1. 
+
+It's implemented as a 64 bit DXi. Perhaps the 64-bit DX SDK was released earlier than the 64-bit VST SDK, but GPT 3.5 says that the DX 64-bit SDK was released later, so that reason doesn't make sense. Perhaps the only reason that would make sense, is that less hosts support DX plugins. Note that the original Edirol hyper canvas was released as 32-bit VST and DXi for mac & PC.
+
+Cakewalk TTS-1 is basically the same as Edirol hyper canvas, and the resources were probably licensed from Roland. An [older version of Cakewalk TTS-1](https://www.soundonsound.com/techniques/exploring-sonar-4s-tts1-synth) bundled with sonar says "powered by Roland" so this confirmes cakewalk licensed hyper canvas from Roland. TTS is probably short for 12 tone systems - the original name of the company that made cakewalk.
+
+The interface has been re-skinned to a more conservative and comfortable look, rather than the slightly flashy Aquatic look. Since the product is basically the same, the manual is also basically the same except it's been flattened out into one monolithic HTML file instead of index and several pages, and also misses some footnotes (which is a slight downgrade). A modern QOL improvement is that the plugin configuration is now actually saved in the savestate, and it's medium size at about 350 KB.
+
+To make this work nicely and Reaper there are a few steps and hacks:
+1. Most importantly, you need to enable DX plugins in the preferences.
+2. Reaper doesn't support multi-out DX, so you need to use 64-bit DXi 2 VSTi wrapper for multi-out. It's recommended to use the wrapper since by using only 1 instance of this plugin, you minimise savestate space, and therefore the size of your project.
+3. In the plugin "plus" menu, enable compatibility settings > HiDPI compatibility when floating, to enlarge the UI.
+
+Without having the bandlab Cakewalk installed, it's possible to use TTS-1. The procedure is the same procedure as installing DX plugin manually - open a admin command prompt, and use regsvr32 to register the DLL. Moving the DX plugin around it still seems to work even if the project stays the same - it seems the shell reference the plugin by ID or name, rather than path.
+
+This being a 64-bit plugin, it's perhaps unsurprising that over a few full speed renders that results are all identical (no stuck notes or dropouts). There is one small issue in that it sometimes forgets instrument assignments if you seek while playing. But it's quickly resolved if you completely stop and restart the playback.
+
+So in conclusion, cakewalk TTS 1 is probably the best pick out of the 5.
+
+## x42 GM plugin.
+
+Review: 04/05/2024
+
+https://x42-plugins.com/x42/x42-gmsynth
+
+
+I initially dismissed this since I thought that reaper doesn't support LV2, but upon looking at the preferences later in March 2021, it has since version 6.23 in 2021. The x42 GM plugin is in the LV2 format, which restricts its use to even less DAWs than DX plugins. So basically Reaper & a few open source DAWs. This Doesn't matter for me since I use Reaper. So the plugin has no UI, no multi-out, and no save state.  The 1st instance of the plugin uses about 45 mb of RAM, and subsequent instances uses about 15 Mb of RAM. Since there's no multi-out, then you need to use multiple instances of the plugin, which is fine since the savestate size is 0 KB.
+
+However, there are some issues to discuss. The plugin uses the [GeneralUser soundfont](https://schristiancollins.com/generaluser) by S Christian Collins. The overall loudness of the plugin/soundfont is about as loud as the Yamaha XG plugin, which isn't an issue by itself (those 2 are about 5dB louder than the roland-based ones). But Although according to the changelog they did put some effort into balancing the different instruments and drum kit samples, it's still a bit off compared to commercial plugins like Yamaha XG and hyper canvas, which isn't ideal. This may be an issue if you want to have your project have the same balance regardless of which plugins you use. You can potentially fix this issue if you replace the sound font file.
+
+you can change the soundfont on x42, but the name has to be exactly "GeneralUser_LV2.sf2". A short review of small GM South fonts:
+
+- Tim's 6mb. This works but the sample sound like the default Microsoft GM Wavetable synthesizer or the QuickTime one. many sounds are mono is to be expected of a small size. But  the harmonica sounds weird.
+- Merlin series: sounds OK for most part, 8mb is probably the best balance between size and sound and the organ is is now louder, but the splash/crash symbol sounds weird.
+- Unison: drums quiet
+- Personal copy light. drums quiet, The snare drum is basically non-existent.
+- Music theory. Probably the best overall one but the cymbals are a bit quiet. piano wierd
+
+There's another important issue. Sometimes stuck MIDI notes can occur. The stuck notes still prevail even if you restart playback, and the only solution is to completely remove the x42 plugin and then insert a new instance, or use "All notes off" in ReacontrolMIDI. But for 5 consecutive renders, there's no stuck notes, but each render is slightly different.
+
+conclusion: even after testing a bunch of free soundfonts, there are loudness inconsistencies in across different instruments and drumkit samples so the commercial sound modules more usable.
+
+So for these two reasons, I would say it's not particularly usable as (the only) GM MIDI plugin for for Reaper.
+
+
+### MIDI Dynamics
 
 Initially, I clamp the value of the piano MIDI notes to control the dynamics, but later on I realised it was missing some dynamics in the verse, so I used velocity scaling instead to bring back the dynamics. I need to tune the value carefully to match the overall loudness when I used clamping.
 
-I noticed there were some odd volume changes in the e.guitar, but there's not much volume events & MIDI velocity seems to be about the same. In the MIDI editor, sometimes,  expression is shown as levels, not points. Expression is used in this song to fade in notes, which is a bit useless IMO. So, I can delete them. But I need to do that in the text event view. After that, the volume is +- even.
+I noticed there were some odd volume changes in the e.guitar, but there's not much volume events & MIDI velocity seems to be about the same. In the MIDI editor, sometimes, expression is shown as levels, not points. Expression is used in this song to fade in notes, which is a bit useless IMO. So, I can delete them. But I need to do that in the text event view. After that, the volume is +- even.
 
 Now onto the strings. I had previously limited the strings to a certain velocity and I want to add back some Dynamics. Initially, the strings notes & Dynamics in the chorus started off a bit inconsistent so I fixed that. I'm using MIDI tool II to control Dynamics. The Order of Operations is approximately and the Order of the controls. Velocity scaling comes before velocity limiting, so if you want to slightly compress the dynamics while targeting a certain loudness, you need to be very careful and precise in the values you choose.
 

@@ -13,7 +13,14 @@ Software
 
 DJ Programs like Traktor Pro, rekordbox, djay, and VirtualDJ can also find BPM. If your app can show fractional BPM, that's a big plus as you can accurately match more songs. 
 
-If you want a VST for your DAW, Mixed in Key has a studio edition as a plugin. There is also Hornet Songkey Mk3. Songkey displays 3 candidates in case the top candidate is wrong. But the BPM detection is rubbish. There is a Mk4 but I can't test it properly. The advantage as a plugin, is that you can manually play a loop of the root/tonic chord to hopefully improve accuracy.
+**VST solutions:**
+
+If you want a VST for your DAW, Mixed in Key has a studio edition as a plugin.
+
+There is also Hornet Songkey Mk3. Songkey displays 3 candidates in case the top candidate is wrong. But the BPM detection is rubbish. Key detection is quite mediocre. Mk4 supposedly improves on this. The advantage as a plugin, is that you can manually play a loop of the root/tonic chord to hopefully improve accuracy.
+
+Zplane Tonic is another option. What I like about tonic, is that you can fold the keys and enable chords, so you can play along with the chords of the song so and check the key is correct. The key detection is perhaps more reliable than Hornet Songkey, but it doesn't have a chord detection feature. Again. It works better if you have if you play the tonic cord through the plugin. 
+
 
 ### Free solutions:
 [Mixxx](https://www.mixxx.org/) is the best of the free software which can detect BPM and Key (using libkeyfinder). If you want a standalone software, there is [Keyfinder](http://www.ibrahimshaath.co.uk/keyfinder/) .

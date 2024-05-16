@@ -52,5 +52,9 @@ AnoHana is only slightly overrated . Menma had one last wish. Her wish turned ou
 The Hanasaku Iroha series was good. But I didn't really enjoy the movie and it doesn't add much IMO.
 
 
+## Sakura Trick
+I dropped Sakura Trick after 1 episode because the Yuri seemed forced, as if specifically filling a quota. Also, it was boring. For sakura trick, both genders liked it about the same on AniDB.
+
+
 ## Zero no Tsukaima
 I don't understand why it's rated it so highly, Perhaps if it's your first anime. There's lots of Tropes but they don't add much value to the show. It's boring and predictable. I think the most memorable scene was when Saito kissed Queen Tristain in an allegiance ceremony. But He kissed her on the mouth instead of the hand. Louise was naturally jealous as she already had a crush on him, But saito didn't know. This is the trope of dramatic irony and it will take another 3 seasons for them to acknowledge each others' feelings, among other nonsense, which is far too long for a boring series.
