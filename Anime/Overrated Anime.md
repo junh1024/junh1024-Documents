@@ -51,6 +51,9 @@ AnoHana is only slightly overrated . Menma had one last wish. Her wish turned ou
 ## Hanasaku Iroha Movie
 The Hanasaku Iroha series was good. But I didn't really enjoy the movie and it doesn't add much IMO.
 
+## Henneko
+Very mid anime. I dropped it. It got too ridiculous and gimmicky, as if it depended on those to retain the plot & your attention.
+
 
 ## Sakura Trick
 I dropped Sakura Trick after 1 episode because the Yuri seemed forced, as if specifically filling a quota. Also, it was boring. For sakura trick, both genders liked it about the same on AniDB.

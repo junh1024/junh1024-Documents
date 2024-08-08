@@ -2,7 +2,7 @@
 
 ## Introduction
 
-## Key Mix 2
+## Key Trance Mix 2
 
 ### Contest
 
@@ -24,12 +24,12 @@ My mix includes songs from a wide range of years, and there's no way Bedroom-pro
 The format is ARTIST ft VOCALIST - TITLE | REMIX (GAME) EXTRA
 
 1. cittan ft irony - Tori no Uta | Euphoric Tears (Air) [Lyrics](https://www.animelyrics.com/game/air/torinoshi.txt)
-2. Maya Akai - Watery Color (Kanon)
+2. Maya Akai - Watery Color | TYPE-R (Kanon)
 3. Thanatos - Enishi | Celebrate Moon Remix (Air)
 4. Hedonist - 同じ高みへ | Hedonist Remix (CLANNAD)
 5. ZTS ft riya - Shoujo no Gensou | ZTS Remix (CLANNAD) [Lyrics](https://www.animelyrics.com/game/clannad/shoujonogensou.htm)
 6. Yuichiro Tsukagoshi ft Ayaka Kitazawa - Sunbright | Brightest Sunflowers Remix (Rewrite) [Lyrics](http://www.animelyrics.com/ANIME/rewrite/sunbright.htm)
-7. youith - First Impression (Kanon) but with additional production by me
+7. youith - First Impression | IA-STYLE (Kanon) but with additional production by me
 
 - **Stream on Mixcloud:** https://www.mixcloud.com/junh1024/key-trance-mix-2/
 - [Contest comments](https://old.reddit.com/r/trance/comments/1dcp9sy/may_2024_mix_competition_trance_around_the_world/l7zlwqs/)
@@ -38,8 +38,8 @@ The format is ARTIST ft VOCALIST - TITLE | REMIX (GAME) EXTRA
 * Album: [Euphoric Tears](https://vgmdb.net/album/34345), [TYPE-R 3rd Side Key](https://vgmdb.net/album/12479) , [Violet](https://vgmdb.net/album/8443), [Linkup remixside Key vol 1](https://vgmdb.net/album/9914), [Megumeru/Dango Daikazoku single](https://vgmdb.net/album/5046), [Ayaka Kitazawa Remix Collection](https://vgmdb.net/album/84117) , [IA-STYLE/L+K](https://vgmdb.net/album/6371)
 
 Purchase : 
-[Violet](https://xlproject.booth.pm/items/206790) , 
-[Megumeru/Dango Daikazoku single AAC](https://music.apple.com/us/album/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-clannad-op-ed-%E3%83%A1%E3%82%B0%E3%83%A1%E3%83%AB-%E3%81%A0%E3%82%93%E3%81%94%E5%A4%A7%E5%AE%B6%E6%97%8F/827628707) , [Ayaka Kitazawa Remix Collection AAC](https://mora.jp/package/43000074/TCJPR0000623028/?trackMaterialNo=16033307) (may require VPN) 
+Enishi | [Violet](https://xlproject.booth.pm/items/206790) , Shojo no Gensou | 
+[Megumeru/Dango Daikazoku single AAC](https://music.apple.com/us/album/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-clannad-op-ed-%E3%83%A1%E3%82%B0%E3%83%A1%E3%83%AB-%E3%81%A0%E3%82%93%E3%81%94%E5%A4%A7%E5%AE%B6%E6%97%8F/827628707) , サンブライト | [Ayaka Kitazawa Remix Collection AAC](https://mora.jp/package/43000074/TCJPR0000623028/?trackMaterialNo=16033307) (may require VPN) 
 
 
 ### Mixing

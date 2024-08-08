@@ -544,3 +544,6 @@ FALSE. Although the surrounds and 71 will always be summed together for 5.1 rega
 
 ### It's possible to upmix 5.1 to 7.1.2 and have a downmix that adds unity
 TRUE. However, this is only in theory and I don't know any software that exists that implements this. Upmixers typically mix front & rear content into the top side channels, (AKA summing to mono depth) and this can't be reversed. Which is why again, one should use either 7.1 or 7.1.4 beds if you care about quality.
+
+### 5.1 downmix mode only affects 5.1
+FALSE. 5.1 downmix mode also affects 5.1.2 and 5.1.4

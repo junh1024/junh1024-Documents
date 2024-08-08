@@ -20,15 +20,15 @@ You may see comments like "this series isn't meant to be binged". Actually this 
 ## Anime starter pack
 
 1. **Pokemon TOS and OL**: Ash captures Pokemon and competes in pokemon leagues.
-2. **Cardcaptor Sakura**: Sakura saves Tokyo by recalling destructive spirits into their clow cards.
-3. **Neon Genesis Evangelion TV series and end of Evangelion**: It's the year 2015 and destructive angels threaten humanity. Shinji is summoned by his estranged father to battle them, while he battles his own worsening depression.
+2. **Cardcaptor Sakura**: Sakura saves Tokyo by recalling destructive spirits into their clow cards. Netflix.
+3. **Neon Genesis Evangelion TV series and end of Evangelion**: It's the year 2015 and destructive angels threaten humanity. Shinji is summoned by his estranged father to battle them, while he battles his own worsening depression. Amazon. Netflix.
 4. **The Melancholy of Haruhi Suzumiya**: a
 5. **Spirited Away**: a
 
 These are 5 well-known and often referenced anime that are meant to show a different facet of anime. They were some of the earliest anime I watched.
 
 ## Anime is weaboo trash
-- **AoButa**: Sakuta solves the problems of girls around him, including those of his new girlfriend, Mai. But some problems are harder than others, especially if they're close to your heart.
+- **AoButa**: Sakuta solves the problems of girls around him, including those of his new girlfriend, Mai. But some problems are harder than others, especially if they're close to your heart. Netflix (Rascal Does Not Dream of Bunny Girl).
 - **Hataraku Maou-sama!**: Demon king Sadao, on the cusp of his defeat from Hero Emilia have unexpectedly landed... in modern-day Tokyo. Join Sadao and his friends as they attempt to cope with modern life, and past enemies.
 
 Anime meant to show that anime is not just *moe moe kyun*, but has some sophistication & deepness
@@ -43,11 +43,11 @@ Anime meant to show that anime is not just *moe moe kyun*, but has some sophisti
 ## Comedy
 - **Haganai**: Kodaka and Yozora by start the Neighbor's Club for people without friends. As members join, it turns out there's a reason that these people don't have many friends. 
 - **Chuunibyou**: Yuuta Togashi though he'd left his past behind, but along comes Rikka Takanashi. She still fights in a realm of darkness, while other people go about their lives, often with hilarious results. But reality & romance are calling, and they must face it.
-- **Shirokuma Cafe**: Join Panda and the gang as they go about their daily lives. Every day is full of laughter. 
-- Hitoribocchi no OO Seikatsu. The road to befriending the whole class isn't without its hurdles, Especially if you have social anxiety. Join Bocchi and her friends (when she makes them) in her OO school life. 
+- **Shirokuma Cafe**: Join Panda and the gang as they go about their daily lives. Every day is full of laughter. Crunchyroll.
+- **Hitoribocchi no OO Seikatsu**: The road to befriending the whole class isn't without its hurdles, Especially if you have social anxiety. Join Bocchi and her friends (when she makes them) in her OO school life. 
 - **Working!!**: Souta Takanashi is invited by Popura Taneshima to work at the Wagnaria family restaurant. It turns out that most of the workers are at least as quirky as he is, from the ever-scheming Satou, to highly-talkative Yachiyo.
 - **Comedy with romantic undertones**: Kaguya-sama,.  School rumble
-- **Toradora**: Ryuuji is a gentle student, but often falls on the wrong side of things due to his looks. One day, Ryuuji bumps into the imfamous Taiga. Ryuuji reveals he has a crush on Minori, while Taiga actally has a crush on Yuusaku aka Ryuuji's mate. How will this romcom unfold?
+- **Toradora**: Ryuuji is a gentle student, but often falls on the wrong side of things due to his looks. One day, Ryuuji bumps into the imfamous Taiga. Ryuuji reveals he has a crush on Minori, while Taiga actally has a crush on Yuusaku aka Ryuuji's mate. How will this romcom unfold?  Amazon. Netflix.
 - **Acchi kocchi**: Io and Tamaki would be a perfect couple... if only they would realise it. Join them and their friends as they try to edge them closer together through festivals, snow fights, whatever really. 
 - **Konobi**: Mizuki draws apples, but Subaru draws the perfect 2D waifu, while other members have no meaningful contribution. Tension arises even on the most trivial matters. No wonder the art club has a problem.
 - **Baka and Test**: Yoshii must score high in tests to advance up classes. It's a tough job for an idiot. But surprisingly, being an idiot has its perks.
@@ -60,15 +60,16 @@ Anime meant to show that anime is not just *moe moe kyun*, but has some sophisti
 - **Hanasaku Iroha**: Ohana's irresponsible parents have left with her estranged grandmother, who runs a traditional Japanese inn. She's forced to adapt and start a new life in the countryside, while getting along with her friends and workmates. 
 - **Oregairu**: Hachiman the pessimist, Yukino the ice queen, and Yui the extrovert form the school's service club. Together, they help the students with their problems. But the three develop problems of their own, too.
 - **Hourou Musuko**: Shuuichi-kun and Yoshino-chan each dream of becoming the opposite sex. When they enter middle school, how will they navigate what lies ahead?
-- **Nagi no Asukara**:
+- **Nagi no Asukara**: Netflix.
 - **Kokoro connect**: Taichi, Iori, Himeko, Yoshifumi and Yui form the cultural research club. One day, a mysterious being known as "heartseed" beings randomly swapping their bodies between themselves. Their friendships are put to the ultimate test as they try to cope and hide their secret from everyone else.
 - **Shinkai's distance between two people**: 5 centimeters, Garden of Words, Weathering with you
+- **Princess Tutu**: Seamless weaving of Neo-fairytale and action. Amazon.
 
 ## Ecchi/Hentai
 - **HRSG**: At a samurai school, students are training, but trouble is brewing as rebels plan to overthrow the student council.
 
 ## Family Films
-- **Doraemon stand by me**: Nobita's great-great grandson has travelled back in time to fix his current blunders. Nobita is also endowed with the robotic cat Doraemon, and their seemingly endless supply of useful gadgets. But sometimes, all you need is yourself.
+- **Doraemon stand by me**: Nobita's great-great grandson has travelled back in time to fix his current blunders. Nobita is also endowed with the robotic cat Doraemon, and their seemingly endless supply of useful gadgets. But sometimes, all you need is yourself. Netflix.
 - **Spirited Away**: Chihiro is thrust into the spirit realm as her parents are transfigured into pigs. She must earn her way back to the real world, and save her parents.
 
 
@@ -96,5 +97,5 @@ These are in the Extra category if they're rated numerically lower, or have a hi
 
 You are in the deep end. You should have watched these.
 
-1. **Saekano**: Guy builds a game but builds a girlfriend eventually
+1. **Saekano**: Guy builds a game but builds a girlfriend eventually. Amazon.
 3. **Eromanga Sensei**: Masamune is a student and lives with his sister Sagiri that never seems to leave her room. He often needs illustrations to accompany his light novels. To his surprise, he discovers that his sister is the one providing his illustrations. Join Masamune and Sagiri as they discover more about the creative industries, and themselves.
