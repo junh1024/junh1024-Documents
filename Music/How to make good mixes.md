@@ -136,4 +136,6 @@ If you're upscaling to 5.0 padded to 5.1, you also upscale the instro to the cor
 
 As I said earlier, upscaling to surround (at least in DSP order) before making your mix is preferred, but you don't want to waste time upscaling songs, only to throw them out, since tuning upscaling settings for a song takes 2 hours. I also have another quirk where the timing for the surround clip is changed, since if I make a new project, I usually start the songs to beat 1. This makes cutting easier (since the beat phase is matched with your DAW phase, at the expense of cutting a bit of audio at the start), and also offers dependable sync, ie, if I replace the file with another source (different sources can start at different times), I just re-sync to beat 1 and I don't need to re-align the project that depends on it (ie, a mix). What you can do, is make a mp3 proxy. And then if you are definitely using that song in your mix (maybe halfway to completion), you can spend your time to tune the upscale, and it will be well-spent.
 
+https://old.reddit.com/r/DJs/comments/n36b28/if_you_buy_a_track_on_beatport_does_that_mean_you/
+
 regex for titles: (\w+\r\n)---
