@@ -130,7 +130,10 @@ With the rise in popularity of spatial audio, some manufacturers have been makin
 ### Phone DACs
 You would be buying USB-C to 3.5mm adapter if your phone only has a USB-C port, but regular listening gear. You wouldn't need to if you bought a good phone in the first place like the Sony Xperia 1 (perhaps used can be cheaper). Some phones May reject certain adapters. For example, Samsung phones May reject headphone + charging port adapters, even though these are a common type of adapter which support headsets with microphones. So it's important to do your research.
 
-Adapters vary in amplification, so high amplification would support headphones with higher impedances. On the Flipside, it's possible to have an adaptor with too much amplification when low-impedance earbuds are used. This would cause the volume to be too high at the lowest volume step, requiring installation of EQ to turn down the volume further. Too much amplification may also generate heat and draw battery faster.
+Adapters vary in amplification, so high amplification would support headphones with higher impedances. On the Flipside, it's possible to have an adaptor with too much amplification when low-impedance earbuds are used. This would cause the volume to be too high at the lowest volume step, requiring installation of EQ to turn down the volume further. Too much amplification may also generate heat and draw battery faster. Examples:
+
+- The Alogic Elements Pro USB-C to 3.5mm has high amplification, but also high noise
+- The Samsung USB-C to 3.5mm has average amplification, but lower noise
 
 ### IEMs
 

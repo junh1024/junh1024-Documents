@@ -245,7 +245,7 @@ Jun Maeda returned as writer, and continues his collaboration with singer Yanagi
 
 ## Conclusion
 
-If you've finished most of the Key VNs and you want something large in scope & length, you can try [Aiyoku no Eustia](https://vndb.org/v3770). Or if you want to more traditional romance, you can try [ToHeart 2](https://vndb.org/v20/). Again, I haven't played any of these.
+If you've finished most of the Key VNs and you want something large in scope & length, you can try [Aiyoku no Eustia](https://vndb.org/v3770). Or if you want to more traditional romance, you can try [ToHeart 2](https://vndb.org/v20/). [Natsuzora Kanata](https://vndb.org/v701) has been said to have a "strong KEY vibe".  Again, I haven't played any of these.
 
 New content in Heaven Burns Red is likely to continue for at least another 1-2 years. Future VNs of medium length and good plot from Key are possible, but uncertain. Would this be Anemoi? More game installments in the Angel Beats franchise would be nice. Cheers to Key's 27th year.
 
