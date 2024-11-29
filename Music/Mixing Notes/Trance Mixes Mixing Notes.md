@@ -59,14 +59,18 @@ Chicane is Nicholas Bracegirdle (UK DJ & producer). Bracegirdle deliberately lef
 
 https://www.discogs.com/master/3229-Chicane-Featuring-Bryan-Adams-Dont-Give-Up
 
-Paul van Dyk is a (German DJ & producer). The vocals featured in the track are Norwegian. The lyric "Jeg har ingenting, men jeg har alt når jeg har deg" translates to "I have nothing, but I have everything when I have you." The Cirrus remix is highly acclaimed and was featured in Need for Speed Underground 2
+Paul van Dyk is a German DJ & producer. The vocals featured in the track are Norwegian.
+
+The lyric "Jeg har ingenting, men jeg har alt når jeg har deg" means "I have nothing, but I have everything when I have you."
+
+The Cirrus remix is highly acclaimed and was featured in Need for Speed Underground 2.
 
 https://www.discogs.com/master/25887-Paul-van-Dyk-Feat-Hemstock-Jennings-Nothing-But-You
 
 
 
 
-Darude is a (Finnish DJ & producer). "Feel the Beat" shares many musical similarities with his previous hit single "Sandstorm", and is 1 semitone lower in key. Although 1 internet user remarked that it sounds like "Feel the Meat"
+Darude is a Finnish DJ & producer. "Feel the Beat" shares many musical similarities with his previous hit single "Sandstorm", and is 1 semitone lower in key. Although one internet user remarked that it sounds like "Feel The Meat"
 
 https://www.discogs.com/master/132125-Darude-Feel-The-Beat
 https://en.wikipedia.org/wiki/Feel_the_Beat_(Darude_song)

@@ -4,6 +4,8 @@
 
 Kantai Collection/kancolle is a web-based naval management game which launched in 2013. It has personified ships from WW2 navies (mainly IJN ships), defending against alien ships. KC is a F2P game. You can play for free, but things get a bit easier if you pay for items & upgrades. The devs also make money from merchandise/licenses. EV Nova is a space adventure game, available in 2003 for Mac & windows. It's now impossibru to buy EVN legally since the publisher went defunct, but the [remake of the previous game](https://www.kickstarter.com/projects/cosmicfrontier/cosmic-frontier-override) by a related staff is slated for 2021. They both have ships. Apart from that, they're quite different games. There are tabletop RPGs for [EVN](https://boardgamegeek.com/boardgame/14071/escape-velocity-nova-sci-fi-card-driven-board-game) (now OOP), and [KC](https://kancollerpg.fandom.com/) . I have played neither. They seem quite complex. I guess that's the state of modern TT RPGs.
 
+KC is a little different to other gacha games, and there may be some notes along the way.
+
 If you play KC and want something refreshing & simple, you can try EVN, although I suspect the reason you play KC is for cute grils. Or the historical connection, they put decent effort into historically-inspired personalities & quirks. Unlike some [other game](https://en.wikipedia.org/wiki/Azur_Lane). If you play EVN, I don't really suggest playing the timesink that's KC. It's quite complex with many game mechanics and as of 2020 needs a VPN &/ proxy to play, and translated guides as the game is in JP. But if you're drawn by the cute grils, historical WW2 connection, and enjoy a challenge, I'm not stopping you. Welcome all.
 
 I don't play KC and I haven't finished all 6 storylines of EVN, so this is a best-effort from me. This is not a comprehensive guide to play either game, it covers mainly fundamental differences. For more info, please consult the wiki [tutorial](https://en.kancollewiki.net/Tutorial:_How_to_Play), or my EVN guide. This document will use [some abbreviations](https://en.wikipedia.org/wiki/Hull_classification_symbol) , mostly CV=carrier & DD=destroyer.
@@ -80,7 +82,10 @@ KC has music in a few genres. During events, there is new music for battles, whi
 
 ![Furniture Shop menu](https://yksk.kancollewiki.net/w/images/2/25/Furniture_shop.png)	![Ion cannon](https://vignette.wikia.nocookie.net/evn/images/5/50/Nova_pict_6020.png)
 
-KC has [ample](https://en.kancollewiki.net/Furniture) ability to customize the office using Furniture coins which are [available](https://en.kancollewiki.net/Furniture/Guide) from regular missions. Some furniture overrides the Jukebox, or has seasonal CGs. In addition, some ships have seasonal art, like Summer & Christmas CGs. Guns are mostly grey during battle and planes are mostly green.
+KC has [ample](https://en.kancollewiki.net/Furniture) ability to customize the office using Furniture coins which are [available](https://en.kancollewiki.net/Furniture/Guide) from regular missions. Some furniture overrides the Jukebox, or has seasonal CGs. Guns are mostly grey during battle and planes are mostly green.
+
+
+Some ships have seasonal art, like Summer & Christmas CGs. There are automatically applied at the right time. This is apparently different to most other gacha games where seasonal art is manually acquired, or are separate characters.
 
 EVN doesn't really have such a thing. You can change your pilot name, you set a nickname at the start, and set a ship name when you buy a ship. There are plugins that can apply a paint tint to your ship, but I had trouble getting rid of my paintjob with the Paintshop HGA plugin & prolly screwed my pilot file. Different families of weapons have different colors. This is a slight benefit over KC. See appendix for details.
 

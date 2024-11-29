@@ -15,7 +15,9 @@ Sources
 ---
 Ideally, you have a studio acapella and an instrumental. Stems or MT are the best, but rare. Surround mixes are usually better than stereo but most aren't ready-made A+I so will need some processing before it's usable. You can get cover stems from www.karaoke-version.com and www.jamkazam.com . You can make a DIY acapella if you have a full song + instrumental. iTunes and Amazon music stores often have karaoke covers with instrumentals so you can make a DIY acapella, as well as get an instrumental. Keep in mind that if you have too much isolation, the vocals will have difficulty being heard, and too little isolation will result in noises.
 
-You can use the free [ReaFIR](https://www.reaper.fm/reaplugs/#tour) or paid freeform FFT imagers like [Mashtactic](https://quikquak.com/Prod_MashTactic.html) to quickly make a draft instrumental in your DAW while testing mashup ideas. Recently, there are some ML solutions like spleeter & demucs. They can vary a lot, and should be last resort.
+You can use the free [ReaFIR](https://www.reaper.fm/reaplugs/#tour) or paid freeform FFT imagers like [Mashtactic](https://quikquak.com/Prod_MashTactic.html) to quickly make a draft instrumental in your DAW while testing mashup ideas.
+
+ Recently, there are some AI/ML solutions like spleeter & demucs. They can vary a lot, and should be last resort. If you must use AI/ML stems for mashups, consider buying a high quality version on qobuz or similar sites. If you're using streaming services, the quality on (paid for) Apple Music and Spotify is likely higher and more consistent than YouTube.
 
 Philosophy
 ---

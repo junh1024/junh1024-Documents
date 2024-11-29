@@ -93,14 +93,14 @@ DEPENDS. They all have their flaws, some are more flawed than others. No system 
 
 ## Beds and Objects
 
-### Atmos CE supports 128 elements
-TRUE. Atmos CE (Cinema Edition), supports up to 128 elements. A maximum of 7.1.2 bed & 118 (dynamic) objects (DCP/IAB spec). Film mixers need to carefully plan their object allocation. [Frozen 2 sound interview](https://www.asoundeffect.com/frozen-2-sound/) .
+### Atmos Masters supports 128 elements
+TRUE. Atmos Masters supports up to 128 elements. A maximum of 7.1.2 bed & 118 (dynamic) objects (DCP/IAB spec). Film mixers need to carefully plan their object allocation. [Frozen 2 sound interview](https://www.asoundeffect.com/frozen-2-sound/) .
 
 ### Atmos HE supports 128 elements
-FALSE. The consumer version of Atmos, Atmos HE (Home Entertainment), has reduced objects to fit within limited bitrate & processing contraints available on consumer media & hardware. Spatial coding is applied to the Atmos CE master to reduce the elements to 12-16, which is then encoded to THD or DDP. Bitrates for THD Atmos are typically 3-7mps, while DDP Atmos is usually 640-768kps as of 2021. You could claim [Atmos Gaming](https://docs.microsoft.com/en-us/windows/win32/coreaudio/spatial-sound) supports 128 elements, but that is only in 1 scenario, and it's debatable whether that counts since it's successively downmixed & rendered for headphones.
+FALSE. The consumer version of Atmos, Atmos HE (Home Entertainment), has reduced objects to fit within limited bitrate & processing contraints available on consumer media & hardware. Spatial coding is applied to the Atmos Master to reduce the elements to 12-16, which is then encoded to THD or DDP. Bitrates for THD Atmos are typically 3-7mps, while DDP Atmos is usually 640-768kps as of 2021. You could claim [Atmos Gaming](https://docs.microsoft.com/en-us/windows/win32/coreaudio/spatial-sound) supports 128 elements, but that is only in 1 scenario, and it's debatable whether that counts since it's successively downmixed & rendered for headphones.
 
-### DTS-X CE is superior to Atmos CE
-TRUE. DTS-X CE still supports 128 elements, but has a more flexible bed layout, including native support for 7.1.4 beds.
+### DTS-X system is superior to Atmos system
+TRUE. DTS-X Masters still supports 128 elements, but has a more flexible bed layout, including native support for 7.1.4 beds. But this is less used in practice since the IAB spec doesn't support this.
 
 ### DTS-X HE is superior to Atmos HE
 DEPENDS. While you would think 16 objects in Atmos Home vs 7.1.4 + 5 objects in DTS-X Home are equivalent, there is the difference between channels & static objects so imaging may be different. Also, DTS software isn't as smart as Atmos software which automatically does spatial coding to reduce objects. Instead, you must manually choose which objects to channelize and others to keep as objects. What usually happens in practice is studios just skip this process and channelize everything to 7.1.4. Except for select past releases like Well Go's, "Ip man 3". [Ref2](https://www.avsforum.com/threads/trinnov-altitude.1516103/page-147#post-51314001). Thus, you need to carefully reformat your project to make maximum use of 7.1.4 + 5 objects.
@@ -160,7 +160,7 @@ FALSE. It may play back using height speakers only (Atmos), or ELL (DTS-X).
 FALSE. If there is a circular pan @ 100% height, it will get all downmixed into HSL & HSR, transforming a circular movement into a LR movement. The only way to avoid this is to pan at partial height so you get some height depth. Ironically, it will sound OK on 2D 5.1 & 7.1 systems.
 
 ### Channels are always at ear-level and objects can only be at the top
-FALSE. Atmos CE Base is 7.1.2, 2 side height. Objects can also be at ELL.
+FALSE. Atmos Masters Base is 7.1.2, 2 side height. Objects can also be at ELL.
 
 ### It doesn't matter how many spatial coding elements a Home soundtrack uses
 FALSE. If it is set to 12 (lowest), then the soundtrack will be limited to 7.1.4 occupancy on busy scenes due to hitting the element limit. Hence I recommend setting it to 16 (highest), to preserve the maximum amount of objects, and hence 9.1.6 occupancy in the worst-case. This is more of a problem for THD Atmos on BDs where the default is 12-14, rather than DDP Atmos where the default is 16. 
@@ -268,11 +268,12 @@ TRUE. 7.1.2 is due to the heavy reliance on the 7.1.2 bed, which is the maximum 
 ### THD Atmos may be 7.1.4
 TRUE. Some studios choose 12 objects for Atmos THD or use a fixed 7.1.4 render. Supposedly this is easier/faster for authoring software such as Scenarist Ateme Titan or Sony Blu-print since it doesn't need a 2nd pass for spatial coding. Another benefit is reduced bitrate.
 
-XX disney 714 
-
 ### Disney uses 7.1.4
 
-FALSE, mostly. In the past only 712 was possible, convert to 714 for authoring. No 714 is available in the DOlby Renderer. 
+TRUE, somewhat.
+
+- BD: In the past only 712 was possible, converted to 714 for authoring. Now, mixes are rendered to 714 for BD.
+- Streaming: A object mix with 16 elements could be heard, since streaming platforms [typically require]() ADM.
 
 https://www.avsforum.com/threads/the-official-dolby-atmos-thread-home-theater-version.1574386/post-61202305 712 in 714
 

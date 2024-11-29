@@ -22,29 +22,62 @@ Models are saved via reference in MPJ (MMM proj) files so that if you make a cha
 
 ### Model
 
-You can have wardrobe or prop changes to keep viewer interest. For >1 models, they should be from the same franchise & unit for visual cohesion & realism. Many free models have use/modification restrictions so try to follow those. There are some sandbox-type "girl simulators" like Koikatsu that allow you to make & modify girls with hundreds of sliders & export them. This allow for quick creation of HQ models with less restrictions. You can also buy models from sites like melonbooks.
+
+
+Make sure you have high quality models. From far it may look acceptable, but closer up the low detail may show. There are some sandbox-type "girl simulators" like Koikatsu that allow you to make & modify girls with hundreds of sliders & export them. This allow for quick creation of HQ models with less restrictions. You can also buy models from sites like melonbooks. Many models have use/modification restrictions in the documentation so try to follow those.
 
 If you're using edited models, make sure everything works as expected (morphs, bones, etc). Check body proportions & parts are realistic. You don't want to end up with "can't unsee" type of glitches after you've completed your video.
 
+If using multiple models, they should be from the same franchise & unit for visual cohesion & realism. 
+
+Be realistic in shoes. It is not realistic to be dancing in platform shoes,  high heels, heavy boots, or wooden sandals.
+
+
+
 ### Song
+
+Please ensure your audio/music is HQ enough. You don't want to be hearing artefacts.
 
 VBR MP3 does not sync well with MMM. Use CBR instead.
 
 ### Scenery
 
-The scenery should complement, or at least not detract from the model.
+The scenery should match the footwear. If barefoot, try around the home or beach. Or crop the shoes out of most shots.
+
+Most of the time, a video will be improved by choosing a background scenery instead of a solid color.  It really adds  polish and a sense of effort. The scenery should complement, or at least not detract from the model. If you must use a solid color, try light grey.
+
+Don't have a mirror or screen shows the camera output. This is a very distracting way of filling the space and actually makes it harder to see the dancing. A blank wall would be preferable. If outside, a view of the sky. A active TV screen with video is also likely distracting.
+
+
+### Costume and scenery changes
+
+You can have costume and scenery changes, but this is not necessity if your camera, dance moves, and everything else is interesting and engaging enough, but it can be something to enhance your video and keep viewer interest.
+
+Depending on the style and aesthetic of your video, having not enough changes can lose viewer interest. Having too many changes early on can be distracting and also lose viewer interest as you have used up your changes. Costume and scenery changes should be aligned to major changes in the music. This would be every chorus and from the second verse onwards.
+
+
 
 ### Motion
 
-The motion should be smooth & realistic. Spline keyframes makes it better, but MMM makes it much easier to batch spline keyframes (aka curve interpolation). For videos with >1 models, it's very obvious when they're making exactly the same movements & timings (even if mirrored), it's so robotic. I recommend adding variation (even a simple delay) to the keyframes, or use [ApplyNoisePlugin](https://sorairo.pictures/3dcg/tools/). There is also a [RandomBlinkPlugin](http://t.co/jyNYVHUSzC).
+The motion should be smooth & realistic. Spline keyframes makes it better, but MMM makes it much easier to batch spline keyframes (aka curve interpolation). Please check and avoid impossible things such as limbs going through each other. Also, Models should not be levitating when they dance. 
+
+For videos with >1 models, it's very obvious when they're making exactly the same movements & timings (even if mirrored), it's so robotic and unrealistic. I recommend adding variation (even a simple delay) to the keyframes, or use [ApplyNoisePlugin](https://sorairo.pictures/3dcg/tools/). There is also a [RandomBlinkPlugin](http://t.co/jyNYVHUSzC).
+
 
 ### Camera
 
-Camera should not be too close, or far. Same note about splining applies to camera. Camera cuts should be sharp and last 0 frames, not a few - it looks glitchy. Shots should last at least a few seconds, and there shouldn't be so many cuts that you can't appreciate each shot properly.
+Same note about splining applies to camera. Make the camera moves smooth and realistic. 
+
+Camera cuts should be sharp and last 0 frames, not a few - it looks glitchy. Shots should last at least a few seconds, and there shouldn't be so many cuts that you can't appreciate each shot properly.
+
+In general, the camera should not be so close is is to that we can't see the face, it should not be so far away that we cannot see the detail. Have a variety of close and far shots.  Do not have the camera too high or low. The camera should be about chest height.
+
+Don't add fake camera overlays like audio meters and focus guides. This is distracting and degrades that experience of your video.
 
 ### Effects
 
 There's nothing wrong with the default shader. Serious shader is okay. The Truecamera & Motionblur plugs make my iGPU lag really badly. If you add an effect and the result is unexpected, try reordering them. I have issue if you apply too many effects (bloom, HDR, etc) such that the midtones are gone, and too many post-production effects such that it's overproduced.
+
 
 ### KFS
 Keyframes per second. MMD is hardlocked to 30 keyframes per sec. And it seems VMDs are 30fps as well. You can mostly disregard this issue you're mot adding/modifying keyframes.
