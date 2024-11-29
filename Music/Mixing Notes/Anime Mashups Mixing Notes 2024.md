@@ -118,3 +118,27 @@ Since the instrumental has quite a few pitch changes in my DAW, it's not possibl
 It's a bit hard to mix the vocals since they have a high dynamic range - going above and below the music. Also, the character of the voice changes from having body to having sibilance. EQ and compression won't really fix that, but i applied a small amount of both. I also applied a bit of reverb. Multiband compression would work, but I wasn't bothered. I considered using clip volume to adjust different parts of the vocals, but using track folders would be easier to change. Also, I initially did chorus at increased volume, but I changed it to the verses having decreased volume. The same as you beginning, the backup vocals were left in the instrumental. However, whereas in a new beginning that backup vocals support the lead vocals, in this mashup, the backup vocals are just doing their own thing.
 
 Due to digital pitch-time stretching, the acoustic double bass loses a bit of impact. EQ won't fix this. But I did a 1 DB mid cut to the instrumental so that vocals can come through a bit better, but at the expense of the backup vocals. You can hear the editing cuts of the. Some of the worst discontinuities were faded over, and there is more that can be done, but I decided to leave it, and with string sections, they're often playing different phrases so no matter how you edit them, you'll always notice the editing. It's good that there's a break / bridge in moon so that you can still hear some of sax / backup vocal solo in the instrumental, albeit edited down.
+
+
+## Te Wo Gyu Shite Ne-Aharen Heart
+
+I wanted to make a mashup of the song, but there were issues finding a suitable instrumental. There is the key change in the chorus, but even though some instrumentals might also have a key change in the chorus like the working S3 Ed, there's usually some difference in starting key or BPM such that the audio quality after stretching and pitching isn't that great. I found instrumental in 2023 that has a similar BPM and starting key, so I can finally start making my mashup. 
+
+
+Arrangement
+
+I cut the verse into clips and used chord shifting to make the instrumental fit the vox. Master arrangement is the vox song, in case there is a MV for that. There was a pre-chorus section in the instrumental that wasn't used, but a post chorus Gap to fill, so the pre-chorus string runs were used to fill that.
+
+Effects
+
+Listening on headphones, the vocals sound a bit dry so I add a bit of reverb to the vocals, but bypassed it for small sections before the chorus as per the original vox.
+
+Since that pitch shift of the instrumental varies from +1 to +4, when it's +4 the treble is quite strong, so the verse clips are in a sub-bus with a small cut in the treble.
+
+Rendering to 5.1 surround and looking into that waveform, I noticed the center channel with the the vocals is a bit quieter in the chorus, so I use automation with a square shape to turn down the vocals in the verse.
+
+Reaper can set the value of a single automation point, but to do this for multiple points you need a script. I using my own script, and setting the value in dB is absolutely nonsensical. For example, if you want no gain, the value is between 710-720. A gain of -1.22 dB the value is 690. 
+
+The front was narrowed after surround upmix to fix the bongos.
+
+Listening to the mashup, I noticed some Blue Notes in the backing vocals in the chorus since the chords of the instrumental don't exactly match. So I need to use a active upmixer to separate the LVs & BVs. I originally tried manual mode in reatune to fix this, but there were some glitches around the edges, so I used the reapitch with automation to fix this. Surprisingly, it also uses a little less CPU.
