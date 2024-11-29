@@ -32,7 +32,16 @@ VBR MP3 does not sync well with MMM. Use CBR instead.
 
 ### Scenery
 
-The scenery should complement, or at least not detract from the model.
+The scenery should complement, or at least not detract from the model. Don't have a mirror or screen shows the camera output. This is a very distracting way of filling the space and actually makes it harder to see the dancing. A blank wall would be preferable. If outside, a view of the sky.
+
+
+### Costume and scenery changes
+
+You can have costume and scenery changes, but this is not necessity if you're camera, dance moves, and everything else is interesting and engaging enough, but it can be something to enhance your video.
+
+Depending on the style and aesthetic of your video, having not enough changes can lose viewer interest. Having too many changes early on can be distracting and also lose viewer interest as you have used up your changes. Costume and scenery changes should be aligned to major changes in the music. This would be every chorus and from the second verse onwards.
+
+
 
 ### Motion
 
@@ -42,9 +51,14 @@ The motion should be smooth & realistic. Spline keyframes makes it better, but M
 
 Camera should not be too close, or far. Same note about splining applies to camera. Camera cuts should be sharp and last 0 frames, not a few - it looks glitchy. Shots should last at least a few seconds, and there shouldn't be so many cuts that you can't appreciate each shot properly.
 
+For individual shot, these guideline can be temporarily ignored, but in general, the camera should not be so close is is to that we can't see the face, it should not be so far away that we cannot see the detail. The camera should be about chest height.
+
+Don't add fake camera overlays like audio meters and focus guides. This is distracting and degrades that experience of your video.
+
 ### Effects
 
 There's nothing wrong with the default shader. Serious shader is okay. The Truecamera & Motionblur plugs make my iGPU lag really badly. If you add an effect and the result is unexpected, try reordering them. I have issue if you apply too many effects (bloom, HDR, etc) such that the midtones are gone, and too many post-production effects such that it's overproduced.
+
 
 ### KFS
 Keyframes per second. MMD is hardlocked to 30 keyframes per sec. And it seems VMDs are 30fps as well. You can mostly disregard this issue you're mot adding/modifying keyframes.

@@ -34,7 +34,7 @@ The format is ARTIST ft VOCALIST - TITLE | REMIX (GAME) EXTRA
 - **Stream on Mixcloud:** https://www.mixcloud.com/junh1024/key-trance-mix-2/
 - [Contest comments](https://old.reddit.com/r/trance/comments/1dcp9sy/may_2024_mix_competition_trance_around_the_world/l7zlwqs/)
 
-* Years: *2012*, 2007, 2006, 2008, 2004, *2018*, 2006
+* Years: *2012*, 2007, 2006, 2008, 2007, *2018*, 2006
 * Album: [Euphoric Tears](https://vgmdb.net/album/34345), [TYPE-R 3rd Side Key](https://vgmdb.net/album/12479) , [Violet](https://vgmdb.net/album/8443), [Linkup remixside Key vol 1](https://vgmdb.net/album/9914), [Megumeru/Dango Daikazoku single](https://vgmdb.net/album/5046), [Ayaka Kitazawa Remix Collection](https://vgmdb.net/album/84117) , [IA-STYLE/L+K](https://vgmdb.net/album/6371)
 
 Purchase : 

@@ -143,4 +143,14 @@ DEMUCS didn't put all the percussion in the drum stem, so I need to use looping 
 
 One of the problems that I wanted to fix and the original regardless of everything else, the vocals were a tad quiet , so I boosted it by 1db.
 
-The surround activity is going to be a bit low for the song, so I want to have some rhythm bleed to the back. So the piano is on the half removed before surround upmixing. Some reverb verb was added to the back speakers.
+The surround activity is going to be a bit low for the song, so I want to have some rhythm bleed to the back. So the piano is on the half removed before surround upmixing. Some reverb was added to the back speakers.
+
+Listening on speakers, the voice was a bit boomy and obscured by the drums, and the image potentially too backwards for a string quartet. So I did a tiny mid-boost with linear EQ to the vocals, and slightly lowered the drums and increased the mid-cut. the image was moved slightly forward in the surround upmixer and the reverb bus was turned down. A 3/16 delay fadeout was added to the drums to gradually bring down the energy for the outro.
+
+
+SoundCloud directly accepted the 5.1 and automatically downmixed to stereo, the balance sounds roughly correct. no stereo master was generated on my end, unlike the xmas album on BC.
+
+### About the artist
+
+The singer is credited is mao in the song. The same mao that sung the OP for Doraemon 2005. However, people online have speculated she's the same person as Duka who sang *Ai no Niwa* from [Garden](https://vndb.org/v335) . Pay attention to her expression/articulation when she jumps between two notes far apart. It's understandable to have different aliases for general works and another one for adult works. Regardless, mao/Duca his many fans worldwide. 
+
