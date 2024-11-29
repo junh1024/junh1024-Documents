@@ -2,7 +2,17 @@
 
 ## Introduction
 Some games included
+Most anime is mediocre so I wouldn't recommend watching them unless  I say otherwise
 
+## Capital Ships
+
+## Carriers
+
+## Destroyers
+
+## Other
+
+## Submarines
 
 Part 1
 ---
@@ -14,18 +24,16 @@ More: https://old.reddit.com/r/kancolle/comments/eb2ls7/the_admirals_lounge/fbh7
 
 Part 2
 ---
-* https://myanimelist.net/character/6499/Nagi This is Murakumo. She even has tied bangs & a staff. Behavior unknown. The OP "approximately" sounds like [this](https://hearthis.at/junh1024/kan-imas/) (my mashup)
-* https://myanimelist.net/character/106863/Rino_Endou from jinsei looks like Ooyodo. She's shy.
+* https://myanimelist.net/character/6499/Nagi from Kannagi is Murakumo. She even has tied bangs & a staff. Behavior unknown. The OP "approximately" sounds like [this](https://hearthis.at/junh1024/kan-imas/) (my mashup)
+Ayaka GI Murakumo
 * https://myanimelist.net/character/74081/Megumi_Amatsuka from GJ-bu looks like Abruzzi (she has her hair down in only 1 ep so you don't see it)
-* https://myanimelist.net/character/38538/Eucliwood_Hellscythe from Zombie Desk car looks like Hibiki. Also a cool temperament.
+* https://myanimelist.net/character/38538/Eucliwood_Hellscythe from Zombie Desk Car looks like Hibiki. Also a cool temperament.
 * https://myanimelist.net/character/5504/Haruka_Minami looks like Haruna, just imagine her hair as black. Also dere.
-* https://myanimelist.net/character/37212/Minko_Tsurugi/pictures This is your Akebono. A real tsun.
+* https://myanimelist.net/character/37212/Minko_Tsurugi/pictures This is your Akebono. A real tsun. https://i.pinimg.com/originals/7c/34/17/7c3417c6b0c38ef2a20c9a8d1217a0c0.jpg  https://cdn.myanimelist.net/images/characters/9/113587.jpg
 * https://mashiroirosymphony.fandom.com/wiki/Miu_Amaha This is your Shoukaku. Yes she has a headband but not white hair, but it's what's inside that matters - she's a real dere.
 * https://myanimelist.net/character/54727/Ginbei_Haruomi_Sawatari from OniAi looks like Shimushu
 
 https://old.reddit.com/r/kancolle/comments/er04ie/the_admirals_lounge/ff7jay4/
-
-People have complained that I didn't include the obvious pair of Izumi Sagiri & Sagiri. Yes they both have grey hair, but that's it. Their temperament is different. Sagiri is a tsun but Izumi is not.
 
 Part 3
 ---
@@ -51,6 +59,9 @@ Part 4
 - [Rei Takanashi](https://alicegearaegis.fandom.com/wiki/Rei_Takanashi) from Alice Gear Aegis = Yuubari , or [Samidare](https://safebooru.donmai.us/posts/4122234) if her hair is down
 - [Ayaka](https://genshin-impact.fandom.com/wiki/Kamisato_Ayaka) from Genshin Impact looks like Murakumo
 
+- Does [Takasaki Yuu](https://idol.st/idol/116/Takasaki-Yu/) from Love Live = Souryuu
+- Does [Micaiah](https://fireemblemwiki.org/wiki/File:FERD_Micaiah.png) from Fire Emblem = Shoukaku
+
 
 - [Silence Suzuka](https://danbooru.donmai.us/posts/5340015) from umamusume sorta looks like De Ruyter when her hair's done up
 - [Norie Okazaki](https://myanimelist.net/character/35470/Norie_Okazaki) from Tamayura, in certain situations, looks like Ayanami. In addition, most of the cast wears uniforms similar to the Ayanami-class. Also, a decently-rated anime franchise. 
@@ -59,8 +70,7 @@ Part 4
 - [Huang LingYin](https://anidb.net/character/20538) from Infinite Stratos looks like Zuikaku
 - [Yang Harim](https://www.animecharactersdatabase.com/image.php?type_id=1&imgid=120282) from Counter:Side looks like a grown-up version of the recently released Ukuru
 
-- Not a ship, but [Aoyama Nanami](https://anidb.net/character/43398) from Sakurasou looks like [Reika-chan the C2 mascot](https://old.reddit.com/r/kancolle/comments/txhwbs/media_curry_architecture_15th_with_kancolle_9th/) . Don't watch the anime, it's mediocre & drags on.
-- [Shiina Mashiro](https://anidb.net/character/43395) from Sakurasou looks like Brooklyn.
+- Not a ship, but [Aoyama Nanami](https://anidb.net/character/43398) from Sakurasou looks like [Reika-chan the C2 mascot](https://old.reddit.com/r/kancolle/comments/txhwbs/media_curry_architecture_15th_with_kancolle_9th/) .
 - [Kamiyama Shiki](https://vndb.org/v20424/chars#chars) Summer Pockets looks like i-168. An anime adaptation has been announced, but she might not be in it since she's only in the 2nd release.
 - [Hazuki Ren](https://anidb.net/character/110055) from Love Live superstar looks like Houshou. They both have a reserved attitude and some responsibility, but whether she shows responsibility is another matter.
 - [Ishimaki Motoko](https://anidb.net/character/73126) , a very minor character from Saekano,  looks like Mogami
@@ -70,3 +80,9 @@ Part 4
 - [Manaka](https://anidb.net/character/3477) from the Toheart2 series  looks a bit like grown-up Inazuma. She's also shy. She's "secondary cast" in a somewhat mediocre anime franchise.
 
 - [Shion Ogura](https://machikado-mazoku.fandom.com/wiki/Sion_Ogura) from Machikado Mazoku looks like Ooyodo
+
+
+
+
+Kimikage Yui from Alice Gear Aegis looks like Michishio
+Touhoku Kiritan  from Voiceroid looks like Ryuujou
