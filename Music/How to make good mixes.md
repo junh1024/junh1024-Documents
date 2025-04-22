@@ -32,7 +32,7 @@ If you want a VST for your DAW, Mixed in Key has a studio edition as a plugin.
 
 There is also Hornet Songkey Mk3. Songkey displays 3 candidates in case the top candidate is wrong. But the BPM detection is rubbish. Key detection is quite mediocre. Mk4 supposedly improves on this. The advantage as a plugin, is that you can manually play a loop of the root/tonic chord to hopefully improve accuracy.
 
-Zplane Tonic is another option. What I like about tonic, is that you can fold the keys and enable chords, so you can play along with the chords of the song so and check the key is correct. The key detection is perhaps more reliable than Hornet Songkey, but it doesn't have a chord detection feature. Again. It works better if you have if you play the tonic cord through the plugin. 
+Zplane Tonic is another option. What I like about tonic, is that you can fold the keys and enable chords, so you can play along with the chords of the song so and check the key is correct. The key detection is perhaps more reliable than Hornet Songkey, but it doesn't have a chord detection feature. Again. It works better if you have if you play the tonic chord through the plugin. 
 
 
 ### Free solutions:
@@ -154,6 +154,13 @@ If a song isn't melodic, it could also qualify as being interesting due to music
 
 Interesting songs don't count towards the melodic target (unless they're also melodic), but I use them to fill up the rest of the songs that aren't melodic.
 
+### Not Interesting
+
+In spite of the above, here are some songs that I removed from mixes, and I discovered why through music theory.
+
+- Ecano - [Run | Z2 Remix](https://www.youtube.com/watch?v=zJrFSXfumM4) : This song has only 1-2 chords compared to the usual >=3 chords, and only partially melodic. 
+- Christopher Lawrence - [Rush Hour](https://www.youtube.com/embed/wVZ49e0ZSVQ) : Although clearly melodic, it has only 1 chord throughout and travels in a single, narrow, direction.
+
 ### Cheese
 
 One can classify/quantify cheese.
@@ -240,7 +247,7 @@ Mixing on key means your transitions will sound more harmonious and seamless and
 
 While creating false harmony is true since no software is 100% Perfect at key detection, I'll discuss strategies below on how to increase song selection. Similar-sounding tracks I would argue is a ~~skill~~ sourcing & library issue - just get melodic or interesting tracks in the 1st place. This was discussed above with melodic track selection. The other part is the flow, which will be discussed below.
 
-## Circle of 5ths
+### Circle of 5ths
 
 There are 2 notable systems for mixing on key:
 
@@ -315,9 +322,9 @@ According to [this paper](https://www.ibrahimshaath.co.uk/keyfinder/KeyFinder.pd
 
 This is a very important topic but is neglected by basically all guides covering how to mix on key. There are a few strategies to overcome this:
 
-- Get better software for key detection. MiK sometimes has sales (black friday, etc)
+- Get better software for key detection. [Mixed in Key](https://mixedinkey.com/) sometimes has sales (black friday, etc)
 - Test out your transitions. If the transition to the next song sounds crap or clashing, the key detection is probably wrong. Try a different song. Learn to hear the difference between a on-key transition and a off key transition.
-- Manually by listening to the song and then checking the key on a virtual piano
+- Manually by listening to the song and then checking the key on a [virtual piano](https://virtualpiano.net/) (use Key assist > Note Labels > On)
 - Comparing multiple songs that are detected as the same key
 - Comparing against songs that are keyed correctly, like the [Keyfinder V2 DB](https://www.ibrahimshaath.co.uk/keyfinder/KeyFinderV2Dataset.pdf)
 - Checking on reputable websites which explain why the song is in a particular key, like Wikipedia, hooktheory, or guitar tab sites
@@ -331,18 +338,34 @@ Mixing in key has sometimes been said as too restrictive since there are limited
 - Parallel key: The parallel key is the same tonic but different mode. For example, the parallel key of C Major is C minor, or 3 steps & 1 in/outwards on the wheel. To avoid audible clashing, at least one song must be playing single notes of the tonic. As such, this technique will only work some of the time.
 - Minor third: This is a move done out of desperation and won't sound that great most of the time, but is included for completeness. It is for example, the relationship between C and D#.
 
+### Tuning of Off Key Songs
+
+Most songs produced after the year 2000 will be close to A = 440 in the Western equal temperament tuning. But some songs especially from the 90s (about 1-5% of trance) might be noticeably off-key by some amount . No matter if you transition songs from the same key, they never sound quite right. How can you find out how off key they are so you can fix it?
+
+MiK Platinum Notes can do this and it displays the detune in semitones (although it's a bit hard to use this without generating a processed file), so zplane Tonic is my preferred choice. In Tonic, click File > Open. Tonic accepts WAV, FLAC, MP3, and ogg vorbis. After a analysis, it will display the detected detune as a reference A hz.
+
+To convert reference hz to semitone correction, 12 x  ( ( log (detected reference) - log (440) )  / log (2 ) )
+
+To convert reference hz to pitch slider correction, -100 x ( 1.0594^semitones -1 ), where 1.0594 is the 12th root of 2
+
+To convert semitones to pitch slider correction, 100 x ( 1.0594^(-semitones) -1  )
+
+These formulae are to be checked.
+
 ### Pitch Lock
 
 I make my mixes in a DAW, so preserve pitch is on by default. But in DJ apps, it might be off by default or DJs May prefer to keep it off for quality reasons. It's best to keep the stretch amount to 5% or less for maximum quality. If you're trying to mix and have pitch lock off, keep in mind that changing the Tempo of a song will also change its pitch. A 5% change is approximately 1 semitone. The exact percentage changes needed to raise for lower by one semitone varies exponentially since it's a ratio.
 
-If you have pitch lock/digital stretching on, I think that will rough up the waveform so it may look better
+If you have pitch lock/digital stretching on, I think that will rough up the waveform so it may look better, but will increase the peak levels.
 
 
-### Audio levels
-When making a mix, the meters should be in the green most of the time, and just touching yellow during the Peaks. But this advice will probably be thrown out the window when performing live in front of the audience for the sake of keeping the dance floor moving.
+### Loudness
+When making a mix, the meters should be in the green most of the time, and just touching yellow during the Peaks. This would likely mean turning down the trims and/or mixing around fader level 5-7. In a DAW, (assuming it mixes in floating point), just turn down the master by about 5dB.
+
+But this advice will probably be thrown out the window when performing live in front of the audience for the sake of keeping the dance floor moving.
 
 
-### Transitions
+## Transitions
 
 In general, you can try longer transitions for slower genres like House and Trance, and short transitions for faster genres like Drum And Bass & Fast Rock. Although this is only a suggestion. You can have long transitions on Drum And Bass as well. For genres that aren't meant to be joined like pop, you might need to do what sounds best and vary the transition per track.
 
@@ -363,9 +386,13 @@ I dub thee 8olei transition, short for 8-bar OverLap and EqualIzer. You overlay 
 
 Reviewing mixes takes the same areas as producing a mix. It's not necessary to know the songs to review a mix, although it helps the listener appreciate what was done. Here is a systematic method:
 
-1. Transitions: Are they smooth and harmonic? 
-2. Songs: Are they interesting and engaging to you? 
+1. Transitions: Are they smooth and harmonic?
+2. Songs: Are they interesting and engaging to you?
 3. Whole mix: Is the way the songs are ordered make sense in flow, energy and mood management?
+
+30 minutes is a good minimum length to evaluate mixes. The average song length in a mix is around 5-6 minutes, so you get to hear 4-5 transitions. If you're not impressing me in 30 minutes, it's unlikely that the rest of the mix is going to impress me unless you have fireworks, aliens, and UFOs in the last five minutes . 30 minutes is also a good length to see if you like the song choice of the whole mix and to hear the development, if there is any. If you don't like where it's going, again you can stop listening.
+
+Evaluating the whole mix or stopping listening based on just the first or one transition is unfair. I acknowledge that people make mistakes or get into tricky situations, so they're allowed 1 mistake per hour. This could be a mistimed transition or a non-harmonic transition that sounds bad. If there are any more than that, then it's a candidate to stop listening or score low. 
 
 Surround
 ---

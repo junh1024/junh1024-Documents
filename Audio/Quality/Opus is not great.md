@@ -79,11 +79,18 @@ For quality, you really only need to care about qAAC & FDK/FHG.
 
 Opus is quality-restrained at high bitrates due to its low-delay design, for telephony purposes.
 
+
+## Why is Opus used?
+
+Opus would be used by devices and situations where low latency is required or you're trying to lower licensing and royalty costs. For example, voice communication through conferencing scenarios, or video distribution and streaming such as YouTube and Vimeo. There are a lot of videos & users on video streaming platforms, so they want to lower the royalties associated with each video. Quality is secondary. The moment you use Opus, you need to be questioning whether they really care about quality or not, and in most cases, they're just trying to minimize costs.
+
+Opus may also be used in games, again for licensing costs, but I would suggest vorbis at 80k for mono, 160k for stereo, and 384k for high quality listening.
+
 ## Conclusion
 
 Opus is a "newer" and more "open" codec, but neither are particularly meaningful to quality, especially when Opus is tested. You need to test at the bitrate you are using. You cannot extrapolate results past a range, since the features and behaviour of codecs change according to bitrate.
 
-Due to a design priority as a low-latency voice codec for LQ hardware, several features impact music quality. Forced SRC & cutoff, and lack of SBR & PS (technologies about 10 years earlier) are evidence that music was not a priority. As a result, this reduces the practical benefit of Opus.
+Due to a design priority as a low-latency voice codec for LQ hardware, several features impact music quality. Forced SRC & cutoff, and lack of SBR & PS (technologies about 10 years earlier) are evidence that music was not a priority. As a result, this reduces the practical benefit of Opus. Opus is typically used in scenarios where low latency and reduced licensing costs are a priority, not quality.
 
 At 50-150 kps for stereo or 25-75kps/channel, Opus probably has a small 10-20% advantage, but those advantages quickly go away if you have compatibility or other concerns. At the lower end, you can replace with HE-AAC for increased compatibility (and slightly lower quality) and at the upper end, replaced with LC-AAC or vorbis for negligible perceptual difference. Outside that range, the AAC family is definitely better quality. 
 

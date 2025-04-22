@@ -1,13 +1,23 @@
-# Ozone Mastering Suite - Summary of Versions
+# Izotope Products Guide
 
-previously called **Ode to Ozone**
+## Neutron Balance Assistant - AI powered mixing
 
-## Introduction
-Isotope Ozone is a well-known software plugin for mastering audio. This document will overview versions and features for a informational, but not necessarily mixing context. Although I've used Ozone for mixing, izotope would rather you use Alloy 2, but that has been discontinued as of 2017 in favor of Neutron and Nectar for vocals.
+So, Resolve 20 Beta was announced recently. One of the features was AI-powered mixing. It seems to be focused on a movie mixing context, but I remember iZotope Neutron had this a few years ago for music. One use-case is mixing raw multitracks. [A review by musicradar](https://www.musicradar.com/music-tech/can-ai-mix-better-than-a-real-mix-engineer-we-put-izotopes-ai-powered-neutron-5-to-the-test-to-find-out) says it's no match for a well-trained human, but it can serve as a good starting point.
 
-## History
+I tried version 5, I couldn't get Neutron 5 working with Relay 2, it uses about 2ce the RAM as V4, and there were no new features announced for balance assistant, so no reason to use it. 
 
-### Early versions
+Neutron 4 is much better since it works with Relay 2, the lowest RAM plugin, and also the individual plugins use less RAM. When using the Balance Assistant, you need to pick a Focus Track, and the algorithm will boost this group. On about 60 individual tracks, it does an okay job. I compressed almost 60 tracks into 8 stems with Relay for the Neutron Balance Assistant, but the results were worse than each track individually since I did too much combining, and Neutron detected the keys as bass.
+
+You can also use the individual track assistant on individual tracks, but if you put Neutron on every track, you would certainly run out of RAM. You can certainly use Neutron for individual track EQ suggestions, but it's also useful for other things such as compression and adjustments.
+
+## Ozone Mastering Suite - Summary of Versions
+
+### Introduction
+Isotope Ozone is a well-known software plugin for mastering audio. This section (previously called *Ode to Ozone*) will overview versions and features for a informational, but not necessarily mixing context. Although I've used Ozone for mixing, izotope would rather you use Alloy 2, but that has been discontinued as of 2017 in favor of Neutron and Nectar for vocals.
+
+### History
+
+#### Early versions
 
 Version 1 released in 2001 and was offered in DX and winamp formats. Version 2 was offered in VST format for more DAWs and offered presets. Version 3 had more modules like stereo imaging, maximizer. Summary of versions 1-3 is provided from [splice](https://splice.com/blog/the-evolution-of-izotope-ozone/).
 
@@ -15,16 +25,16 @@ Version 1 released in 2001 and was offered in DX and winamp formats. Version 2 w
 
 Back in the day, I used a bit of Ozone 4 (2008) for mixing, since it has a nice suite of tools all in 1 plugin, like EQ, reverb, exciter, and the CPU use is low to boot. Version 4.04 (2011) is the first version to have 64-bit release and therefore the earliest version that will run on most modern DAWs. Only 2 things are missing:
 1. The EQ Target curve from version 3 was removed since they claimed it's not a meaningful Target
-2. And two that UI is a bit small on Modern screens
+2. The UI is a bit small on Modern screens
 
 ![Ozone 5](https://medias.audiofanzine.com/images/normal/izotope-ozone-5-advanced-374874.jpg)
 
-In Ozone 5 (2012), Individual modules as available as separate VSTs in your DAW for reduced CPU use, since the combined modules version takes about 50% more CPU. The architecture was also changed so that if you reinstall your PC, some modules won't function correctly since it also relies on the registry to function. The reverb module was upgraded to a hybrid setup. More filters were added to the EQ including brickwall. Matching EQ is now a lot easier to use & access. It was in 4, but it's quite tricky to use since it also involves adjusting spectrum settings. I've used matching EQ a few times, but usually I just EQ by ear.
+In Ozone 5 (2012), Individual modules are available as separate VSTs in your DAW for reduced CPU use, since the combined modules version takes about 50% more CPU. The architecture was also changed so that if you reinstall your PC, some modules won't function correctly since it also relies on the registry to function. The reverb module was upgraded to a hybrid setup. More filters were added to the EQ including brickwall. Matching EQ is now a lot easier to use & access. It was in 4, but it's quite tricky to use since it also involves adjusting spectrum settings. I've used matching EQ a few times, but usually I just EQ by ear.
 
 Ozone 5 also introduces the ability to change the phase of selected frequencies in digital EQ mode. This is useful if you want to turn a non-linear phase plugin into almost linear phase, by applying a maximum phase adjustment. Since you can't adjust phase without an EQ change, you need to add 2 EQ filters on top of each other, but with opposite amplitudes, so that they cancel each other in gain but you still have phase control. I've not seen many EQs that allow you to control phase independently of gain. Version 6 onwards restricts the phase control to linear/minimum so this trick might not work.
 
 
-### Later versions
+#### Later versions
 
 ![Ozone 6](https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/O/O6_06_15_02-mJak_wEcuLLflhbb_MD5mk3_hpcNKMgT.jpg)
 
@@ -47,18 +57,18 @@ Version 10 (2022) adds an impact module to increase or decrease Dynamics. I wond
 Version 11 (2023) adds a clarity module. Version 11 adds vocal balance to master assistant. It uses ML to separate and analyze the vocals to be the correct volume. this feature this also available in the elements addition.
 
  
-## User Interface
+### User Interface
 
-### Controls
+#### Controls
 
 You might not notice this, but the lack of rotary knobs is a deliberate design decision. Instead, they have sliders and sometimes, vertical knobs. You can also type in specific values. I don't have any problems with rotary knobs (if you can adjust the value via horizontal/vertical mouse movement), unless they behave literally like a rotary knob, like, you need to move the mouse in a circle to adjust the value. From version 6 text is enlarged and controls are simplified. But I wonder if you lose some control in the process. Version 10 onwards his circular elements which behave like vertical sliders like The Orb widgets in zynaptiq plugins.
 
 ![Ozone 11 orb controls](https://claudiomeloni.it/wp-content/uploads/2023/09/iZotope-Ozone-11.jpg)
 
-### Colours
+#### Colours
 Version 5 makes the UI a lot bigger. Version 5 opts for a muted light green instead of fluorescent green look from the first four versions. Version 6 begins a process towards interface with blue highlights instead of green, bigger text, and simplification of the UI. Version 7's vintage modules have a light yellow background, but Version 8 changes them to black and blue - the same as other modules.
 
-## Alternatives
+### Alternatives
 
 I use REAPER. Most of the modules in Ozone I have now replaced with free or built-in alternatives which usually use less CPU, but the control & sound will be slightly worse.
 
@@ -74,7 +84,7 @@ I use REAPER. Most of the modules in Ozone I have now replaced with free or buil
 
 - Trash 2 Distortion: distort-fuzz
 
-## Conclusion
+### Conclusion
 
 Summary of different versions:
 
