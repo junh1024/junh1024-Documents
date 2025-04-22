@@ -363,9 +363,13 @@ I dub thee 8olei transition, short for 8-bar OverLap and EqualIzer. You overlay 
 
 Reviewing mixes takes the same areas as producing a mix. It's not necessary to know the songs to review a mix, although it helps the listener appreciate what was done. Here is a systematic method:
 
-1. Transitions: Are they smooth and harmonic? 
-2. Songs: Are they interesting and engaging to you? 
+1. Transitions: Are they smooth and harmonic?
+2. Songs: Are they interesting and engaging to you?
 3. Whole mix: Is the way the songs are ordered make sense in flow, energy and mood management?
+
+30 minutes is a good minimum length to evaluate mixes. The average song length in a mix is around 5-6 minutes, so you get to hear 4-5 transitions. If you're not impressing me in 30 minutes, it's unlikely that the rest of the mix is going to impress me unless you have fireworks, aliens, and UFOs in the last five minutes . 30 minutes is also a good length to see if you like the song choice of the whole mix and to hear the development, if there is any. If you don't like where it's going, again you can stop listening.
+
+Evaluating the whole mix or stopping listening based on just the first or one transition is unfair. I acknowledge that people make mistakes or get into tricky situations, so they're allowed 1 mistake per hour. This could be a mistimed transition or a non-harmonic transition that sounds bad. If there are any more than that, then it's a candidate to stop listening or score low. 
 
 Surround
 ---

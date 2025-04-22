@@ -79,6 +79,11 @@ For quality, you really only need to care about qAAC & FDK/FHG.
 
 Opus is quality-restrained at high bitrates due to its low-delay design, for telephony purposes.
 
+
+## Why is Opus used?
+
+Opus would be used by devices and situations where low latency is required or you're trying to lower licensing and royalty costs. For example, voice communication through conferencing scenarios, or video distribution and streaming such as YouTube and Vimeo. There are a lot of videos & users on video streaming platforms, so they want to lower the royalties associated with each video. Quality is secondary. The moment you use Opus, you need to be questioning whether they really care about quality or not, and in most cases, they're just trying to minimize costs.
+
 ## Conclusion
 
 Opus is a "newer" and more "open" codec, but neither are particularly meaningful to quality, especially when Opus is tested. You need to test at the bitrate you are using. You cannot extrapolate results past a range, since the features and behaviour of codecs change according to bitrate.
