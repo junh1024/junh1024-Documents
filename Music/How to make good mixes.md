@@ -243,9 +243,17 @@ Mixing on key means your transitions will sound more harmonious and seamless and
 
 ### Why not mix on key?
 
-[Critics say on-key mixing](https://youtu.be/STpNhQuUk6Q) limits track selection, creates a false sense of harmony, and similar-sounding tracks.
+[Critics say on-key mixing](https://youtu.be/STpNhQuUk6Q) limits track selection, creates a false sense of harmony, similar-sounding tracks, and predictability. There's also a quote you may hear often "even if 2 songs are in the same key it doesn't mean they won't clash"
 
-While creating false harmony is true since no software is 100% Perfect at key detection, I'll discuss strategies below on how to increase song selection. Similar-sounding tracks I would argue is a ~~skill~~ sourcing & library issue - just get melodic or interesting tracks in the 1st place. This was discussed above with melodic track selection. The other part is the flow, which will be discussed below.
+Limiting track selection is the point of mixing in key. It is a systematic way of limiting next song selection so your transitions sound better. In the section below ### Mixing In Key Extended Technique , I will describe some techniques to increase song selection while staying on key.
+
+While creating false harmony is true since no software is 100% Perfect at key detection, this will also be discussed below. 
+
+Similar-sounding tracks I would argue is a ~~skill~~ sourcing & library issue - just get melodic or interesting tracks in the 1st place. This was discussed above with melodic track selection. The other part is the flow, which will be discussed below.
+
+Predictability is subjective. Some people associate skill with the ability to bring in any track they want at any time, with the result being a harmonic clash most of the time. That is the "sound of unpredictabilty". But it don't sound great. Technically, a mix is unpredictable unless the whole tracklist is known in advance. But in the sense of not knowing where the mix is going, you can make a mix "unpredictable", for example, by switching genres or sounds, or by jumping between major & minor keys.
+
+As for "2 songs are in the same key may still clash", again, a large part of this is likely have to do with the inaccuracy of key detection, so getting the key of the song correct should solve a large part of this. In some cases it's to do with the song so loop a different part of the song to transition or try a different song in the same of different key.
 
 ### Circle of 5ths
 
@@ -280,30 +288,28 @@ DJs would basically be forced to use camelot (or open key system if Traktor) due
 
 Mixing on key means from the current position on the wheel, you only go one step around, stay on the same key, or one step inwards/outwards. Not diagonally. Again, this would sound fine if all DJ apps were (near) perfect at key detection, but that is far from the case.
 
-
 ### Accuracy of DJ Software at Key Detection
 
-Key Detection Comparison 2022
+Key Detection Comparison 2025
 Apps & sites vs Human Ear
 
 - **Mixed In Key**: 85%
-- Traktor Pro: 74%
+- Traktor Pro: 75%
 - BeaTunes: 73%
 - Engine DJ: 73%
-- DJUCED: 72%
+- DJUCED: 73%
+- **rekordbox**: 72%
 - Mixxx: 71%
-- djay Pro AI on Mac: 70%
-- **rekordbox**: 67%
+- djay Pro AI on Mac: 71%
 - Beatsource: 65%
-- Serato: 63%
-- Traxsource: 61%
-- Beatport: 56%
+- Serato: 64%
+- Traxsource: 60%
+- Beatport: 52%
 - PCDJ DEX: 51%
-- Lexicon: 49%
 - VirtualDJ: 42%
-- Spotify: 31%
+- Spotify & Tunebat website: 30%
 
-[original Key Detection Comparison post](https://old.reddit.com/r/DJs/comments/rn2wu5/key_detection_comparison_2021/) by BazCurtis
+[original Key Detection Comparison post](https://old.reddit.com/r/DJs/comments/1ms1yds/key_detection_comparison_2025/) by BazCurtis
 
 
 So rekordbox is probably the most popular DJ app now, but is only 67% accurate. It means if you're mixing in key in rekordbox according to its key values, you'll only be about 67% on key. So every 3-5 songs there'll be a clash. Compared to if you were using MiK or keying by ear, you'll only hear a clash every 5-10 songs. This is noticeable over a mix.
@@ -328,6 +334,7 @@ This is a very important topic but is neglected by basically all guides covering
 - Comparing multiple songs that are detected as the same key
 - Comparing against songs that are keyed correctly, like the [Keyfinder V2 DB](https://www.ibrahimshaath.co.uk/keyfinder/KeyFinderV2Dataset.pdf)
 - Checking on reputable websites which explain why the song is in a particular key, like Wikipedia, hooktheory, or guitar tab sites
+- Limit to a maximum of 1 melody or 1 bass playing, by changing where you transition, to minimize clash
 
 ### Mixing In Key Extended Technique
 
@@ -336,7 +343,7 @@ Mixing in key has sometimes been said as too restrictive since there are limited
 - Key stay: - If there's a song that ascends key at the end but you don't want it to so it fits better, you can force it down. But you might find a section with your desired key earlier in the song.
 - Entire song key change: Sometimes if a song absolutely has it has to go in on that position, I may pitch the entire song up or down by one semitone.
 - Parallel key: The parallel key is the same tonic but different mode. For example, the parallel key of C Major is C minor, or 3 steps & 1 in/outwards on the wheel. To avoid audible clashing, at least one song must be playing single notes of the tonic. As such, this technique will only work some of the time.
-- Minor third: This is a move done out of desperation and won't sound that great most of the time, but is included for completeness. It is for example, the relationship between C and D#.
+- Minor third: This is a move done out of desperation and won't sound that great most of the time, but is included for completeness. It is for example, the relationship between C and D#, or 3 steps on the wheel.
 
 ### Tuning of Off Key Songs
 
@@ -360,10 +367,7 @@ If you have pitch lock/digital stretching on, I think that will rough up the wav
 
 
 ### Loudness
-When making a mix, the meters should be in the green most of the time, and just touching yellow during the Peaks. This would likely mean turning down the trims and/or mixing around fader level 5-7. In a DAW, (assuming it mixes in floating point), just turn down the master by about 5dB.
-
-But this advice will probably be thrown out the window when performing live in front of the audience for the sake of keeping the dance floor moving.
-
+When making a mix, the meters should be in the green most of the time, and just touching yellow during the Peaks. This would likely mean turning down the input gain a bit. In a DAW, (assuming it mixes in floating point), just turn down the master by about 5dB.
 
 ## Transitions
 
@@ -379,8 +383,11 @@ You can do fades to join 2 clips. The simplest fade is a crossfade, where 1 clip
 
 8olei
 ---
-I dub thee 8olei transition, short for 8-bar OverLap and EqualIzer. You overlay 2 clips cut to 8 bars long with aligned phases (phrase matching), with a hi &/ lopass on 1 or both. It's suggested to have only 1 clip with drums, to avoid double drums clashing. If you need more separation than EQ to, try Yellow DrumExtract to isolate drums, Cockos ReaFIR in compress mode to turn down harmonics, or VSTi & MIDI to recreate some motifs. It's also suggested the incoming song to have a small breakdown, or a transition to a new part of the song at the end, to distract the listener. When done right, the 8olei transition sounds really good, since songs usually introduce new elements in blocks, not by fades. Hence, it's very song-like. It depenz on how much variation your song has, to get the flexibility you need to choose a good transitioning section.
+I dub thee 8olei transition, short for 8-bar OverLap and EqualIzer. You overlay 2 clips cut to 8 bars long with aligned phases (phrase matching), generally with a lopass on the outgoing song, and hipass on the incoming songs (or vice versa). The crossover is set to 500hz with a gentle slope to blend elements of both songs. As such, both songs need to be in compatible keys, otherwise it will sound terrible.
 
+If you need more separation than EQ, try Yellow DrumExtract to isolate drums, Cockos ReaFIR in compress mode to turn down harmonics, or VSTi & MIDI to recreate some motifs. It's also suggested the incoming song to have a small breakdown, or a transition to a new part of the song at the end, to distract the listener. When done right, the 8olei transition sounds really good, since songs usually introduce new elements in blocks, not fades. Hence, it's very song-like. The overall result is heavily dependant on the songs & sections chosen. Sometimes it can be very smooth, sometimes quite bumpy.
+
+It's possible to approach this live. To approproximate a 500hz crossover, the mids are half-cut and highs are cut on the outgoing song, and the bass is cut and mids are half-cut on the incoming song (or vice versa). Half-cut is defined as approx -5dB. This EQ setup is done for 8 bars, until you quickly switch over to the incoming song. EQ is reset after the transition. Because you're controlling 2 knobs + 1 crossfader at once, you'll need 3 hands. Just grow some more hands or something.
 
 ## Reviewing mixes
 
@@ -390,7 +397,7 @@ Reviewing mixes takes the same areas as producing a mix. It's not necessary to k
 2. Songs: Are they interesting and engaging to you?
 3. Whole mix: Is the way the songs are ordered make sense in flow, energy and mood management?
 
-30 minutes is a good minimum length to evaluate mixes. The average song length in a mix is around 5-6 minutes, so you get to hear 4-5 transitions. If you're not impressing me in 30 minutes, it's unlikely that the rest of the mix is going to impress me unless you have fireworks, aliens, and UFOs in the last five minutes . 30 minutes is also a good length to see if you like the song choice of the whole mix and to hear the development, if there is any. If you don't like where it's going, again you can stop listening.
+30 minutes is a good minimum length to evaluate mixes. The average song length in a mix is around 5-6 minutes, so you get to hear 4-5 transitions. If you're not impressing me in 30 minutes, it's unlikely that the rest of the mix is going to impress me unless you have fireworks, aliens, and UFOs in the last 5 minutes. 30 minutes is also a good length to see if you like the song choice of the whole mix and to hear the development, if there is any. If you don't like where it's going, again you can stop listening.
 
 Evaluating the whole mix or stopping listening based on just the first or one transition is unfair. I acknowledge that people make mistakes or get into tricky situations, so they're allowed 1 mistake per hour. This could be a mistimed transition or a non-harmonic transition that sounds bad. If there are any more than that, then it's a candidate to stop listening or score low. 
 
@@ -398,7 +405,7 @@ Surround
 ---
 Using surround in mixes is completely optional, but offers more flexibility. Though the need is declining due to realtime separation technology, general interest in surround might be increasing. You can make surround mixes, but it will most likely be upscale. You can upscale after making a mix, but that's lazy & bad quality since phase information that upscalers use is perhaps mangled by pitch-time stretching. So, upscaling *before* is preferred. Deciding whether to make a surround mix or not depends on a few factors, how well I like the songs, and how well they upscale to surround. Non-vocal mixes I usually don't bother for surround since you can't put vox for an easy discrete center.
 
-Order for 51/71 is L R C LFE BL BR SL SR (SMPTE-MS)
+Order for 51 is L R C LFE BL BR (SMPTE)
 
 If you make a 3ch mix of a song, you can have more control over vox, providing the instro is only in LR & vox is mostly in C. How to make such a clip is not covered in this guide. If you wanted this level of control previously, you would have 2x stereo clips. Having them as a single surround clip ensures they never get misaligned & bypasses the grouping hassle. Unless you have a DAW that imports stereo as separate mono clips *ahem Pro Tools*.
 

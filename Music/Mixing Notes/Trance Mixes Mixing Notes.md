@@ -12,6 +12,7 @@
 
 - **Stream: https://www.mixcloud.com/junh1024/classics-and-cheese/**
 - DL: Coming soon
+- Reviews: https://old.reddit.com/r/ClassicTrance/comments/1d56ial/royale_with_cheese_submission_thread/l8tvdv6/
 
 44'40"/7 songs = 6.4 mins/song
 
@@ -185,3 +186,108 @@ I also tried to find the most clipart-genic cheese clipart. Unfortunately, openc
 
 ### Feedback
 Good mixing & transitions. Track 3 perhaps dropped the energy a bit, although it's better to lose energy earlier on than later. OMUDJ thought it could be louder.  Most people recognized some tunes, but wished it could be longer. Overall, they enjoyed listening to it.
+
+
+## Introduction to Trance 2 "Deeper"
+
+1. 00:00 BT - Flaming June F#m
+1. 06:22 Romanthony's Nightvision - Never Fuck (Paul van Dyk Late Night Mix) 
+1. 13:20 56K ft Beejay - Save a Prayer Lmc Mix 
+1. 17:59 Underworld - Born Slippy (Paul Oakenfold Mix) (Oakenfold) Gm/A#
+1. 25:11 Kamaya Painters - Far From Over Bm
+1. 29:35 Art Of Trance - Kaleidoscope (Sunday Club's Extended _Cm 
+1. 37:28 Rapha - Pandora (Daniel Kandi's Emotional Mix 
+
+- Songs from users: bascule, UnbuiltAura9862, dat_xiet/j00/shiftless, TangeloNo3099, bascule, bascule, OMUDJ
+
+
+- Streaming https://soundcloud.com/r_classictrance/abbott-costello-1
+- Reviews https://old.reddit.com/r/ClassicTrance/comments/1l9w99w/mix_competition_collaboration_is_key_listening/n1c3jin/
+
+### To Submit or Not To Submit?
+
+I had something lined up for Rule of 5s, but Bubbly hat said, "there's a chance (Ro5) won't happen, right?" 
+
+I decided to participate in this contest anyway so that I would have at least participated in a contest this year. But how to proceed? I could make a mix that fully complies with colab, but I wouldn't like since it's hard to find western trance songs I like. Or I could submit prior work that I *do* like but wouldn't fully comply. I wanted to avoid a repeat of Halloween 2024 where I did a Drum & Bass mix which neither I nor all of the crowd liked, so I chose the latter.
+
+### What's in a name?
+
+So the mix is titled *Introduction to Trance 2 - "Deeper"*. The deeper part means we go deeper into trance with 2 selections from the 90s, but also "deeper" has s*xual connotations with "Never F*ck".
+
+My mix title was "Abbot & Costello, a comedy duo. Considering the amount of shenanigans my mix had, maybe it's appropriate, or just confirmation bias.
+
+### Is it trance?
+
+It depends on how you measure: by volume or by song count. The top & tail are clearly not trance, but then we have some in the main sequence. "Never F*ck" is actually house, and "Born Slippy," was actually techno if you're drawing fine lines. Just don't think too hard about genres.
+
+What did Paul van Dyk say about genres? https://youtu.be/lkUXwb9YF0U?t=128 Back in the day, people didn't care about segregating DJs and different genres. It was more about good music and good melodies. This implies people didn't care if they got troused (when a DJ plays a mixture of house & trance), (finally, something I can get behind!) It wasn't until pop DJs entered the scene that people did segregation. So to be more classic is to be less trance, maybe?
+
+### Is it a collaboration?
+
+Tedster42, master of non-compliance with his seminal breaks mix in rule of 4s said: "If you wanna be only 90% compliant, that's what I'd use the other 10% for, to really spice up the mix in ways others who are 100%ing it might not."
+
+Antoine de Saint-Exupéry said: "It seems that perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away."
+
+"Never F*ck" and "Pandora" are not collabs. They're probably not absolute bangers either, so I'm probably not making "the most of non-compliance", but as typical of my mixes, almost every song has a clear function, so if you take them out, it would seriously impact the mix.
+
+Intrestingly, all songs in T2 padding are internal artist colabs. But Even though the Prague Chamber Orchestra has 30-odd members & there were 3 engineers, there was only 1 producer, so [Adagio for Strings](https://www.discogs.com/release/15451481-Dmitri-Shostakovich-Samuel-Barber-Prague-Chamber-Orchestra-Anton%C3%ADn-Hradil-Chamber-Symphony-Op110a-S
+) isn't a producer colab. So sad.
+
+### Submission Concept
+
+My [Classics And Cheese Mix](https://old.reddit.com/r/ClassicTrance/comments/1d56ial/royale_with_cheese_submission_thread/l8tvdv6/) was well received last year, but there was some critical opinion that short mixes don't respect the history of trance, (my mix was only 45'). So I decided to make a 60' submission for the critics. As for my fans (don't worry , most people here are my fans), it would be smooth & pleasant listening. I was also wanting to fulfill a promise I made to OMUDJ that I would make a >= 1h mix. I was hoping to maybe get closest to 60' over but someone else beat me to do it by 5s.
+
+In case my submission didn't respect trance enough, what better way by using a classical version of a well-known trance song, "Adagio for Strings." So there is *absolutely no way that you can deny that I would be respecting the history of classic trance* , just not in the way that you would expect. I was actually surprised a few people liked *that* better then the rest of my mix lol.
+
+I started this mix project (Introduction to Trance 2) with songs that I liked from the 2024 Royale with Cheese contest. *Every song can be traced back to a cheese mix* and the nicks after the song title above reflect this.
+
+It wasn't meant to be a crazy journey with the TL, but I can see how it could be like that esp with the additions.  cosmo was surprised with the amount of vocal trance. I didn't think much of it at the time, but now it makes sense. Since I chose my songs from the cheese contest and listened to that contest, my selection reflects the cheese aspect & I thought other people would have some vocal trance. But listening to other contest entries as a whole for this contest, it turns out  vocal trance isn't the norm, so so my mix stands out a bit, but I don't think anyone picked up on it being a cheese mix.
+
+My original submission concept to have a 20' trance introduction, + Introduction to Trance 2 (43m) + Adagio for Strings (8m), which makes 71'. With the likely change that the submission length would be reduced to 60 minutes in April 2025 discussions, I had to pivot to bring my submission < 65', so the intro would need to be replaced.
+
+I don't have many trance songs exactly 9' long. I had the idea of filling in the beginning with songs from The Matrix. Dissolved Girl is what Neo hears when he wakes up in Matrix M1 as a nice atmospheric downtempo song. Then we pair it with Mindfields and Prime Audio Soup, it totals 12 min, then edited down to 9. It was clear that some people didn't like the introduction as there's a noticeable dip in play count on my mix.
+
+Only 2 reviewers understood my mix - Jason & Park (but a few others like Cdub008, stedmanstiles, cosmo, and stevies did appreciate it). "a first act fake-out, changing tone from the leftfield first ten minutes with flaming june setting the trancier tone on till the end." - Jason. "A real classics set" - Park AKA OMUDJ.
+ 
+The fade to silence was meant to be a break after the matrix section, but most people, didn't pick it up. Maybe I should've made it longer to be clearer?
+
+### Mixing notes
+
+I started my mix With the base from Cofactor's cheese mix, and a few songs from other people. With flaming June at the start, kaleidoscope as the climax, Pandora at the end from OMUDJ. I then listen to shiftless/dat_xiet/j00's mix, and I had 2 songs to add. Ayla – Sunday is sort of like a budget version of "Kamaya Painters – Far From Over". But that was the wrong key to fit in. Save a Prayer did fit in before Born Slippy. It could fit in after Born Slippy to Bridge the drop in energy from Born Slippy to Far from Over, but I felt that having Save a Prayer would work better as the 3rd song due to my usual numbering coloring scheme.
+
+For this mix, I did a quick process of initial draft. So after aligning the songs to the beat, I trimmed off the enough of introduction and ending to let the melodic sections begin & end so that would expedite making the transitions. and a lot of these initial editing stayed for my final transitions.
+
+Going from Far From Over to Kaleidoscope, the transition is a bit abrupt, but I think this is the correct way of joining these two songs, and the phrasing works really well as the bass synths are similar.
+
+Going from Never Fuck to Kaleidoscope is a tricky string since the songs aren't all in harmony with each other. Initially, I had Never Fuck in the original key, Born Slippy down by 1st, then Far From Over up 1 st in the last section to match Kaleidoscope. But when listening to this, the key change in Far From Over seemed to come too soon since it's such a short song. so the solution is to have all of Far From Over up 1st, and that means Born Slippy at the original pitch, and raising that pitch of Never Fuck in the last section.
+
+After adding Save A Prayer, I thought my mix was sufficiently long around 45'. I tried looking for more songs other mixes, like Ernesto Vs Bastian - A Few Seconds After Trancefer, or popular songs across all mixes that I could find on Spotify, but I didn't like them, or I found it hard to fit in my mix due to key.
+
+### About songs & editing
+
+I analyzed all songs after the mix and most of theme were close to being on pitch, so probably not a thing I need to do unless it sounds off.
+
+The Matrix soundtrack. My middle school conductor wanted us to perform selections from Carmina Burana in grade 8. There was a tricky flute and timpani duet in one of the pieces. He gave us a tape with a reference recording, and the rest of the tape had selections from The Matrix soundtrack, including "Mine Fields" and Prime Audio Soup.
+
+Flaming June is a dance anthem https://en.wikipedia.org/wiki/Flaming_June_(song) . The last breaks section of Flaming June was cut off since it's at a different tempo, but the start was kept. It's an [absolute classic](https://www.discogs.com/master/38090-BT-Flaming-June) . [musikexpress interview](https://www.youtube.com/watch?v=xVFgnI7dTn0)
+
+Never Fuck borrows the sample of Daft Punk Revolution 909 and sounds quite groovy. The stereo image is a bit wide, so I narrow it using StereoEnhancer. It's quite long at 10' and I thought I would need to cut it down to make the more fair to other tracks, but I didn't need to do much after trimming off the introduction and ending. There's A bit in the middle where it changes key, and I put that part down to the same key, so that it doesn't stick out.
+
+Save a Prayer (and also Pandora) are probably songs which stick out as being cheesy or not classic. [On discogs](https://www.discogs.com/master/154609-56k-Feat-Bejay-Save-A-Prayer) one reviewer said the LMC mix is "the aural equivalent of taking a dump and being paid for it". But it's catchy & I like it. The merits of original composition carry through. The chord progressions are probably fairly standard Western pop. But the key change from Gm to Em during the pre-chorus to the post-chorus. And that's enough to elevate it from generic trance remix with vocals, to interesting trance remix with vocals. Jason pointed out the original is from Duran Duran.
+
+I made a note one night to boost the bass in "Save a Prayer." However, I noticed the next day that the verses were more powerful than the chorus due to compression. Typically, you would use automation or clips to fix this issue, but I tried a new approach. I used a multi-band compressor to maintain the bass at a constant level then boost it. Setting the time constants is crucial - you want a fast attack but a slow release of about 20 seconds, along with some knee.
+
+You should adjust the threshold and gain so that the bass is compressed more during the verses than in the chorus. The long release ensures that the bass isn't boosted too much during quieter sections. I set my gain constant so that there was 7 dB of compression during the verses and a 7 dB gain. However, when the audio starts, there's a short surge in volume as the compressor takes time to respond. This can be partially remedied by using a conventional one-band compressor with a fast attack afterwards.
+
+Born Slippy is made famous by the Trainspotting movie. Underworld is a "British electronic music group" from Wales https://en.wikipedia.org/wiki/Underworld_(band) . The 'lager' lyrics I thought it was 'on and on' until I read Wikipedia https://en.wikipedia.org/wiki/Born_Slippy_Nuxx
+gianniteleskaofficialuk [says](https://www.youtube.com/watch?v=KZcT8_EH0pE&lc=UgjG_try8upt0HgCoAEC) "The History of Trance by this Record"
+
+Art of Trance is [Simon Berry](https://en.wikipedia.org/wiki/Simon_Berry), an English DJ/producer.
+
+Kaleidoscope (Sunday Club remix) is [much acclaimed](https://www.discogs.com/master/2049-Art-Of-Trance-Kaleidoscope). It's sharp by almost 50 cents. But if you turn it down by that much, it won't work well for Elastique 2, especially Elastique efficient. This is likely because there's a frequency Domain element to Elastique. The tone/triangle synth in the Motif is narrow bandwidth. So when frequency Domain scaling is performed, then the phase will get smeared over multiple bins. Phase information is what gives synths attack and presence. So to reduce the artifacts but fix some of the tuning, the sweet spot is around 30 to 40 cents. For Kaleidoscope (like my That's the Way-spellbound mashup), I needed to use the full 10-minute extended version, since the 9' version had an ending which was out of tune to the rest of the song.
+
+Kamaya Painters - Endless Wave might be slightly more popular on spotify, but Far From Over is liked more by trance listeners, as it ranks higher in the [ASOT 1000 list](https://www.astateoftrance.com/news/armin-van-buuren-reveals-all-time-a-state-of-trance-top-1000-list/) . Far from Over is better than Endless Wave IMO since the melody is longer and less repetitive, and the chords are more interesting.
+
+Pandora. when listening to it, The kick drum is way too loud, but that doesn't mean good bass. No amount of EQ or multiband compression will make the kick the right level since there's quite a lot of high frequencies in the kick. So I need to use ML separation to get the drums, then use linear EQ to turn down the kick. Overall, the mids & highs also need to be turned down, likely due to multiband compression sucking the life out of the track.
+
+Adagio for Strings - On the Prague Chamber Orchestra  version with good headphones, you can really hear the imaging with the cellos on the left & violins on the right (or vv).
