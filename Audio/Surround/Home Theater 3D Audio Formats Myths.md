@@ -548,3 +548,6 @@ TRUE. However, this is only in theory and I don't know any software that exists 
 
 ### 5.1 downmix mode only affects 5.1
 FALSE. 5.1 downmix mode also affects 5.1.2 and 5.1.4
+
+
+https://rantingsofamadaudiophile.wordpress.com/2017/05/20/dtsx-vs-dolby-atmos-part-ii-dolby-surround-vs-dts-neuralx/ 
