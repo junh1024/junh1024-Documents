@@ -155,7 +155,7 @@ There's 2 common types of cables for IEMs, 2-pin and MMCX. Both have [their quir
 
 Maybe worth mentioning here a few years ago, Delta Fyre made a Post in which he disconnected some drivers of a KZ multi-driver IEM and found out that some of the drivers barely made any sound. Lots of drama ensued, and the famed headphone reviewer crinnacle discontinued their relationship with KZ. KZ later made a statement [with technical explanations](https://www.headphonesty.com/2022/03/kz-fake-multi-driver-iem-scandal/) and that the product is working is expected, and Delta Fyre made an apology. But not many people read the follow-up statements.
 
-Delta Fyre expected the multiple drivers to have exclusive frequency ranges, but they were overlapping frequency Ranges - the other drivers were used for tuning purposes. Also, their testing method was potentially invalid since disconnected drivers form an open circuit and changed the topology. Multiple drivers were also likely done [shorten product development time](https://old.reddit.com/r/headphones/comments/ux2q5w/whats_the_current_situation_on_kzs_fake_driver/i9vbqom/)
+Delta Fyre expected the multiple drivers to have exclusive frequency ranges, but they were overlapping frequency Ranges - the other drivers were used for tuning purposes. Also, their testing method was potentially invalid since disconnected drivers form an open circuit and changed the topology. Multiple drivers were also likely done to [shorten product development time](https://old.reddit.com/r/headphones/comments/ux2q5w/whats_the_current_situation_on_kzs_fake_driver/i9vbqom/)
 
 Drivers of KZ IEMs could be connected with the wrong polarity. This is a more valid claim than "fake drivers", and highlights QC and potentially [significant build quality](https://old.reddit.com/r/headphones/comments/ux2q5w/whats_the_current_situation_on_kzs_fake_driver/i9vbqom/) issues.
 
@@ -235,7 +235,9 @@ I'll briefly cover surround headphones for PC. Most surround headphones for PC a
 
 There's also multi-driver headphones with several drivers in each ear cup for different speakers. I've tried 1 such product, and the difference from different directions wasn't particularly impressive.
 
-So I would say that virtualizing approach is better, although you might as well buy regular stereo headphones and use software like [Hesuvi](https://sourceforge.net/projects/hesuvi/) (for MME apps) or Dolby Access (for MSS apps) to virtualize surround. 
+So I would say that virtualizing approach is better, although you might as well buy regular stereo headphones and use software like [Hesuvi](https://sourceforge.net/projects/hesuvi/) (for MME apps) or Dolby Access (for MSS apps) to virtualize surround.
+
+Perhaps of interest is [AAF Family DCH Audio](https://github.com/AAFOptimus/AAFFamilyDCHAudio) for Realtek  Audio Chips, which enables additional features like Dolby Home Theater.
 
 
 ## Neckband speakers

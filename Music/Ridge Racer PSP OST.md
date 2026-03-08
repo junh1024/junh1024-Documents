@@ -2,7 +2,7 @@
 
 Introduction
 ---
-Ridge Racer PSP OST is the best OST in the series imo. I've only played it for an hour or so in 2006-ish, but it has good music (I like 1/4-1/2 of the tracks). But I'm biased since I barely know the other OSTs well. But I might be [onto something](https://www.squareenixmusic.com/reviews/chris/ridgeracers.shtml). It has a mix of new songs and remixes of old songs. Including the irresistible [Disco Ball](https://www.youtube.com/watch?v=X3GLPLsjD24)But I don't like the hardcore tracks. While I'm going through game OSTs to make mixes, I noticed a few that might fit into RR PSP.
+Ridge Racer PSP OST is the best OST in the series imo. I've only played it for an hour or so in 2006-ish, but it has good music (I like 1/4-1/2 of the tracks). But I'm biased since I barely know the other OSTs well. But I might be [onto something](https://www.squareenixmusic.com/reviews/chris/ridgeracers.shtml). It has a mix of new songs and remixes of old songs. Including the irresistible [Disco Ball](https://www.youtube.com/watch?v=X3GLPLsjD24) But I don't like the hardcore tracks. While I'm going through game OSTs to make mixes, I noticed a few that might fit into RR PSP.
 
 Test Drive Unlimited 1 PS2
 ---

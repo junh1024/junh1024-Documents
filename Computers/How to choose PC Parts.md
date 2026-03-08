@@ -135,13 +135,16 @@ AKA USB flash drive. Recommended: Sandisk ultra/extreme with metal USB plugs, NO
 DVD writers go for dirt cheap, you may already have one, so there's little excuse not to have one. Also consider a BD writer so you can backup data or make BDs. USB ODDs are also possible.
 
 ## PSU
-Many guides will suggest a 80+ bronze PSU. I'll suggest a semi-modular PSU (for better cable management), and a 80+ gold to save more power. You might save $20-50/year depending on how much you use your PC. Some lower watt PSU are only available in the SFX size. You can buy brackets/adaptors to fit a standard PC case. I suggest Corsair although Cooler Master or Seasonic might do. Do NOT cheap out on a PSU. You can damage your PC if you do.
+Many guides will suggest a 80+ bronze PSU. I'll suggest a semi-modular PSU (for better cable management), and a 80+ gold to save more power. You might save $20-50/year depending on how much you use your PC. I suggest Corsair although Cooler Master or Seasonic might do. Do NOT cheap out on a PSU. You can damage your PC if you do.
 
-- [Corsair SF450](https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/SF-Series%E2%84%A2-80-PLUS-Gold-Power-Supplies/p/CP-9020104-NA) Modular, gold. It is SFX, so you'll need to buy an adaptor
-- [Seasonic Focus SGX](https://seasonic.com/focus-sgx) Modular, Gold. 
-- Other modular gold PSUs are available, but I have only listed those with lower wattage
+I can no longer recommend SFX PSUs, the small size leads to reliability issues after a few years. A regular ATX PSU is cheaper and more reliable.
+
+In order, I would recommend Corsair RM, CXF, CX.
 
 https://outervision.com/power-supply-calculator
+
+
+Some  interesting historical information about underloading PSUs http://www.playtool.com/pages/psuunderload/mincurrent.html and GPUs
 
 ## Monitor/Display
 

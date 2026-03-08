@@ -219,6 +219,16 @@ Examples:
 If a song doesn't fit into a perfect or plagal cadence, it doesn't necessarily mean it's not suitable as an ending. These are candidate suggestions only. If you don't understand cadences or music theory, don't worry. A good ending song is one of those things you'll know it when you hear it.
 
 
+### Song order 
+
+
+Now that you have some ideas for songs to open/
+
+1. Make a list of songs, prioritize them, and tag them with must open, must end, must mid, must gay, must lesbian, etc. You can do this with Quinzier if you want to colab on compilation.
+1. Tag the keys
+1. Make a order of songs that fufils your position restrictions while being on key. The more $position restrictions you have the harder it's gonna get. You may need to use pitching or Truck Drivers. You often don't use all songs due to key reasons. Do a lot of testing of the transitions & mix.
+It's gonna take some time planning but That's basically it and I've basically been able to get the songs I want in the position I want while being on-key.
+
 ### Storytelling
 
 

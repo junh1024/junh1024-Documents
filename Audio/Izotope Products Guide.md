@@ -44,7 +44,7 @@ Version 6 (2014) unfortunately removed the reverb and many people lamented the d
 
 Version 7 (2015) adds some vintage modules (EQ, compressor, limiter, tape). Vintage was all the rage back then, I guess after Taylor Swift's release of 1989 in 2014. Thank god that tape doesn't add wow & flutter, as it's 1 of the things I loathe about analogue, and would also add latency. Version 7 also adds codec preview, which some people applauded, but I would argue it's not that useful since unless you can have the exact encoder & settings as the final encode, the artefacts will be different. Also, general transparency rates are known. Default in LAME MP3 is HQ/slow, but some services may use fast instead. Default AAC encoder for Apple Music would ofc not be Fraunhofer either.
 
-Version 8 (2017) adds Dynamic EQ, not that useful/working for me TBH. Version 8 to 10 also adds spectral shaper & stabilizer which tames frequency problems like resonances, or broad adjustments like oeksound soothe & soundtheory gulfoss respectively.
+Version 8 (2017) adds Dynamic EQ, not that useful/working for me TBH. Version 8 to 10 also adds spectral shaper & stabilizer which tames frequency problems like resonances, or broad adjustments like Oeksound soothe & soundtheory gulfoss respectively.
 
 ![Ozone 9](https://cdn.mos.cms.futurecdn.net/ETyy4rBCJEYMon2u2uGdYR.jpg)
 
@@ -54,14 +54,15 @@ Ozone Elements 8 and 9 were available for free for a limited period but they mig
 
 Version 10 (2022) adds an impact module to increase or decrease Dynamics. I wonder if it will be useful on your usual DRC Masters. In the past, I've been using Voxengo Transgainer for that.
 
-Version 11 (2023) adds a clarity module. Version 11 adds vocal balance to master assistant. It uses ML to separate and analyze the vocals to be the correct volume. this feature this also available in the elements addition.
+Version 11 (2023) adds a clarity module. Version 11 adds vocal balance to master assistant. It uses ML to separate and analyze the vocals to be the correct volume. This feature is also available in the elements addition. Also worth a mention is Izotope RX 11 adds spectral recovery for LQ audio, potentially really old or recorded on cheap equipment.
 
+Version 12 (2025) adds a unlimiter module. Finally after 20 years, they made something that undoes one of the most destructive things in audio (of which they had a hand in).
  
 ### User Interface
 
 #### Controls
 
-You might not notice this, but the lack of rotary knobs is a deliberate design decision. Instead, they have sliders and sometimes, vertical knobs. You can also type in specific values. I don't have any problems with rotary knobs (if you can adjust the value via horizontal/vertical mouse movement), unless they behave literally like a rotary knob, like, you need to move the mouse in a circle to adjust the value. From version 6 text is enlarged and controls are simplified. But I wonder if you lose some control in the process. Version 10 onwards his circular elements which behave like vertical sliders like The Orb widgets in zynaptiq plugins.
+You might not notice this, but the lack of rotary knobs is a deliberate design decision. Instead, they have sliders and sometimes, vertical knobs. You can also type in specific values. I don't have any problems with rotary knobs (if you can adjust the value via horizontal/vertical mouse movement), unless they behave literally like a rotary knob, like, you need to move the mouse in a circle to adjust the value. From version 6 text is enlarged and controls are simplified. But I wonder if you lose some control in the process. Version 10 onwards has circular elements which behave like vertical sliders like The Orb widgets in zynaptiq plugins.
 
 ![Ozone 11 orb controls](https://claudiomeloni.it/wp-content/uploads/2023/09/iZotope-Ozone-11.jpg)
 
@@ -75,7 +76,7 @@ I use REAPER. Most of the modules in Ozone I have now replaced with free or buil
 - Equalizer: ReaEQ, ReaFIR
 - Reverb: Reaverbate
 - Dynamics: ReaComp, ReaGate, ReaXcomp
-- Exciter: LOSER/Exciter, ReaXcomp with fast constants
+- Exciter: LOSER/Exciter, ReaXcomp with fast constants, TB Evoke 3
 - Imager: LOSER/stereoEnhancer, Liteon/pseudostereo
 - Maximizer: ReaComp, ReaLimit (new)
 
@@ -84,12 +85,17 @@ I use REAPER. Most of the modules in Ozone I have now replaced with free or buil
 
 - Trash 2 Distortion: distort-fuzz
 
+Some of the more specialized modules need paid alternatives:
+
+- Izotope RX 11 spectral recovery: Acentize dxRevive, [VASR](https://github.com/haoheliu/versatile_audio_super_resolution)
+- Ozone 12 Unlimiter: Transgainer, multiband/FFT-based transient designers like Quikquak mashtactic
+
 ### Conclusion
 
 Summary of different versions:
 
 - Ozone 4: Low CPU use
 - Ozone 5: Comprehensive legacy features
-- Ozone 9+: Modern features
+- Ozone 9+: Modern & novel features
 
 Although I have mostly migrated to free plugins. Ozone over its 20-year history (starting from 2001), has incorporated current trends. While real mastering engineers (R) may prefer to use something else, it's been [credited]() with making mastering more accessible, and it's there if you need it.

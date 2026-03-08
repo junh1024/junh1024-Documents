@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Dirt is a off-road racing game by Codemasters, a UK studio. Released in 2007 for PC, PS3, xbox, XXX.
+Dirt is a off-road racing game by Codemasters, a UK studio. Released in 2007 for PC, PS3, xbox 360.
 
 
 ## Background
