@@ -88,6 +88,7 @@ I use REAPER. Most of the modules in Ozone I have now replaced with free or buil
 Some of the more specialized modules need paid alternatives:
 
 - Izotope RX 11 spectral recovery: Acentize dxRevive, [VASR](https://github.com/haoheliu/versatile_audio_super_resolution)
+- Izotope RX 12 ,scene rebalance: separate audio into DME
 - Ozone 12 Unlimiter: Transgainer, multiband/FFT-based transient designers like Quikquak mashtactic
 
 ### Conclusion

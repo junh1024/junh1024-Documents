@@ -18,9 +18,29 @@ At one point, I wanted to add Death of Aase from G&A Classical Trance, but could
 
 ## Touhou 3
 
-While browsing the East Side Lounge, I initially thought it was an eh album, but after I got ones released a few years a few years later, I realized it's not that bad as later albums change the style to a more mellow general doujin electronic style & add vox, which is what I'm not looking for (I'm looking for house/techno/trance) so I only get half a good song per album instead of 1-2. I also initially thought this was an eh album since I only liked isolated world, since I'm familiar with it for 8? years since it was on the RE:COLLECTIONS anthology. But after a few more listens, I liked 'Road to the sun' & surround me with dolls. unfortunately, SMWD would be too slow to stick in this mix as it's too slow. I was also listening to the Blue Album & I quite liked Feel The Air. I would try to join it with Sealed Lord since it's in the same key, but there's a few issues with that. Basically Sealed Lord tried to take over & I end up cutting the intro of Feel The Air so that it transitions well, so I did the reverse since I like FTA better, and overlayed the synth intro of SL to make it seem like 1 song. Really, it's not much longer but now it's more like to increase song count. I also notice both share a similar 623532 arp & wondered if they're the same song. They're not. I elevated the pitch of FTA at the last chorus since it might sound better & it'll flow to into 'Road to the sun' better.
+ estha - Sealed Lord (TH10 MoF, 2007)
+* estha - Feel the Air (TH10 MoF, 2007)
+* ziki_7 - Random Navigation (TH12 UFO, 2009)
+* XL Project - Newshound (TH12.5 DS, 2010)
+* soana - When they think of there (TH10 MoF, 2007)
+* akio - Photosynthesis (NULL, 2005)
+
+00:00 01 Sealed Lord
+01:39 04. estha - Feel the Air
+06:14 125 Zeus Crash stereo
+06:26 03. Taishi - Road to the Sun
+10:11 04. Vanishing point
+14:11 06. Taishi - My next way
+18:11 08 emotion of the forest
+
+
+
+While browsing the East Side Lounge, I initially thought it was an eh album, but after I got ones released a few years a few years later, I realized it's not that bad as later albums change the style to a more mellow general doujin electronic style & add vox, which is what I'm not looking for (I'm looking for house/techno/trance) so I only get half a good song per album instead of 1-2. I also initially thought this was an eh album since I only liked isolated world, since I'm familiar with it for 8? years since it was on the RE:COLLECTIONS anthology. But after a few more li
+stens, I liked 'Road to the sun' & surround me with dolls. unfortunately, SMWD would be too slow to stick in this mix as it's too slow. I was also listening to the Blue Album & I quite liked Feel The Air. I would try to join it with Sealed Lord since it's in the same key, but there's a few issues with that. Basically Sealed Lord tried to take over & I end up cutting the intro of Feel The Air so that it transitions well, so I did the reverse since I like FTA better, and overlayed the synth intro of SL to make it seem like 1 song. Really, it's not much longer but now it's more like to increase song count. I also notice both share a similar 623532 arp & wondered if they're the same song. They're not. I elevated the pitch of FTA at the last chorus since it might sound better & it'll flow to into 'Road to the sun' better.
 
 I also had Yearn originally in the mix, but I deleted it since it's a different remix of the same source song as FTA. I also had a bunch of songs that are harmonically related in another, Random Navigation, Newshound, When they think of there, and it's compatible with RTTS, so I added them in. Photosynthesis @ end is space-filler. RN & N sound bad, they're really space-filler. So I tried to find Em songs from XLPS to replace RN with. Turns out there's not many. So I left it. I did the joins & let it sit for weeks. After working on other dnb/racing mixes, I came back to this & revised the transitions & song lengths. Some xsitions use less layers, sounds less conflicting. And some more techniques like echo. Then I released it. Afterwards, I had some regerts since I don't like the middle 2 songs. So I hide the mix on YT.
+
+
 
 
 ## Touhou 5

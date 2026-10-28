@@ -2,7 +2,7 @@
 
 Aim
 ---
-This guide is meant to accompany your process of choosing PC parts for a PC tower or similar,  pre-chosen builds https://pcpartpicker.com/guide/ or https://www.logicalincrements.com/ , or your own. My aim is to build a low-mid range, quiet, power-saving, money-saving PC that lasts, for light Audio/Video work. If you need to do very intense work all the time, or don't care about the above properties, this guide is not for you.
+This guide is meant to accompany your process of choosing PC parts for a PC tower or similar, pre-chosen builds https://pcpartpicker.com/guide/ or https://www.logicalincrements.com/ , or your own. My aim is to build a low-mid range, quiet, power-saving, money-saving PC that lasts, for light Audio/Video work. If you need to do very intense work all the time, or don't care about the above properties, this guide is not for you.
 
 ## Case
 Get a sensible case with enough room & slots for your needs. High end models may have plastic clips & rails for HDDs which make installation quite painless. Most cases will have holes to install case fans. If you need a fan (like, for cooling HDDs) get a large, low rpm fan for quietness & longevity. Models vary, check your local PC shop.
@@ -14,7 +14,7 @@ Get a CPU with >=4 physical cores. You can get more, but software might run slow
 
 Many low-mid range CPUs will also come with a cooler & thermal paste so you could skip those. You need box CPU since you need fan.
 
-If you have lags or glitches when doing audio, try turning off SMT/HT in your BIOS. tweaking the min/max processor state in "power options"   to reduce dropouts  in DAWs.
+If you have lags or glitches when doing audio, try turning off SMT/HT in your BIOS. tweaking the min/max processor state in "power options" to reduce dropouts in DAWs.
 
 
 i9 & i7 are generally overpriced & you pay for the name, more than the performance. Example, comparing the [i7-11700 vs i5-11400](https://www.cpubenchmark.net/compare/Intel-i7-11700-vs-Intel-i5-11400/3947vs4233) , the i7 performance is 23% better, but the price is 55% higher. So not worth it IMO. The i5s & especially i3 is where the value is at for intel.
@@ -116,7 +116,7 @@ The difference btw good & mediocre is the inclusion of DRAM in the good tier for
 
 SSDs are available in several formats, traditional SATA, M2 NVMe, M2 SATA, and PCI. But not all mobos can boot from PCI, and M2 SSD may have heat issues.
 
-If you want  
+If you want 
 
 #### Brackets
 AAA
@@ -129,7 +129,9 @@ AAA
 Branded external HDD may have a proprietary partitioning scheme when you take the drive out, forcing you to use 1st-pty recovery services, so it's recommend to use a generic USB HD case + HD instead. Since SSDs are cheap & reliable in 2021, pick one from the suggested SSDs above.
 
 ### USB stick
-AKA USB flash drive. Recommended: Sandisk ultra/extreme with metal USB plugs, NOT the standard series with plastic USB plugs which break easily. Try to buy a USB3 one. Not that they will reach those speeds, but they tend to have a write speed >=15mps. See benchmarks on https://usb.userbenchmark.com/ . And format them to NTFS for reliability.
+AKA USB flash drive. See benchmarks on https://usb.userbenchmark.com/ . Format them to NTFS for reliability.
+
+I tried Sandisk Ultra Flair, but when transferring files, it heated and dismounted. If you go for the cheaper ones with plastic case like Sandisk Exodia, They don't overheat but transfer speeds are slow (around 1 MB/s read). So I don't have any Recommendations for USB sticks which are large, fast, and reasonable price. 
 
 ## ODD
 DVD writers go for dirt cheap, you may already have one, so there's little excuse not to have one. Also consider a BD writer so you can backup data or make BDs. USB ODDs are also possible.
@@ -144,7 +146,7 @@ In order, I would recommend Corsair RM, CXF, CX.
 https://outervision.com/power-supply-calculator
 
 
-Some  interesting historical information about underloading PSUs http://www.playtool.com/pages/psuunderload/mincurrent.html and GPUs
+Some interesting historical information about underloading PSUs http://www.playtool.com/pages/psuunderload/mincurrent.html and GPUs
 
 ## Monitor/Display
 
@@ -171,7 +173,7 @@ GRUB supports windows, but install windows first, to avoid windows overwriting G
 ## Keyboard
 Basic USB or PS2 keyboards are easy to find & cheap. For a slight enhancement, you want a keyboard with a USB hub to plugin your USB mouse & a USB stick. And optionally a palmrest for ergonomics. The Dell [KB522](https://www.amazon.com/Dell-Multimedia-Keyboard-Removable-Palmrest/dp/B003BFQF4Q) combines all these features & is cheap. If you want a palm rest for any existing keyboard, you can buy gel wrist rests, or use a curled towel, or even a draught stopper.
 
-Mac users might be familiar with the [wired aluminum keyboard A1243](https://en.wikipedia.org/wiki/File:Apple_iMac_Keyboard_A1243.png) .  It is no longer being sold by apple, so you need to get one 2ndhand, or use replicas like the [Matias FK318S](https://matias.store/products/fk318s)
+Mac users might be familiar with the [wired aluminum keyboard A1243](https://en.wikipedia.org/wiki/File:Apple_iMac_Keyboard_A1243.png) . It is no longer being sold by apple, so you need to get one 2ndhand, or use replicas like the [Matias FK318S](https://matias.store/products/fk318s)
 
 I would not recommend wireless HIDs in general since batteries have a finite life, need charging, and are an additional thing to manage.
 

@@ -16,9 +16,9 @@ After this document was initially posted in March 2026,  Fiedler Armada was rele
 
 
 ## Background
-There are many free or paid surround and Ambisonics Suites. Those won't be covered here. 
+There are many paid surround and Ambisonics Suites. Those won't be covered here. 
 
-There's also ways to use mono/stereo plugins in multichannel by duplicating them. Some DAWs do this (like Pro Tools & Wavelab) and will be briefly covered in each section. This type of usage is called multi-mono, and the safety will be covered in each section.
+There's also ways to use mono/stereo plugins in multichannel by duplicating them. Some DAWs do this (like Pro Tools & Wavelab). This type of usage is called multi-mono, and the safety will be covered in each section.
 
 
 Some Daws have inbuilt surround plugins. There won't be covered here but I'll just say that Cubase/Nuendo has inbuilt surround plugins, and they will effect the audio in Ambisonics if applicable. 
@@ -64,9 +64,9 @@ Distortion is compression with high ratio and instant time constants
 Exciting is distortion but multiband. Usually for high frequencies, but can also be used lower frequencies. I've tried using this trick in stereo, but not in multichannel. MultiBandCompressor
 
 ### Pitch shifting
-Pitch shifting is a hugely complex effect and you can find more on how it works [here](). As with surround, the decisions must be synchronized across all channels. Even though you might think that the plugin is doing the same thing across all channels, the reality is that it's making slightly different decisions because each channel is different, leading to small misalignments = distorted imaging when played back. Therefore, you need to use a dedicated multichannel pitch shifter like [zplane Elastique](https://products.zplane.de/products/elastiquepitch) , which supports 16ch. There is a free one, but it's misaligned so not relevant. multi-mono extremely unsafe for both.
+Pitch shifting is a hugely complex effect and you can find more on how it works [here](https://github.com/junh1024/junh1024-Documents/blob/master/Audio/How%20Pitchshifting%20Works.md) . As with surround, the decisions must be synchronized across all channels. Even though you might think that the plugin is doing the same thing across all channels, the reality is that it's making slightly different decisions because each channel is different, leading to small misalignments = distorted imaging and phasing when played back. Therefore, you need to use a dedicated multichannel pitch shifter like [zplane Elastique](https://products.zplane.de/products/elastiquepitch) , which supports 16ch. There is a free one, but it's misaligned so not relevant. multi-mono extremely unsafe for both.
 
-# Denoising
+### Denoising
 
 If you're trying to denoise Ambisonics, the usual and safe approach to work on a decoded format like A-format, or convert to T-format. Although if you're trying to denoise Ambisonics, maybe the Sparta array2SH preprocessor can somewhat do that when converting A-format to B-format.
 
@@ -123,5 +123,5 @@ I've been wanting to type something up about common plugin limits, and I finally
 - 24 channels: this would usually mean to 22.2 NHK surround. But not a lot of plugins. 
 - 32 channel: around this number are speaker output limits for some software, but again not a lot of plugins
 - 64 channels: this was the multichannel limit for reaper for many years. Many ambisonic suites have been built around to this limit to accommodate 7th order ambisonics.
-- 128 channels: reaper 7 recently raised it's channel limit to 128, and some ambisonic Suites have been updated to reflect this.
+- 128 channels: reaper 7 recently raised its channel limit to 128, and some ambisonic Suites have been updated to reflect this.
 

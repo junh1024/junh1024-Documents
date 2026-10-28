@@ -30,7 +30,7 @@ Where to place/pan instruments in surround. This is targeted towards a general/m
 - Vocal Fills/Backups
 - Strings
 - Pads
-- You SHOULD only spread these instruments to multiple pairs of speakers, ONLY if you use reverb, upmixers, or (object) size >30, since these approaches decorrelate the signal, so that it's more stable. They should also be biased slighly front to avoid balance issues. My Surround guide V3 coming somewhen.
+- As of 2025, there are commercial upmixers so bad that they produce artifacts worse than panning, so please use object size >30, or reverb to spread the signal with decorrelation, so that it's more stable. They should also be biased slighly front to avoid balance issues.
 
 ## Height
 #### Occasional Emphasis

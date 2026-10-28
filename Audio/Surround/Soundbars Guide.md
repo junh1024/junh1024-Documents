@@ -63,11 +63,17 @@ Samsung Q-Symphony can use the speakers of your TV in addition to the soundbar s
 
 It seems that only Samsung's flagship soundbars like [the Q910](https://www.amazon.com/dp/B0B358YLFJ/ref=twister_B0BLGR3J5F) with 9.1.2 (starting from about $750) offer included rear speakers. Models from Q950 have 4 height speakers. Again, you can use Q-Symphony with select TVs. 
 
+### Sonos
+
+Sonos is known for its Lifestyle Sound Systems. But if you want  rear units with a soundbar, you need to buy them separately. But there are mapping issues. The Era 300 [warps sound upwards](https://en.community.sonos.com/home-theater-229129/era-300-rear-driver-is-silent-with-arc-ultra-6923569/index2.html) , and the Era 100 [warps 51 content forwards](https://en.community.sonos.com/home-theater-229129/arc-ultra-era-100-surrounds-6921198/index2.html?sort=dateline.desc#comments).
+Case study: Mr S bought a Sonos Arc with 2x Era 300 speakers, and only found out the issues afterwards. So perhaps don't go too expensive. 
+
 ## LG
 <img src="https://m.media-amazon.com/images/I/71K9fAi3qCL._AC_UY327_FMwebp_QL65_.jpg" alt="LG S95QR" height="240">
 
 The [LG S95QR soundbar](https://www.amazon.com/LG-Sound-Surround-Speakers-S95QR/dp/B09RZ691X1/) with 9.1.5 for about $900 is an interesting proposition since each rear unit has two ear-level drivers for a dipole 5.1/7.1 experience. Unique to this soundbar is an extra upfiring speaker for the center channel (hence 9.1.5). And similar to Samsung, this LG soundbar can be used in unison with select LG TVs, a feature called "WOW Symphony". Most reviews said good sound, but a common thread through the reviews was that app is frustrating to use, and no OSD.
 
+As of mid-2026 LG, has been under scrutiny recently Due to [significant device activity](https://arstechnica.com/gadgets/2026/09/lg-tv-shown) on its TVs, even while off, and [displaying ads via a driver update](https://arstechnica.com/gadgets/2026/07/microsoft-responds-to-lg-monitors-installing-mcafee-ads-on-windows/) . Perhaps this should be considered when buying LG products, or [TVs in general](https://arstechnica.com/gadgets/2025/12/the-ars-technica-guide-to-dumb-tvs/) . 
 
 ## Nakamichi Soundbars
 

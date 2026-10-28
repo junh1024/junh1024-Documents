@@ -95,6 +95,8 @@ MI Rogue Nation had barely any height activity. Same for MI Fallout, except the 
 Mission Impossible was pretty loud, as expected from the same venue. This is to be cautioned as "With Dolby Atmos every single channel is calibrated to 85 dBC. The Atmos peak demand is 115 dBC per loudspeaker. A system can have 64 speakers, or in other words the theoretical max SPL can be 133 dBC" 
 https://www.grimmaudio.com/wp-content/uploads/cinema_loudness_aes_rome_2013.pdf
 
+"In Belgium September 2010 a 17 year old girl was struck with permanent tinnitus when visiting the movie Inception. This received a lot of attention"
+
 Sean Olive, past president of AES, commented [on twitter](https://twitter.com/seanolive/status/1688855498916048896) on Oppenheimer that it was "A good film but often quite loud hitting peaks over 110 dB".
 
 ### Conclusion

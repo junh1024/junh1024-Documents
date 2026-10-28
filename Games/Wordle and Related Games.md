@@ -344,6 +344,16 @@ Connections is seemingly based on the Connecting Wall in [Only Connect](https://
 
 Most past crosswords are paywalled, but some memorable connnections boards from 2025 are free in [this article](https://www.nytimes.com/2025/12/22/crosswords/editors-memorable-puzzles-2025.html) .
 
+
+Some of the references and connections are quite old eg Dick and Jane via https://old.reddit.com/r/NYTConnections/comments/1sx7lna/so_youre_telling_me/.  One user paridied this 
+
+
+
+> See Clock. See Clock tick. Tick, Clock, tick! Clock goes tick-tock. Tick-tock, tick-tock. Oh, how Clock ticks!
+
+> See Polyhedron. See Polyhedron roll. Roll, Polyhedron, roll! Polyhedron has many faces. One, two, three, four, five, six faces! Oh, how many faces Polyhedron has!
+
+
 ### Getting started
 
 
@@ -447,6 +457,18 @@ This is why I'm a fan of the mini. The tagline is "solve in seconds". The board 
 
 The mini crossword used to be free, but now it's paywalled. But If you go to the [crosswords page](https://www.nytimes.com/crosswords) and scroll down, You should see a free mini from the archive. You Can in a way still play the mini daily, but it's just delayed.
 
+How to Solve The New York Times Crossword https://web.archive.org/web/20230928221329/https://www.nytimes.com/article/how-to-solve-a-crossword-puzzle.html
+
+
+Deb suggests  you  do know the answer (to many clues) somewhere at the back of your head, but sometimes you just don't know the answer, So thats an unhelpful tip. But there are other helpful tips such as "If a clue is plural, the answer has to be plural... If you are struggling with an answer that has a plural clue, you can (at least put in the grid) the letter “S” in at the end.
+
+
+https://www.thewordfinder.com/crossword-solver/nyt-mini-answers-and-hints/2025-08-16/
+
+
+ACHOO & LAMAR, IHOP
+
+
 ## Crossword construction
 
 Making a crossword is hard, a themed one [even more so](https://crosswordr.com/for-constructors/construction-guide/themes). 
@@ -487,9 +509,38 @@ https://www.reddit.com/r/crossword/comments/1ov295j/free_communitymade_mini_cros
 
 http://web.archive.org/web/20250307203039/https://crosswordr.com/for-constructors/construction-guide
 
+
+https://www.nytimes.com/2018/08/17/crosswords/how-to-make-a-crossword-puzzle.html
+
+(scroll down for parts 1-5)
+
+"it is important for constructors to write original clues. There have been some (people that) have taken most or all of their clues from a database. That turns me off. " The clues should be creative as well.  But this should be balanced with solvable and non-cryptic clues. 
+
+
+In the example below, notice how the grid on the right leaves a lot more possibilities than the one on the left. More words start with SO- and AM- than start with AE- and LL-.
+
+Image
+
+Different words affect the ability to fill a grid successfully 
+
+SAMPLE	SAMPLE  
+HERALD	OMELIET
+------------'------r^—------^^i-------r—---------------------^^
+cr: Paolo Pasco
+
+ You want to avoid consecutive letters that rarely appear together, like -VK- or -PG-. There might be some entries that have that combination, but your options will be extremely limited. It’s best to leave yourself with friendly letter combinations, like -TH-, -CR- and the like. 
+ 
+ Adding in (more) black squares can make your puzzle better. "Think about it this way: An average solver won’t care if there’s one or two more black squares. The solver will care if a crossword is filled with unnecessary obscurities."
+
+ 
+ https://www.tiktok.com/@mynytimes/video/7367123618309950763
+ 
+ Joel makes a mini live, alternhating vowels & consonants can be helpful because it gives you useful patterns
+ 
 ### Word games for English Learning
 
 Wordle and even [connections](https://old.reddit.com/r/NYTConnections/comments/1rp5zwy/have_you_tried_connections_style_games_for/) have been used for English language. People can still enjoy the games even though they don't know the words or connections.
 
 If you get a yellow tile (particularly on a E or O), it can be a [good idea](https://old.reddit.com/r/wordle/comments/uu6r1k/when_guessing_double_letters_is_a_useful_strategy/) to put it in two places since repeated letters are [almost a third](https://old.reddit.com/r/wordle/comments/1ccps7z/words_with_double_letters/l1adg2k/) of wordle solutions. To cover the possibly of repeated letters, or to nail the position of it. I have often been surprised by submitting guesses with repeated letters, and finding out the word does have repeated letters and it wasn't a waste.
 
+https://www.nytimes.com/spotlight/flashback

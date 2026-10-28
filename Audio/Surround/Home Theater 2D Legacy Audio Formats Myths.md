@@ -159,6 +159,14 @@ Assuming a device reference of -31, a value of -31 means no adjustment, and a va
 
 If you set it to -31 (off), or remove the DN metadata (equivalent to -31) it would be a bad experience for consumers who may experience a jump in volume with material that has DN set correctly. Setting DN incorrectly could also [remove Atmos capabilities](https://forum.doom9.org/showpost.php?p=1953784&postcount=14) . This makes sense since Atmos has mastering specifications for loudness.
 
+https://forum.doom9.org/showpost.php?p=1985670&postcount=15251
+
+Dialnorm results suggests speech
+
+http://web.archive.org/web/20251029030811/https://www.production-expert.com/home-page/2018/11/10/is-dolby-dialog-intelligence-still-fit-for-purpose-for-netflix-to-use-for-speech-gating
+
+http://web.archive.org/web/20240406131559/https://www.production-expert.com/home-page/2018/8/23/has-netflix-turned-the-clock-back-10-years-or-is-their-new-loudness-delivery-spec-a-stroke-of-genius
+
 ### You should always remove dialnorm
 FALSE. Removing dialnorm is not recommended.
 

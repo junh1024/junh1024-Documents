@@ -52,6 +52,10 @@ Ambisonics is a channel-based way to work with audio that it decouples the final
 
 Another advantage is that it allows for easy rotation, making it great for VR and gaming. However, a downside is that it's inefficient, and whether or not you need to use those directions, those channels are always reserved. 
 
+### What is not Ambisonics?
+
+Some people encode, rotate then decode from Ambisonics since it's a free way To rotate the audio signal for head-tracking. That is fine. But there's other people that encode then immediately decode Ambisonics or use generic multi-channel plugins that from a Ambisonics suite, perhaps for marketing reasons. That is not Ambisonics. Some people think binaural is Ambisonics (out of ignorance). That is not Ambisonics.
+
 
 ## Why REAPER?
 
@@ -145,7 +149,7 @@ The source for a ambisonics signal can be a traditional mono or stereo signal (e
 
 
 
-I have described a  traditional "tracks and master" approach. It's the same architecture as with conventional audio but implemented in ambisonics. This approach is clear and familiar, but more fiddly on the master since you need to enable or disable plugins depending on output. There's also another  approach which is "tracks and buses" as shown in [Some tutorials](https://plugins.iem.at/docs/tutorial_basicrouting/).  
+I have described a traditional "tracks and master" approach. It's the same architecture as with conventional audio but implemented in ambisonics. This approach is clear and familiar, but more fiddly on the master since you need to enable or disable plugins depending on output. There's also another approach which is "tracks and buses" as shown in [Some tutorials](https://plugins.iem.at/docs/tutorial_basicrouting/). 
 
 The way to monitor ambisonics in Cubendo is to place an ambisonics decoder in Control Room.
 
@@ -164,9 +168,9 @@ See also my [other document]().
 
 DearVR Pro is a combined panner & reverb. It has different reverb environments, but you can of course turn off reverb and reflections to make it behave like a panner only. Like other ambisonic panners, you place all your mono and stereo effects before the panner, and have the panner (near) the end of your audio track. 
 
-One handy aspect of DearVR Ambi Micro  is that you can easily switch the output format between different stereo, binaural, and ambisonics. If you were to do this with other plugins, you would need to enable and disable multiple effects. 
+One handy aspect of DearVR Ambi Micro is that you can easily switch the output format between different stereo, binaural, and ambisonics. If you were to do this with other plugins, you would need to enable and disable multiple effects. 
 
-You can mix and match DearVR   with other tools with the appropriate settings, but keep in mind that DearVR are limited to c3oA.
+You can mix and match DearVR with other tools with the appropriate settings, but keep in mind that DearVR are limited to c3oA.
 
 ## Ambisonics microphones
 

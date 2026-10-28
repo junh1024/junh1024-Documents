@@ -41,21 +41,38 @@ Opus may have issues with mkv: "Opus doesn't play well with mkv and can throw su
 
 Opus may have problems seeking: "lack of keyframes in Opus and the 'solution' in form of preroll (i.e. 'decode certain number of audio frames before the needed one and discard them'). And not all containers support that feature." [Kostya](https://codecs.multimedia.cx/2015/01/) 
 
+
+## Opus doesn't have PS for music
+
+Parametric stereo is a technique for improving efficiency at low bitrates. Rather than storing 2 stereo channels independently, PS works by storing a mono sum, then side data to steer and decorrelate different bands to produce a pseudo stereo image. It has been claimed the sweet spot for PS in AAC is 12-24 KPS.
+
+However, Opus has no such feature and at 12 KPS, stereo music is [mono](https://www.youtube.com/watch?v=f-_6XEmiGNc), completely destroying the spatial quality, and sounding very much like telephone quality hold music, quite in line with the design aims of the codec.
+
 ## Opus doesn't have SBR for music
 
 Spectral Band Replication is a technique for improving efficiency at low bitrates. Rather than storing the high frequencies directly, a description of how to approximate them from the lower frequencies is stored as side data. HE-AAC is the earliest form of SBR with a fixed SBR point. Later implementations found in XHE-AAC, DDP, and AC4 have a more flexible SBR point.
 
-However, Opus [does not](https://en.wikipedia.org/wiki/Spectral_band_replication) use SBR. "Opus's CELT part performs spectral folding on the MDCT bin level, making it a far less advanced but lower-delay technique compared to SBR" . So again, Opus is optimized for voice, and this impacts music quality at very low bitrates. At very low bitrates, Opus produces distortion which [may sound worse](https://hydrogenaud.io/index.php/topic,115745.0.html) than HE-AAC, and I have confirmed with my own testing at 32kps. So at very low bitrates, HE-AAC with its full SBR implementation is competitive.
+However, Opus [does not](https://en.wikipedia.org/wiki/Spectral_band_replication) use SBR. "Opus's CELT part performs spectral folding on the MDCT bin level, making it a far less advanced but lower-delay technique compared to SBR" . So again, Opus is optimized for voice, and this impacts music quality at very low bitrates.
 
-## Opus doesn't have PS for music
+## Opus vs HE-AAC at very low bitrates
 
-Parametric stereo is another technique for improving efficiency at low bitrates. Rather than storing 2 stereo channels directly, PS works by storing a mono sum, then side data to steer and decorrelate different bands to produce a pseudo stereo image. It has been claimed the sweet spot for PS in AAC is 12-24 KPS.
+I did some personal testing of Opus versus AAC in 2024 for LQ archival purposes on Trance DJ mixes. High quality isn't important, but what I want to archive is roughly what the songs sound like and a pleasant listening experience. Like many others, I automatically assumed, due to popular opinion, that Opus was better, and it sounded "okay". But when I switched to AAC, the quality was instantly improved.
 
-However, Opus has no such feature and at 12 KPS, stereo music is [quite mono](https://www.youtube.com/watch?v=f-_6XEmiGNc), completely destroying the spatial quality and sounding very much like telephone quality hold music, quite in line with the design aims of the codec.
+So Opus at 32 kps, it sounds harsh and distorted. Due to a lack of SBR, the higher frequencies are distorted. HE-AAC OTOH, it still has artifacts, but those artefacts were more pleasant than Opus. Other opinions [support my preference](https://hydrogenaud.io/index.php/topic,115745.0.html) as well. Since HE-AAC does have SBR - the representation of the higher frequencies is more musical & natural, resulting in a more pleasant experience. So at 32 kps, HE-AAC is the clear winner.
 
-## XHE-AAC may be better for very low bitrates
+At 64 kps, HE-AAC still has some slight artefacts on the bass & rhythm. Opus might be slightly better at this point but I'm willing to give up a slight quality dip for vastly increased compatibility, especially on mobile devices. So at 64 kps, I'm choosing HE-AAC as well.
 
-If you're looking at quality for very low bitrates (12-32kps), it would be worth looking into XHE-AAC. [Tests](XHE 32kps https://hydrogenaud.io/index.php/topic,120997.0.html , that XHE-AAC strongly outperform Opus at very low bitrates. The quality is higher, but the compatibility is lower. XHE-AAC is [supported](https://en.wikipedia.org/wiki/Unified_Speech_and_Audio_Coding#Compatibility) in Android 9, iOS 13, Windows 11 2022, MacOS 11 Big Sur, and foobar [with plugin](https://www.foobar2000.org/components/view/foo_pd_aac) .
+
+## What about XHE-AAC?
+
+The new features in XHE-AAC are mainly improvements in speech coding and loudness management from MPEG-D for broadcast and streaming scenarios. So the improvements for music are minimal. I did some testing in April 2026 which confirmed this. Again, popular opinion said that because XHE-AAC is newer than HE-AAC, that it's automatically better, but this wasn't the case in practice.
+
+
+At 12kps, XHE-AAC loses a lot of impact on the rhythm with large artefacts , so 16kps is the minimum for a good representation for pop & EDM. Around 16-24kps , Okaerinasai from the EXIT TRANCE compilation and focusing on the cymbals, XHE-AAC had wider imaging and was technically closer to the original, but more artefacts. HE-AAC had narrower imaging and less perceptual artefacts, but was further from the original. So there was no clear winner, but there is a clear loser (Opus) , as shown by my previous tests and [others' tests](https://hydrogenaud.io/index.php/topic,120997.0.html) .
+
+XHE-AAC could beat HE-AAC around 50-90kps, but this wasn't tested. Overall, if you're looking for a compatible & decent quality for LQ archival, 32kps 32khz HE-AAC is a good choice.
+
+If you're looking at quality for very low bitrates (12-32kps), it would be worth looking into XHE-AAC., that XHE-AAC strongly outperform Opus at very low bitrates. The quality is higher, but the compatibility is lower. XHE-AAC is [supported](https://en.wikipedia.org/wiki/Unified_Speech_and_Audio_Coding#Compatibility) in Android 9, iOS 13, Windows 11 2022, MacOS 11 Big Sur, and foobar [with plugin](https://www.foobar2000.org/components/view/foo_pd_aac) .
 
 Encoding XHE-AAC can be done with ittiam's libxaac https://github.com/ittiam-systems/libxaac , exhale, and poikosoft [EZ CD Audio Converter](https://www.poikosoft.com/music-converter) . exhale is the most-tested of the free software.
 
@@ -84,7 +101,7 @@ Opus is quality-restrained at high bitrates due to its low-delay design, for tel
 
 Opus would be used by devices and situations where low latency is required or you're trying to lower licensing and royalty costs. For example, voice communication through conferencing scenarios, or video distribution and streaming such as YouTube and Vimeo. There are a lot of videos & users on video streaming platforms, so they want to lower the royalties associated with each video. Quality is secondary. The moment you use Opus, you need to be questioning whether they really care about quality or not, and in most cases, they're just trying to minimize costs.
 
-Opus may also be used in games, again for licensing costs, but I would suggest vorbis at 80k for mono, 160k for stereo, and 384k for high quality listening.
+Opus may also be used in games, again for licensing costs, but I would suggest vorbis at 80k for mono, 160k for stereo, and 384k for 5.1 for high quality listening.
 
 ## Conclusion
 
@@ -92,7 +109,7 @@ Opus is a "newer" and more "open" codec, but neither are particularly meaningful
 
 Due to a design priority as a low-latency voice codec for LQ hardware, several features impact music quality. Forced SRC & cutoff, and lack of SBR & PS (technologies about 10 years earlier) are evidence that music was not a priority. As a result, this reduces the practical benefit of Opus. Opus is typically used in scenarios where low latency and reduced licensing costs are a priority, not quality.
 
-At 50-150 kps for stereo or 25-75kps/channel, Opus probably has a small 10-20% advantage, but those advantages quickly go away if you have compatibility or other concerns. At the lower end, you can replace with HE-AAC for increased compatibility (and slightly lower quality) and at the upper end, replaced with LC-AAC or vorbis for negligible perceptual difference. Outside that range, the AAC family is definitely better quality. 
+At 50-150 kps for stereo or 25-75kps/channel, Opus probably has a small 10-20% advantage, but those advantages quickly go away if you have compatibility or other concerns. At the lower end, you can replace with HE-AAC for increased compatibility (and slightly lower quality) and at the upper end, replaced with LC-AAC or vorbis for negligible perceptual difference. Outside that range, the AAC family is definitely better quality. XHE-AAC is roughly similar in performance to HE-AAC on music, but specific testing is required if you want assurance at a particular bitrate.
 
 ## Appendix - Encoding AAC
 
@@ -117,3 +134,5 @@ IMD
 https://hydrogenaud.io/index.php?topic=116677.0
 
 https://github.com/MartinEesmaa/VVCEasy/blob/master/MPV.md 
+
+ 

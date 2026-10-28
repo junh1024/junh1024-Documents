@@ -20,7 +20,7 @@ Software
 
 ## Information Software
 ### Paid solutions
-[As of mid-2022](https://old.reddit.com/r/DJs/comments/rn2wu5/key_detection_comparison_2021/) , Mixed in Key is still king for finding key, but Traktor Pro and beaTunes isn't far behind. Some songs are off key by a fraction of a semitone. If you can't fix it by ear, you can use Platinum Notes which will display the exact amount of cents that it's detuned by.
+[As of 2025](https://old.reddit.com/r/DJs/comments/1ms1yds/key_detection_comparison_2025/) , Mixed in Key is still king for finding key, but Traktor Pro and beaTunes isn't far behind. Some songs are off key by a fraction of a semitone. If you can't fix it by ear, you can use Platinum Notes which will display the exact amount of cents that it's detuned by.
 
 DJ Programs like Traktor Pro, rekordbox, djay, and VirtualDJ can also find BPM. If your app can show fractional BPM, that's a big plus as you can accurately match more songs.
 
@@ -46,6 +46,8 @@ Keep in mind with key, no software is 100% accurate (MiK is only 85%), so please
 You will need music production software to make mashups or mixes non-live. I use [REAPER](http://www.reaper.fm) since you can mix & match files with different codecs, sample rates, channels, and there are [many ways to change pitch](https://i.imgur.com/FtJAE26.png) & tempo freely with the HQ Elastique algorithm. My [REAPER Quickstart guide](https://i.imgur.com/HA1Oo7D.png) .
 
 Beginners can give the [Mixmeister](https://www.mixmeister.com/) series a try, it does one job, but it has helpful BPM features. For live performance, many DJ apps are available. Destructive audio editors (like Audacity) are NOT recommended since they won't have features to expedite music editing (like, cutting on beats & bars). Most Video editors are NOT recommended since, in addition to not being able to cut on beats, you'll be distracted making the video, instead of making good audio.
+
+Silverdaw, the new kid on the block, has BPM & Key detection features - a boon for mashup & mix production. But as of mid 2026, the BPM detection goes beserk when there's no beat, so perhaps not that usable. Watch this space.
 
 ## Setting properties
 ### Setting BPM
@@ -258,12 +260,12 @@ Mixing on key means your transitions will sound more harmonious and seamless and
 Limiting track selection is the point of mixing in key. It is a systematic way of limiting next song selection so your transitions sound better. In the section below ### Mixing In Key Extended Technique , I will describe some techniques to increase song selection while staying on key.
 
 While creating false harmony is true since no software is 100% Perfect at key detection, this will also be discussed below. 
-
 Similar-sounding tracks I would argue is a ~~skill~~ sourcing & library issue - just get melodic or interesting tracks in the 1st place. This was discussed above with melodic track selection. The other part is the flow, which will be discussed below.
+Being too predictable is subjective. Some people associate skill with the ability to bring in any track they want at any time, with the result being a harmonic clash most of the time. That is the "sound of unpredictabilty". But it don't sound great.
 
-Predictability is subjective. Some people associate skill with the ability to bring in any track they want at any time, with the result being a harmonic clash most of the time. That is the "sound of unpredictabilty". But it don't sound great. Technically, a mix is unpredictable unless the whole tracklist is known in advance. But in the sense of not knowing where the mix is going, you can make a mix "unpredictable", for example, by switching genres or sounds, or by jumping between major & minor keys.
+Technically, a mix is "unpredictable" unless the whole tracklist is known in advance. But in the sense of not knowing where the mix is going, you can make a mix "unpredictable", for example, by switching genres or sounds, or by jumping between major & minor keys. You could argue mixing in key can make a mix more unpredictable since the next song is unrelated to subgenre (which is how you usually select tracks). Also, using pitching techniques described below can also make a mix unpredictable and provide a new way of experiencing old songs.
 
-As for "2 songs are in the same key may still clash", again, a large part of this is likely have to do with the inaccuracy of key detection, so getting the key of the song correct should solve a large part of this. In some cases it's to do with the song so loop a different part of the song to transition or try a different song in the same of different key.
+As for "2 songs are in the same key may still clash", some of this is likely have to do with the inaccuracy of key detection, so getting the key of the song correct should solve a large part of this. In some cases it's to do with the song (clashing bass, chords, or melody) so loop a different part of the song to transition or try a different song in the same or different key.
 
 ### Circle of 5ths
 
@@ -354,8 +356,9 @@ Mixing in key has sometimes been said as too restrictive since there are limited
 - Entire song key change: Sometimes if a song absolutely has it has to go in on that position, I may pitch the entire song up or down by one semitone.
 - Parallel key: The parallel key is the same tonic but different mode. For example, the parallel key of C Major is C minor, or 3 steps & 1 in/outwards on the wheel. To avoid audible clashing, at least one song must be playing single notes of the tonic. As such, this technique will only work some of the time.
 - Minor third: This is a move done out of desperation and won't sound that great most of the time, but is included for completeness. It is for example, the relationship between C and D#, or 3 steps on the wheel.
+- If you absolutely have to put in a off-key song next (that isn't covered by the prior cases), at least avoid clash by having only 1 song play tonal elements and the other drums only. That way, there are no notes to clash - only drums to match.
 
-### Tuning of Off Key Songs
+### Tuning of Off Pitch Songs
 
 Most songs produced after the year 2000 will be close to A = 440 in the Western equal temperament tuning. But some songs especially from the 90s (about 1-5% of trance) might be noticeably off-key by some amount . No matter if you transition songs from the same key, they never sound quite right. How can you find out how off key they are so you can fix it?
 

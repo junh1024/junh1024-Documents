@@ -11,7 +11,7 @@ This [Reddit post](https://old.reddit.com/r/headphones/comments/1rsawp/parsing_h
 
 ## Factors when choosing a headphone
 
-The perfect headphone should have a balanced sound including sufficient bass and treble. It should be light and comfortable to wear. Which would mean not too much pressure on the ears, and not too hot. And perhaps good noise isolation. However, some of these attributes are in direct conflict with each other, which I'll explain below, so it will be hard to get the perfect headphone. The design and type of headphone will also influence these factors.
+The perfect headphone should have a balanced sound including sufficient bass and treble. It should be light and comfortable to wear. Which would mean not too much pressure on the ears, and not too hot. And perhaps good noise isolation. Pressure would imply some discomfort with glasses users. However, some of these attributes are in direct conflict with each other, which I'll explain below, so it will be hard to get the perfect headphone. The design and type of headphone will also influence these factors.
 
 The frequency response is an important factor to headphones, and can be changed with EQ afterwards, but EQ can only go so far, the response cannot be boosted if there was no response in that region for cheap equipment. Also, it may not be convenient to implement EQ in every situation or if you're switching between multiple devices. Also, if you buy expensive & well-known headphones, someone has probably measured the response and you can apply all sorts of calibration. But this isn't available for cheap headphones.
 
@@ -21,9 +21,9 @@ I'm not very fond of wireless headphones since the batteries need charging, and 
 
 ### Open-back vs closed-back
 
-This refers to how tightly the ear cup presses onto your ear. Open-back headphones have a loose seal around your ear so that you can still hear sound around you, with little isolation. The sound is more natural and open. The benefits are that you can eat and talk while wearing open-back headphones, and you won't hear amplified sounds from your Cranium. But open-back headphones typically have weaker bass.
+This refers to how tightly the ear cup presses onto your ear. Open-back headphones have a loose seal around your ear so that you can still hear sound around you, with little isolation. The sound is more natural and open. The benefits are that you can eat and talk while wearing open-back headphones, and you won't hear amplified sounds from your cranium. But open-back headphones typically have weaker bass.
 
-Closed-back headphones have a tight seal around your ear and the ear cup presses against your head, but as a result, your ears & head get hotter and it's more uncomfortable to wear. The advantages are increased noise isolation and bass. Sean Olive [did a tweet](https://vxtwitter.com/seanolive/status/1630389960904957953/photo/1) , closed-back has more variation in bass than open-back,  (not the tweet I was looking for but you get the point) 
+Closed-back headphones have a tight seal around your ear and the ear cup presses against your head, but as a result, your ears & head get hotter and it's more uncomfortable to wear, especially people with glasses. The advantages are increased noise isolation and bass. Sean Olive [did a tweet](https://vxtwitter.com/seanolive/status/1630389960904957953/photo/1) , closed-back has more variation in bass than open-back,  (not the tweet I was looking for but you get the point) 
 
 In-ear earbuds are basically closed-back, but will have less head discomfort, but some people disprefer the sensation of earbuds. There's also the factor of earwax buildup. What I use depends on the environment in also how I'm feeling at the time.
 
@@ -120,9 +120,10 @@ The [Plantronics/Poly C3225](https://www.amazon.com/Plantronics-209747-22-Headse
 
 <img src="https://m.media-amazon.com/images/I/71UiSpcctDL._AC_SL1500_.jpg" alt="Beyerdynamic DT770" height="240">
 <img src="https://m.media-amazon.com/images/I/71-02EMdPzL._AC_SL1100_.jpg" alt="Audio Technica ATH-M50" height="240">
+<img src="https://m.media-amazon.com/images/I/51F-Ok9xuzL._AC_SL1000_.jpg" alt="Sony MDR-7506" height="240">
 
 
-The [Beyerdynamic DT770](https://www.amazon.com/dp/B079P9H1SH) , [DT880](https://www.amazon.com/dp/B079P9H1SH) , DT 990 & [Audio Technica ATH-M50](https://www.amazon.com/Audio-Technica-ATH-M50x-Professional-Monitor-Headphones/dp/B016YJDV74/) have been a benchmark for many years as well. Both sell for about $160
+The [Beyerdynamic DT770](https://www.amazon.com/dp/B079P9H1SH) , [DT880](https://www.amazon.com/dp/B079P9H1SH) , DT 990 & [Audio Technica ATH-M50](https://www.amazon.com/Audio-Technica-ATH-M50x-Professional-Monitor-Headphones/dp/B016YJDV74/) have been a benchmark for many years as well. The [Sony MDR-7506](https://www.amazon.com.au/dp/B000AJIF4E) as well, although [a review](https://www.soundguys.com/sony-mdr-7506-review-16336/) mentioned that it could be uncomfortable for those with glasses. But repairability and spare parts are a good point, especially in this day and age. They all sell for about $160
 
 With the rise in popularity of spatial audio, some manufacturers have been making headphones for spatial mixing purposes. Like the [Sony MDR-V1](https://www.amazon.com/Sony-Open-Reference-Monitor-Headphones/dp/B0C4YY6WXX/), or the Ollo S5X, priced about $500 each. B-stock versions of the S5X are available from the vendor for cheaper. But if you want even cheaper products, you might as well just buy regular headphones.
 

@@ -419,7 +419,10 @@ Special thanks to the individuals that have contributed to my understanding.
 
 Date: Dec 2020 - Dec 2021 
 
-BIN uses 7.1.4 https://professionalsupport.dolby.com/s/question/0D54u000081EnDzCAK/trim-and-downmix-controls?language=en_US
+BIN uses 7.1.4 https://professionalsupport.dolby.com/s/question/0D54u000081EnDzCAK/trim-and-downmix-controls
+
+" In Apple devices the Dolby Digital Plus JOC is decoded/rendered to 7.1.4 and then Spatial Audio is applied when monitoring with enabled headphones"
+
 
 T: DDP compresion loud
 TRUE
@@ -551,3 +554,11 @@ FALSE. 5.1 downmix mode also affects 5.1.2 and 5.1.4
 
 
 https://rantingsofamadaudiophile.wordpress.com/2017/05/20/dtsx-vs-dolby-atmos-part-ii-dolby-surround-vs-dts-neuralx/ 
+
+
+https://www.audioholics.com/audio-technologies/surround-sound-upmixer
+
+
+https://www.audioholics.com/audio-technologies/dolby-atmos-best-setup-practices
+
+
